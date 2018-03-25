@@ -1,0 +1,27 @@
+{
+  "name": "gign",
+  "version": "0.0.1",
+  "description": "gign generate .gitignore for your project",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juninmd/gign.git"
+  },
+  "author": "Antonio Carlos",
+  "bugs": {
+    "url": "https://github.com/juninmd/gign/issues"
+  },
+  "keywords": [
+    "git",
+    "gitignore"
+  ],
+  "homepage": "https://github.com/juninmd/gign#readme",
+  "license": "MIT",
+  "dependencies": {
+    "download": "^6.2.5",
+    "loading-indicator": "^2.0.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "gign": "index.js"
+  }
+}
