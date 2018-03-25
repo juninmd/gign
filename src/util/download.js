@@ -5,7 +5,7 @@ const loading = require('loading-indicator');
 
 module.exports = (options) => {
     return new Promise((resolve, reject) => {
-        const timer = loading.start('Baixando...');
+        const timer = loading.start('Download...');
         download(`https://www.gitignore.io/api/${options.tags}`)
             .then(data => {
                 loading.stop(timer);
