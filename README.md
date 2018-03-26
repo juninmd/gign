@@ -21,7 +21,7 @@
 
 ## How to Install?
 ```bash
-$ yarn add global gign
+$ yarn global add gign
 ```
  
 ## How to use?
