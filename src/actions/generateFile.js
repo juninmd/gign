@@ -32,10 +32,16 @@ async function doit(dir) {
         if (structManual)
             fs.appendFileSync(path, structManual);
 
+        if (Object.keys(ignoreManual).length == 0 && projectTags.length == 0) {
+            console.info(`[gign] nothing detected`)
+            return;
+        }
+
         console.info(`[gign] generated at ${path}`)
-        console.info(`[gign] tags: ${tags}${Object.keys(ignoreManual)}`)
-
-
+        if (projectTags.length > 0)
+            console.info(`[gign] tags: ${tags}`)
+        if (Object.keys(ignoreManual).length > 0)
+            console.info(`[gign] manual tags: ${Object.keys(ignoreManual)}`)
     } catch (ex) {
         console.error(`[gign] ${ex.message}`);
     }

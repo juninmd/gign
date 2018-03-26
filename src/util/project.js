@@ -31,7 +31,8 @@ module.exports = (dir) => {
                         let obj = JSON.parse(fs.readFileSync(`${dir}\\${q.filename}`).toString('utf8'));
                         ignorePaths[item.tag].values.push(acessAttrObj(obj, q.struct));
                     } catch (error) {
-                        console.error(`[gign] error getting struct of ${item.tag}`);
+                        delete ignorePaths[item.tag];
+                        console.error(`[gign] error on model of ${item.tag}, struct: ${q.struct}, file: ${q.filename}`);
                     }
                 }
                 else if (q.path) {
