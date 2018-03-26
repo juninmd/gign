@@ -1,6 +1,6 @@
 {
   "name": "gign",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "gign generate .gitignore for your project",
   "repository": {
     "type": "git",
