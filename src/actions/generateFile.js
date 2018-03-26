@@ -12,15 +12,29 @@ async function doit(dir) {
         }
 
         let tags = [os()];
-        tags.push(...project(dir));
+
+        let [projectTags, ignoreManual] = project(dir);
+
+        tags.push(...projectTags);
 
         let path = await download({
             directory: dir,
             tags
         });
 
+
+        let structManual = '';
+        Object.keys(ignoreManual).map(q => {
+            let i = ignoreManual[q];
+            structManual += `# ${q}\r\n${i.values.join('\r\n')}`
+        })
+
+        if (structManual)
+            fs.appendFileSync(path, structManual);
+
         console.info(`[gign] generated at ${path}`)
-        console.info(`[gign] tags: ${tags}`)
+        console.info(`[gign] tags: ${tags}${Object.keys(ignoreManual)}`)
+
 
     } catch (ex) {
         console.error(`[gign] ${ex.message}`);

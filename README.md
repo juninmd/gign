@@ -33,3 +33,13 @@ $ gign <path>
 ## Thanks
 We use the gitignore.io api  
 http://gitignore.io/
+
+## Beta Suport
+* Windows, Linux and Mac
+* Node JS
+* Typescript
+
+## Help Gign
+You can help to improve the tool!  
+Include one new pattern on `pattern.json` or `manual.json`  
+I will wait for your P.R. ;D
