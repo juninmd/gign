@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const pattern = require('../../pattern.json');
 const manual = require('../../manual.json');
 
@@ -28,7 +29,7 @@ module.exports = (dir) => {
 
                 if (q.struct) {
                     try {
-                        let obj = JSON.parse(fs.readFileSync(`${dir}\\${q.filename}`).toString('utf8'));
+                        let obj = JSON.parse(fs.readFileSync(path.join(dir, q.filename)).toString('utf8'));
                         ignorePaths[item.tag].values.push(acessAttrObj(obj, q.struct));
                     } catch (error) {
                         delete ignorePaths[item.tag];
