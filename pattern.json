@@ -9,5 +9,40 @@
         "VisualStudioCode": [
             ".vscode"
         ]
+    },
+    {
+        "python": [
+            "requirements.txt",
+            "setup.py",
+            "Pipfile",
+            "pyproject.toml",
+            "venv"
+        ]
+    },
+    {
+        "java": [
+            "pom.xml",
+            "build.gradle"
+        ]
+    },
+    {
+        "go": [
+            "go.mod"
+        ]
+    },
+    {
+        "ruby": [
+            "Gemfile"
+        ]
+    },
+    {
+        "rust": [
+            "Cargo.toml"
+        ]
+    },
+    {
+        "composer": [
+            "composer.json"
+        ]
     }
 ]
