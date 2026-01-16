@@ -44,5 +44,50 @@
         "composer": [
             "composer.json"
         ]
+    },
+    {
+        "kotlin": [
+            "build.gradle.kts"
+        ]
+    },
+    {
+        "c++": [
+            "CMakeLists.txt"
+        ]
+    },
+    {
+        "cmake": [
+            "CMakeLists.txt"
+        ]
+    },
+    {
+        "swift": [
+            "Package.swift"
+        ]
+    },
+    {
+        "dart": [
+            "pubspec.yaml"
+        ]
+    },
+    {
+        "elixir": [
+            "mix.exs"
+        ]
+    },
+    {
+        "django": [
+            "manage.py"
+        ]
+    },
+    {
+        "laravel": [
+            "artisan"
+        ]
+    },
+    {
+        "unity": [
+            "ProjectSettings"
+        ]
     }
 ]
