@@ -16,7 +16,14 @@ module.exports = (dir) => {
     pattern.map(q => {
         let key = Object.keys(q)[0];
         let itens = q[key];
-        if (itens.some(r => files.includes(r)) && !tags.includes(key))
+        let hasMatch = itens.some(r => {
+            if (r.startsWith('*')) {
+                let ext = r.substring(1);
+                return files.some(f => f.endsWith(ext));
+            }
+            return files.includes(r);
+        });
+        if (hasMatch && !tags.includes(key))
             tags.push(key);
     })
 
