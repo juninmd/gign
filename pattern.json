@@ -89,5 +89,60 @@
         "unity": [
             "ProjectSettings"
         ]
+    },
+    {
+        "maven": [
+            "pom.xml",
+            "mvnw"
+        ]
+    },
+    {
+        "gradle": [
+            "gradlew",
+            "build.gradle",
+            "settings.gradle"
+        ]
+    },
+    {
+        "visualstudio": [
+            "*.sln",
+            "*.csproj",
+            "*.vbproj",
+            ".vs"
+        ]
+    },
+    {
+        "intellij": [
+            ".idea",
+            "*.iml"
+        ]
+    },
+    {
+        "eclipse": [
+            ".project",
+            ".classpath"
+        ]
+    },
+    {
+        "netbeans": [
+            "nbproject"
+        ]
+    },
+    {
+        "vagrant": [
+            "Vagrantfile"
+        ]
+    },
+    {
+        "terraform": [
+            "*.tf",
+            "*.tfstate"
+        ]
+    },
+    {
+        "android": [
+            "local.properties",
+            "*.apk"
+        ]
     }
 ]
