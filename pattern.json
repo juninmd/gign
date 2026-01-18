@@ -144,5 +144,93 @@
             "local.properties",
             "*.apk"
         ]
+    },
+    {
+        "angular": [
+            "angular.json"
+        ]
+    },
+    {
+        "vue": [
+            "vue.config.js"
+        ]
+    },
+    {
+        "nextjs": [
+            "next.config.js"
+        ]
+    },
+    {
+        "nuxtjs": [
+            "nuxt.config.js"
+        ]
+    },
+    {
+        "gatsby": [
+            "gatsby-config.js"
+        ]
+    },
+    {
+        "reactnative": [
+            "metro.config.js"
+        ]
+    },
+    {
+        "flutter": [
+            "pubspec.yaml"
+        ]
+    },
+    {
+        "cocoapods": [
+            "Podfile"
+        ]
+    },
+    {
+        "scala": [
+            "build.sbt"
+        ]
+    },
+    {
+        "c": [
+            "*.c",
+            "*.h"
+        ]
+    },
+    {
+        "unrealengine": [
+            "*.uproject"
+        ]
+    },
+    {
+        "godot": [
+            "project.godot"
+        ]
+    },
+    {
+        "jupyternotebooks": [
+            "*.ipynb"
+        ]
+    },
+    {
+        "ansible": [
+            "ansible.cfg"
+        ]
+    },
+    {
+        "r": [
+            "*.Rproj",
+            "*.R"
+        ]
+    },
+    {
+        "haskell": [
+            "stack.yaml",
+            "*.cabal"
+        ]
+    },
+    {
+        "erlang": [
+            "rebar.config"
+        ]
     }
 ]
