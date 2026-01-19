@@ -232,5 +232,74 @@
         "erlang": [
             "rebar.config"
         ]
+    },
+    {
+        "svelte": [
+            "svelte.config.js"
+        ]
+    },
+    {
+        "ionic3": [
+            "ionic.config.json"
+        ]
+    },
+    {
+        "julia": [
+            "Project.toml",
+            "Manifest.toml"
+        ]
+    },
+    {
+        "perl": [
+            "Makefile.PL",
+            "cpanfile"
+        ]
+    },
+    {
+        "sublimetext": [
+            "*.sublime-project"
+        ]
+    },
+    {
+        "yarn": [
+            "yarn.lock"
+        ]
+    },
+    {
+        "sonarqube": [
+            "sonar-project.properties"
+        ]
+    },
+    {
+        "serverless": [
+            "serverless.yml"
+        ]
+    },
+    {
+        "hugo": [
+            "hugo.toml",
+            "hugo.yaml",
+            "hugo.json"
+        ]
+    },
+    {
+        "jekyll": [
+            "_config.yml"
+        ]
+    },
+    {
+        "hexo": [
+            "_config.yml"
+        ]
+    },
+    {
+        "vim": [
+            ".vimrc"
+        ]
+    },
+    {
+        "helm": [
+            "Chart.yaml"
+        ]
     }
 ]
