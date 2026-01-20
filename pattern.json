@@ -301,5 +301,50 @@
         "helm": [
             "Chart.yaml"
         ]
+    },
+    {
+        "wordpress": [
+            "wp-config.php"
+        ]
+    },
+    {
+        "symfony": [
+            "symfony.lock"
+        ]
+    },
+    {
+        "salesforcedx": [
+            "sfdx-project.json"
+        ]
+    },
+    {
+        "meteor": [
+            ".meteor"
+        ]
+    },
+    {
+        "chefcookbook": [
+            "Berksfile"
+        ]
+    },
+    {
+        "puppet": [
+            "Puppetfile"
+        ]
+    },
+    {
+        "lazarus": [
+            "*.lpi"
+        ]
+    },
+    {
+        "labview": [
+            "*.lvproj"
+        ]
+    },
+    {
+        "kicad": [
+            "*.kicad_pcb"
+        ]
     }
 ]
