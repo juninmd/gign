@@ -346,5 +346,48 @@
         "kicad": [
             "*.kicad_pcb"
         ]
+    },
+    {
+        "clojure": [
+            "project.clj",
+            "deps.edn"
+        ]
+    },
+    {
+        "zig": [
+            "build.zig"
+        ]
+    },
+    {
+        "firebase": [
+            "firebase.json"
+        ]
+    },
+    {
+        "ocaml": [
+            "dune",
+            "_build"
+        ]
+    },
+    {
+        "racket": [
+            "info.rkt"
+        ]
+    },
+    {
+        "lua": [
+            ".luacheckrc"
+        ]
+    },
+    {
+        "solidity": [
+            "hardhat.config.js",
+            "truffle-config.js"
+        ]
+    },
+    {
+        "tex": [
+            "*.tex"
+        ]
     }
 ]
