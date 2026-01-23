@@ -389,5 +389,82 @@
         "tex": [
             "*.tex"
         ]
+    },
+    {
+        "elm": [
+            "elm.json"
+        ]
+    },
+    {
+        "purescript": [
+            "spago.dhall"
+        ]
+    },
+    {
+        "crystal": [
+            "shard.yml"
+        ]
+    },
+    {
+        "nim": [
+            "*.nimble"
+        ]
+    },
+    {
+        "d": [
+            "dub.json",
+            "dub.sdl"
+        ]
+    },
+    {
+        "fortran": [
+            "fpm.toml"
+        ]
+    },
+    {
+        "platformio": [
+            "platformio.ini"
+        ]
+    },
+    {
+        "ros": [
+            "package.xml"
+        ]
+    },
+    {
+        "actionscript": [
+            "*.as"
+        ]
+    },
+    {
+        "ada": [
+            "*.gpr"
+        ]
+    },
+    {
+        "agda": [
+            "*.agda"
+        ]
+    },
+    {
+        "coq": [
+            "_CoqProject"
+        ]
+    },
+    {
+        "idris": [
+            "*.ipkg"
+        ]
+    },
+    {
+        "xcode": [
+            "*.xcodeproj",
+            "*.xcworkspace"
+        ]
+    },
+    {
+        "dm": [
+            "*.dme"
+        ]
     }
 ]
