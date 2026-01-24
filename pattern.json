@@ -466,5 +466,102 @@
         "dm": [
             "*.dme"
         ]
+    },
+    {
+        "bitrix": [
+            "bitrix"
+        ]
+    },
+    {
+        "typo3": [
+            "typo3conf"
+        ]
+    },
+    {
+        "joomla": [
+            "htaccess.txt"
+        ]
+    },
+    {
+        "grails": [
+            "grails-app"
+        ]
+    },
+    {
+        "fsharp": [
+            "*.fs",
+            "*.fsi",
+            "*.fsx",
+            "*.fsproj"
+        ]
+    },
+    {
+        "cuda": [
+            "*.cu",
+            "*.cuh"
+        ]
+    },
+    {
+        "zephir": [
+            "*.zep"
+        ]
+    },
+    {
+        "red": [
+            "*.red"
+        ]
+    },
+    {
+        "igorpro": [
+            "*.ipf"
+        ]
+    },
+    {
+        "opa": [
+            "*.rego"
+        ]
+    },
+    {
+        "yeoman": [
+            ".yo-rc.json"
+        ]
+    },
+    {
+        "terragrunt": [
+            "terragrunt.hcl"
+        ]
+    },
+    {
+        "packer": [
+            "*.pkr.hcl",
+            "packer.json"
+        ]
+    },
+    {
+        "react": [
+            "*.jsx",
+            "*.tsx"
+        ]
+    },
+    {
+        "vue": [
+            "*.vue"
+        ]
+    },
+    {
+        "svelte": [
+            "*.svelte"
+        ]
+    },
+    {
+        "qt": [
+            "*.pro",
+            "*.pri"
+        ]
+    },
+    {
+        "processing": [
+            "*.pde"
+        ]
     }
 ]
