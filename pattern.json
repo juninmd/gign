@@ -563,5 +563,48 @@
         "processing": [
             "*.pde"
         ]
+    },
+    {
+        "bazel": [
+            "WORKSPACE",
+            "BUILD",
+            "BUILD.bazel"
+        ]
+    },
+    {
+        "meson": [
+            "meson.build"
+        ]
+    },
+    {
+        "ninja": [
+            "build.ninja"
+        ]
+    },
+    {
+        "yii2": [
+            "yii"
+        ]
+    },
+    {
+        "codeigniter": [
+            "spark"
+        ]
+    },
+    {
+        "groovy": [
+            "*.groovy"
+        ]
+    },
+    {
+        "blender": [
+            "*.blend"
+        ]
+    },
+    {
+        "eagle": [
+            "*.sch",
+            "*.brd"
+        ]
     }
 ]
