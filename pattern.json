@@ -606,5 +606,39 @@
             "*.sch",
             "*.brd"
         ]
+    },
+    {
+        "dotenv": [
+            ".env"
+        ]
+    },
+    {
+        "scons": [
+            "SConstruct"
+        ]
+    },
+    {
+        "appengine": [
+            "app.yaml"
+        ]
+    },
+    {
+        "scrivener": [
+            "*.scriv"
+        ]
+    },
+    {
+        "cypressio": [
+            "cypress.json",
+            "cypress.config.js",
+            "cypress.config.ts",
+            "cypress.config.cjs",
+            "cypress.config.mjs"
+        ]
+    },
+    {
+        "storybookjs": [
+            ".storybook"
+        ]
     }
 ]
