@@ -6,7 +6,7 @@
         ]
     },
     {
-        "VisualStudioCode": [
+        "visualstudiocode": [
             ".vscode"
         ]
     },
@@ -639,6 +639,58 @@
     {
         "storybookjs": [
             ".storybook"
+        ]
+    },
+    {
+        "deno": [
+            "deno.json",
+            "deno.jsonc",
+            "import_map.json"
+        ]
+    },
+    {
+        "turbo": [
+            "turbo.json"
+        ]
+    },
+    {
+        "ember": [
+            "ember-cli-build.js"
+        ]
+    },
+    {
+        "fastlane": [
+            "fastlane",
+            "Fastfile"
+        ]
+    },
+    {
+        "grunt": [
+            "Gruntfile.js",
+            "Gruntfile.coffee"
+        ]
+    },
+    {
+        "nativescript": [
+            "nativescript.config.ts",
+            "nsconfig.json"
+        ]
+    },
+    {
+        "dbt": [
+            "dbt_project.yml"
+        ]
+    },
+    {
+        "remix": [
+            "remix.config.js"
+        ]
+    },
+    {
+        "astro": [
+            "astro.config.mjs",
+            "astro.config.js",
+            "astro.config.ts"
         ]
     }
 ]
