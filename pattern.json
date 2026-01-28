@@ -2,6 +2,7 @@
     {
         "node": [
             "package.json",
+            "package-lock.json",
             "node_modules"
         ]
     },
@@ -691,6 +692,52 @@
             "astro.config.mjs",
             "astro.config.js",
             "astro.config.ts"
+        ]
+    },
+    {
+        "git": [
+            ".git"
+        ]
+    },
+    {
+        "macos": [
+            ".DS_Store"
+        ]
+    },
+    {
+        "windows": [
+            "Thumbs.db",
+            "Desktop.ini"
+        ]
+    },
+    {
+        "docusaurus": [
+            "docusaurus.config.js"
+        ]
+    },
+    {
+        "gitbook": [
+            "book.json"
+        ]
+    },
+    {
+        "vercel": [
+            "vercel.json"
+        ]
+    },
+    {
+        "delphi": [
+            "*.dproj"
+        ]
+    },
+    {
+        "matlab": [
+            "*.mat"
+        ]
+    },
+    {
+        "assembler": [
+            "*.asm"
         ]
     }
 ]
