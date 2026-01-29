@@ -94,14 +94,16 @@
     {
         "maven": [
             "pom.xml",
-            "mvnw"
+            "mvnw",
+            "mvnw.cmd"
         ]
     },
     {
         "gradle": [
             "gradlew",
             "build.gradle",
-            "settings.gradle"
+            "settings.gradle",
+            "gradlew.bat"
         ]
     },
     {
@@ -310,7 +312,8 @@
     },
     {
         "symfony": [
-            "symfony.lock"
+            "symfony.lock",
+            "bin/console"
         ]
     },
     {
@@ -480,7 +483,8 @@
     },
     {
         "joomla": [
-            "htaccess.txt"
+            "htaccess.txt",
+            "configuration.php"
         ]
     },
     {
@@ -738,6 +742,26 @@
     {
         "assembler": [
             "*.asm"
+        ]
+    },
+    {
+        "rails": [
+            "bin/rails"
+        ]
+    },
+    {
+        "cakephp": [
+            "bin/cake"
+        ]
+    },
+    {
+        "magento": [
+            "bin/magento"
+        ]
+    },
+    {
+        "prestashop": [
+            "config/settings.inc.php"
         ]
     }
 ]

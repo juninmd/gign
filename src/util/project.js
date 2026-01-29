@@ -21,7 +21,7 @@ module.exports = (dir) => {
                 let ext = r.substring(1);
                 return files.some(f => f.endsWith(ext));
             }
-            return files.includes(r);
+            if (r.includes("/") || r.includes("\\")) { return fs.existsSync(path.join(dir, r)); } return files.includes(r);
         });
         if (hasMatch && !tags.includes(key))
             tags.push(key);
