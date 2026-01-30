@@ -763,5 +763,50 @@
         "prestashop": [
             "config/settings.inc.php"
         ]
+    },
+    {
+        "svn": [
+            ".svn"
+        ]
+    },
+    {
+        "mercurial": [
+            ".hg"
+        ]
+    },
+    {
+        "carthage": [
+            "Cartfile"
+        ]
+    },
+    {
+        "swiftpackagemanager": [
+            "Package.swift"
+        ]
+    },
+    {
+        "codeblocks": [
+            "*.cbp"
+        ]
+    },
+    {
+        "elisp": [
+            "*.el"
+        ]
+    },
+    {
+        "drupal": [
+            "sites/default/settings.php"
+        ]
+    },
+    {
+        "magento1": [
+            "app/etc/local.xml"
+        ]
+    },
+    {
+        "backup": [
+            "*.bak"
+        ]
     }
 ]
