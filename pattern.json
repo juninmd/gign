@@ -17,28 +17,35 @@
             "setup.py",
             "Pipfile",
             "pyproject.toml",
-            "venv"
+            "venv",
+            "*.py"
         ]
     },
     {
         "java": [
             "pom.xml",
-            "build.gradle"
+            "build.gradle",
+            "*.java",
+            "*.class",
+            "*.jar"
         ]
     },
     {
         "go": [
-            "go.mod"
+            "go.mod",
+            "*.go"
         ]
     },
     {
         "ruby": [
-            "Gemfile"
+            "Gemfile",
+            "*.rb"
         ]
     },
     {
         "rust": [
-            "Cargo.toml"
+            "Cargo.toml",
+            "*.rs"
         ]
     },
     {
@@ -48,12 +55,17 @@
     },
     {
         "kotlin": [
-            "build.gradle.kts"
+            "build.gradle.kts",
+            "*.kt"
         ]
     },
     {
         "c++": [
-            "CMakeLists.txt"
+            "CMakeLists.txt",
+            "*.cpp",
+            "*.hpp",
+            "*.cc",
+            "*.cxx"
         ]
     },
     {
@@ -63,17 +75,21 @@
     },
     {
         "swift": [
-            "Package.swift"
+            "Package.swift",
+            "*.swift"
         ]
     },
     {
         "dart": [
-            "pubspec.yaml"
+            "pubspec.yaml",
+            "*.dart"
         ]
     },
     {
         "elixir": [
-            "mix.exs"
+            "mix.exs",
+            "*.ex",
+            "*.exs"
         ]
     },
     {
@@ -190,7 +206,8 @@
     },
     {
         "scala": [
-            "build.sbt"
+            "build.sbt",
+            "*.scala"
         ]
     },
     {
@@ -228,12 +245,15 @@
     {
         "haskell": [
             "stack.yaml",
-            "*.cabal"
+            "*.cabal",
+            "*.hs"
         ]
     },
     {
         "erlang": [
-            "rebar.config"
+            "rebar.config",
+            "*.erl",
+            "*.hrl"
         ]
     },
     {
@@ -249,13 +269,16 @@
     {
         "julia": [
             "Project.toml",
-            "Manifest.toml"
+            "Manifest.toml",
+            "*.jl"
         ]
     },
     {
         "perl": [
             "Makefile.PL",
-            "cpanfile"
+            "cpanfile",
+            "*.pl",
+            "*.pm"
         ]
     },
     {
@@ -380,7 +403,8 @@
     },
     {
         "lua": [
-            ".luacheckrc"
+            ".luacheckrc",
+            "*.lua"
         ]
     },
     {
@@ -396,7 +420,8 @@
     },
     {
         "elm": [
-            "elm.json"
+            "elm.json",
+            "*.elm"
         ]
     },
     {
@@ -807,6 +832,17 @@
     {
         "backup": [
             "*.bak"
+        ]
+    },
+    {
+        "php": [
+            "*.php",
+            "composer.json"
+        ]
+    },
+    {
+        "arduino": [
+            "*.ino"
         ]
     }
 ]
