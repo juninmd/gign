@@ -844,5 +844,109 @@
         "arduino": [
             "*.ino"
         ]
+    },
+    {
+        "linux": [
+            ".directory",
+            "*~"
+        ]
+    },
+    {
+        "csharp": [
+            "*.cs",
+            "*.csx"
+        ]
+    },
+    {
+        "reasonml": [
+            "bsconfig.json",
+            "*.re",
+            "*.rei"
+        ]
+    },
+    {
+        "bower": [
+            "bower.json"
+        ]
+    },
+    {
+        "cake": [
+            "build.cake"
+        ]
+    },
+    {
+        "direnv": [
+            ".envrc"
+        ]
+    },
+    {
+        "doxygen": [
+            "Doxyfile"
+        ]
+    },
+    {
+        "gcov": [
+            "*.gcno",
+            "*.gcda"
+        ]
+    },
+    {
+        "leiningen": [
+            "project.clj",
+            "profiles.clj"
+        ]
+    },
+    {
+        "less": [
+            "*.less"
+        ]
+    },
+    {
+        "sass": [
+            "*.sass",
+            "*.scss"
+        ]
+    },
+    {
+        "smalltalk": [
+            "*.st"
+        ]
+    },
+    {
+        "standardml": [
+            "*.sml"
+        ]
+    },
+    {
+        "stylus": [
+            "*.styl"
+        ]
+    },
+    {
+        "scheme": [
+            "*.scm",
+            "*.ss"
+        ]
+    },
+    {
+        "tags": [
+            "tags",
+            ".tags"
+        ]
+    },
+    {
+        "textmate": [
+            "*.tmproj"
+        ]
+    },
+    {
+        "waf": [
+            "wscript"
+        ]
+    },
+    {
+        "typings": [
+            "typings.json"
+        ]
     }
 ]
