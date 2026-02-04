@@ -21,6 +21,10 @@ module.exports = (dir) => {
                 let ext = r.substring(1);
                 return files.some(f => f.endsWith(ext));
             }
+            if (r.endsWith('*')) {
+                let prefix = r.substring(0, r.length - 1);
+                return files.some(f => f.startsWith(prefix));
+            }
             if (r.includes("/") || r.includes("\\")) { return fs.existsSync(path.join(dir, r)); } return files.includes(r);
         });
         if (hasMatch && !tags.includes(key))

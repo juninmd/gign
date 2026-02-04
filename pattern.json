@@ -356,7 +356,8 @@
     },
     {
         "puppet": [
-            "Puppetfile"
+            "Puppetfile",
+            "*.pp"
         ]
     },
     {
@@ -393,7 +394,9 @@
     {
         "ocaml": [
             "dune",
-            "_build"
+            "_build",
+            "*.ml",
+            "*.mli"
         ]
     },
     {
@@ -410,7 +413,8 @@
     {
         "solidity": [
             "hardhat.config.js",
-            "truffle-config.js"
+            "truffle-config.js",
+            "*.sol"
         ]
     },
     {
@@ -442,12 +446,15 @@
     {
         "d": [
             "dub.json",
-            "dub.sdl"
+            "dub.sdl",
+            "*.d"
         ]
     },
     {
         "fortran": [
-            "fpm.toml"
+            "fpm.toml",
+            "*.f",
+            "*.f90"
         ]
     },
     {
@@ -947,6 +954,78 @@
     {
         "typings": [
             "typings.json"
+        ]
+    },
+    {
+        "powershell": [
+            "*.ps1",
+            "*.psd1",
+            "*.psm1"
+        ]
+    },
+    {
+        "valgrind": [
+            "vgcore.*"
+        ]
+    },
+    {
+        "dropbox": [
+            ".dropbox"
+        ]
+    },
+    {
+        "cvs": [
+            "CVS"
+        ]
+    },
+    {
+        "bazaar": [
+            ".bzr"
+        ]
+    },
+    {
+        "bitrise": [
+            "bitrise.yml"
+        ]
+    },
+    {
+        "robotframework": [
+            "*.robot"
+        ]
+    },
+    {
+        "archlinuxpackages": [
+            "PKGBUILD"
+        ]
+    },
+    {
+        "elasticbeanstalk": [
+            ".elasticbeanstalk"
+        ]
+    },
+    {
+        "jdeveloper": [
+            "*.jpr"
+        ]
+    },
+    {
+        "keil": [
+            "*.uvproj"
+        ]
+    },
+    {
+        "qtcreator": [
+            "*.pro.user"
+        ]
+    },
+    {
+        "visualbasic": [
+            "*.vb"
+        ]
+    },
+    {
+        "tortoisegit": [
+            ".tgitconfig"
         ]
     }
 ]
