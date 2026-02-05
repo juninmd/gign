@@ -1027,5 +1027,62 @@
         "tortoisegit": [
             ".tgitconfig"
         ]
+    },
+    {
+        "typescript": [
+            "tsconfig.json",
+            "*.ts",
+            "*.tsx"
+        ]
+    },
+    {
+        "jest": [
+            "jest.config.js",
+            "jest.config.ts",
+            "jest.config.json"
+        ]
+    },
+    {
+        "webpack": [
+            "webpack.config.js",
+            "webpack.config.ts",
+            "webpack.config.cjs",
+            "webpack.config.mjs"
+        ]
+    },
+    {
+        "babel": [
+            "babel.config.js",
+            "babel.config.json",
+            ".babelrc",
+            ".babelrc.json",
+            ".babelrc.js"
+        ]
+    },
+    {
+        "eslint": [
+            ".eslintrc",
+            ".eslintrc.js",
+            ".eslintrc.json",
+            ".eslintrc.yaml",
+            ".eslintrc.yml",
+            "eslint.config.js"
+        ]
+    },
+    {
+        "prettier": [
+            ".prettierrc",
+            ".prettierrc.js",
+            ".prettierrc.json",
+            ".prettierrc.yaml",
+            ".prettierrc.yml",
+            "prettier.config.js"
+        ]
+    },
+    {
+        "pnpm": [
+            "pnpm-lock.yaml",
+            "pnpm-workspace.yaml"
+        ]
     }
 ]
