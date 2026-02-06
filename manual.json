@@ -7,5 +7,74 @@
                 "struct": "compilerOptions.outDir"
             }
         ]
+    },
+    {
+        "tag": "vite",
+        "search": [
+            {
+                "filename": "vite.config.*",
+                "path": "dist"
+            },
+            {
+                "filename": "vite.config.*",
+                "path": "dist-ssr"
+            },
+            {
+                "filename": "vite.config.*",
+                "path": "*.local"
+            }
+        ]
+    },
+    {
+        "tag": "vitest",
+        "search": [
+            {
+                "filename": "vitest.config.*",
+                "path": "coverage"
+            }
+        ]
+    },
+    {
+        "tag": "playwright",
+        "search": [
+            {
+                "filename": "playwright.config.*",
+                "path": "test-results"
+            },
+            {
+                "filename": "playwright.config.*",
+                "path": "playwright-report"
+            },
+            {
+                "filename": "playwright.config.*",
+                "path": "blob-report"
+            },
+            {
+                "filename": "playwright.config.*",
+                "path": "playwright/.cache"
+            }
+        ]
+    },
+    {
+        "tag": "parcel",
+        "search": [
+            {
+                "filename": ".parcelrc",
+                "path": ".parcel-cache"
+            },
+            {
+                "filename": ".parcelrc",
+                "path": "dist"
+            }
+        ]
+    },
+    {
+        "tag": "astro",
+        "search": [
+            {
+                "filename": "astro.config.*",
+                "path": "dist"
+            }
+        ]
     }
 ]
