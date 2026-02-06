@@ -35,17 +35,31 @@ module.exports = (dir) => {
     manual.map(item => {
 
         item.search.filter(q => {
-            if (files.includes(q.filename)) {
-                ignorePaths[item.tag] = { values: [] }
+            let matchedFiles = [];
+            if (q.filename.startsWith('*')) {
+                let ext = q.filename.substring(1);
+                matchedFiles = files.filter(f => f.endsWith(ext));
+            } else if (q.filename.endsWith('*')) {
+                let prefix = q.filename.substring(0, q.filename.length - 1);
+                matchedFiles = files.filter(f => f.startsWith(prefix));
+            } else {
+                if (files.includes(q.filename)) matchedFiles = [q.filename];
+            }
+
+            if (matchedFiles.length > 0) {
+                if (!ignorePaths[item.tag]) {
+                    ignorePaths[item.tag] = { values: [] }
+                }
 
                 if (q.struct) {
-                    try {
-                        let obj = JSON.parse(fs.readFileSync(path.join(dir, q.filename)).toString('utf8'));
-                        ignorePaths[item.tag].values.push(acessAttrObj(obj, q.struct));
-                    } catch (error) {
-                        delete ignorePaths[item.tag];
-                        console.error(`[gign] error on model of ${item.tag}, struct: ${q.struct}, file: ${q.filename}`);
-                    }
+                    matchedFiles.forEach(f => {
+                        try {
+                            let obj = JSON.parse(fs.readFileSync(path.join(dir, f)).toString('utf8'));
+                            ignorePaths[item.tag].values.push(acessAttrObj(obj, q.struct));
+                        } catch (error) {
+                            console.error(`[gign] error on model of ${item.tag}, struct: ${q.struct}, file: ${f}`);
+                        }
+                    });
                 }
                 else if (q.path) {
                     ignorePaths[item.tag].values.push(q.path)
