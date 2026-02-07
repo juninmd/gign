@@ -1089,5 +1089,43 @@
         "flask": [
             ".flaskenv"
         ]
+    },
+    {
+        "sbt": [
+            "build.sbt",
+            "*.sbt"
+        ]
+    },
+    {
+        "microsoftoffice": [
+            "*.doc",
+            "*.docx",
+            "*.ppt",
+            "*.pptx",
+            "*.xls",
+            "*.xlsx"
+        ]
+    },
+    {
+        "playframework": [
+            "conf/application.conf",
+            "conf/routes"
+        ]
+    },
+    {
+        "redis": [
+            "dump.rdb"
+        ]
+    },
+    {
+        "emacs": [
+            ".emacs",
+            "_emacs"
+        ]
+    },
+    {
+        "visualstudiocode": [
+            "*.code-workspace"
+        ]
     }
 ]
