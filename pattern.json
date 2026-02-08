@@ -1127,5 +1127,56 @@
         "visualstudiocode": [
             "*.code-workspace"
         ]
+    },
+    {
+        "pulumi": [
+            "Pulumi.yaml",
+            "Pulumi.yml"
+        ]
+    },
+    {
+        "al": [
+            "*.al"
+        ]
+    },
+    {
+        "renpy": [
+            "*.rpy"
+        ]
+    },
+    {
+        "pico8": [
+            "*.p8"
+        ]
+    },
+    {
+        "sas": [
+            "*.sas"
+        ]
+    },
+    {
+        "stata": [
+            "*.do"
+        ]
+    },
+    {
+        "openfoam": [
+            "system/controlDict"
+        ]
+    },
+    {
+        "magento2": [
+            "bin/magento"
+        ]
+    },
+    {
+        "circuitpython": [
+            "boot_out.txt"
+        ]
+    },
+    {
+        "octave": [
+            "*.oct"
+        ]
     }
 ]
