@@ -1178,5 +1178,41 @@
         "octave": [
             "*.oct"
         ]
+    },
+    {
+        "cordova": [
+            "config.xml"
+        ]
+    },
+    {
+        "opencart": [
+            "admin/config.php"
+        ]
+    },
+    {
+        "concrete5": [
+            "concrete"
+        ]
+    },
+    {
+        "sugarcrm": [
+            "sugar_version.php"
+        ]
+    },
+    {
+        "shopware": [
+            "engine/Shopware",
+            "shopware.php"
+        ]
+    },
+    {
+        "expressionengine": [
+            "system/expressionengine"
+        ]
+    },
+    {
+        "craftcms": [
+            "craft"
+        ]
     }
 ]
