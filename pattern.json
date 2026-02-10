@@ -1029,63 +1029,6 @@
         ]
     },
     {
-        "typescript": [
-            "tsconfig.json",
-            "*.ts",
-            "*.tsx"
-        ]
-    },
-    {
-        "jest": [
-            "jest.config.js",
-            "jest.config.ts",
-            "jest.config.json"
-        ]
-    },
-    {
-        "webpack": [
-            "webpack.config.js",
-            "webpack.config.ts",
-            "webpack.config.cjs",
-            "webpack.config.mjs"
-        ]
-    },
-    {
-        "babel": [
-            "babel.config.js",
-            "babel.config.json",
-            ".babelrc",
-            ".babelrc.json",
-            ".babelrc.js"
-        ]
-    },
-    {
-        "eslint": [
-            ".eslintrc",
-            ".eslintrc.js",
-            ".eslintrc.json",
-            ".eslintrc.yaml",
-            ".eslintrc.yml",
-            "eslint.config.js"
-        ]
-    },
-    {
-        "prettier": [
-            ".prettierrc",
-            ".prettierrc.js",
-            ".prettierrc.json",
-            ".prettierrc.yaml",
-            ".prettierrc.yml",
-            "prettier.config.js"
-        ]
-    },
-    {
-        "pnpm": [
-            "pnpm-lock.yaml",
-            "pnpm-workspace.yaml"
-        ]
-    },
-    {
         "flask": [
             ".flaskenv"
         ]
@@ -1213,6 +1156,66 @@
     {
         "craftcms": [
             "craft"
+        ]
+    },
+    {
+        "node": [
+            "webpack.config.js",
+            ".prettierrc",
+            "*.ts",
+            ".eslintrc.yml",
+            "jest.config.json",
+            ".eslintrc.json",
+            ".eslintrc",
+            "jest.config.js",
+            ".prettierrc.yaml",
+            "pnpm-workspace.yaml",
+            "babel.config.js",
+            "babel.config.json",
+            ".babelrc.json",
+            ".eslintrc.yaml",
+            "webpack.config.mjs",
+            ".babelrc",
+            "prettier.config.js",
+            "tsconfig.json",
+            "pnpm-lock.yaml",
+            ".prettierrc.js",
+            ".prettierrc.json",
+            ".babelrc.js",
+            "webpack.config.ts",
+            ".prettierrc.yml",
+            "*.tsx",
+            "webpack.config.cjs",
+            ".eslintrc.js",
+            "eslint.config.js",
+            "jest.config.ts"
+        ]
+    },
+    {
+        "dotnetcore": [
+            "project.json",
+            "global.json",
+            ".config/dotnet-tools.json",
+            "appsettings.json"
+        ]
+    },
+    {
+        "aspnetcore": [
+            "appsettings.json",
+            "wwwroot"
+        ]
+    },
+    {
+        "jetbrains": [
+            ".idea",
+            "*.iml"
+        ]
+    },
+    {
+        "androidstudio": [
+            ".idea",
+            "local.properties",
+            "*.apk"
         ]
     }
 ]
