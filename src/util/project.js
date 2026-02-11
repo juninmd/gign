@@ -13,7 +13,28 @@ module.exports = (dir) => {
         console.warn('[gign] Initialize a git repository, use "git init" command')
     }
 
-    pattern.map(q => {
+    // Load custom configuration if available
+    let customPattern = [];
+    let customManual = [];
+    const customConfigPath = path.join(dir, '.gignrc.json');
+    if (fs.existsSync(customConfigPath)) {
+        try {
+            const customConfig = JSON.parse(fs.readFileSync(customConfigPath, 'utf8'));
+            if (customConfig.pattern && Array.isArray(customConfig.pattern)) {
+                customPattern = customConfig.pattern;
+            }
+            if (customConfig.manual && Array.isArray(customConfig.manual)) {
+                customManual = customConfig.manual;
+            }
+        } catch (error) {
+            console.warn(`[gign] Failed to parse .gignrc.json: ${error.message}`);
+        }
+    }
+
+    const allPatterns = [...pattern, ...customPattern];
+    const allManuals = [...manual, ...customManual];
+
+    allPatterns.map(q => {
         let key = Object.keys(q)[0];
         let itens = q[key];
         let hasMatch = itens.some(r => {
@@ -32,7 +53,7 @@ module.exports = (dir) => {
     })
 
 
-    manual.map(item => {
+    allManuals.map(item => {
 
         item.search.filter(q => {
             let matchedFiles = [];
