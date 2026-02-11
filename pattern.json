@@ -155,7 +155,8 @@
     {
         "terraform": [
             "*.tf",
-            "*.tfstate"
+            "*.tfstate",
+            "*.tfvars"
         ]
     },
     {
