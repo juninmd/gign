@@ -299,7 +299,10 @@
     },
     {
         "serverless": [
-            "serverless.yml"
+            "serverless.yml",
+            "serverless.ts",
+            "serverless.js",
+            "serverless.json"
         ]
     },
     {
@@ -1217,6 +1220,28 @@
             ".idea",
             "local.properties",
             "*.apk"
+        ]
+    },
+    {
+        "amplify": [
+            "amplify/"
+        ]
+    },
+    {
+        "sam": [
+            "samconfig.toml"
+        ]
+    },
+    {
+        "database": [
+            "*.db",
+            "*.sqlite",
+            "*.sqlite3"
+        ]
+    },
+    {
+        "azurefunctions": [
+            "local.settings.json"
         ]
     }
 ]
