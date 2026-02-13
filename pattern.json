@@ -1243,5 +1243,72 @@
         "azurefunctions": [
             "local.settings.json"
         ]
+    },
+    {
+        "buck": [
+            ".buckconfig"
+        ]
+    },
+    {
+        "pants": [
+            "pants.toml",
+            "pants.ini"
+        ]
+    },
+    {
+        "autotools": [
+            "configure.ac",
+            "Makefile.am"
+        ]
+    },
+    {
+        "snapcraft": [
+            "snap/snapcraft.yaml"
+        ]
+    },
+    {
+        "altium": [
+            "*.PrjPcb"
+        ]
+    },
+    {
+        "vivado": [
+            "*.xpr"
+        ]
+    },
+    {
+        "alteraquartusii": [
+            "*.qpf"
+        ]
+    },
+    {
+        "modelsim": [
+            "*.mpf"
+        ]
+    },
+    {
+        "slickedit": [
+            "*.vpw"
+        ]
+    },
+    {
+        "bloop": [
+            ".bloop"
+        ]
+    },
+    {
+        "metals": [
+            ".metals"
+        ]
+    },
+    {
+        "autohotkey": [
+            "*.ahk"
+        ]
+    },
+    {
+        "ballerina": [
+            "Ballerina.toml"
+        ]
     }
 ]
