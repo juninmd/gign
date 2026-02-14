@@ -76,5 +76,66 @@
                 "path": "dist"
             }
         ]
+    },
+    {
+        "tag": "nx",
+        "search": [
+            {
+                "filename": "nx.json",
+                "path": ".nx"
+            },
+            {
+                "filename": "nx.json",
+                "path": "dist"
+            },
+             {
+                "filename": "nx.json",
+                "path": "tmp"
+            }
+        ]
+    },
+    {
+        "tag": "netlify",
+        "search": [
+            {
+                "filename": "netlify.toml",
+                "path": ".netlify"
+            }
+        ]
+    },
+    {
+        "tag": "expo",
+        "search": [
+            {
+                "filename": "eas.json",
+                "path": ".expo"
+            }
+        ]
+    },
+    {
+        "tag": "foundry",
+        "search": [
+            {
+                "filename": "foundry.toml",
+                "path": "out"
+            },
+            {
+                "filename": "foundry.toml",
+                "path": "cache"
+            },
+            {
+                "filename": "foundry.toml",
+                "path": "broadcast"
+            }
+        ]
+    },
+    {
+        "tag": "cdk",
+        "search": [
+            {
+                "filename": "cdk.json",
+                "path": "cdk.out"
+            }
+        ]
     }
 ]
