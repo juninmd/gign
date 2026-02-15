@@ -177,12 +177,17 @@
     },
     {
         "nextjs": [
-            "next.config.js"
+            "next.config.js",
+            "next.config.mjs",
+            "next.config.ts",
+            "next.config.cjs"
         ]
     },
     {
         "nuxtjs": [
-            "nuxt.config.js"
+            "nuxt.config.js",
+            "nuxt.config.ts",
+            "nuxt.config.mjs"
         ]
     },
     {
@@ -259,7 +264,8 @@
     },
     {
         "svelte": [
-            "svelte.config.js"
+            "svelte.config.js",
+            "svelte.config.cjs"
         ]
     },
     {
@@ -724,7 +730,9 @@
     },
     {
         "remix": [
-            "remix.config.js"
+            "remix.config.js",
+            "remix.config.ts",
+            "remix.config.cjs"
         ]
     },
     {
