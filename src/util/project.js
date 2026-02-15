@@ -64,7 +64,13 @@ module.exports = (dir) => {
                 let prefix = q.filename.substring(0, q.filename.length - 1);
                 matchedFiles = files.filter(f => f.startsWith(prefix));
             } else {
-                if (files.includes(q.filename)) matchedFiles = [q.filename];
+                if (q.filename.includes("/") || q.filename.includes("\\")) {
+                    if (fs.existsSync(path.join(dir, q.filename))) {
+                        matchedFiles = [q.filename];
+                    }
+                } else if (files.includes(q.filename)) {
+                    matchedFiles = [q.filename];
+                }
             }
 
             if (matchedFiles.length > 0) {

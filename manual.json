@@ -137,5 +137,173 @@
                 "path": "cdk.out"
             }
         ]
+    },
+    {
+        "tag": "tox",
+        "search": [
+            {
+                "filename": "tox.ini",
+                "path": ".tox"
+            }
+        ]
+    },
+    {
+        "tag": "pytest",
+        "search": [
+            {
+                "filename": "pytest.ini",
+                "path": ".pytest_cache"
+            },
+            {
+                "filename": "pyproject.toml",
+                "path": ".pytest_cache"
+            }
+        ]
+    },
+    {
+        "tag": "coverage",
+        "search": [
+            {
+                "filename": ".coveragerc",
+                "path": ".coverage"
+            },
+            {
+                "filename": ".coveragerc",
+                "path": "htmlcov"
+            }
+        ]
+    },
+    {
+        "tag": "mypy",
+        "search": [
+            {
+                "filename": "mypy.ini",
+                "path": ".mypy_cache"
+            },
+             {
+                "filename": ".mypy.ini",
+                "path": ".mypy_cache"
+            },
+            {
+                "filename": "pyproject.toml",
+                "path": ".mypy_cache"
+            }
+        ]
+    },
+    {
+        "tag": "ruff",
+        "search": [
+            {
+                "filename": "ruff.toml",
+                "path": ".ruff_cache"
+            },
+             {
+                "filename": ".ruff.toml",
+                "path": ".ruff_cache"
+            },
+            {
+                "filename": "pyproject.toml",
+                "path": ".ruff_cache"
+            }
+        ]
+    },
+    {
+        "tag": "nestjs",
+        "search": [
+            {
+                "filename": "nest-cli.json",
+                "path": "dist"
+            }
+        ]
+    },
+    {
+        "tag": "vuepress",
+        "search": [
+             {
+                "filename": ".vuepress/config.js",
+                "path": ".vuepress/dist"
+            },
+             {
+                "filename": ".vuepress/config.ts",
+                "path": ".vuepress/dist"
+            }
+        ]
+    },
+    {
+        "tag": "mkdocs",
+        "search": [
+            {
+                "filename": "mkdocs.yml",
+                "path": "site"
+            }
+        ]
+    },
+    {
+        "tag": "sonarqube",
+        "search": [
+            {
+                "filename": "sonar-project.properties",
+                "path": ".scannerwork"
+            }
+        ]
+    },
+    {
+        "tag": "serverless",
+        "search": [
+             {
+                "filename": "serverless.yml",
+                "path": ".serverless"
+            },
+            {
+                "filename": "serverless.ts",
+                "path": ".serverless"
+            },
+            {
+                "filename": "serverless.js",
+                "path": ".serverless"
+            },
+            {
+                "filename": "serverless.json",
+                "path": ".serverless"
+            },
+             {
+                "filename": "serverless.yml",
+                "path": ".build"
+            },
+            {
+                "filename": "serverless.ts",
+                "path": ".build"
+            },
+            {
+                "filename": "serverless.js",
+                "path": ".build"
+            },
+            {
+                "filename": "serverless.json",
+                "path": ".build"
+            }
+        ]
+    },
+    {
+        "tag": "solidjs",
+        "search": [
+            {
+                "filename": "app.config.ts",
+                "path": ".output"
+            },
+            {
+                "filename": "app.config.ts",
+                "path": ".vinxi"
+            }
+        ]
+    },
+    {
+        "tag": "qwik",
+        "search": [
+            {
+                "filename": "qwik.config.ts",
+                "path": "dist"
+            }
+        ]
     }
 ]
