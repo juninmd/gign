@@ -1318,5 +1318,51 @@
         "ballerina": [
             "Ballerina.toml"
         ]
+    },
+    {
+        "haxe": [
+            "*.hxml",
+            "*.hx"
+        ]
+    },
+    {
+        "odin": [
+            "*.odin"
+        ]
+    },
+    {
+        "v": [
+            "v.mod",
+            "*.v"
+        ]
+    },
+    {
+        "nix": [
+            "default.nix",
+            "shell.nix",
+            "*.nix"
+        ]
+    },
+    {
+        "dvc": [
+            ".dvc",
+            "dvc.yaml"
+        ]
+    },
+    {
+        "redwood": [
+            "redwood.toml"
+        ]
+    },
+    {
+        "just": [
+            "Justfile",
+            "justfile"
+        ]
+    },
+    {
+        "gleam": [
+            "gleam.toml"
+        ]
     }
 ]
