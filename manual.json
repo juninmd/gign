@@ -305,5 +305,70 @@
                 "path": "dist"
             }
         ]
+    },
+    {
+        "tag": "tauri",
+        "search": [
+            {
+                "filename": "src-tauri/tauri.conf.json",
+                "path": "src-tauri/target"
+            },
+            {
+                "filename": "src-tauri/tauri.conf.json",
+                "path": "src-tauri/gen"
+            }
+        ]
+    },
+    {
+        "tag": "electron",
+        "search": [
+            {
+                "filename": "electron-builder.json",
+                "path": "dist"
+            },
+            {
+                "filename": "electron-builder.json",
+                "path": "out"
+            },
+            {
+                "filename": "electron-builder.json",
+                "path": "build"
+            },
+            {
+                "filename": "electron-builder.json",
+                "path": "release"
+            }
+        ]
+    },
+    {
+        "tag": "sveltekit",
+        "search": [
+            {
+                "filename": "svelte.config.js",
+                "path": ".svelte-kit"
+            }
+        ]
+    },
+    {
+        "tag": "nuxt",
+        "search": [
+            {
+                "filename": "nuxt.config.ts",
+                "path": ".output"
+            },
+            {
+                "filename": "nuxt.config.js",
+                "path": ".output"
+            }
+        ]
+    },
+    {
+        "tag": "bun",
+        "search": [
+            {
+                "filename": "bun.lockb",
+                "path": ".bun"
+            }
+        ]
     }
 ]
