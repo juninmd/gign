@@ -370,5 +370,31 @@
                 "path": ".bun"
             }
         ]
+    },
+    {
+        "tag": "webpack",
+        "search": [
+            {
+                "filename": "webpack.config.*",
+                "path": "dist"
+            },
+            {
+                "filename": "webpack.config.*",
+                "path": "build"
+            }
+        ]
+    },
+    {
+        "tag": "rollup",
+        "search": [
+            {
+                "filename": "rollup.config.*",
+                "path": "dist"
+            },
+            {
+                "filename": "rollup.config.*",
+                "path": "build"
+            }
+        ]
     }
 ]
