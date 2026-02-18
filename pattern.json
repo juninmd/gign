@@ -445,12 +445,14 @@
     },
     {
         "crystal": [
-            "shard.yml"
+            "shard.yml",
+            "*.cr"
         ]
     },
     {
         "nim": [
-            "*.nimble"
+            "*.nimble",
+            "*.nim"
         ]
     },
     {
@@ -1363,6 +1365,79 @@
     {
         "gleam": [
             "gleam.toml"
+        ]
+    },
+    {
+        "tcl": [
+            "*.tcl"
+        ]
+    },
+    {
+        "verilog": [
+            "*.v",
+            "*.sv"
+        ]
+    },
+    {
+        "vhdl": [
+            "*.vhd",
+            "*.vhdl"
+        ]
+    },
+    {
+        "gnuplot": [
+            "*.plt",
+            "*.gp"
+        ]
+    },
+    {
+        "graphviz": [
+            "*.dot"
+        ]
+    },
+    {
+        "coffeescript": [
+            "*.coffee"
+        ]
+    },
+    {
+        "airflow": [
+            "airflow.cfg"
+        ]
+    },
+    {
+        "virtualbox": [
+            "*.vbox"
+        ]
+    },
+    {
+        "vmware": [
+            "*.vmx"
+        ]
+    },
+    {
+        "cfwheels": [
+            "events/OnApplicationStart.cfm"
+        ]
+    },
+    {
+        "plone": [
+            "buildout.cfg"
+        ]
+    },
+    {
+        "fancy": [
+            "Fancyfile"
+        ]
+    },
+    {
+        "appceleratortitanium": [
+            "tiapp.xml"
+        ]
+    },
+    {
+        "rhodes": [
+            "rhoconfig.txt"
         ]
     }
 ]
