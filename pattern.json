@@ -1439,5 +1439,74 @@
         "rhodes": [
             "rhoconfig.txt"
         ]
+    },
+    {
+        "commonlisp": [
+            "*.lisp",
+            "*.asd"
+        ]
+    },
+    {
+        "gamemaker": [
+            "*.yyp"
+        ]
+    },
+    {
+        "defold": [
+            "game.project"
+        ]
+    },
+    {
+        "sketchup": [
+            "*.skp"
+        ]
+    },
+    {
+        "openscad": [
+            "*.scad"
+        ]
+    },
+    {
+        "pelican": [
+            "pelicanconf.py"
+        ]
+    },
+    {
+        "nikola": [
+            "conf.py"
+        ]
+    },
+    {
+        "brunch": [
+            "brunch-config.js",
+            "brunch-config.coffee",
+            "brunch-config.ts"
+        ]
+    },
+    {
+        "conan": [
+            "conanfile.txt",
+            "conanfile.py"
+        ]
+    },
+    {
+        "capistrano": [
+            "Capfile"
+        ]
+    },
+    {
+        "fabric": [
+            "fabfile.py"
+        ]
+    },
+    {
+        "behat": [
+            "behat.yml"
+        ]
+    },
+    {
+        "phpspec": [
+            "phpspec.yml"
+        ]
     }
 ]
