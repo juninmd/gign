@@ -396,5 +396,60 @@
                 "path": "build"
             }
         ]
+    },
+    {
+        "tag": "adonisjs",
+        "search": [
+            {
+                "filename": ".adonisrc.json",
+                "path": "build"
+            },
+            {
+                "filename": ".adonisrc.json",
+                "path": "tmp"
+            }
+        ]
+    },
+    {
+        "tag": "sails",
+        "search": [
+            {
+                "filename": ".sailsrc",
+                "path": ".tmp"
+            }
+        ]
+    },
+    {
+        "tag": "stylelint",
+        "search": [
+            {
+                "filename": ".stylelintrc",
+                "path": ".stylelintcache"
+            },
+            {
+                "filename": ".stylelintrc.json",
+                "path": ".stylelintcache"
+            },
+            {
+                "filename": ".stylelintrc.yaml",
+                "path": ".stylelintcache"
+            },
+            {
+                "filename": ".stylelintrc.yml",
+                "path": ".stylelintcache"
+            },
+            {
+                "filename": ".stylelintrc.js",
+                "path": ".stylelintcache"
+            },
+            {
+                "filename": "stylelint.config.js",
+                "path": ".stylelintcache"
+            },
+            {
+                "filename": "stylelint.config.cjs",
+                "path": ".stylelintcache"
+            }
+        ]
     }
 ]
