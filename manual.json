@@ -451,5 +451,61 @@
                 "path": ".stylelintcache"
             }
         ]
+    },
+    {
+        "tag": "poetry",
+        "search": [
+            {
+                "filename": "poetry.lock",
+                "path": ".venv"
+            },
+            {
+                "filename": "poetry.lock",
+                "path": "dist"
+            },
+            {
+                "filename": "pyproject.toml",
+                "path": ".venv"
+            },
+            {
+                "filename": "pyproject.toml",
+                "path": "dist"
+            }
+        ]
+    },
+    {
+        "tag": "pipenv",
+        "search": [
+            {
+                "filename": "Pipfile",
+                "path": ".venv"
+            },
+             {
+                "filename": "Pipfile.lock",
+                "path": ".venv"
+            }
+        ]
+    },
+    {
+        "tag": "docker",
+        "search": [
+            {
+                "filename": "docker-compose.yml",
+                "path": "docker-compose.override.yml"
+            },
+            {
+                "filename": "docker-compose.yaml",
+                "path": "docker-compose.override.yaml"
+            }
+        ]
+    },
+    {
+        "tag": "storybook",
+        "search": [
+             {
+                "filename": ".storybook",
+                "path": "storybook-static"
+            }
+        ]
     }
 ]
