@@ -21,13 +21,30 @@ module.exports = (dir) => {
         try {
             const customConfig = JSON.parse(fs.readFileSync(customConfigPath, 'utf8'));
             if (customConfig.pattern && Array.isArray(customConfig.pattern)) {
-                customPattern = customConfig.pattern;
+                customPattern.push(...customConfig.pattern);
             }
             if (customConfig.manual && Array.isArray(customConfig.manual)) {
-                customManual = customConfig.manual;
+                customManual.push(...customConfig.manual);
             }
         } catch (error) {
             console.warn(`[gign] Failed to parse .gignrc.json: ${error.message}`);
+        }
+    }
+
+    const packageJsonPath = path.join(dir, 'package.json');
+    if (fs.existsSync(packageJsonPath)) {
+        try {
+            const pkg = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
+            if (pkg.gign) {
+                if (pkg.gign.pattern && Array.isArray(pkg.gign.pattern)) {
+                    customPattern.push(...pkg.gign.pattern);
+                }
+                if (pkg.gign.manual && Array.isArray(pkg.gign.manual)) {
+                    customManual.push(...pkg.gign.manual);
+                }
+            }
+        } catch (error) {
+            console.warn(`[gign] Failed to parse package.json: ${error.message}`);
         }
     }
 
