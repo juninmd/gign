@@ -507,5 +507,53 @@
                 "path": "storybook-static"
             }
         ]
+    },
+    {
+        "tag": "remix",
+        "search": [
+            {
+                "filename": "remix.config.*",
+                "path": ".cache"
+            },
+            {
+                "filename": "remix.config.*",
+                "path": "build"
+            },
+            {
+                "filename": "remix.config.*",
+                "path": "public/build"
+            }
+        ]
+    },
+    {
+        "tag": "docusaurus",
+        "search": [
+            {
+                "filename": "docusaurus.config.*",
+                "path": ".docusaurus"
+            },
+            {
+                "filename": "docusaurus.config.*",
+                "path": "build"
+            }
+        ]
+    },
+    {
+        "tag": "turbo",
+        "search": [
+            {
+                "filename": "turbo.json",
+                "path": ".turbo"
+            }
+        ]
+    },
+    {
+        "tag": "vercel",
+        "search": [
+            {
+                "filename": "vercel.json",
+                "path": ".vercel"
+            }
+        ]
     }
 ]
