@@ -33,30 +33,35 @@
     {
         "go": [
             "go.mod",
-            "*.go"
+            "*.go",
+            "go.sum"
         ]
     },
     {
         "ruby": [
             "Gemfile",
-            "*.rb"
+            "*.rb",
+            "Gemfile.lock"
         ]
     },
     {
         "rust": [
             "Cargo.toml",
-            "*.rs"
+            "*.rs",
+            "Cargo.lock"
         ]
     },
     {
         "composer": [
-            "composer.json"
+            "composer.json",
+            "composer.lock"
         ]
     },
     {
         "kotlin": [
             "build.gradle.kts",
-            "*.kt"
+            "*.kt",
+            "settings.gradle.kts"
         ]
     },
     {
@@ -82,14 +87,16 @@
     {
         "dart": [
             "pubspec.yaml",
-            "*.dart"
+            "*.dart",
+            "pubspec.lock"
         ]
     },
     {
         "elixir": [
             "mix.exs",
             "*.ex",
-            "*.exs"
+            "*.exs",
+            "mix.lock"
         ]
     },
     {
@@ -858,7 +865,8 @@
     {
         "php": [
             "*.php",
-            "composer.json"
+            "composer.json",
+            "composer.lock"
         ]
     },
     {
@@ -1507,6 +1515,31 @@
     {
         "phpspec": [
             "phpspec.yml"
+        ]
+    },
+    {
+        "ionic": [
+            "ionic.config.json"
+        ]
+    },
+    {
+        "mkdocs": [
+            "mkdocs.yml"
+        ]
+    },
+    {
+        "nanoc": [
+            "nanoc.yaml"
+        ]
+    },
+    {
+        "gwt": [
+            "*.gwt.xml"
+        ]
+    },
+    {
+        "jboss": [
+            "jboss-deployment-structure.xml"
         ]
     }
 ]
