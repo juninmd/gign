@@ -28,7 +28,7 @@ The project is currently in its early stages (v0.0.3) and provides foundational 
 ### Q2: Core Feature Enhancements
 *   **High Priority:** Develop an "Interactive Mode" to prompt users to select languages/frameworks when automatic detection is ambiguous or fails.
 *   **Medium Priority:** Implement a local caching mechanism to reduce redundant API calls and speed up generation.
-*   **Low Priority:** Introduce an "Append Mode" to safely merge new templates into an existing `.gitignore` without overwriting custom user rules.
+*   **Low Priority:** Introduce an "Append/Merge Mode" to safely merge new templates into an existing .gitignore without overwriting custom user rules.
 
 ### Q3: Offline Capabilities & Configuration
 *   **High Priority:** Develop an offline fallback mechanism containing bundled, high-frequency templates (e.g., Node, Python, macOS, Windows) for offline usage.
@@ -67,4 +67,4 @@ The project is currently in its early stages (v0.0.3) and provides foundational 
 *   **Reliance on gitignore.io API:** `gign` is currently heavily dependent on the availability and stability of a third-party API.
     *   *Mitigation:* The planned Q2/Q3 caching and offline fallback features are critical to mitigating this risk.
 *   **Maintenance of Detection Patterns:** The tech ecosystem moves fast. Keeping `pattern.json` and `manual.json` accurate requires constant updates.
-    *   *Mitigation:* Make it extremely easy for the community to contribute new patterns (clear documentation) and potentially build a script to automate checking for stale patterns against the upstream API.
+    *   *Mitigation:* Make it extremely easy for the community to contribute new patterns (clear documentation), potentially build a script to automate checking for stale patterns against the upstream API, and explore automated scraping of popular boilerplates to discover new patterns.
