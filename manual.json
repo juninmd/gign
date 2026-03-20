@@ -88,7 +88,7 @@
                 "filename": "nx.json",
                 "path": "dist"
             },
-             {
+            {
                 "filename": "nx.json",
                 "path": "tmp"
             }
