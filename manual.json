@@ -1,559 +1,559 @@
 [
-    {
-        "tag": "typescript",
-        "search": [
-            {
-                "filename": "tsconfig.json",
-                "struct": "compilerOptions.outDir"
-            }
-        ]
-    },
-    {
-        "tag": "vite",
-        "search": [
-            {
-                "filename": "vite.config.*",
-                "path": "dist"
-            },
-            {
-                "filename": "vite.config.*",
-                "path": "dist-ssr"
-            },
-            {
-                "filename": "vite.config.*",
-                "path": "*.local"
-            }
-        ]
-    },
-    {
-        "tag": "vitest",
-        "search": [
-            {
-                "filename": "vitest.config.*",
-                "path": "coverage"
-            }
-        ]
-    },
-    {
-        "tag": "playwright",
-        "search": [
-            {
-                "filename": "playwright.config.*",
-                "path": "test-results"
-            },
-            {
-                "filename": "playwright.config.*",
-                "path": "playwright-report"
-            },
-            {
-                "filename": "playwright.config.*",
-                "path": "blob-report"
-            },
-            {
-                "filename": "playwright.config.*",
-                "path": "playwright/.cache"
-            }
-        ]
-    },
-    {
-        "tag": "parcel",
-        "search": [
-            {
-                "filename": ".parcelrc",
-                "path": ".parcel-cache"
-            },
-            {
-                "filename": ".parcelrc",
-                "path": "dist"
-            }
-        ]
-    },
-    {
-        "tag": "astro",
-        "search": [
-            {
-                "filename": "astro.config.*",
-                "path": "dist"
-            }
-        ]
-    },
-    {
-        "tag": "nx",
-        "search": [
-            {
-                "filename": "nx.json",
-                "path": ".nx"
-            },
-            {
-                "filename": "nx.json",
-                "path": "dist"
-            },
-             {
-                "filename": "nx.json",
-                "path": "tmp"
-            }
-        ]
-    },
-    {
-        "tag": "netlify",
-        "search": [
-            {
-                "filename": "netlify.toml",
-                "path": ".netlify"
-            }
-        ]
-    },
-    {
-        "tag": "expo",
-        "search": [
-            {
-                "filename": "eas.json",
-                "path": ".expo"
-            }
-        ]
-    },
-    {
-        "tag": "foundry",
-        "search": [
-            {
-                "filename": "foundry.toml",
-                "path": "out"
-            },
-            {
-                "filename": "foundry.toml",
-                "path": "cache"
-            },
-            {
-                "filename": "foundry.toml",
-                "path": "broadcast"
-            }
-        ]
-    },
-    {
-        "tag": "cdk",
-        "search": [
-            {
-                "filename": "cdk.json",
-                "path": "cdk.out"
-            }
-        ]
-    },
-    {
-        "tag": "tox",
-        "search": [
-            {
-                "filename": "tox.ini",
-                "path": ".tox"
-            }
-        ]
-    },
-    {
-        "tag": "pytest",
-        "search": [
-            {
-                "filename": "pytest.ini",
-                "path": ".pytest_cache"
-            },
-            {
-                "filename": "pyproject.toml",
-                "path": ".pytest_cache"
-            }
-        ]
-    },
-    {
-        "tag": "coverage",
-        "search": [
-            {
-                "filename": ".coveragerc",
-                "path": ".coverage"
-            },
-            {
-                "filename": ".coveragerc",
-                "path": "htmlcov"
-            }
-        ]
-    },
-    {
-        "tag": "mypy",
-        "search": [
-            {
-                "filename": "mypy.ini",
-                "path": ".mypy_cache"
-            },
-             {
-                "filename": ".mypy.ini",
-                "path": ".mypy_cache"
-            },
-            {
-                "filename": "pyproject.toml",
-                "path": ".mypy_cache"
-            }
-        ]
-    },
-    {
-        "tag": "ruff",
-        "search": [
-            {
-                "filename": "ruff.toml",
-                "path": ".ruff_cache"
-            },
-             {
-                "filename": ".ruff.toml",
-                "path": ".ruff_cache"
-            },
-            {
-                "filename": "pyproject.toml",
-                "path": ".ruff_cache"
-            }
-        ]
-    },
-    {
-        "tag": "nestjs",
-        "search": [
-            {
-                "filename": "nest-cli.json",
-                "path": "dist"
-            }
-        ]
-    },
-    {
-        "tag": "vuepress",
-        "search": [
-             {
-                "filename": ".vuepress/config.js",
-                "path": ".vuepress/dist"
-            },
-             {
-                "filename": ".vuepress/config.ts",
-                "path": ".vuepress/dist"
-            }
-        ]
-    },
-    {
-        "tag": "mkdocs",
-        "search": [
-            {
-                "filename": "mkdocs.yml",
-                "path": "site"
-            }
-        ]
-    },
-    {
-        "tag": "sonarqube",
-        "search": [
-            {
-                "filename": "sonar-project.properties",
-                "path": ".scannerwork"
-            }
-        ]
-    },
-    {
-        "tag": "serverless",
-        "search": [
-             {
-                "filename": "serverless.yml",
-                "path": ".serverless"
-            },
-            {
-                "filename": "serverless.ts",
-                "path": ".serverless"
-            },
-            {
-                "filename": "serverless.js",
-                "path": ".serverless"
-            },
-            {
-                "filename": "serverless.json",
-                "path": ".serverless"
-            },
-             {
-                "filename": "serverless.yml",
-                "path": ".build"
-            },
-            {
-                "filename": "serverless.ts",
-                "path": ".build"
-            },
-            {
-                "filename": "serverless.js",
-                "path": ".build"
-            },
-            {
-                "filename": "serverless.json",
-                "path": ".build"
-            }
-        ]
-    },
-    {
-        "tag": "solidjs",
-        "search": [
-            {
-                "filename": "app.config.ts",
-                "path": ".output"
-            },
-            {
-                "filename": "app.config.ts",
-                "path": ".vinxi"
-            }
-        ]
-    },
-    {
-        "tag": "qwik",
-        "search": [
-            {
-                "filename": "qwik.config.ts",
-                "path": "dist"
-            }
-        ]
-    },
-    {
-        "tag": "tauri",
-        "search": [
-            {
-                "filename": "src-tauri/tauri.conf.json",
-                "path": "src-tauri/target"
-            },
-            {
-                "filename": "src-tauri/tauri.conf.json",
-                "path": "src-tauri/gen"
-            }
-        ]
-    },
-    {
-        "tag": "electron",
-        "search": [
-            {
-                "filename": "electron-builder.json",
-                "path": "dist"
-            },
-            {
-                "filename": "electron-builder.json",
-                "path": "out"
-            },
-            {
-                "filename": "electron-builder.json",
-                "path": "build"
-            },
-            {
-                "filename": "electron-builder.json",
-                "path": "release"
-            }
-        ]
-    },
-    {
-        "tag": "sveltekit",
-        "search": [
-            {
-                "filename": "svelte.config.js",
-                "path": ".svelte-kit"
-            }
-        ]
-    },
-    {
-        "tag": "nuxt",
-        "search": [
-            {
-                "filename": "nuxt.config.ts",
-                "path": ".output"
-            },
-            {
-                "filename": "nuxt.config.js",
-                "path": ".output"
-            }
-        ]
-    },
-    {
-        "tag": "bun",
-        "search": [
-            {
-                "filename": "bun.lockb",
-                "path": ".bun"
-            }
-        ]
-    },
-    {
-        "tag": "webpack",
-        "search": [
-            {
-                "filename": "webpack.config.*",
-                "path": "dist"
-            },
-            {
-                "filename": "webpack.config.*",
-                "path": "build"
-            }
-        ]
-    },
-    {
-        "tag": "rollup",
-        "search": [
-            {
-                "filename": "rollup.config.*",
-                "path": "dist"
-            },
-            {
-                "filename": "rollup.config.*",
-                "path": "build"
-            }
-        ]
-    },
-    {
-        "tag": "adonisjs",
-        "search": [
-            {
-                "filename": ".adonisrc.json",
-                "path": "build"
-            },
-            {
-                "filename": ".adonisrc.json",
-                "path": "tmp"
-            }
-        ]
-    },
-    {
-        "tag": "sails",
-        "search": [
-            {
-                "filename": ".sailsrc",
-                "path": ".tmp"
-            }
-        ]
-    },
-    {
-        "tag": "stylelint",
-        "search": [
-            {
-                "filename": ".stylelintrc",
-                "path": ".stylelintcache"
-            },
-            {
-                "filename": ".stylelintrc.json",
-                "path": ".stylelintcache"
-            },
-            {
-                "filename": ".stylelintrc.yaml",
-                "path": ".stylelintcache"
-            },
-            {
-                "filename": ".stylelintrc.yml",
-                "path": ".stylelintcache"
-            },
-            {
-                "filename": ".stylelintrc.js",
-                "path": ".stylelintcache"
-            },
-            {
-                "filename": "stylelint.config.js",
-                "path": ".stylelintcache"
-            },
-            {
-                "filename": "stylelint.config.cjs",
-                "path": ".stylelintcache"
-            }
-        ]
-    },
-    {
-        "tag": "poetry",
-        "search": [
-            {
-                "filename": "poetry.lock",
-                "path": ".venv"
-            },
-            {
-                "filename": "poetry.lock",
-                "path": "dist"
-            },
-            {
-                "filename": "pyproject.toml",
-                "path": ".venv"
-            },
-            {
-                "filename": "pyproject.toml",
-                "path": "dist"
-            }
-        ]
-    },
-    {
-        "tag": "pipenv",
-        "search": [
-            {
-                "filename": "Pipfile",
-                "path": ".venv"
-            },
-             {
-                "filename": "Pipfile.lock",
-                "path": ".venv"
-            }
-        ]
-    },
-    {
-        "tag": "docker",
-        "search": [
-            {
-                "filename": "docker-compose.yml",
-                "path": "docker-compose.override.yml"
-            },
-            {
-                "filename": "docker-compose.yaml",
-                "path": "docker-compose.override.yaml"
-            }
-        ]
-    },
-    {
-        "tag": "storybook",
-        "search": [
-             {
-                "filename": ".storybook",
-                "path": "storybook-static"
-            }
-        ]
-    },
-    {
-        "tag": "remix",
-        "search": [
-            {
-                "filename": "remix.config.*",
-                "path": ".cache"
-            },
-            {
-                "filename": "remix.config.*",
-                "path": "build"
-            },
-            {
-                "filename": "remix.config.*",
-                "path": "public/build"
-            }
-        ]
-    },
-    {
-        "tag": "docusaurus",
-        "search": [
-            {
-                "filename": "docusaurus.config.*",
-                "path": ".docusaurus"
-            },
-            {
-                "filename": "docusaurus.config.*",
-                "path": "build"
-            }
-        ]
-    },
-    {
-        "tag": "turbo",
-        "search": [
-            {
-                "filename": "turbo.json",
-                "path": ".turbo"
-            }
-        ]
-    },
-    {
-        "tag": "vercel",
-        "search": [
-            {
-                "filename": "vercel.json",
-                "path": ".vercel"
-            }
-        ]
-    }
+  {
+    "tag": "typescript",
+    "search": [
+      {
+        "filename": "tsconfig.json",
+        "struct": "compilerOptions.outDir"
+      }
+    ]
+  },
+  {
+    "tag": "vite",
+    "search": [
+      {
+        "filename": "vite.config.*",
+        "path": "dist"
+      },
+      {
+        "filename": "vite.config.*",
+        "path": "dist-ssr"
+      },
+      {
+        "filename": "vite.config.*",
+        "path": "*.local"
+      }
+    ]
+  },
+  {
+    "tag": "vitest",
+    "search": [
+      {
+        "filename": "vitest.config.*",
+        "path": "coverage"
+      }
+    ]
+  },
+  {
+    "tag": "playwright",
+    "search": [
+      {
+        "filename": "playwright.config.*",
+        "path": "test-results"
+      },
+      {
+        "filename": "playwright.config.*",
+        "path": "playwright-report"
+      },
+      {
+        "filename": "playwright.config.*",
+        "path": "blob-report"
+      },
+      {
+        "filename": "playwright.config.*",
+        "path": "playwright/.cache"
+      }
+    ]
+  },
+  {
+    "tag": "parcel",
+    "search": [
+      {
+        "filename": ".parcelrc",
+        "path": ".parcel-cache"
+      },
+      {
+        "filename": ".parcelrc",
+        "path": "dist"
+      }
+    ]
+  },
+  {
+    "tag": "astro",
+    "search": [
+      {
+        "filename": "astro.config.*",
+        "path": "dist"
+      }
+    ]
+  },
+  {
+    "tag": "nx",
+    "search": [
+      {
+        "filename": "nx.json",
+        "path": ".nx"
+      },
+      {
+        "filename": "nx.json",
+        "path": "dist"
+      },
+      {
+        "filename": "nx.json",
+        "path": "tmp"
+      }
+    ]
+  },
+  {
+    "tag": "netlify",
+    "search": [
+      {
+        "filename": "netlify.toml",
+        "path": ".netlify"
+      }
+    ]
+  },
+  {
+    "tag": "expo",
+    "search": [
+      {
+        "filename": "eas.json",
+        "path": ".expo"
+      }
+    ]
+  },
+  {
+    "tag": "foundry",
+    "search": [
+      {
+        "filename": "foundry.toml",
+        "path": "out"
+      },
+      {
+        "filename": "foundry.toml",
+        "path": "cache"
+      },
+      {
+        "filename": "foundry.toml",
+        "path": "broadcast"
+      }
+    ]
+  },
+  {
+    "tag": "cdk",
+    "search": [
+      {
+        "filename": "cdk.json",
+        "path": "cdk.out"
+      }
+    ]
+  },
+  {
+    "tag": "tox",
+    "search": [
+      {
+        "filename": "tox.ini",
+        "path": ".tox"
+      }
+    ]
+  },
+  {
+    "tag": "pytest",
+    "search": [
+      {
+        "filename": "pytest.ini",
+        "path": ".pytest_cache"
+      },
+      {
+        "filename": "pyproject.toml",
+        "path": ".pytest_cache"
+      }
+    ]
+  },
+  {
+    "tag": "coverage",
+    "search": [
+      {
+        "filename": ".coveragerc",
+        "path": ".coverage"
+      },
+      {
+        "filename": ".coveragerc",
+        "path": "htmlcov"
+      }
+    ]
+  },
+  {
+    "tag": "mypy",
+    "search": [
+      {
+        "filename": "mypy.ini",
+        "path": ".mypy_cache"
+      },
+      {
+        "filename": ".mypy.ini",
+        "path": ".mypy_cache"
+      },
+      {
+        "filename": "pyproject.toml",
+        "path": ".mypy_cache"
+      }
+    ]
+  },
+  {
+    "tag": "ruff",
+    "search": [
+      {
+        "filename": "ruff.toml",
+        "path": ".ruff_cache"
+      },
+      {
+        "filename": ".ruff.toml",
+        "path": ".ruff_cache"
+      },
+      {
+        "filename": "pyproject.toml",
+        "path": ".ruff_cache"
+      }
+    ]
+  },
+  {
+    "tag": "nestjs",
+    "search": [
+      {
+        "filename": "nest-cli.json",
+        "path": "dist"
+      }
+    ]
+  },
+  {
+    "tag": "vuepress",
+    "search": [
+      {
+        "filename": ".vuepress/config.js",
+        "path": ".vuepress/dist"
+      },
+      {
+        "filename": ".vuepress/config.ts",
+        "path": ".vuepress/dist"
+      }
+    ]
+  },
+  {
+    "tag": "mkdocs",
+    "search": [
+      {
+        "filename": "mkdocs.yml",
+        "path": "site"
+      }
+    ]
+  },
+  {
+    "tag": "sonarqube",
+    "search": [
+      {
+        "filename": "sonar-project.properties",
+        "path": ".scannerwork"
+      }
+    ]
+  },
+  {
+    "tag": "serverless",
+    "search": [
+      {
+        "filename": "serverless.yml",
+        "path": ".serverless"
+      },
+      {
+        "filename": "serverless.ts",
+        "path": ".serverless"
+      },
+      {
+        "filename": "serverless.js",
+        "path": ".serverless"
+      },
+      {
+        "filename": "serverless.json",
+        "path": ".serverless"
+      },
+      {
+        "filename": "serverless.yml",
+        "path": ".build"
+      },
+      {
+        "filename": "serverless.ts",
+        "path": ".build"
+      },
+      {
+        "filename": "serverless.js",
+        "path": ".build"
+      },
+      {
+        "filename": "serverless.json",
+        "path": ".build"
+      }
+    ]
+  },
+  {
+    "tag": "solidjs",
+    "search": [
+      {
+        "filename": "app.config.ts",
+        "path": ".output"
+      },
+      {
+        "filename": "app.config.ts",
+        "path": ".vinxi"
+      }
+    ]
+  },
+  {
+    "tag": "qwik",
+    "search": [
+      {
+        "filename": "qwik.config.ts",
+        "path": "dist"
+      }
+    ]
+  },
+  {
+    "tag": "tauri",
+    "search": [
+      {
+        "filename": "src-tauri/tauri.conf.json",
+        "path": "src-tauri/target"
+      },
+      {
+        "filename": "src-tauri/tauri.conf.json",
+        "path": "src-tauri/gen"
+      }
+    ]
+  },
+  {
+    "tag": "electron",
+    "search": [
+      {
+        "filename": "electron-builder.json",
+        "path": "dist"
+      },
+      {
+        "filename": "electron-builder.json",
+        "path": "out"
+      },
+      {
+        "filename": "electron-builder.json",
+        "path": "build"
+      },
+      {
+        "filename": "electron-builder.json",
+        "path": "release"
+      }
+    ]
+  },
+  {
+    "tag": "sveltekit",
+    "search": [
+      {
+        "filename": "svelte.config.js",
+        "path": ".svelte-kit"
+      }
+    ]
+  },
+  {
+    "tag": "nuxt",
+    "search": [
+      {
+        "filename": "nuxt.config.ts",
+        "path": ".output"
+      },
+      {
+        "filename": "nuxt.config.js",
+        "path": ".output"
+      }
+    ]
+  },
+  {
+    "tag": "bun",
+    "search": [
+      {
+        "filename": "bun.lockb",
+        "path": ".bun"
+      }
+    ]
+  },
+  {
+    "tag": "webpack",
+    "search": [
+      {
+        "filename": "webpack.config.*",
+        "path": "dist"
+      },
+      {
+        "filename": "webpack.config.*",
+        "path": "build"
+      }
+    ]
+  },
+  {
+    "tag": "rollup",
+    "search": [
+      {
+        "filename": "rollup.config.*",
+        "path": "dist"
+      },
+      {
+        "filename": "rollup.config.*",
+        "path": "build"
+      }
+    ]
+  },
+  {
+    "tag": "adonisjs",
+    "search": [
+      {
+        "filename": ".adonisrc.json",
+        "path": "build"
+      },
+      {
+        "filename": ".adonisrc.json",
+        "path": "tmp"
+      }
+    ]
+  },
+  {
+    "tag": "sails",
+    "search": [
+      {
+        "filename": ".sailsrc",
+        "path": ".tmp"
+      }
+    ]
+  },
+  {
+    "tag": "stylelint",
+    "search": [
+      {
+        "filename": ".stylelintrc",
+        "path": ".stylelintcache"
+      },
+      {
+        "filename": ".stylelintrc.json",
+        "path": ".stylelintcache"
+      },
+      {
+        "filename": ".stylelintrc.yaml",
+        "path": ".stylelintcache"
+      },
+      {
+        "filename": ".stylelintrc.yml",
+        "path": ".stylelintcache"
+      },
+      {
+        "filename": ".stylelintrc.js",
+        "path": ".stylelintcache"
+      },
+      {
+        "filename": "stylelint.config.js",
+        "path": ".stylelintcache"
+      },
+      {
+        "filename": "stylelint.config.cjs",
+        "path": ".stylelintcache"
+      }
+    ]
+  },
+  {
+    "tag": "poetry",
+    "search": [
+      {
+        "filename": "poetry.lock",
+        "path": ".venv"
+      },
+      {
+        "filename": "poetry.lock",
+        "path": "dist"
+      },
+      {
+        "filename": "pyproject.toml",
+        "path": ".venv"
+      },
+      {
+        "filename": "pyproject.toml",
+        "path": "dist"
+      }
+    ]
+  },
+  {
+    "tag": "pipenv",
+    "search": [
+      {
+        "filename": "Pipfile",
+        "path": ".venv"
+      },
+      {
+        "filename": "Pipfile.lock",
+        "path": ".venv"
+      }
+    ]
+  },
+  {
+    "tag": "docker",
+    "search": [
+      {
+        "filename": "docker-compose.yml",
+        "path": "docker-compose.override.yml"
+      },
+      {
+        "filename": "docker-compose.yaml",
+        "path": "docker-compose.override.yaml"
+      }
+    ]
+  },
+  {
+    "tag": "storybook",
+    "search": [
+      {
+        "filename": ".storybook",
+        "path": "storybook-static"
+      }
+    ]
+  },
+  {
+    "tag": "remix",
+    "search": [
+      {
+        "filename": "remix.config.*",
+        "path": ".cache"
+      },
+      {
+        "filename": "remix.config.*",
+        "path": "build"
+      },
+      {
+        "filename": "remix.config.*",
+        "path": "public/build"
+      }
+    ]
+  },
+  {
+    "tag": "docusaurus",
+    "search": [
+      {
+        "filename": "docusaurus.config.*",
+        "path": ".docusaurus"
+      },
+      {
+        "filename": "docusaurus.config.*",
+        "path": "build"
+      }
+    ]
+  },
+  {
+    "tag": "turbo",
+    "search": [
+      {
+        "filename": "turbo.json",
+        "path": ".turbo"
+      }
+    ]
+  },
+  {
+    "tag": "vercel",
+    "search": [
+      {
+        "filename": "vercel.json",
+        "path": ".vercel"
+      }
+    ]
+  }
 ]
