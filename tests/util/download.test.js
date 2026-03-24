@@ -6,10 +6,9 @@ jest.mock('fs');
 jest.mock('path');
 jest.mock('loading-indicator');
 
-// We have to mock 'download' before importing the file because it fails internally otherwise
-jest.mock('download', () => jest.fn());
+jest.mock('node-fetch', () => jest.fn());
+const fetch = require('node-fetch');
 const downloadFile = require('../../src/util/download');
-const download = require('download');
 
 describe('download utility', () => {
   beforeEach(() => {
@@ -17,7 +16,10 @@ describe('download utility', () => {
   });
 
   it('should download tags and save to .gitignore', async () => {
-    download.mockResolvedValue('node_modules\n.env');
+    fetch.mockResolvedValue({
+      ok: true,
+      text: () => Promise.resolve('node_modules\n.env')
+    });
     fs.writeFileSync.mockImplementation(() => {});
     path.join.mockReturnValue('/dummy/.gitignore');
     loading.start.mockReturnValue('timer');
@@ -27,20 +29,34 @@ describe('download utility', () => {
     const result = await downloadFile(options);
 
     expect(loading.start).toHaveBeenCalledWith('Download...');
-    expect(download).toHaveBeenCalledWith('https://www.gitignore.io/api/node,react');
-    expect(fs.writeFileSync).toHaveBeenCalledWith('/dummy//.gitignore', 'node_modules\n.env');
+    expect(fetch).toHaveBeenCalledWith('https://www.toptal.com/developers/gitignore/api/node,react');
+    expect(fs.writeFileSync).toHaveBeenCalledWith('/dummy/.gitignore', 'node_modules\n.env');
     expect(loading.stop).toHaveBeenCalledWith('timer');
     expect(result).toBe('/dummy/.gitignore');
   });
 
-  it('should handle download errors', async () => {
-    download.mockRejectedValue(new Error('Network Error'));
+  it('should handle non-ok fetch response', async () => {
+    fetch.mockResolvedValue({
+      ok: false,
+      statusText: 'Not Found'
+    });
     loading.start.mockReturnValue('timer');
     loading.stop.mockImplementation(() => {});
 
     const options = { tags: ['invalid'], directory: '/dummy' };
 
-    await expect(downloadFile(options)).rejects.toThrow('Network Error');
+    await expect(downloadFile(options)).rejects.toThrow('Download failed: Failed to fetch from gitignore.io: Not Found');
+    expect(loading.stop).toHaveBeenCalledWith('timer');
+  });
+
+  it('should handle download errors', async () => {
+    fetch.mockRejectedValue(new Error('Network Error'));
+    loading.start.mockReturnValue('timer');
+    loading.stop.mockImplementation(() => {});
+
+    const options = { tags: ['invalid'], directory: '/dummy' };
+
+    await expect(downloadFile(options)).rejects.toThrow('Download failed: Network Error');
     expect(loading.stop).toHaveBeenCalledWith('timer');
   });
 });
