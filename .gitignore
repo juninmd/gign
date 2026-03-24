@@ -97,6 +97,7 @@ web_modules/
 .env.test.local
 .env.production.local
 .env.local
+.env.*.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -174,5 +175,12 @@ dist
 # Ignore all local history of files
 .history
 .ionide
+
+# Environment and secrets
+*.key
+*.pem
+*.p12
+secrets/
+config/secrets.yml
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,node,VisualStudioCode
