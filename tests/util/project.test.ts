@@ -1,10 +1,22 @@
-const project = require('../../src/util/project');
-const fs = require('fs');
-const path = require('path');
+import { jest } from '@jest/globals';
 
-jest.mock('fs');
+jest.unstable_mockModule('fs', () => ({
+  default: {
+    readdirSync: jest.fn(),
+    existsSync: jest.fn(),
+    readFileSync: jest.fn(),
+  },
+}));
 
 describe('project utility', () => {
+  let project: any;
+  let fs: any;
+
+  beforeAll(async () => {
+    fs = (await import('fs')).default;
+    project = (await import('../../src/util/project.js')).default;
+  });
+
   beforeEach(() => {
     jest.clearAllMocks();
     console.warn = jest.fn();
@@ -27,8 +39,8 @@ describe('project utility', () => {
 
   it('should support .gignrc.json', () => {
     fs.readdirSync.mockReturnValue(['.git', '.gignrc.json', 'custom.txt']);
-    fs.existsSync.mockImplementation((filepath) => filepath.endsWith('.gignrc.json'));
-    fs.readFileSync.mockImplementation((filepath) => {
+    fs.existsSync.mockImplementation((filepath: any) => filepath.endsWith('.gignrc.json'));
+    fs.readFileSync.mockImplementation((filepath: any) => {
       if (filepath.endsWith('.gignrc.json')) {
         return JSON.stringify({ pattern: [{ customtag: ['custom.txt'] }] });
       }
@@ -42,8 +54,8 @@ describe('project utility', () => {
 
   it('should support package.json gign config', () => {
     fs.readdirSync.mockReturnValue(['.git', 'package.json']);
-    fs.existsSync.mockImplementation((filepath) => filepath.endsWith('package.json'));
-    fs.readFileSync.mockImplementation((filepath) => {
+    fs.existsSync.mockImplementation((filepath: any) => filepath.endsWith('package.json'));
+    fs.readFileSync.mockImplementation((filepath: any) => {
       if (filepath.endsWith('package.json')) {
         return JSON.stringify({ gign: { pattern: [{ pkgtag: ['package.json'] }] } });
       }
@@ -53,16 +65,16 @@ describe('project utility', () => {
     const [tags, ignorePaths] = project('/dummy/dir');
 
     expect(tags).toContain('pkgtag');
-    expect(tags).toContain('node'); // from the default mocked pattern.json
+    expect(tags).toContain('node'); // from the default pattern.json
   });
 
   it('should handle struct and paths in manual.json', () => {
     // Inject custom config to act as manual since we can't easily mock the original required json without jest.mock
     fs.readdirSync.mockReturnValue(['.git', '.gignrc.json', 'dummy.json']);
     fs.existsSync.mockImplementation(
-      (filepath) => filepath.endsWith('.gignrc.json') || filepath.endsWith('dummy.json'),
+      (filepath: any) => filepath.endsWith('.gignrc.json') || filepath.endsWith('dummy.json'),
     );
-    fs.readFileSync.mockImplementation((filepath) => {
+    fs.readFileSync.mockImplementation((filepath: any) => {
       if (filepath.endsWith('.gignrc.json')) {
         return JSON.stringify({
           manual: [
