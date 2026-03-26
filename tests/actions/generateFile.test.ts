@@ -1,18 +1,42 @@
-const fs = require('fs');
-const path = require('path');
-const os = require('../../src/util/os');
-const project = require('../../src/util/project');
-const download = require('../../src/util/download');
+import { jest } from '@jest/globals';
 
-jest.mock('node-fetch');
-jest.mock('fs');
-jest.mock('../../src/util/os');
-jest.mock('../../src/util/project');
-jest.mock('../../src/util/download');
+jest.unstable_mockModule('fs', () => ({
+  default: {
+    existsSync: jest.fn(),
+    statSync: jest.fn(),
+    appendFileSync: jest.fn(),
+  },
+}));
 
-const generateFile = require('../../src/actions/generateFile');
+jest.unstable_mockModule('../../src/util/os.js', () => ({
+  default: jest.fn(),
+}));
+
+jest.unstable_mockModule('../../src/util/project.js', () => ({
+  default: jest.fn(),
+}));
+
+jest.unstable_mockModule('../../src/util/download.js', () => ({
+  default: jest.fn(),
+}));
 
 describe('generateFile action', () => {
+  let fs: any;
+  let path: any;
+  let os: any;
+  let project: any;
+  let download: any;
+  let generateFile: any;
+
+  beforeAll(async () => {
+    fs = (await import('fs')).default;
+    path = (await import('path')).default;
+    os = (await import('../../src/util/os.js')).default;
+    project = (await import('../../src/util/project.js')).default;
+    download = (await import('../../src/util/download.js')).default;
+    generateFile = (await import('../../src/actions/generateFile.js')).default;
+  });
+
   beforeEach(() => {
     jest.clearAllMocks();
     console.info = jest.fn();
@@ -45,7 +69,10 @@ describe('generateFile action', () => {
       tags: ['linux', 'node', 'react'],
     });
 
-    expect(fs.appendFileSync).toHaveBeenCalledWith(path.resolve('/dummy/.gitignore'), '# custom\r\nignored_dir');
+    expect(fs.appendFileSync).toHaveBeenCalledWith(
+      path.resolve('/dummy/.gitignore'),
+      expect.stringContaining('# custom\r\nignored_dir\r\n'),
+    );
 
     expect(console.info).toHaveBeenCalledWith(`[gign] generated at ${path.resolve('/dummy/.gitignore')}`);
     expect(console.info).toHaveBeenCalledWith(expect.stringContaining('[gign] tags: linux,node,react'));

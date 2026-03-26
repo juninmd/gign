@@ -85,5 +85,6 @@ This project uses GitHub Actions to automate CI/CD processes. The pipeline inclu
 ### Environment Variables
 
 The pipeline uses the following GitHub Secrets for operation:
+
 - `SNYK_TOKEN`: Access token for the Snyk Security action to perform dependency audits.
 - `SLACK_WEBHOOK`: The Webhook URL mapped to a Slack channel for notifying deployments and pipeline statuses.

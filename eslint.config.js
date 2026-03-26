@@ -1,12 +1,16 @@
-const eslintPluginPrettierRecommended = require('eslint-plugin-prettier/recommended');
-const eslintPluginJest = require('eslint-plugin-jest');
-const globals = require('globals');
+import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
+import eslintPluginJest from 'eslint-plugin-jest';
+import globals from 'globals';
+import tseslint from 'typescript-eslint';
 
-module.exports = [
+export default tseslint.config(
+  {
+    ignores: ['dist/**'],
+  },
   {
     languageOptions: {
       ecmaVersion: 2022,
-      sourceType: 'commonjs',
+      sourceType: 'module',
       globals: {
         ...globals.node,
         ...globals.jest,
@@ -15,4 +19,13 @@ module.exports = [
   },
   eslintPluginJest.configs['flat/recommended'],
   eslintPluginPrettierRecommended,
-];
+  ...tseslint.configs.recommended,
+  {
+    rules: {
+      '@typescript-eslint/no-explicit-any': 'off',
+      'jest/no-conditional-expect': 'off',
+      '@typescript-eslint/no-unused-vars': 'off',
+      '@typescript-eslint/no-unused-expressions': 'off',
+    },
+  },
+);

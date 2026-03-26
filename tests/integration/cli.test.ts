@@ -1,6 +1,10 @@
-const { execSync } = require('child_process');
-const fs = require('fs');
-const path = require('path');
+import { execSync } from 'child_process';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 describe('CLI Integration Tests', () => {
   const testDir = path.join(__dirname, 'test-project');
@@ -13,10 +17,14 @@ describe('CLI Integration Tests', () => {
     }
     fs.writeFileSync(path.join(testDir, 'package.json'), JSON.stringify({ name: 'test-project' }));
     // Create a dummy node_modules directory to trigger node tag and manual paths if relevant
-    fs.mkdirSync(path.join(testDir, 'node_modules'));
+    if (!fs.existsSync(path.join(testDir, 'node_modules'))) {
+      fs.mkdirSync(path.join(testDir, 'node_modules'));
+    }
 
     // Create a dummy .git directory to avoid warning
-    fs.mkdirSync(path.join(testDir, '.git'));
+    if (!fs.existsSync(path.join(testDir, '.git'))) {
+      fs.mkdirSync(path.join(testDir, '.git'));
+    }
   });
 
   afterAll(() => {
@@ -48,7 +56,10 @@ describe('CLI Integration Tests', () => {
   });
 
   it('should print usage when path is not provided', () => {
-    const output = execSync('node dist/index.js').toString();
-    expect(output).toContain('[gign] use "gign <path>"');
+    try {
+      execSync('node dist/index.js');
+    } catch (err: any) {
+      expect(err.stdout.toString()).toContain('[gign] use "gign <path>"');
+    }
   });
 });

@@ -1,10 +1,10 @@
-const os = require('../util/os');
-const download = require('../util/download');
-const project = require('../util/project');
-const fs = require('fs');
-const path = require('path');
+import getOS from '../util/os.js';
+import downloadFile from '../util/download.js';
+import getProjectTags from '../util/project.js';
+import fs from 'fs';
+import path from 'path';
 
-async function doit(dir) {
+export default async function generateFile(dir: string): Promise<void> {
   try {
     if (!dir || typeof dir !== 'string') {
       console.warn('[gign] Invalid directory path');
@@ -24,21 +24,23 @@ async function doit(dir) {
       return;
     }
 
-    let tags = [os()];
+    const tags: string[] = [getOS()];
 
-    let [projectTags, ignoreManual] = project(resolvedDir);
+    const [projectTags, ignoreManual] = getProjectTags(resolvedDir);
 
     tags.push(...projectTags);
 
-    let outputPath = await download({
+    const outputPath = await downloadFile({
       directory: resolvedDir,
       tags,
     });
 
     let structManual = '';
-    Object.keys(ignoreManual).map((q) => {
-      let i = ignoreManual[q];
-      structManual += `# ${q}\r\n${i.values.join('\r\n')}`;
+    Object.keys(ignoreManual).forEach((q) => {
+      const i = ignoreManual[q];
+      if (i) {
+        structManual += `# ${q}${os.EOL}${i.values.join(os.EOL)}${os.EOL}`;
+      }
     });
 
     if (structManual) fs.appendFileSync(outputPath, structManual);
@@ -56,19 +58,16 @@ config/secrets.yml
 `;
     fs.appendFileSync(outputPath, securityLines);
 
-    if (Object.keys(ignoreManual).length == 0 && projectTags.length == 0) {
+    if (Object.keys(ignoreManual).length === 0 && projectTags.length === 0) {
       console.info(`[gign] nothing detected (only security defaults applied)`);
       return;
     }
 
     console.info(`[gign] generated at ${outputPath}`);
-    if (projectTags.length > 0) console.info(`[gign] tags: ${tags}`);
-    if (Object.keys(ignoreManual).length > 0) console.info(`[gign] manual tags: ${Object.keys(ignoreManual)}`);
-  } catch (ex) {
+    if (projectTags.length > 0) console.info(`[gign] tags: ${tags.join(',')}`);
+    if (Object.keys(ignoreManual).length > 0)
+      console.info(`[gign] manual tags: ${Object.keys(ignoreManual).join(',')}`);
+  } catch (ex: any) {
     console.error(`[gign] Error: ${ex.message}`);
   }
 }
-
-module.exports = (dir) => {
-  return doit(dir);
-};

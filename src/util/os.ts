@@ -1,6 +1,6 @@
-const os = require('os');
+import os from 'os';
 
-module.exports = () => {
+export default function getOS(): string {
   switch (os.type()) {
     case 'Windows_NT':
       return 'windows';
@@ -9,4 +9,4 @@ module.exports = () => {
     default:
       return 'macos';
   }
-};
+}
