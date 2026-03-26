@@ -39,7 +39,7 @@ export default async function generateFile(dir: string): Promise<void> {
     Object.keys(ignoreManual).forEach((q) => {
       const i = ignoreManual[q];
       if (i) {
-        structManual += `# ${q}\r\n${i.values.join('\r\n')}\r\n`;
+        structManual += `# ${q}${os.EOL}${i.values.join(os.EOL)}${os.EOL}`;
       }
     });
 
