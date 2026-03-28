@@ -57,7 +57,8 @@ describe('generateFile action', () => {
     (fs.statSync as jest.Mock).mockReturnValue({ isDirectory: () => true });
     os.mockReturnValue('linux');
     project.mockReturnValue([['node', 'react'], { custom: { values: ['ignored_dir'] } }]);
-    download.mockResolvedValue(path.resolve('/dummy/.gitignore') as never);
+    download.mockResolvedValue(path.resolve('/dummy/.gitignore'));
+
     (fs.appendFileSync as jest.Mock).mockImplementation(() => {});
 
     await generateFile('/dummy');
@@ -84,7 +85,8 @@ describe('generateFile action', () => {
     (fs.statSync as jest.Mock).mockReturnValue({ isDirectory: () => true });
     os.mockReturnValue('linux');
     project.mockReturnValue([[], {}]);
-    download.mockResolvedValue(path.resolve('/dummy/.gitignore') as never);
+    download.mockResolvedValue(path.resolve('/dummy/.gitignore'));
+
 
     await generateFile('/dummy');
 
