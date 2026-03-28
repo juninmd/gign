@@ -1,3 +1,4 @@
+import os from 'os';
 import getOS from '../util/os.js';
 import downloadFile from '../util/download.js';
 import getProjectTags from '../util/project.js';
@@ -67,7 +68,11 @@ config/secrets.yml
     if (projectTags.length > 0) console.info(`[gign] tags: ${tags.join(',')}`);
     if (Object.keys(ignoreManual).length > 0)
       console.info(`[gign] manual tags: ${Object.keys(ignoreManual).join(',')}`);
-  } catch (ex: any) {
-    console.error(`[gign] Error: ${ex.message}`);
+  } catch (ex: unknown) {
+    if (ex instanceof Error) {
+      console.error(`[gign] Error: ${ex.message}`);
+    } else {
+      console.error(`[gign] Error: ${String(ex)}`);
+    }
   }
 }

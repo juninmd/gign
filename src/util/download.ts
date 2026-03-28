@@ -20,8 +20,12 @@ export default async function downloadFile(options: DownloadOptions): Promise<st
     const outputPath = path.join(options.directory, '.gitignore');
     fs.writeFileSync(outputPath, data);
     return outputPath;
-  } catch (err: any) {
+  } catch (err: unknown) {
     loading.stop(timer);
-    throw new Error(`Download failed: ${err.message}`);
+    if (err instanceof Error) {
+      throw new Error(`Download failed: ${err.message}`);
+    } else {
+      throw new Error(`Download failed: ${String(err)}`);
+    }
   }
 }

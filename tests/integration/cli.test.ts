@@ -58,8 +58,9 @@ describe('CLI Integration Tests', () => {
   it('should print usage when path is not provided', () => {
     try {
       execSync('node dist/index.js');
-    } catch (err: any) {
-      expect(err.stdout.toString()).toContain('[gign] use "gign <path>"');
+    } catch (err: unknown) {
+      expect(err).toHaveProperty('stdout');
+      expect((err as { stdout: Buffer }).stdout.toString()).toContain('[gign] use "gign <path>"');
     }
   });
 });
