@@ -78,7 +78,8 @@ describe('download utility', () => {
   });
 
   it('should handle download errors', async () => {
-    mockFetch.mockRejectedValue(new Error('Network Error') as never);
+    mockFetch.mockRejectedValue(new Error('Network Error'));
+
     (loading.start as jest.Mock).mockReturnValue('timer');
     (loading.stop as jest.Mock).mockImplementation(() => {});
 
@@ -89,7 +90,8 @@ describe('download utility', () => {
   });
 
   it('should handle non-Error download errors', async () => {
-    mockFetch.mockRejectedValue('String Error' as never);
+    mockFetch.mockRejectedValue('String Error');
+
     (loading.start as jest.Mock).mockReturnValue('timer');
     (loading.stop as jest.Mock).mockImplementation(() => {});
 
