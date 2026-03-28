@@ -25,10 +25,10 @@ jest.unstable_mockModule('node-fetch', () => ({
 }));
 
 describe('download utility', () => {
-  let fs: any;
-  let path: any;
-  let loading: any;
-  let downloadFile: any;
+  let fs: typeof import('fs');
+  let path: typeof import('path');
+  let loading: typeof import('loading-indicator');
+  let downloadFile: typeof import('../../src/util/download.js').default;
 
   beforeAll(async () => {
     fs = (await import('fs')).default;
@@ -46,10 +46,10 @@ describe('download utility', () => {
       ok: true,
       text: () => Promise.resolve('node_modules\n.env'),
     } as never);
-    fs.writeFileSync.mockImplementation(() => {});
-    path.join.mockReturnValue('/dummy/.gitignore');
-    loading.start.mockReturnValue('timer');
-    loading.stop.mockImplementation(() => {});
+    (fs.writeFileSync as jest.Mock).mockImplementation(() => {});
+    (path.join as jest.Mock).mockReturnValue('/dummy/.gitignore');
+    (loading.start as jest.Mock).mockReturnValue('timer');
+    (loading.stop as jest.Mock).mockImplementation(() => {});
 
     const options = { tags: ['node', 'react'], directory: '/dummy' };
     const result = await downloadFile(options);
@@ -66,8 +66,8 @@ describe('download utility', () => {
       ok: false,
       statusText: 'Not Found',
     } as never);
-    loading.start.mockReturnValue('timer');
-    loading.stop.mockImplementation(() => {});
+    (loading.start as jest.Mock).mockReturnValue('timer');
+    (loading.stop as jest.Mock).mockImplementation(() => {});
 
     const options = { tags: ['invalid'], directory: '/dummy' };
 
@@ -79,12 +79,23 @@ describe('download utility', () => {
 
   it('should handle download errors', async () => {
     mockFetch.mockRejectedValue(new Error('Network Error') as never);
-    loading.start.mockReturnValue('timer');
-    loading.stop.mockImplementation(() => {});
+    (loading.start as jest.Mock).mockReturnValue('timer');
+    (loading.stop as jest.Mock).mockImplementation(() => {});
 
     const options = { tags: ['invalid'], directory: '/dummy' };
 
     await expect(downloadFile(options)).rejects.toThrow('Download failed: Network Error');
+    expect(loading.stop).toHaveBeenCalledWith('timer');
+  });
+
+  it('should handle non-Error download errors', async () => {
+    mockFetch.mockRejectedValue('String Error' as never);
+    (loading.start as jest.Mock).mockReturnValue('timer');
+    (loading.stop as jest.Mock).mockImplementation(() => {});
+
+    const options = { tags: ['invalid'], directory: '/dummy' };
+
+    await expect(downloadFile(options)).rejects.toThrow('Download failed: String Error');
     expect(loading.stop).toHaveBeenCalledWith('timer');
   });
 });

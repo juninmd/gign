@@ -7,6 +7,21 @@ export interface IgnorePaths {
   [key: string]: { values: string[] };
 }
 
+export interface PatternConfig {
+  [key: string]: string[];
+}
+
+export interface ManualSearch {
+  filename: string;
+  path?: string;
+  struct?: string;
+}
+
+export interface ManualConfig {
+  tag: string;
+  search: ManualSearch[];
+}
+
 export default function getProjectTags(dir: string): [string[], IgnorePaths] {
   const tags: string[] = [];
   const ignorePaths: IgnorePaths = {};
@@ -18,8 +33,8 @@ export default function getProjectTags(dir: string): [string[], IgnorePaths] {
   }
 
   // Load custom configuration if available
-  const customPattern: any[] = [];
-  const customManual: any[] = [];
+  const customPattern: PatternConfig[] = [];
+  const customManual: ManualConfig[] = [];
   const customConfigPath = path.join(dir, '.gignrc.json');
   if (fs.existsSync(customConfigPath)) {
     try {
@@ -30,8 +45,12 @@ export default function getProjectTags(dir: string): [string[], IgnorePaths] {
       if (customConfig.manual && Array.isArray(customConfig.manual)) {
         customManual.push(...customConfig.manual);
       }
-    } catch (error: any) {
-      console.warn(`[gign] Failed to parse .gignrc.json: ${error.message}`);
+    } catch (error: unknown) {
+      if (error instanceof Error) {
+        console.warn(`[gign] Failed to parse .gignrc.json: ${error.message}`);
+      } else {
+        console.warn(`[gign] Failed to parse .gignrc.json: ${String(error)}`);
+      }
     }
   }
 
@@ -47,15 +66,19 @@ export default function getProjectTags(dir: string): [string[], IgnorePaths] {
           customManual.push(...pkg.gign.manual);
         }
       }
-    } catch (error: any) {
-      console.warn(`[gign] Failed to parse package.json: ${error.message}`);
+    } catch (error: unknown) {
+      if (error instanceof Error) {
+        console.warn(`[gign] Failed to parse package.json: ${error.message}`);
+      } else {
+        console.warn(`[gign] Failed to parse package.json: ${String(error)}`);
+      }
     }
   }
 
-  const allPatterns = [...pattern, ...customPattern];
-  const allManuals = [...manual, ...customManual];
+  const allPatterns: PatternConfig[] = [...pattern, ...customPattern] as PatternConfig[];
+  const allManuals: ManualConfig[] = [...manual, ...customManual] as ManualConfig[];
 
-  allPatterns.forEach((q: any) => {
+  allPatterns.forEach((q: PatternConfig) => {
     const key = Object.keys(q)[0];
     if (!key) return;
     const itens: string[] = q[key];
@@ -76,8 +99,8 @@ export default function getProjectTags(dir: string): [string[], IgnorePaths] {
     if (hasMatch && !tags.includes(key)) tags.push(key);
   });
 
-  allManuals.forEach((item: any) => {
-    item.search.forEach((q: any) => {
+  allManuals.forEach((item: ManualConfig) => {
+    item.search.forEach((q: ManualSearch) => {
       let matchedFiles: string[] = [];
       if (q.filename.startsWith('*')) {
         const ext = q.filename.substring(1);
@@ -104,9 +127,13 @@ export default function getProjectTags(dir: string): [string[], IgnorePaths] {
           matchedFiles.forEach((f) => {
             try {
               const obj = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
-              ignorePaths[item.tag]!.values.push(acessAttrObj(obj, q.struct));
-            } catch (error: any) {
-              console.error(`[gign] error on model of ${item.tag}, struct: ${q.struct}, file: ${f}`);
+              ignorePaths[item.tag]!.values.push(acessAttrObj(obj as Record<string, unknown>, q.struct!) as string);
+            } catch (error: unknown) {
+              if (error instanceof Error) {
+                console.error(`[gign] error on model of ${item.tag}, struct: ${q.struct}, file: ${f}: ${error.message}`);
+              } else {
+                console.error(`[gign] error on model of ${item.tag}, struct: ${q.struct}, file: ${f}: ${String(error)}`);
+              }
             }
           });
         } else if (q.path) {
@@ -119,11 +146,15 @@ export default function getProjectTags(dir: string): [string[], IgnorePaths] {
   return [tags, ignorePaths];
 }
 
-function acessAttrObj(obj: any, struct: string): any {
+function acessAttrObj(obj: Record<string, unknown>, struct: string): unknown {
   const attrs = struct.split('.');
-  let current = obj;
+  let current: unknown = obj;
   attrs.forEach((att) => {
-    if (current) current = current[att];
+    if (current && typeof current === 'object' && current !== null) {
+      current = (current as Record<string, unknown>)[att];
+    } else {
+      current = undefined;
+    }
   });
   return current;
 }
