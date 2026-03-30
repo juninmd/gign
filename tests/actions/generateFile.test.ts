@@ -23,17 +23,17 @@ jest.unstable_mockModule('../../src/util/download.js', () => ({
 describe('generateFile action', () => {
   let fs: typeof import('fs');
   let path: typeof import('path');
-  let os: jest.Mock;
-  let project: jest.Mock;
-  let download: jest.Mock;
+  let os: jest.Mock<() => string>;
+  let project: jest.Mock<() => any[]>;
+  let download: jest.Mock<() => Promise<string>>;
   let generateFile: typeof import('../../src/actions/generateFile.js').default;
 
   beforeAll(async () => {
     fs = (await import('fs')).default;
     path = (await import('path')).default;
-    os = (await import('../../src/util/os.js')).default as jest.Mock;
-    project = (await import('../../src/util/project.js')).default as jest.Mock;
-    download = (await import('../../src/util/download.js')).default as jest.Mock;
+    os = (await import('../../src/util/os.js')).default as unknown as jest.Mock<() => string>;
+    project = (await import('../../src/util/project.js')).default as unknown as jest.Mock<() => any[]>;
+    download = (await import('../../src/util/download.js')).default as unknown as jest.Mock<() => Promise<string>>;
     generateFile = (await import('../../src/actions/generateFile.js')).default;
   });
 
@@ -86,7 +86,6 @@ describe('generateFile action', () => {
     os.mockReturnValue('linux');
     project.mockReturnValue([[], {}]);
     download.mockResolvedValue(path.resolve('/dummy/.gitignore'));
-
 
     await generateFile('/dummy');
 

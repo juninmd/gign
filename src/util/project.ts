@@ -130,9 +130,13 @@ export default function getProjectTags(dir: string): [string[], IgnorePaths] {
               ignorePaths[item.tag]!.values.push(acessAttrObj(obj as Record<string, unknown>, q.struct!) as string);
             } catch (error: unknown) {
               if (error instanceof Error) {
-                console.error(`[gign] error on model of ${item.tag}, struct: ${q.struct}, file: ${f}: ${error.message}`);
+                console.error(
+                  `[gign] error on model of ${item.tag}, struct: ${q.struct}, file: ${f}: ${error.message}`,
+                );
               } else {
-                console.error(`[gign] error on model of ${item.tag}, struct: ${q.struct}, file: ${f}: ${String(error)}`);
+                console.error(
+                  `[gign] error on model of ${item.tag}, struct: ${q.struct}, file: ${f}: ${String(error)}`,
+                );
               }
             }
           });

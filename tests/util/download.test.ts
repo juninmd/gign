@@ -19,7 +19,7 @@ jest.unstable_mockModule('loading-indicator', () => ({
   },
 }));
 
-const mockFetch = jest.fn();
+const mockFetch = jest.fn<() => Promise<any>>();
 jest.unstable_mockModule('node-fetch', () => ({
   default: mockFetch,
 }));
@@ -45,7 +45,7 @@ describe('download utility', () => {
     mockFetch.mockResolvedValue({
       ok: true,
       text: () => Promise.resolve('node_modules\n.env'),
-    } as never);
+    });
     (fs.writeFileSync as jest.Mock).mockImplementation(() => {});
     (path.join as jest.Mock).mockReturnValue('/dummy/.gitignore');
     (loading.start as jest.Mock).mockReturnValue('timer');
@@ -65,7 +65,7 @@ describe('download utility', () => {
     mockFetch.mockResolvedValue({
       ok: false,
       statusText: 'Not Found',
-    } as never);
+    });
     (loading.start as jest.Mock).mockReturnValue('timer');
     (loading.stop as jest.Mock).mockImplementation(() => {});
 
