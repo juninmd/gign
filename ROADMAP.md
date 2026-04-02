@@ -9,6 +9,7 @@
 - Simplify project initialization by reliably detecting project environments (languages, frameworks, IDEs).
 - Provide robust fallbacks and overrides to ensure developers always get the configuration they need.
 - Foster a community-driven repository of ignore patterns.
+- Maintain a secure, modern, and high-performance continuous integration pipeline.
 
 ## 2. Current Status
 
@@ -18,6 +19,7 @@ The project is currently in its early stages (v0.0.3) and provides foundational 
 - Supports manual configuration and basic project detection through `pattern.json` and `manual.json`.
 - Cross-platform support (Windows, Linux, macOS).
 - Currently functional but lacks comprehensive test coverage, robust error handling, and offline capabilities.
+- The CI/CD pipeline requires routine maintenance and updates to align with the latest standard GitHub Actions (Issue #47).
 
 ## 3. Quarterly Roadmap
 
@@ -25,6 +27,7 @@ The project is currently in its early stages (v0.0.3) and provides foundational 
 
 - **High Priority:** Establish a comprehensive automated test suite and CI/CD pipeline (e.g., GitHub Actions) to prevent regressions.
 - **High Priority:** Implement robust error handling (e.g., when the `gitignore.io` API is unreachable or rate-limited).
+- **Medium Priority:** Update internal GitHub Actions dependencies to their latest major versions (e.g., `actions/checkout@v4`, `actions/setup-node@v4`) to ensure pipeline security and performance (Issue #47).
 - **Medium Priority:** Refactor the codebase towards modern JS standards (ES6+) to improve maintainability and onboarding for new contributors.
 - **Low Priority:** Standardize console output (e.g., clear success/failure messages, colored output).
 
@@ -32,7 +35,7 @@ The project is currently in its early stages (v0.0.3) and provides foundational 
 
 - **High Priority:** Develop an "Interactive Mode" to prompt users to select languages/frameworks when automatic detection is ambiguous or fails.
 - **Medium Priority:** Implement a local caching mechanism to reduce redundant API calls and speed up generation.
-- **Low Priority:** Introduce an "Append/Merge Mode" to safely merge new templates into an existing .gitignore without overwriting custom user rules.
+- **Low Priority:** Introduce an "Append/Merge Mode" to safely merge new templates into an existing `.gitignore` without overwriting custom user rules.
 
 ### Q3: Offline Capabilities & Configuration
 
@@ -47,6 +50,13 @@ The project is currently in its early stages (v0.0.3) and provides foundational 
 - **Low Priority:** Technical debt reduction and dependency updates.
 
 ## 4. Feature Details
+
+### Feature: CI/CD Pipeline Modernization (Issue #47)
+
+- **User Value Proposition:** Ensures that the build and deployment pipeline remains fast, secure, and compatible with the latest GitHub Actions runners, preventing build rot.
+- **Technical Approach:** Review all workflows in `.github/workflows/` and bump actions (`checkout`, `setup-node`, `upload-artifact`, `download-artifact`, `codecov-action`) to their latest major versions. Ensure tests pass on the newer node versions configured.
+- **Success Criteria:** CI workflows execute successfully without deprecation warnings regarding Node.js versions or outdated actions.
+- **Estimated Effort:** Small
 
 ### Feature: Interactive Mode
 
