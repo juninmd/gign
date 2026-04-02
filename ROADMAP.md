@@ -27,7 +27,7 @@ The project is currently in its early stages (v0.0.3) and provides foundational 
 
 - **High Priority:** Establish a comprehensive automated test suite and CI/CD pipeline (e.g., GitHub Actions) to prevent regressions.
 - **High Priority:** Implement robust error handling (e.g., when the `gitignore.io` API is unreachable or rate-limited).
-- **Medium Priority:** Update internal GitHub Actions dependencies to their latest major versions (e.g., `actions/checkout@v6`, `actions/setup-node@v6`) to ensure pipeline security and performance (Issue #47).
+- **Medium Priority:** Update internal GitHub Actions dependencies to their latest major versions (e.g., `actions/checkout@v4`, `actions/setup-node@v4`) to ensure pipeline security and performance (Issue #47).
 - **Medium Priority:** Refactor the codebase towards modern JS standards (ES6+) to improve maintainability and onboarding for new contributors.
 - **Low Priority:** Standardize console output (e.g., clear success/failure messages, colored output).
 
