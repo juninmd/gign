@@ -4,8 +4,8 @@
 [![codecov](https://codecov.io/gh/juninmd/gign/branch/main/graph/badge.svg)](https://codecov.io/gh/juninmd/gign)
 [![NPM Version](https://img.shields.io/npm/v/gign.svg)](https://npmjs.org/package/gign)
 [![NPM Downloads](https://img.shields.io/npm/dm/gign.svg)](https://npmjs.org/package/gign)
-[![GitHub issues](https://img.shields.io/github/issues/juninmd/gign.svg)](https://github.com/juninmd/gign/issues)
-[![GitHub forks](https://img.shields.io/github/forks/juninmd/gign.svg)](https://github.com/juninmd/gign/network)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)
 
 ```
   ________.__
@@ -14,77 +14,54 @@
 \    \_\  \  / /_/  >   |  \
  \______  /__\___  /|___|  /
         \/  /_____/      \/
-
 ```
 
-- `gign` generate a automatic `.gitignore` file for your project.
+> Gerador automático de arquivos `.gitignore` para seus projetos. Inspirado no [gitignore.io](https://www.toptal.com/developers/gitignore).
 
-## Requisites
+## 📝 Descrição
 
-- Node 8 `for(Await/Async)`
+**GIGN** é uma ferramenta CLI que gera automaticamente arquivos `.gitignore` personalizados para seus projetos. Basta informar o diretório e as tecnologias desejadas.
 
-## How to Install?
+## ✨ Funcionalidades
+
+- Geração automática de `.gitignore`
+- Suporte a múltiplas linguagens e frameworks
+- Interface CLI simples e rápida
+- CI/CD com GitHub Actions
+- Cobertura de testes com Codecov
+
+## 🛠️ Tech Stack
+
+- **Runtime:** Node.js
+- **Linguagem:** JavaScript
+- **CLI:** Commander
+- **Testes:** Jest
+- **Linting:** ESLint
+- **CI:** GitHub Actions
+- **Cobertura:** Codecov
+
+## 🚀 Instalação
 
 ```bash
-$ yarn global add gign
+# Via npm
+npm install -g gign
+
+# Via yarn
+yarn global add gign
 ```
 
-## How to use?
+## 📖 Uso
 
 ```bash
-$ gign <path>
+gign <caminho>
 ```
 
-## Thanks
+O comando irá gerar um arquivo `.gitignore` personalizado no diretório especificado.
 
-We use the gitignore.io api  
-http://gitignore.io/
+## ✅ Requisitos
 
-## Beta Suport
+- Node.js 8+ (para suporte a Async/Await)
 
-- Windows, Linux and Mac
-- Node JS
-- Typescript
+## 📜 Licença
 
-## Help Gign
-
-You can help to improve the tool!  
-Include one new pattern on `pattern.json` or `manual.json`  
-I will wait for your P.R. ;D
-
-## Development
-
-```bash
-# Install dependencies
-$ npm install
-
-# Run tests
-$ npm test
-
-# Check coverage
-$ npm run test:coverage
-
-# Run linter
-$ npm run lint
-
-# Format code
-$ npm run format
-```
-
-## CI/CD and Deployment Process
-
-This project uses GitHub Actions to automate CI/CD processes. The pipeline includes the following stages:
-
-1. **Lint and Format**: Code quality checks are enforced using ESLint and Prettier.
-2. **Security Checks**: Dependencies are scanned via `npm audit` and Snyk.
-3. **Test**: Unit and integration tests are executed via Jest with an 80% coverage threshold. Coverage is uploaded to Codecov.
-4. **Build**: The code is bundled and minified using `esbuild` for an optimized build artifact.
-5. **Staging Deploy**: Deploys a staging instance automatically on Pull Request or when merging to `develop`.
-6. **Production Deploy**: Pushes to `main` require a manual approval environment gate, which deploys the final production code (typically to npm), with Slack notifications for Success and Failure.
-
-### Environment Variables
-
-The pipeline uses the following GitHub Secrets for operation:
-
-- `SNYK_TOKEN`: Access token for the Snyk Security action to perform dependency audits.
-- `SLACK_WEBHOOK`: The Webhook URL mapped to a Slack channel for notifying deployments and pipeline statuses.
+MIT
