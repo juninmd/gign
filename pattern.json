@@ -844,5 +844,14 @@
   },
   {
     "jboss": ["jboss-deployment-structure.xml"]
+  },
+  {
+    "zendframework": ["config/application.config.php"]
+  },
+  {
+    "fuelphp": ["fuel/app/config/config.php"]
+  },
+  {
+    "phalcon": ["public/index.php", "app/config/config.php"]
   }
 ]
