@@ -844,5 +844,23 @@
   },
   {
     "jboss": ["jboss-deployment-structure.xml"]
+  },
+  {
+    "vuejs": ["vue.config.js", "*.vue"]
+  },
+  {
+    "meteorjs": [".meteor"]
+  },
+  {
+    "apachecordova": ["config.xml"]
+  },
+  {
+    "polymer": ["polymer.json"]
+  },
+  {
+    "salesforce": ["sfdx-project.json"]
+  },
+  {
+    "objective-c": ["*.m"]
   }
 ]
