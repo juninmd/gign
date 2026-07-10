@@ -853,5 +853,71 @@
   },
   {
     "phalcon": ["public/index.php", "app/config/config.php"]
+  },
+  {
+    "vuejs": ["vue.config.js", "*.vue"]
+  },
+  {
+    "meteorjs": [".meteor"]
+  },
+  {
+    "apachecordova": ["config.xml"]
+  },
+  {
+    "polymer": ["polymer.json"]
+  },
+  {
+    "salesforce": ["sfdx-project.json"]
+  },
+  {
+    "nestjs": ["nest-cli.json"]
+  },
+  {
+    "strapi": ["config/database.js", "config/admin.js", ".strapi"]
+  },
+  {
+    "obsidian": [".obsidian"]
+  },
+  {
+    "mdbook": ["book.toml"]
+  },
+  {
+    "snyk": [".snyk"]
+  },
+  {
+    "yalc": ["yalc.lock", ".yalc"]
+  },
+  {
+    "replit": [".replit"]
+  },
+  {
+    "jsonnet": ["*.jsonnet", "*.libsonnet"]
+  },
+  {
+    "nuxt": ["nuxt.config.js", "nuxt.config.ts"]
+  },
+  {
+    "vitest": ["vitest.config.js", "vitest.config.ts", "vitest.config.mjs"]
+  },
+  {
+    "playwright": ["playwright.config.js", "playwright.config.ts"]
+  },
+  {
+    "cypress": ["cypress.json", "cypress.config.js", "cypress.config.ts"]
+  },
+  {
+    "prisma": ["schema.prisma"]
+  },
+  {
+    "supabase": ["supabase/config.toml"]
+  },
+  {
+    "expo": ["app.json", "eas.json"]
+  },
+  {
+    "awscdk": ["cdk.json"]
+  },
+  {
+    "aws-sam": ["samconfig.toml"]
   }
 ]
