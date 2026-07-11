@@ -920,4 +920,32 @@
   {
     "aws-sam": ["samconfig.toml"]
   }
+,
+  {
+    "latex": ["*.tex", "*.ltx"]
+  },
+  {
+    "silverstripe": ["_config.php"]
+  },
+  {
+    "splunk": ["default/app.conf", "local/app.conf"]
+  },
+  {
+    "extjs": ["app.json", "workspace.json"]
+  },
+  {
+    "modx": ["core/config/config.inc.php"]
+  },
+  {
+    "mule": ["mule-artifact.json", "mule-deploy.properties"]
+  },
+  {
+    "momentics": [".momentics"]
+  },
+  {
+    "basercms": ["app/Config/database.php", "app/Config/install.php"]
+  },
+  {
+    "umbraco": ["App_Data/umbraco.config"]
+  }
 ]
