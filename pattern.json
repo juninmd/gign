@@ -919,8 +919,7 @@
   },
   {
     "aws-sam": ["samconfig.toml"]
-  }
-,
+  },
   {
     "latex": ["*.tex", "*.ltx"]
   },
@@ -947,5 +946,11 @@
   },
   {
     "umbraco": ["App_Data/umbraco.config"]
+  },
+  {
+    "objective-c": ["*.m"]
+  },
+  {
+    "yii": ["yii"]
   }
 ]
