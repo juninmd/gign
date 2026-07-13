@@ -555,5 +555,35 @@
         "path": ".vercel"
       }
     ]
+  },
+  {
+    "tag": "emberjs",
+    "search": [
+      {
+        "filename": "ember-cli-build.js",
+        "path": "dist"
+      },
+      {
+        "filename": "ember-cli-build.js",
+        "path": "tmp"
+      }
+    ]
+  },
+  {
+    "tag": "ghost",
+    "search": [
+      {
+        "filename": ".ghost-cli",
+        "path": "content/data"
+      },
+      {
+        "filename": ".ghost-cli",
+        "path": "versions"
+      },
+      {
+        "filename": ".ghost-cli",
+        "path": "content/logs"
+      }
+    ]
   }
 ]
