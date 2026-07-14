@@ -585,5 +585,40 @@
         "path": "content/logs"
       }
     ]
+  },
+  {
+    "tag": "wrangler",
+    "search": [
+      {
+        "filename": "wrangler.toml",
+        "path": ".wrangler"
+      }
+    ]
+  },
+  {
+    "tag": "keystone",
+    "search": [
+      {
+        "filename": "keystone.ts",
+        "path": ".keystone"
+      }
+    ]
+  },
+  {
+    "tag": "sanity",
+    "search": [
+      {
+        "filename": "sanity.cli.ts",
+        "path": ".sanity"
+      },
+      {
+        "filename": "sanity.config.ts",
+        "path": ".sanity"
+      },
+      {
+        "filename": "sanity.config.js",
+        "path": ".sanity"
+      }
+    ]
   }
 ]
