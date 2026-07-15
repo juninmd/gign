@@ -1,12 +1,26 @@
 [
   {
-    "node": ["package.json", "package-lock.json", "node_modules", "lerna.json", "drizzle.config.ts", "drizzle.config.js", "wrangler.toml", "keystone.ts", "sanity.config.ts", "sanity.config.js", "sanity.cli.ts"]
+    "node": [
+      "package.json",
+      "package-lock.json",
+      "node_modules",
+      "lerna.json",
+      "drizzle.config.ts",
+      "drizzle.config.js",
+      "wrangler.toml",
+      "keystone.ts",
+      "sanity.config.ts",
+      "sanity.config.js",
+      "sanity.cli.ts",
+      "biome.json",
+      "biome.jsonc"
+    ]
   },
   {
     "visualstudiocode": [".vscode"]
   },
   {
-    "python": ["requirements.txt", "setup.py", "Pipfile", "pyproject.toml", "venv", "*.py"]
+    "python": ["requirements.txt", "setup.py", "Pipfile", "pyproject.toml", "venv", "*.py", "alembic.ini"]
   },
   {
     "java": ["pom.xml", "build.gradle", "*.java", "*.class", "*.jar"]
