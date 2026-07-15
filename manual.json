@@ -368,6 +368,10 @@
       {
         "filename": "bun.lockb",
         "path": ".bun"
+      },
+      {
+        "filename": "bun.lock",
+        "path": ".bun"
       }
     ]
   },
@@ -618,6 +622,19 @@
       {
         "filename": "sanity.config.js",
         "path": ".sanity"
+      }
+    ]
+  },
+  {
+    "tag": "sst",
+    "search": [
+      {
+        "filename": "sst.config.ts",
+        "path": ".sst"
+      },
+      {
+        "filename": "sst.config.js",
+        "path": ".sst"
       }
     ]
   }
