@@ -227,7 +227,7 @@
     "lua": [".luacheckrc", "*.lua"]
   },
   {
-    "solidity": ["hardhat.config.js", "truffle-config.js", "*.sol"]
+    "solidity": ["hardhat.config.js", "hardhat.config.ts", "truffle-config.js", "*.sol"]
   },
   {
     "tex": ["*.tex"]
@@ -673,7 +673,23 @@
       "webpack.config.cjs",
       ".eslintrc.js",
       "eslint.config.js",
-      "jest.config.ts"
+      "jest.config.ts",
+      "rspack.config.js",
+      "rspack.config.ts",
+      "rspack.config.cjs",
+      "rspack.config.mjs",
+      "rsbuild.config.js",
+      "rsbuild.config.ts",
+      "rsbuild.config.cjs",
+      "rsbuild.config.mjs",
+      "panda.config.js",
+      "panda.config.ts",
+      "panda.config.cjs",
+      "panda.config.mjs",
+      "eleventy.config.js",
+      "eleventy.config.cjs",
+      ".eleventy.js",
+      "stencil.config.ts"
     ]
   },
   {
