@@ -637,5 +637,105 @@
         "path": ".sst"
       }
     ]
+  },
+  {
+    "tag": "hardhat",
+    "search": [
+      {
+        "filename": "hardhat.config.js",
+        "path": "artifacts"
+      },
+      {
+        "filename": "hardhat.config.js",
+        "path": "cache"
+      },
+      {
+        "filename": "hardhat.config.js",
+        "path": "typechain-types"
+      },
+      {
+        "filename": "hardhat.config.ts",
+        "path": "artifacts"
+      },
+      {
+        "filename": "hardhat.config.ts",
+        "path": "cache"
+      },
+      {
+        "filename": "hardhat.config.ts",
+        "path": "typechain-types"
+      }
+    ]
+  },
+  {
+    "tag": "truffle",
+    "search": [
+      {
+        "filename": "truffle-config.js",
+        "path": "build/contracts"
+      }
+    ]
+  },
+  {
+    "tag": "rspack",
+    "search": [
+      {
+        "filename": "rspack.config.*",
+        "path": "dist"
+      }
+    ]
+  },
+  {
+    "tag": "rsbuild",
+    "search": [
+      {
+        "filename": "rsbuild.config.*",
+        "path": "dist"
+      }
+    ]
+  },
+  {
+    "tag": "pandacss",
+    "search": [
+      {
+        "filename": "panda.config.*",
+        "path": "styled-system"
+      }
+    ]
+  },
+  {
+    "tag": "eleventy",
+    "search": [
+      {
+        "filename": "eleventy.config.*",
+        "path": "_site"
+      },
+      {
+        "filename": ".eleventy.js",
+        "path": "_site"
+      }
+    ]
+  },
+  {
+    "tag": "stencil",
+    "search": [
+      {
+        "filename": "stencil.config.ts",
+        "path": "dist"
+      },
+      {
+        "filename": "stencil.config.ts",
+        "path": "www"
+      }
+    ]
+  },
+  {
+    "tag": "drizzle",
+    "search": [
+      {
+        "filename": "drizzle.config.*",
+        "path": ".drizzle"
+      }
+    ]
   }
 ]
