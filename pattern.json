@@ -982,5 +982,23 @@
   },
   {
     "yii": ["yii"]
+  },
+  {
+    "forcedotcom": ["salesforce.schema"]
+  },
+  {
+    "sdcc": ["*.rel", "*.rst", "*.sym"]
+  },
+  {
+    "textpattern": ["textpattern"]
+  },
+  {
+    "stella": ["*.a26", "*.a78"]
+  },
+  {
+    "twincat3": ["*.plcproj.bak", "*.tmc", "*.tsproj.bak", "*.xti.bak", "*.vsm"]
+  },
+  {
+    "xojo": ["*.xojo_uistate", "*.rbuistate"]
   }
 ]
