@@ -737,5 +737,68 @@
         "path": ".drizzle"
       }
     ]
+  },
+  {
+    "tag": "quasar",
+    "search": [
+      {
+        "filename": "quasar.config.*",
+        "path": ".quasar"
+      },
+      {
+        "filename": "quasar.config.*",
+        "path": "dist"
+      },
+      {
+        "filename": "quasar.config.*",
+        "path": "src-capacitor/www"
+      },
+      {
+        "filename": "quasar.config.*",
+        "path": "src-cordova/platforms"
+      },
+      {
+        "filename": "quasar.conf.*",
+        "path": ".quasar"
+      },
+      {
+        "filename": "quasar.conf.*",
+        "path": "dist"
+      },
+      {
+        "filename": "quasar.conf.*",
+        "path": "src-capacitor/www"
+      },
+      {
+        "filename": "quasar.conf.*",
+        "path": "src-cordova/platforms"
+      }
+    ]
+  },
+  {
+    "tag": "wails",
+    "search": [
+      {
+        "filename": "wails.json",
+        "path": "build/bin"
+      },
+      {
+        "filename": "wails.json",
+        "path": "build/obj"
+      }
+    ]
+  },
+  {
+    "tag": "vitepress",
+    "search": [
+      {
+        "filename": ".vitepress/config.*",
+        "path": ".vitepress/dist"
+      },
+      {
+        "filename": ".vitepress/config.*",
+        "path": ".vitepress/cache"
+      }
+    ]
   }
 ]
