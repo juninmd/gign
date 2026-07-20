@@ -1027,5 +1027,14 @@
   },
   {
     "cocos2dx": [".cocos-project.json", "cocos2d.x"]
+  },
+  {
+    "homebrew": ["Brewfile"]
+  },
+  {
+    "phpunit": ["phpunit.xml"]
+  },
+  {
+    "sonar": ["sonar-project.properties"]
   }
 ]
