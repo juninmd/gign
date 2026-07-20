@@ -800,5 +800,18 @@
         "path": ".vitepress/cache"
       }
     ]
+  },
+  {
+    "tag": "puppeteer",
+    "search": [
+      {
+        "filename": "puppeteer.config.js",
+        "path": ".cache/puppeteer"
+      },
+      {
+        "filename": "puppeteer.config.cjs",
+        "path": ".cache/puppeteer"
+      }
+    ]
   }
 ]
