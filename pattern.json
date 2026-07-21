@@ -686,7 +686,8 @@
       "eleventy.config.js",
       "eleventy.config.cjs",
       ".eleventy.js",
-      "stencil.config.ts"
+      "stencil.config.ts",
+      ".husky/pre-commit"
     ]
   },
   {
@@ -1036,5 +1037,8 @@
   },
   {
     "sonar": ["sonar-project.properties"]
+  },
+  {
+    "lefthook": ["lefthook.yml", "lefthook.yaml"]
   }
 ]
