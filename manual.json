@@ -813,5 +813,57 @@
         "path": ".cache/puppeteer"
       }
     ]
+  },
+  {
+    "tag": "supabase",
+    "search": [
+      {
+        "filename": "supabase/config.toml",
+        "path": ".supabase"
+      }
+    ]
+  },
+  {
+    "tag": "husky",
+    "search": [
+      {
+        "filename": ".husky/pre-commit",
+        "path": ".husky/_"
+      }
+    ]
+  },
+  {
+    "tag": "deno",
+    "search": [
+      {
+        "filename": "deno.json",
+        "path": "cov_profile"
+      },
+      {
+        "filename": "deno.jsonc",
+        "path": "cov_profile"
+      }
+    ]
+  },
+  {
+    "tag": "lefthook",
+    "search": [
+      {
+        "filename": "lefthook.yml",
+        "path": "lefthook-local.yml"
+      },
+      {
+        "filename": "lefthook.yml",
+        "path": "lefthook-local.yaml"
+      },
+      {
+        "filename": "lefthook.yaml",
+        "path": "lefthook-local.yml"
+      },
+      {
+        "filename": "lefthook.yaml",
+        "path": "lefthook-local.yaml"
+      }
+    ]
   }
 ]
