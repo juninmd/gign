@@ -3549,5 +3549,240 @@
       "*.js",
       "*.rb"
     ]
+  },
+  {
+    "fastapi": [
+      "main.py",
+      "app.py"
+    ]
+  },
+  {
+    "spring": [
+      "pom.xml",
+      "build.gradle"
+    ]
+  },
+  {
+    "springboot": [
+      "pom.xml",
+      "build.gradle"
+    ]
+  },
+  {
+    "play": [
+      "build.sbt"
+    ]
+  },
+  {
+    "cplusplus": [
+      "CMakeLists.txt",
+      "*.cpp",
+      "*.h",
+      "*.hpp"
+    ]
+  },
+  {
+    "makefile": [
+      "Makefile"
+    ]
+  },
+  {
+    "bash": [
+      "*.sh",
+      "*.bash"
+    ]
+  },
+  {
+    "bat": [
+      "*.bat",
+      "*.cmd"
+    ]
+  },
+  {
+    "rescript": [
+      "bsconfig.json",
+      "rescript.json"
+    ]
+  },
+  {
+    "lisp": [
+      "*.lisp",
+      "*.asd"
+    ]
+  },
+  {
+    "prolog": [
+      "*.pl",
+      "*.pro"
+    ]
+  },
+  {
+    "pascal": [
+      "*.pas",
+      "*.dpr"
+    ]
+  },
+  {
+    "sql": [
+      "*.sql"
+    ]
+  },
+  {
+    "mysql": [
+      "*.sql"
+    ]
+  },
+  {
+    "postgresql": [
+      "*.sql"
+    ]
+  },
+  {
+    "sqlite": [
+      "*.sqlite",
+      "*.db"
+    ]
+  },
+  {
+    "mongodb": [
+      "mongodb"
+    ]
+  },
+  {
+    "cassandra": [
+      "cassandra"
+    ]
+  },
+  {
+    "aws": [
+      "aws"
+    ]
+  },
+  {
+    "azure": [
+      "azure"
+    ]
+  },
+  {
+    "gcp": [
+      "gcp"
+    ]
+  },
+  {
+    "heroku": [
+      "Procfile"
+    ]
+  },
+  {
+    "netlify": [
+      "netlify.toml"
+    ]
+  },
+  {
+    "cloudflare": [
+      "wrangler.toml"
+    ]
+  },
+  {
+    "docker": [
+      "Dockerfile",
+      "docker-compose.yml"
+    ]
+  },
+  {
+    "kubernetes": [
+      "k8s",
+      "*.yaml",
+      "*.yml"
+    ]
+  },
+  {
+    "chef": [
+      "Berksfile",
+      "metadata.rb"
+    ]
+  },
+  {
+    "jenkins": [
+      "Jenkinsfile"
+    ]
+  },
+  {
+    "gitlab": [
+      ".gitlab-ci.yml"
+    ]
+  },
+  {
+    "github": [
+      ".github/workflows"
+    ]
+  },
+  {
+    "bitbucket": [
+      "bitbucket-pipelines.yml"
+    ]
+  },
+  {
+    "circleci": [
+      ".circleci/config.yml"
+    ]
+  },
+  {
+    "travisci": [
+      ".travis.yml"
+    ]
+  },
+  {
+    "appveyor": [
+      "appveyor.yml"
+    ]
+  },
+  {
+    "codecov": [
+      "codecov.yml",
+      ".codecov.yml"
+    ]
+  },
+  {
+    "nginx": [
+      "nginx.conf"
+    ]
+  },
+  {
+    "apache": [
+      ".htaccess",
+      "httpd.conf"
+    ]
+  },
+  {
+    "caddy": [
+      "Caddyfile"
+    ]
+  },
+  {
+    "kafka": [
+      "kafka"
+    ]
+  },
+  {
+    "rabbitmq": [
+      "rabbitmq"
+    ]
+  },
+  {
+    "graphql": [
+      "*.graphql",
+      "*.gql"
+    ]
+  },
+  {
+    "raspberrypi": [
+      "raspberrypi"
+    ]
+  },
+  {
+    "esp32": [
+      "esp32"
+    ]
   }
 ]
