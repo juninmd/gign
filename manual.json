@@ -368,6 +368,10 @@
       {
         "filename": "bun.lockb",
         "path": ".bun"
+      },
+      {
+        "filename": "bun.lock",
+        "path": ".bun"
       }
     ]
   },
@@ -553,6 +557,312 @@
       {
         "filename": "vercel.json",
         "path": ".vercel"
+      }
+    ]
+  },
+  {
+    "tag": "emberjs",
+    "search": [
+      {
+        "filename": "ember-cli-build.js",
+        "path": "dist"
+      },
+      {
+        "filename": "ember-cli-build.js",
+        "path": "tmp"
+      }
+    ]
+  },
+  {
+    "tag": "ghost",
+    "search": [
+      {
+        "filename": ".ghost-cli",
+        "path": "content/data"
+      },
+      {
+        "filename": ".ghost-cli",
+        "path": "versions"
+      },
+      {
+        "filename": ".ghost-cli",
+        "path": "content/logs"
+      }
+    ]
+  },
+  {
+    "tag": "wrangler",
+    "search": [
+      {
+        "filename": "wrangler.toml",
+        "path": ".wrangler"
+      }
+    ]
+  },
+  {
+    "tag": "keystone",
+    "search": [
+      {
+        "filename": "keystone.ts",
+        "path": ".keystone"
+      }
+    ]
+  },
+  {
+    "tag": "sanity",
+    "search": [
+      {
+        "filename": "sanity.cli.ts",
+        "path": ".sanity"
+      },
+      {
+        "filename": "sanity.config.ts",
+        "path": ".sanity"
+      },
+      {
+        "filename": "sanity.config.js",
+        "path": ".sanity"
+      }
+    ]
+  },
+  {
+    "tag": "sst",
+    "search": [
+      {
+        "filename": "sst.config.ts",
+        "path": ".sst"
+      },
+      {
+        "filename": "sst.config.js",
+        "path": ".sst"
+      }
+    ]
+  },
+  {
+    "tag": "hardhat",
+    "search": [
+      {
+        "filename": "hardhat.config.js",
+        "path": "artifacts"
+      },
+      {
+        "filename": "hardhat.config.js",
+        "path": "cache"
+      },
+      {
+        "filename": "hardhat.config.js",
+        "path": "typechain-types"
+      },
+      {
+        "filename": "hardhat.config.ts",
+        "path": "artifacts"
+      },
+      {
+        "filename": "hardhat.config.ts",
+        "path": "cache"
+      },
+      {
+        "filename": "hardhat.config.ts",
+        "path": "typechain-types"
+      }
+    ]
+  },
+  {
+    "tag": "truffle",
+    "search": [
+      {
+        "filename": "truffle-config.js",
+        "path": "build/contracts"
+      }
+    ]
+  },
+  {
+    "tag": "rspack",
+    "search": [
+      {
+        "filename": "rspack.config.*",
+        "path": "dist"
+      }
+    ]
+  },
+  {
+    "tag": "rsbuild",
+    "search": [
+      {
+        "filename": "rsbuild.config.*",
+        "path": "dist"
+      }
+    ]
+  },
+  {
+    "tag": "pandacss",
+    "search": [
+      {
+        "filename": "panda.config.*",
+        "path": "styled-system"
+      }
+    ]
+  },
+  {
+    "tag": "eleventy",
+    "search": [
+      {
+        "filename": "eleventy.config.*",
+        "path": "_site"
+      },
+      {
+        "filename": ".eleventy.js",
+        "path": "_site"
+      }
+    ]
+  },
+  {
+    "tag": "stencil",
+    "search": [
+      {
+        "filename": "stencil.config.ts",
+        "path": "dist"
+      },
+      {
+        "filename": "stencil.config.ts",
+        "path": "www"
+      }
+    ]
+  },
+  {
+    "tag": "drizzle",
+    "search": [
+      {
+        "filename": "drizzle.config.*",
+        "path": ".drizzle"
+      }
+    ]
+  },
+  {
+    "tag": "quasar",
+    "search": [
+      {
+        "filename": "quasar.config.*",
+        "path": ".quasar"
+      },
+      {
+        "filename": "quasar.config.*",
+        "path": "dist"
+      },
+      {
+        "filename": "quasar.config.*",
+        "path": "src-capacitor/www"
+      },
+      {
+        "filename": "quasar.config.*",
+        "path": "src-cordova/platforms"
+      },
+      {
+        "filename": "quasar.conf.*",
+        "path": ".quasar"
+      },
+      {
+        "filename": "quasar.conf.*",
+        "path": "dist"
+      },
+      {
+        "filename": "quasar.conf.*",
+        "path": "src-capacitor/www"
+      },
+      {
+        "filename": "quasar.conf.*",
+        "path": "src-cordova/platforms"
+      }
+    ]
+  },
+  {
+    "tag": "wails",
+    "search": [
+      {
+        "filename": "wails.json",
+        "path": "build/bin"
+      },
+      {
+        "filename": "wails.json",
+        "path": "build/obj"
+      }
+    ]
+  },
+  {
+    "tag": "vitepress",
+    "search": [
+      {
+        "filename": ".vitepress/config.*",
+        "path": ".vitepress/dist"
+      },
+      {
+        "filename": ".vitepress/config.*",
+        "path": ".vitepress/cache"
+      }
+    ]
+  },
+  {
+    "tag": "puppeteer",
+    "search": [
+      {
+        "filename": "puppeteer.config.js",
+        "path": ".cache/puppeteer"
+      },
+      {
+        "filename": "puppeteer.config.cjs",
+        "path": ".cache/puppeteer"
+      }
+    ]
+  },
+  {
+    "tag": "supabase",
+    "search": [
+      {
+        "filename": "supabase/config.toml",
+        "path": ".supabase"
+      }
+    ]
+  },
+  {
+    "tag": "husky",
+    "search": [
+      {
+        "filename": ".husky/pre-commit",
+        "path": ".husky/_"
+      }
+    ]
+  },
+  {
+    "tag": "deno",
+    "search": [
+      {
+        "filename": "deno.json",
+        "path": "cov_profile"
+      },
+      {
+        "filename": "deno.jsonc",
+        "path": "cov_profile"
+      }
+    ]
+  },
+  {
+    "tag": "lefthook",
+    "search": [
+      {
+        "filename": "lefthook.yml",
+        "path": "lefthook-local.yml"
+      },
+      {
+        "filename": "lefthook.yml",
+        "path": "lefthook-local.yaml"
+      },
+      {
+        "filename": "lefthook.yaml",
+        "path": "lefthook-local.yml"
+      },
+      {
+        "filename": "lefthook.yaml",
+        "path": "lefthook-local.yaml"
       }
     ]
   }
