@@ -865,5 +865,70 @@
         "path": "lefthook-local.yaml"
       }
     ]
+  },
+  {
+    "tag": "nextjs",
+    "search": [
+      {
+        "filename": "next.config.*",
+        "path": ".next"
+      }
+    ]
+  },
+  {
+    "tag": "gatsby",
+    "search": [
+      {
+        "filename": "gatsby-config.*",
+        "path": ".cache"
+      },
+      {
+        "filename": "gatsby-config.*",
+        "path": "public"
+      }
+    ]
+  },
+  {
+    "tag": "angular",
+    "search": [
+      {
+        "filename": "angular.json",
+        "path": "dist"
+      },
+      {
+        "filename": "angular.json",
+        "path": ".angular"
+      }
+    ]
+  },
+  {
+    "tag": "eslint",
+    "search": [
+      {
+        "filename": "eslint.config.*",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": ".eslintrc.*",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": ".eslintrc",
+        "path": ".eslintcache"
+      }
+    ]
+  },
+  {
+    "tag": "prettier",
+    "search": [
+      {
+        "filename": ".prettierrc*",
+        "path": ".prettiercache"
+      },
+      {
+        "filename": "prettier.config.*",
+        "path": ".prettiercache"
+      }
+    ]
   }
 ]

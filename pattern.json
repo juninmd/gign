@@ -13,7 +13,14 @@
       "sanity.config.js",
       "sanity.cli.ts",
       "biome.json",
-      "biome.jsonc"
+      "biome.jsonc",
+      "tailwind.config.js",
+      "tailwind.config.ts",
+      "tailwind.config.cjs",
+      "tailwind.config.mjs",
+      "postcss.config.js",
+      "postcss.config.cjs",
+      "postcss.config.mjs"
     ]
   },
   {
