@@ -20,7 +20,15 @@
       "tailwind.config.mjs",
       "postcss.config.js",
       "postcss.config.cjs",
-      "postcss.config.mjs"
+      "postcss.config.mjs",
+      ".swcrc",
+      "apollo.config.js",
+      "relay.config.js",
+      "relay.config.json",
+      "swagger.json",
+      "swagger.yaml",
+      "openapi.json",
+      "openapi.yaml"
     ]
   },
   {
