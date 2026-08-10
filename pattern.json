@@ -1249,7 +1249,11 @@
       "eleventy.config.cjs",
       ".eleventy.js",
       "stencil.config.ts",
-      ".husky/pre-commit"
+      ".husky/pre-commit",
+      "vite.config.js",
+      "vite.config.ts",
+      "vite.config.cjs",
+      "vite.config.mjs"
     ]
   },
   {
