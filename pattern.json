@@ -1,34 +1,117 @@
 [
   {
     "node": [
-      "package.json",
-      "package-lock.json",
-      "node_modules",
-      "lerna.json",
-      "drizzle.config.ts",
-      "drizzle.config.js",
-      "wrangler.toml",
-      "keystone.ts",
-      "sanity.config.ts",
-      "sanity.config.js",
-      "sanity.cli.ts",
-      "biome.json",
-      "biome.jsonc",
-      "tailwind.config.js",
-      "tailwind.config.ts",
-      "tailwind.config.cjs",
-      "tailwind.config.mjs",
-      "postcss.config.js",
-      "postcss.config.cjs",
-      "postcss.config.mjs",
+      ".adonisrc.json",
+      ".babelrc",
+      ".babelrc.js",
+      ".babelrc.json",
+      ".commitlintrc.js",
+      ".commitlintrc.json",
+      ".commitlintrc.yml",
+      ".eslintrc",
+      ".eslintrc.js",
+      ".eslintrc.json",
+      ".eslintrc.yaml",
+      ".eslintrc.yml",
+      ".lintstagedrc",
+      ".lintstagedrc.js",
+      ".lintstagedrc.json",
+      ".lintstagedrc.yaml",
+      ".lintstagedrc.yml",
+      ".parcelrc",
+      ".prettierrc",
+      ".prettierrc.js",
+      ".prettierrc.json",
+      ".prettierrc.yaml",
+      ".prettierrc.yml",
+      ".sailsrc",
+      ".storybook",
+      ".stylelintrc",
+      ".stylelintrc.js",
+      ".stylelintrc.json",
+      ".stylelintrc.yaml",
+      ".stylelintrc.yml",
       ".swcrc",
       "apollo.config.js",
+      "app.config.js",
+      "app.config.ts",
+      "astro.config.mjs",
+      "astro.config.ts",
+      "babel.config.js",
+      "babel.config.json",
+      "biome.json",
+      "biome.jsonc",
+      "bun.lock",
+      "bun.lockb",
+      "commitlint.config.js",
+      "commitlint.config.ts",
+      "cypress.config.js",
+      "cypress.config.ts",
+      "cypress.json",
+      "docusaurus.config.js",
+      "docusaurus.config.ts",
+      "drizzle.config.js",
+      "drizzle.config.ts",
+      "esbuild.js",
+      "eslint.config.cjs",
+      "eslint.config.mjs",
+      "eslint.config.ts",
+      "gatsby-config.js",
+      "gatsby-config.ts",
+      "jest.config.cjs",
+      "jest.config.js",
+      "jest.config.json",
+      "jest.config.mjs",
+      "jest.config.ts",
+      "keystone.ts",
+      "lerna.json",
+      "lint-staged.config.js",
+      "next.config.cjs",
+      "next.config.js",
+      "next.config.mjs",
+      "node_modules",
+      "nuxt.config.js",
+      "nuxt.config.ts",
+      "nx.json",
+      "openapi.json",
+      "openapi.yaml",
+      "package-lock.json",
+      "package.json",
+      "playwright.config.js",
+      "playwright.config.ts",
+      "postcss.config.cjs",
+      "postcss.config.js",
+      "postcss.config.mjs",
+      "prettier.config.cjs",
+      "prettier.config.js",
+      "prettier.config.mjs",
+      "puppeteer.config.cjs",
+      "puppeteer.config.js",
+      "qwik.config.js",
+      "qwik.config.ts",
       "relay.config.js",
       "relay.config.json",
+      "remix.config.js",
+      "remix.config.mjs",
+      "remix.config.ts",
+      "rollup.config.cjs",
+      "rollup.config.js",
+      "rollup.config.mjs",
+      "rollup.config.ts",
+      "sanity.cli.ts",
+      "sanity.config.js",
+      "sanity.config.ts",
+      "stylelint.config.js",
+      "svelte.config.js",
       "swagger.json",
       "swagger.yaml",
-      "openapi.json",
-      "openapi.yaml"
+      "tailwind.config.cjs",
+      "tailwind.config.js",
+      "tailwind.config.mjs",
+      "tailwind.config.ts",
+      "vitest.config.js",
+      "vitest.config.ts",
+      "wrangler.toml"
     ]
   },
   {
@@ -38,13 +121,13 @@
   },
   {
     "python": [
+      "*.py",
+      "Pipfile",
+      "alembic.ini",
+      "pyproject.toml",
       "requirements.txt",
       "setup.py",
-      "Pipfile",
-      "pyproject.toml",
-      "venv",
-      "*.py",
-      "alembic.ini"
+      "venv"
     ]
   },
   {
@@ -58,9 +141,10 @@
   },
   {
     "go": [
-      "go.mod",
       "*.go",
-      "go.sum"
+      "go.mod",
+      "go.sum",
+      "wails.json"
     ]
   },
   {
@@ -112,9 +196,9 @@
   },
   {
     "dart": [
-      "pubspec.yaml",
       "*.dart",
-      "pubspec.lock"
+      "pubspec.lock",
+      "pubspec.yaml"
     ]
   },
   {
@@ -277,15 +361,18 @@
   },
   {
     "r": [
+      "*.R",
       "*.Rproj",
-      "*.R"
+      "DESCRIPTION",
+      "NAMESPACE"
     ]
   },
   {
     "haskell": [
-      "stack.yaml",
       "*.cabal",
-      "*.hs"
+      "*.hs",
+      "package.yaml",
+      "stack.yaml"
     ]
   },
   {
@@ -308,9 +395,9 @@
   },
   {
     "julia": [
-      "Project.toml",
+      "*.jl",
       "Manifest.toml",
-      "*.jl"
+      "Project.toml"
     ]
   },
   {
@@ -436,10 +523,11 @@
   },
   {
     "ocaml": [
-      "dune",
-      "_build",
       "*.ml",
-      "*.mli"
+      "*.mli",
+      "_build",
+      "dune",
+      "dune-project"
     ]
   },
   {
@@ -479,14 +567,14 @@
   },
   {
     "crystal": [
-      "shard.yml",
-      "*.cr"
+      "*.cr",
+      "shard.yml"
     ]
   },
   {
     "nim": [
-      "*.nimble",
-      "*.nim"
+      "*.nim",
+      "*.nimble"
     ]
   },
   {
@@ -811,6 +899,7 @@
   },
   {
     "matlab": [
+      "*.m",
       "*.mat"
     ]
   },
