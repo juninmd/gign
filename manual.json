@@ -939,5 +939,41 @@
         "path": ".swc"
       }
     ]
+  },
+  {
+    "tag": "cloudflare",
+    "search": [
+      {
+        "filename": "wrangler.toml",
+        "path": ".wrangler"
+      }
+    ]
+  },
+  {
+    "tag": "appwrite",
+    "search": [
+      {
+        "filename": "appwrite.json",
+        "path": ".appwrite"
+      }
+    ]
+  },
+  {
+    "tag": "payload",
+    "search": [
+      {
+        "filename": "payload.config.*",
+        "path": "build"
+      }
+    ]
+  },
+  {
+    "tag": "moon",
+    "search": [
+      {
+        "filename": "moon.yml",
+        "path": ".moon/cache"
+      }
+    ]
   }
 ]
