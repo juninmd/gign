@@ -111,7 +111,37 @@
       "tailwind.config.ts",
       "vitest.config.js",
       "vitest.config.ts",
-      "wrangler.toml"
+      "wrangler.toml",
+      "turbo.json",
+      "uno.config.js",
+      "uno.config.ts",
+      "windi.config.js",
+      "windi.config.ts",
+      "moon.yml",
+      "moon.yaml",
+      "app.arc",
+      "knexfile.js",
+      "knexfile.ts",
+      "mikro-orm.config.js",
+      "mikro-orm.config.ts",
+      "sequelize.js",
+      "sequelize.ts",
+      "typeorm.config.js",
+      "typeorm.config.ts",
+      "tsup.config.ts",
+      "tsup.config.js",
+      "tsr.config.json",
+      "rspress.config.ts",
+      "rspress.config.js",
+      "modern.config.ts",
+      "modern.config.js",
+      "farm.config.ts",
+      "farm.config.js",
+      "rolldown.config.js",
+      "rolldown.config.ts",
+      "payload.config.ts",
+      "payload.config.js",
+      "keystone.js"
     ]
   },
   {
@@ -127,7 +157,8 @@
       "pyproject.toml",
       "requirements.txt",
       "setup.py",
-      "venv"
+      "venv",
+      "tox.ini"
     ]
   },
   {
@@ -151,7 +182,9 @@
     "ruby": [
       "Gemfile",
       "*.rb",
-      "Gemfile.lock"
+      "Gemfile.lock",
+      "*.gemspec",
+      ".ruby-version"
     ]
   },
   {
@@ -372,7 +405,8 @@
       "*.cabal",
       "*.hs",
       "package.yaml",
-      "stack.yaml"
+      "stack.yaml",
+      "cabal.project"
     ]
   },
   {
@@ -508,7 +542,8 @@
   {
     "clojure": [
       "project.clj",
-      "deps.edn"
+      "deps.edn",
+      "build.boot"
     ]
   },
   {
@@ -3891,6 +3926,16 @@
   {
     "esp32": [
       "esp32"
+    ]
+  },
+  {
+    "architect": [
+      "app.arc"
+    ]
+  },
+  {
+    "appwrite": [
+      "appwrite.json"
     ]
   }
 ]
