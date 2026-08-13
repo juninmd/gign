@@ -65,6 +65,10 @@
       {
         "filename": ".parcelrc",
         "path": "dist"
+      },
+      {
+        "filename": "package.json",
+        "path": ".parcel-cache"
       }
     ]
   },
@@ -973,6 +977,63 @@
       {
         "filename": "moon.yml",
         "path": ".moon/cache"
+      }
+    ]
+  },
+  {
+    "tag": "anchor",
+    "search": [
+      {
+        "filename": "Anchor.toml",
+        "path": "target"
+      },
+      {
+        "filename": "Anchor.toml",
+        "path": ".anchor"
+      }
+    ]
+  },
+  {
+    "tag": "blitz",
+    "search": [
+      {
+        "filename": "blitz.config.js",
+        "path": ".blitz"
+      },
+      {
+        "filename": "blitz.config.ts",
+        "path": ".blitz"
+      }
+    ]
+  },
+  {
+    "tag": "redwood",
+    "search": [
+      {
+        "filename": "redwood.toml",
+        "path": ".redwood"
+      }
+    ]
+  },
+  {
+    "tag": "solid",
+    "search": [
+      {
+        "filename": "vite.config.ts",
+        "path": ".solid"
+      }
+    ]
+  },
+  {
+    "tag": "snowpack",
+    "search": [
+      {
+        "filename": "snowpack.config.js",
+        "path": "build"
+      },
+      {
+        "filename": "snowpack.config.mjs",
+        "path": "build"
       }
     ]
   }

@@ -141,7 +141,12 @@
       "rolldown.config.ts",
       "payload.config.ts",
       "payload.config.js",
-      "keystone.js"
+      "keystone.js",
+      "blitz.config.js",
+      "blitz.config.ts",
+      "redwood.toml",
+      "snowpack.config.js",
+      "snowpack.config.mjs"
     ]
   },
   {
@@ -581,7 +586,9 @@
       "hardhat.config.js",
       "hardhat.config.ts",
       "truffle-config.js",
-      "*.sol"
+      "*.sol",
+      "foundry.toml",
+      "Anchor.toml"
     ]
   },
   {
