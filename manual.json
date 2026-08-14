@@ -684,8 +684,36 @@
     "tag": "rspack",
     "search": [
       {
-        "filename": "rspack.config.*",
-        "path": "dist"
+        "filename": "rspack.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "rspack.config.js",
+        "path": "build/"
+      },
+      {
+        "filename": "rspack.config.ts",
+        "path": "dist/"
+      },
+      {
+        "filename": "rspack.config.ts",
+        "path": "build/"
+      },
+      {
+        "filename": "rspack.config.cjs",
+        "path": "dist/"
+      },
+      {
+        "filename": "rspack.config.cjs",
+        "path": "build/"
+      },
+      {
+        "filename": "rspack.config.mjs",
+        "path": "dist/"
+      },
+      {
+        "filename": "rspack.config.mjs",
+        "path": "build/"
       }
     ]
   },
@@ -693,8 +721,20 @@
     "tag": "rsbuild",
     "search": [
       {
-        "filename": "rsbuild.config.*",
-        "path": "dist"
+        "filename": "rsbuild.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "rsbuild.config.ts",
+        "path": "dist/"
+      },
+      {
+        "filename": "rsbuild.config.cjs",
+        "path": "dist/"
+      },
+      {
+        "filename": "rsbuild.config.mjs",
+        "path": "dist/"
       }
     ]
   },
@@ -702,8 +742,20 @@
     "tag": "pandacss",
     "search": [
       {
-        "filename": "panda.config.*",
-        "path": "styled-system"
+        "filename": "panda.config.js",
+        "path": "styled-system/"
+      },
+      {
+        "filename": "panda.config.ts",
+        "path": "styled-system/"
+      },
+      {
+        "filename": "panda.config.mjs",
+        "path": "styled-system/"
+      },
+      {
+        "filename": "panda.config.cjs",
+        "path": "styled-system/"
       }
     ]
   },
@@ -711,12 +763,16 @@
     "tag": "eleventy",
     "search": [
       {
-        "filename": "eleventy.config.*",
-        "path": "_site"
+        "filename": "eleventy.config.js",
+        "path": "_site/"
+      },
+      {
+        "filename": "eleventy.config.cjs",
+        "path": "_site/"
       },
       {
         "filename": ".eleventy.js",
-        "path": "_site"
+        "path": "_site/"
       }
     ]
   },
@@ -976,7 +1032,11 @@
     "search": [
       {
         "filename": "moon.yml",
-        "path": ".moon/cache"
+        "path": ".moon/cache/"
+      },
+      {
+        "filename": "moon.yaml",
+        "path": ".moon/cache/"
       }
     ]
   },
@@ -1029,11 +1089,28 @@
     "search": [
       {
         "filename": "snowpack.config.js",
-        "path": "build"
+        "path": "build/"
+      },
+      {
+        "filename": "snowpack.config.cjs",
+        "path": "build/"
       },
       {
         "filename": "snowpack.config.mjs",
-        "path": "build"
+        "path": "build/"
+      }
+    ]
+  },
+  {
+    "tag": "farm",
+    "search": [
+      {
+        "filename": "farm.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "farm.config.ts",
+        "path": "dist/"
       }
     ]
   }
