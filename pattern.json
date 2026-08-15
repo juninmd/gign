@@ -195,7 +195,8 @@
       "requirements.txt",
       "setup.py",
       "venv",
-      "tox.ini"
+      "tox.ini",
+      "uv.lock"
     ]
   },
   {
@@ -3975,6 +3976,41 @@
   {
     "appwrite": [
       "appwrite.json"
+    ]
+  },
+  {
+    "devenv": [
+      "devenv.nix"
+    ]
+  },
+  {
+    "devbox": [
+      "devbox.json"
+    ]
+  },
+  {
+    "mise": [
+      "mise.toml"
+    ]
+  },
+  {
+    "zed": [
+      ".zed"
+    ]
+  },
+  {
+    "cursor": [
+      ".cursor"
+    ]
+  },
+  {
+    "dagger": [
+      ".dagger"
+    ]
+  },
+  {
+    "aider": [
+      ".aider"
     ]
   }
 ]
