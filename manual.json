@@ -1113,5 +1113,23 @@
         "path": "dist/"
       }
     ]
+  },
+  {
+    "tag": "devenv",
+    "search": [
+      {
+        "filename": "devenv.nix",
+        "path": ".devenv"
+      }
+    ]
+  },
+  {
+    "tag": "devbox",
+    "search": [
+      {
+        "filename": "devbox.json",
+        "path": ".devbox"
+      }
+    ]
   }
 ]
