@@ -196,7 +196,12 @@
       "setup.py",
       "venv",
       "tox.ini",
-      "uv.lock"
+      "uv.lock",
+      "rye.lock",
+      "pdm.lock",
+      "hatch.toml",
+      "pixi.lock",
+      "pixi.toml"
     ]
   },
   {
@@ -390,7 +395,9 @@
   },
   {
     "flutter": [
-      "pubspec.yaml"
+      "pubspec.yaml",
+      ".flutter-plugins",
+      ".flutter-plugins-dependencies"
     ]
   },
   {
