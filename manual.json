@@ -1131,5 +1131,40 @@
         "path": ".devbox"
       }
     ]
+  },
+  {
+    "tag": "pdm",
+    "search": [
+      {
+        "filename": "pdm.lock",
+        "path": ".pdm-python/"
+      },
+      {
+        "filename": "pdm.lock",
+        "path": ".pdm-build/"
+      }
+    ]
+  },
+  {
+    "tag": "rye",
+    "search": [
+      {
+        "filename": "rye.lock",
+        "path": ".rye/"
+      }
+    ]
+  },
+  {
+    "tag": "pixi",
+    "search": [
+      {
+        "filename": "pixi.lock",
+        "path": ".pixi/"
+      },
+      {
+        "filename": "pixi.toml",
+        "path": ".pixi/"
+      }
+    ]
   }
 ]
