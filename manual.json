@@ -1166,5 +1166,36 @@
         "path": ".pixi/"
       }
     ]
+  },
+  {
+    "tag": "node",
+    "search": [
+      {
+        "filename": ".release-it.json",
+        "path": ".release-it/"
+      }
+    ]
+  },
+  {
+    "tag": "rust",
+    "search": [
+      {
+        "filename": "Cargo.toml",
+        "path": "target/"
+      }
+    ]
+  },
+  {
+    "tag": "python",
+    "search": [
+      {
+        "filename": "pyproject.toml",
+        "path": ".ruff_cache/"
+      },
+      {
+        "filename": "pyproject.toml",
+        "path": ".pytest_cache/"
+      }
+    ]
   }
 ]
