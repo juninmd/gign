@@ -178,7 +178,12 @@
       "webpack.config.ts",
       "windi.config.js",
       "windi.config.ts",
-      "wrangler.toml"
+      "wrangler.toml",
+      ".markdownlint.json",
+      "cspell.json",
+      "dprint.json",
+      ".release-it.json",
+      "typedoc.json"
     ]
   },
   {
@@ -201,7 +206,11 @@
       "pdm.lock",
       "hatch.toml",
       "pixi.lock",
-      "pixi.toml"
+      "pixi.toml",
+      "pyrightconfig.json",
+      "noxfile.py",
+      ".pylintrc",
+      ".flake8"
     ]
   },
   {
@@ -218,7 +227,11 @@
       "*.go",
       "go.mod",
       "go.sum",
-      "wails.json"
+      "wails.json",
+      ".golangci.yml",
+      ".golangci.yaml",
+      ".goreleaser.yaml",
+      ".goreleaser.yml"
     ]
   },
   {
@@ -227,14 +240,19 @@
       "*.rb",
       "Gemfile.lock",
       "*.gemspec",
-      ".ruby-version"
+      ".ruby-version",
+      ".rubocop.yml",
+      ".rubocop.yaml"
     ]
   },
   {
     "rust": [
       "Cargo.toml",
       "*.rs",
-      "Cargo.lock"
+      "Cargo.lock",
+      "rustfmt.toml",
+      ".rustfmt.toml",
+      "clippy.toml"
     ]
   },
   {
@@ -1059,7 +1077,9 @@
     "php": [
       "*.php",
       "composer.json",
-      "composer.lock"
+      "composer.lock",
+      "phpstan.neon",
+      "psalm.xml"
     ]
   },
   {
