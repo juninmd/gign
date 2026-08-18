@@ -183,7 +183,16 @@
       "cspell.json",
       "dprint.json",
       ".release-it.json",
-      "typedoc.json"
+      "typedoc.json",
+      "components.json",
+      "knip.json",
+      "knip.jsonc",
+      "knip.ts",
+      "knip.js",
+      ".lintstagedrc.mjs",
+      ".lintstagedrc.cjs",
+      ".commitlintrc.mjs",
+      ".commitlintrc.cjs"
     ]
   },
   {
@@ -1584,7 +1593,9 @@
     "nix": [
       "default.nix",
       "shell.nix",
-      "*.nix"
+      "*.nix",
+      "flake.nix",
+      "flake.lock"
     ]
   },
   {
@@ -3896,7 +3907,12 @@
   {
     "docker": [
       "Dockerfile",
-      "docker-compose.yml"
+      "docker-compose.yml",
+      "compose.yaml",
+      "compose.yml",
+      "docker-compose.yaml",
+      "docker-compose.override.yml",
+      "docker-compose.override.yaml"
     ]
   },
   {
@@ -4038,6 +4054,12 @@
   {
     "aider": [
       ".aider"
+    ]
+  },
+  {
+    "biome": [
+      "biome.json",
+      "biome.jsonc"
     ]
   }
 ]
