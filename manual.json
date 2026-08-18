@@ -1197,5 +1197,73 @@
         "path": ".pytest_cache/"
       }
     ]
+  },
+  {
+    "tag": "bruno",
+    "search": [
+      {
+        "filename": "bruno.json",
+        "path": ".bruno/"
+      }
+    ]
+  },
+  {
+    "tag": "knip",
+    "search": [
+      {
+        "filename": "knip.json",
+        "path": ".knip/"
+      },
+      {
+        "filename": "knip.jsonc",
+        "path": ".knip/"
+      },
+      {
+        "filename": "knip.ts",
+        "path": ".knip/"
+      },
+      {
+        "filename": "knip.js",
+        "path": ".knip/"
+      }
+    ]
+  },
+  {
+    "tag": "mikro-orm",
+    "search": [
+      {
+        "filename": "mikro-orm.config.ts",
+        "path": "temp/"
+      },
+      {
+        "filename": "mikro-orm.config.js",
+        "path": "temp/"
+      },
+      {
+        "filename": "mikro-orm.config.cjs",
+        "path": "temp/"
+      },
+      {
+        "filename": "mikro-orm.config.mjs",
+        "path": "temp/"
+      }
+    ]
+  },
+  {
+    "tag": "nix",
+    "search": [
+      {
+        "filename": "flake.nix",
+        "path": ".direnv/"
+      },
+      {
+        "filename": "flake.nix",
+        "path": "result"
+      },
+      {
+        "filename": "flake.nix",
+        "path": "result-*"
+      }
+    ]
   }
 ]
