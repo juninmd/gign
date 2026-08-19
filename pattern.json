@@ -4061,5 +4061,10 @@
       "biome.json",
       "biome.jsonc"
     ]
+  },
+  {
+    "bruno": [
+      "bruno.json"
+    ]
   }
 ]
