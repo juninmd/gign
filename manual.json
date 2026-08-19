@@ -1265,5 +1265,23 @@
         "path": "result-*"
       }
     ]
+  },
+  {
+    "tag": "cspell",
+    "search": [
+      {
+        "filename": "cspell.json",
+        "path": ".cspellcache"
+      }
+    ]
+  },
+  {
+    "tag": "nox",
+    "search": [
+      {
+        "filename": "noxfile.py",
+        "path": ".nox/"
+      }
+    ]
   }
 ]
