@@ -192,7 +192,15 @@
       ".lintstagedrc.mjs",
       ".lintstagedrc.cjs",
       ".commitlintrc.mjs",
-      ".commitlintrc.cjs"
+      ".commitlintrc.cjs",
+      "tsup.config.mjs",
+      ".yarnrc.yml",
+      "stryker.config.json",
+      "stryker.config.js",
+      "stryker.config.mjs",
+      "stryker.conf.json",
+      "stryker.conf.js",
+      "stryker.conf.mjs"
     ]
   },
   {

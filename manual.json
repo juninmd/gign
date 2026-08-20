@@ -902,6 +902,14 @@
       {
         "filename": "deno.jsonc",
         "path": "cov_profile"
+      },
+      {
+        "filename": "deno.json",
+        "path": ".vendor/"
+      },
+      {
+        "filename": "deno.jsonc",
+        "path": ".vendor/"
       }
     ]
   },
@@ -997,6 +1005,10 @@
       {
         "filename": ".swcrc",
         "path": ".swc"
+      },
+      {
+        "filename": ".swcrc",
+        "path": ".swc/"
       }
     ]
   },
@@ -1281,6 +1293,178 @@
       {
         "filename": "noxfile.py",
         "path": ".nox/"
+      }
+    ]
+  },
+  {
+    "tag": "tsup",
+    "search": [
+      {
+        "filename": "tsup.config.ts",
+        "path": "dist/"
+      },
+      {
+        "filename": "tsup.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "tsup.config.cjs",
+        "path": "dist/"
+      },
+      {
+        "filename": "tsup.config.mjs",
+        "path": "dist/"
+      },
+      {
+        "filename": "tsup.config.json",
+        "path": "dist/"
+      }
+    ]
+  },
+  {
+    "tag": "wireit",
+    "search": [
+      {
+        "filename": "package.json",
+        "path": ".wireit/"
+      }
+    ]
+  },
+  {
+    "tag": "yarn",
+    "search": [
+      {
+        "filename": "yarn.lock",
+        "path": ".yarn/*"
+      },
+      {
+        "filename": "yarn.lock",
+        "path": "!.yarn/patches"
+      },
+      {
+        "filename": "yarn.lock",
+        "path": "!.yarn/plugins"
+      },
+      {
+        "filename": "yarn.lock",
+        "path": "!.yarn/releases"
+      },
+      {
+        "filename": "yarn.lock",
+        "path": "!.yarn/sdks"
+      },
+      {
+        "filename": "yarn.lock",
+        "path": "!.yarn/versions"
+      },
+      {
+        "filename": ".yarnrc.yml",
+        "path": ".yarn/*"
+      },
+      {
+        "filename": ".yarnrc.yml",
+        "path": "!.yarn/patches"
+      },
+      {
+        "filename": ".yarnrc.yml",
+        "path": "!.yarn/plugins"
+      },
+      {
+        "filename": ".yarnrc.yml",
+        "path": "!.yarn/releases"
+      },
+      {
+        "filename": ".yarnrc.yml",
+        "path": "!.yarn/sdks"
+      },
+      {
+        "filename": ".yarnrc.yml",
+        "path": "!.yarn/versions"
+      },
+      {
+        "filename": "yarn.lock",
+        "path": ".pnp.*"
+      },
+      {
+        "filename": ".yarnrc.yml",
+        "path": ".pnp.*"
+      }
+    ]
+  },
+  {
+    "tag": "pnpm",
+    "search": [
+      {
+        "filename": "pnpm-lock.yaml",
+        "path": ".pnpm-store/"
+      }
+    ]
+  },
+  {
+    "tag": "sls",
+    "search": [
+      {
+        "filename": "serverless.yml",
+        "path": ".serverless/"
+      },
+      {
+        "filename": "serverless.ts",
+        "path": ".serverless/"
+      },
+      {
+        "filename": "serverless.json",
+        "path": ".serverless/"
+      },
+      {
+        "filename": "serverless.js",
+        "path": ".serverless/"
+      }
+    ]
+  },
+  {
+    "tag": "clinic",
+    "search": [
+      {
+        "filename": "package.json",
+        "path": ".clinic/"
+      }
+    ]
+  },
+  {
+    "tag": "stryker",
+    "search": [
+      {
+        "filename": "stryker.config.json",
+        "path": ".stryker-tmp/"
+      },
+      {
+        "filename": "stryker.config.js",
+        "path": ".stryker-tmp/"
+      },
+      {
+        "filename": "stryker.config.mjs",
+        "path": ".stryker-tmp/"
+      },
+      {
+        "filename": "stryker.conf.json",
+        "path": ".stryker-tmp/"
+      },
+      {
+        "filename": "stryker.conf.js",
+        "path": ".stryker-tmp/"
+      },
+      {
+        "filename": "stryker.conf.mjs",
+        "path": ".stryker-tmp/"
+      }
+    ]
+  },
+  {
+    "tag": "tsc",
+    "search": [
+      {
+        "filename": "tsconfig.json",
+        "path": "*.tsbuildinfo"
       }
     ]
   }
