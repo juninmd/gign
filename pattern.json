@@ -211,23 +211,25 @@
   {
     "python": [
       "*.py",
+      ".flake8",
+      ".pylintrc",
+      ".ruff.toml",
       "Pipfile",
       "alembic.ini",
-      "pyproject.toml",
-      "requirements.txt",
-      "setup.py",
-      "venv",
-      "tox.ini",
-      "uv.lock",
-      "rye.lock",
-      "pdm.lock",
       "hatch.toml",
+      "noxfile.py",
+      "pdm.lock",
       "pixi.lock",
       "pixi.toml",
+      "pyproject.toml",
       "pyrightconfig.json",
-      "noxfile.py",
-      ".pylintrc",
-      ".flake8"
+      "requirements.txt",
+      "ruff.toml",
+      "rye.lock",
+      "setup.py",
+      "tox.ini",
+      "uv.lock",
+      "venv"
     ]
   },
   {
@@ -4073,6 +4075,23 @@
   {
     "bruno": [
       "bruno.json"
+    ]
+  },
+  {
+    "ruff": [
+      "ruff.toml",
+      ".ruff.toml"
+    ]
+  },
+  {
+    "taskfile": [
+      "Taskfile.yml",
+      "Taskfile.yaml"
+    ]
+  },
+  {
+    "precommit": [
+      ".pre-commit-config.yaml"
     ]
   }
 ]

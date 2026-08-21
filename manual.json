@@ -1467,5 +1467,27 @@
         "path": "*.tsbuildinfo"
       }
     ]
+  },
+  {
+    "tag": "taskfile",
+    "search": [
+      {
+        "filename": "Taskfile.yml",
+        "path": ".task/"
+      },
+      {
+        "filename": "Taskfile.yaml",
+        "path": ".task/"
+      }
+    ]
+  },
+  {
+    "tag": "terragrunt",
+    "search": [
+      {
+        "filename": "terragrunt.hcl",
+        "path": ".terragrunt-cache/"
+      }
+    ]
   }
 ]
