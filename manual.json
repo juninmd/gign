@@ -1036,6 +1036,14 @@
       {
         "filename": "payload.config.*",
         "path": "build"
+      },
+      {
+        "filename": "payload.config.ts",
+        "path": "build/"
+      },
+      {
+        "filename": "payload.config.js",
+        "path": "build/"
       }
     ]
   },
@@ -1487,6 +1495,40 @@
       {
         "filename": "terragrunt.hcl",
         "path": ".terragrunt-cache/"
+      }
+    ]
+  },
+  {
+    "tag": "nitro",
+    "search": [
+      {
+        "filename": "nitro.config.ts",
+        "path": ".nitro/"
+      },
+      {
+        "filename": "nitro.config.js",
+        "path": ".nitro/"
+      },
+      {
+        "filename": "nitro.config.ts",
+        "path": ".output/"
+      },
+      {
+        "filename": "nitro.config.js",
+        "path": ".output/"
+      }
+    ]
+  },
+  {
+    "tag": "wxt",
+    "search": [
+      {
+        "filename": "wxt.config.ts",
+        "path": ".wxt/"
+      },
+      {
+        "filename": "wxt.config.js",
+        "path": ".wxt/"
       }
     ]
   }
