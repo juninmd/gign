@@ -349,7 +349,9 @@
   },
   {
     "unity": [
-      "ProjectSettings"
+      "ProjectSettings",
+      "ProjectSettings/ProjectSettings.asset",
+      "*.unity"
     ]
   },
   {
@@ -364,7 +366,9 @@
       "gradlew",
       "build.gradle",
       "settings.gradle",
-      "gradlew.bat"
+      "gradlew.bat",
+      "build.gradle.kts",
+      "settings.gradle.kts"
     ]
   },
   {
@@ -4108,6 +4112,22 @@
   {
     "precommit": [
       ".pre-commit-config.yaml"
+    ]
+  },
+  {
+    "dagster": [
+      "workspace.yaml",
+      "dagster.yaml"
+    ]
+  },
+  {
+    "prefect": [
+      "prefect.yaml"
+    ]
+  },
+  {
+    "ant": [
+      "build.xml"
     ]
   }
 ]

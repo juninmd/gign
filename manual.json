@@ -1531,5 +1531,22 @@
         "path": ".wxt/"
       }
     ]
+  },
+  {
+    "tag": "dbt",
+    "search": [
+      {
+        "filename": "dbt_project.yml",
+        "path": "target/"
+      },
+      {
+        "filename": "dbt_project.yml",
+        "path": "dbt_packages/"
+      },
+      {
+        "filename": "dbt_project.yml",
+        "path": "logs/"
+      }
+    ]
   }
 ]
