@@ -22,6 +22,7 @@
       ".lintstagedrc.mjs",
       ".lintstagedrc.yaml",
       ".lintstagedrc.yml",
+      ".localtunnel",
       ".markdownlint.json",
       ".parcelrc",
       ".prettierrc",
@@ -96,6 +97,7 @@
       "mikro-orm.config.js",
       "mikro-orm.config.mjs",
       "mikro-orm.config.ts",
+      "mint.json",
       "modern.config.js",
       "modern.config.ts",
       "moon.yaml",
@@ -4073,7 +4075,10 @@
   },
   {
     "cursor": [
-      ".cursor"
+      ".cursor",
+      ".cursorrules",
+      ".cursorignore",
+      ".cursor/"
     ]
   },
   {
@@ -4128,6 +4133,28 @@
   {
     "ant": [
       "build.xml"
+    ]
+  },
+  {
+    "copilot": [
+      ".copilotignore",
+      "copilot-instructions.md"
+    ]
+  },
+  {
+    "windsurf": [
+      ".windsurfrules"
+    ]
+  },
+  {
+    "cline": [
+      ".clinerules"
+    ]
+  },
+  {
+    "roocode": [
+      ".roomodes",
+      ".rooconfig"
     ]
   }
 ]
