@@ -1548,5 +1548,119 @@
         "path": "logs/"
       }
     ]
+  },
+  {
+    "tag": "unbuild",
+    "search": [
+      {
+        "filename": "build.config.ts",
+        "path": ".stub/"
+      },
+      {
+        "filename": "build.config.js",
+        "path": ".stub/"
+      },
+      {
+        "filename": "build.config.cjs",
+        "path": ".stub/"
+      },
+      {
+        "filename": "build.config.mjs",
+        "path": ".stub/"
+      }
+    ]
+  },
+  {
+    "tag": "typedoc",
+    "search": [
+      {
+        "filename": "typedoc.json",
+        "path": "docs/"
+      },
+      {
+        "filename": "typedoc.js",
+        "path": "docs/"
+      },
+      {
+        "filename": "typedoc.cjs",
+        "path": "docs/"
+      },
+      {
+        "filename": "typedoc.mjs",
+        "path": "docs/"
+      },
+      {
+        "filename": "typedoc.config.js",
+        "path": "docs/"
+      },
+      {
+        "filename": "typedoc.config.cjs",
+        "path": "docs/"
+      },
+      {
+        "filename": "typedoc.config.mjs",
+        "path": "docs/"
+      }
+    ]
+  },
+  {
+    "tag": "lerna",
+    "search": [
+      {
+        "filename": "lerna.json",
+        "path": "lerna-debug.log"
+      }
+    ]
+  },
+  {
+    "tag": "webdriverio",
+    "search": [
+      {
+        "filename": "wdio.conf.js",
+        "path": ".wdio-logs/"
+      },
+      {
+        "filename": "wdio.conf.ts",
+        "path": ".wdio-logs/"
+      },
+      {
+        "filename": "wdio.conf.js",
+        "path": "allure-results/"
+      },
+      {
+        "filename": "wdio.conf.ts",
+        "path": "allure-results/"
+      }
+    ]
+  },
+  {
+    "tag": "nightwatch",
+    "search": [
+      {
+        "filename": "nightwatch.conf.js",
+        "path": "tests_output/"
+      },
+      {
+        "filename": "nightwatch.json",
+        "path": "tests_output/"
+      }
+    ]
+  },
+  {
+    "tag": "pm2",
+    "search": [
+      {
+        "filename": "ecosystem.config.js",
+        "path": ".pm2/"
+      },
+      {
+        "filename": "ecosystem.config.cjs",
+        "path": ".pm2/"
+      },
+      {
+        "filename": "pm2.config.js",
+        "path": ".pm2/"
+      }
+    ]
   }
 ]
