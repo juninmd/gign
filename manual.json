@@ -1662,5 +1662,26 @@
         "path": ".pm2/"
       }
     ]
+  },
+  {
+    "tag": "cypress",
+    "search": [
+      {
+        "filename": "cypress.config.*",
+        "path": "cypress/screenshots/"
+      },
+      {
+        "filename": "cypress.config.*",
+        "path": "cypress/videos/"
+      },
+      {
+        "filename": "cypress.json",
+        "path": "cypress/screenshots/"
+      },
+      {
+        "filename": "cypress.json",
+        "path": "cypress/videos/"
+      }
+    ]
   }
 ]
