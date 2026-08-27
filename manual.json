@@ -639,6 +639,14 @@
       {
         "filename": "sst.config.js",
         "path": ".sst"
+      },
+      {
+        "filename": "sst.config.ts",
+        "path": ".sst/"
+      },
+      {
+        "filename": "sst.config.js",
+        "path": ".sst/"
       }
     ]
   },
@@ -1681,6 +1689,19 @@
       {
         "filename": "cypress.json",
         "path": "cypress/videos/"
+      }
+    ]
+  },
+  {
+    "tag": "ampt",
+    "search": [
+      {
+        "filename": "ampt.config.js",
+        "path": ".ampt/"
+      },
+      {
+        "filename": "ampt.config.ts",
+        "path": ".ampt/"
       }
     ]
   }
