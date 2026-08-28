@@ -130,6 +130,7 @@
       "eslint.config.ts",
       "farm.config.js",
       "farm.config.ts",
+      "fly.toml",
       "gatsby-config.js",
       "gatsby-config.ts",
       "ionic.config.json",
@@ -198,6 +199,7 @@
       "puppeteer.config.js",
       "qwik.config.js",
       "qwik.config.ts",
+      "railway.json",
       "redwood.toml",
       "relay.config.js",
       "relay.config.json",
@@ -205,6 +207,7 @@
       "remix.config.js",
       "remix.config.mjs",
       "remix.config.ts",
+      "render.yaml",
       "renovate.json",
       "renovate.json5",
       "rolldown.config.cjs",
@@ -236,6 +239,8 @@
       "snowpack.config.cjs",
       "snowpack.config.js",
       "snowpack.config.mjs",
+      "sst.config.js",
+      "sst.config.ts",
       "starlight.config.js",
       "starlight.config.ts",
       "stencil.config.ts",
@@ -4257,6 +4262,27 @@
     "roocode": [
       ".roomodes",
       ".rooconfig"
+    ]
+  },
+  {
+    "flyio": [
+      "fly.toml"
+    ]
+  },
+  {
+    "railway": [
+      "railway.json"
+    ]
+  },
+  {
+    "render": [
+      "render.yaml"
+    ]
+  },
+  {
+    "sst": [
+      "sst.config.js",
+      "sst.config.ts"
     ]
   }
 ]
