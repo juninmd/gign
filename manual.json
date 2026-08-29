@@ -1704,5 +1704,59 @@
         "path": ".ampt/"
       }
     ]
+  },
+  {
+    "tag": "rspress",
+    "search": [
+      {
+        "filename": "rspress.config.ts",
+        "path": "doc_build/"
+      },
+      {
+        "filename": "rspress.config.js",
+        "path": "doc_build/"
+      },
+      {
+        "filename": "rspress.config.cjs",
+        "path": "doc_build/"
+      },
+      {
+        "filename": "rspress.config.mjs",
+        "path": "doc_build/"
+      },
+      {
+        "filename": "rspress.config.ts",
+        "path": ".rspress/"
+      },
+      {
+        "filename": "rspress.config.js",
+        "path": ".rspress/"
+      },
+      {
+        "filename": "rspress.config.cjs",
+        "path": ".rspress/"
+      },
+      {
+        "filename": "rspress.config.mjs",
+        "path": ".rspress/"
+      }
+    ]
+  },
+  {
+    "tag": "craco",
+    "search": [
+      {
+        "filename": "craco.config.js",
+        "path": "build/"
+      },
+      {
+        "filename": "craco.config.ts",
+        "path": "build/"
+      },
+      {
+        "filename": "craco.config.cjs",
+        "path": "build/"
+      }
+    ]
   }
 ]
