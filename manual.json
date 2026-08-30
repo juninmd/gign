@@ -1758,5 +1758,26 @@
         "path": "build/"
       }
     ]
+  },
+  {
+    "tag": "contentlayer",
+    "search": [
+      {
+        "filename": "contentlayer.config.ts",
+        "struct": ".contentlayer/"
+      },
+      {
+        "filename": "contentlayer.config.js",
+        "struct": ".contentlayer/"
+      },
+      {
+        "filename": "contentlayer.config.mjs",
+        "struct": ".contentlayer/"
+      },
+      {
+        "filename": "contentlayer.config.cjs",
+        "struct": ".contentlayer/"
+      }
+    ]
   }
 ]
