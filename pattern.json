@@ -334,7 +334,16 @@
       "workspace.json",
       "wrangler.toml",
       "wxt.config.js",
-      "wxt.config.ts"
+      "wxt.config.ts",
+      "bruno.json",
+      "tsconfig.json",
+      "*.ts",
+      "*.tsx",
+      ".eleventy.js",
+      "react-native.config.js",
+      "inngest",
+      ".husky/pre-commit",
+      "solid.config.js"
     ]
   },
   {
@@ -387,7 +396,11 @@
       "setup.py",
       "tox.ini",
       "uv.lock",
-      "venv"
+      "venv",
+      "dagster.yaml",
+      "dbt_project.yml",
+      ".pre-commit-config.yaml",
+      "requirements.lock"
     ]
   },
   {
@@ -396,7 +409,8 @@
       "build.gradle",
       "*.java",
       "*.class",
-      "*.jar"
+      "*.jar",
+      "build.xml"
     ]
   },
   {
@@ -452,7 +466,8 @@
       "*.cpp",
       "*.hpp",
       "*.cc",
-      "*.cxx"
+      "*.cxx",
+      "Makefile"
     ]
   },
   {
@@ -512,7 +527,8 @@
       "settings.gradle",
       "gradlew.bat",
       "build.gradle.kts",
-      "settings.gradle.kts"
+      "settings.gradle.kts",
+      "*.kts"
     ]
   },
   {
@@ -881,7 +897,9 @@
   },
   {
     "ros": [
-      "package.xml"
+      "package.xml",
+      "colcon.meta",
+      "colcon.pkg"
     ]
   },
   {
@@ -1152,7 +1170,8 @@
   },
   {
     "macos": [
-      ".DS_Store"
+      ".DS_Store",
+      "Brewfile"
     ]
   },
   {
@@ -1263,7 +1282,8 @@
       "composer.json",
       "composer.lock",
       "phpstan.neon",
-      "psalm.xml"
+      "psalm.xml",
+      "phpunit.xml"
     ]
   },
   {
@@ -1449,7 +1469,8 @@
   },
   {
     "flask": [
-      ".flaskenv"
+      ".flaskenv",
+      "app.py"
     ]
   },
   {
@@ -2286,7 +2307,8 @@
       "*.cpp",
       "*.hpp",
       "*.c",
-      "*.h"
+      "*.h",
+      ".idea"
     ]
   },
   {
@@ -2315,13 +2337,15 @@
       "*.js",
       "*.ts",
       "*.jsx",
-      "*.tsx"
+      "*.tsx",
+      ".idea"
     ]
   },
   {
     "rider": [
       "*.sln",
-      "*.csproj"
+      "*.csproj",
+      ".idea"
     ]
   },
   {
@@ -4319,6 +4343,26 @@
     "sst": [
       "sst.config.js",
       "sst.config.ts"
+    ]
+  },
+  {
+    "fly": [
+      "fly.toml"
+    ]
+  },
+  {
+    "task": [
+      "Taskfile.yml"
+    ]
+  },
+  {
+    "foundry": [
+      "foundry.toml"
+    ]
+  },
+  {
+    "anchor": [
+      "Anchor.toml"
     ]
   }
 ]

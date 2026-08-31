@@ -69,6 +69,10 @@
       {
         "filename": "package.json",
         "path": ".parcel-cache"
+      },
+      {
+        "filename": ".parcelrc",
+        "path": ".parcel-cache/"
       }
     ]
   },
@@ -130,6 +134,14 @@
       {
         "filename": "foundry.toml",
         "path": "broadcast"
+      },
+      {
+        "filename": "foundry.toml",
+        "path": "out/"
+      },
+      {
+        "filename": "foundry.toml",
+        "path": "cache/"
       }
     ]
   },
@@ -298,6 +310,10 @@
       {
         "filename": "app.config.ts",
         "path": ".vinxi"
+      },
+      {
+        "filename": "solid.config.js",
+        "path": ".solid/"
       }
     ]
   },
@@ -320,6 +336,14 @@
       {
         "filename": "src-tauri/tauri.conf.json",
         "path": "src-tauri/gen"
+      },
+      {
+        "filename": "tauri.conf.json",
+        "path": "src-tauri/target/"
+      },
+      {
+        "filename": "tauri.conf.json",
+        "path": "src-tauri/gen/"
       }
     ]
   },
@@ -341,6 +365,22 @@
       {
         "filename": "electron-builder.json",
         "path": "release"
+      },
+      {
+        "filename": "package.json",
+        "path": "dist/"
+      },
+      {
+        "filename": "package.json",
+        "path": "out/"
+      },
+      {
+        "filename": "package.json",
+        "path": "build/"
+      },
+      {
+        "filename": "package.json",
+        "path": "release/"
       }
     ]
   },
@@ -363,6 +403,10 @@
       {
         "filename": "nuxt.config.js",
         "path": ".output"
+      },
+      {
+        "filename": "nuxt.config.ts",
+        "path": ".output/"
       }
     ]
   },
@@ -376,6 +420,14 @@
       {
         "filename": "bun.lock",
         "path": ".bun"
+      },
+      {
+        "filename": "bun.lockb",
+        "path": ".bun/"
+      },
+      {
+        "filename": "bun.lock",
+        "path": ".bun/"
       }
     ]
   },
@@ -530,6 +582,18 @@
       {
         "filename": "remix.config.*",
         "path": "public/build"
+      },
+      {
+        "filename": "remix.config.js",
+        "path": ".cache/"
+      },
+      {
+        "filename": "remix.config.js",
+        "path": "build/"
+      },
+      {
+        "filename": "remix.config.js",
+        "path": "public/build/"
       }
     ]
   },
@@ -543,6 +607,14 @@
       {
         "filename": "docusaurus.config.*",
         "path": "build"
+      },
+      {
+        "filename": "docusaurus.config.js",
+        "path": ".docusaurus/"
+      },
+      {
+        "filename": "docusaurus.config.js",
+        "path": "build/"
       }
     ]
   },
@@ -552,6 +624,10 @@
       {
         "filename": "turbo.json",
         "path": ".turbo"
+      },
+      {
+        "filename": "turbo.json",
+        "path": ".turbo/"
       }
     ]
   },
@@ -561,6 +637,10 @@
       {
         "filename": "vercel.json",
         "path": ".vercel"
+      },
+      {
+        "filename": "vercel.json",
+        "path": ".vercel/"
       }
     ]
   },
@@ -591,6 +671,18 @@
       {
         "filename": ".ghost-cli",
         "path": "content/logs"
+      },
+      {
+        "filename": ".ghost-cli",
+        "path": "content/data/"
+      },
+      {
+        "filename": ".ghost-cli",
+        "path": "versions/"
+      },
+      {
+        "filename": ".ghost-cli",
+        "path": "content/logs/"
       }
     ]
   },
@@ -600,6 +692,10 @@
       {
         "filename": "wrangler.toml",
         "path": ".wrangler"
+      },
+      {
+        "filename": "wrangler.toml",
+        "path": ".wrangler/"
       }
     ]
   },
@@ -609,6 +705,10 @@
       {
         "filename": "keystone.ts",
         "path": ".keystone"
+      },
+      {
+        "filename": "keystone.ts",
+        "path": ".keystone/"
       }
     ]
   },
@@ -626,6 +726,10 @@
       {
         "filename": "sanity.config.js",
         "path": ".sanity"
+      },
+      {
+        "filename": "sanity.config.ts",
+        "path": ".sanity/"
       }
     ]
   },
@@ -676,6 +780,30 @@
       {
         "filename": "hardhat.config.ts",
         "path": "typechain-types"
+      },
+      {
+        "filename": "hardhat.config.ts",
+        "path": "artifacts/"
+      },
+      {
+        "filename": "hardhat.config.ts",
+        "path": "cache/"
+      },
+      {
+        "filename": "hardhat.config.ts",
+        "path": "typechain-types/"
+      },
+      {
+        "filename": "hardhat.config.js",
+        "path": "artifacts/"
+      },
+      {
+        "filename": "hardhat.config.js",
+        "path": "cache/"
+      },
+      {
+        "filename": "hardhat.config.js",
+        "path": "typechain-types/"
       }
     ]
   },
@@ -685,6 +813,10 @@
       {
         "filename": "truffle-config.js",
         "path": "build/contracts"
+      },
+      {
+        "filename": "truffle-config.js",
+        "path": "build/contracts/"
       }
     ]
   },
@@ -840,6 +972,38 @@
       {
         "filename": "quasar.conf.*",
         "path": "src-cordova/platforms"
+      },
+      {
+        "filename": "quasar.config.js",
+        "path": ".quasar/"
+      },
+      {
+        "filename": "quasar.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "quasar.config.js",
+        "path": "src-capacitor/www/"
+      },
+      {
+        "filename": "quasar.config.js",
+        "path": "src-cordova/platforms/"
+      },
+      {
+        "filename": "quasar.conf.js",
+        "path": ".quasar/"
+      },
+      {
+        "filename": "quasar.conf.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "quasar.conf.js",
+        "path": "src-capacitor/www/"
+      },
+      {
+        "filename": "quasar.conf.js",
+        "path": "src-cordova/platforms/"
       }
     ]
   },
@@ -853,6 +1017,14 @@
       {
         "filename": "wails.json",
         "path": "build/obj"
+      },
+      {
+        "filename": "wails.json",
+        "path": "build/bin/"
+      },
+      {
+        "filename": "wails.json",
+        "path": "build/obj/"
       }
     ]
   },
@@ -866,6 +1038,14 @@
       {
         "filename": ".vitepress/config.*",
         "path": ".vitepress/cache"
+      },
+      {
+        "filename": ".vitepress/config.js",
+        "path": ".vitepress/dist/"
+      },
+      {
+        "filename": ".vitepress/config.js",
+        "path": ".vitepress/cache/"
       }
     ]
   },
@@ -879,6 +1059,14 @@
       {
         "filename": "puppeteer.config.cjs",
         "path": ".cache/puppeteer"
+      },
+      {
+        "filename": "puppeteer.config.js",
+        "path": ".cache/puppeteer/"
+      },
+      {
+        "filename": "puppeteer.config.cjs",
+        "path": ".cache/puppeteer/"
       }
     ]
   },
@@ -888,6 +1076,10 @@
       {
         "filename": "supabase/config.toml",
         "path": ".supabase"
+      },
+      {
+        "filename": "config.toml",
+        "path": ".supabase/"
       }
     ]
   },
@@ -897,6 +1089,10 @@
       {
         "filename": ".husky/pre-commit",
         "path": ".husky/_"
+      },
+      {
+        "filename": ".husky/pre-commit",
+        "path": ".husky/_/"
       }
     ]
   },
@@ -918,6 +1114,10 @@
       {
         "filename": "deno.jsonc",
         "path": ".vendor/"
+      },
+      {
+        "filename": "deno.json",
+        "path": "cov_profile/"
       }
     ]
   },
@@ -948,6 +1148,10 @@
       {
         "filename": "next.config.*",
         "path": ".next"
+      },
+      {
+        "filename": "next.config.js",
+        "path": ".next/"
       }
     ]
   },
@@ -961,6 +1165,14 @@
       {
         "filename": "gatsby-config.*",
         "path": "public"
+      },
+      {
+        "filename": "gatsby-config.js",
+        "path": ".cache/"
+      },
+      {
+        "filename": "gatsby-config.js",
+        "path": "public/"
       }
     ]
   },
@@ -974,6 +1186,14 @@
       {
         "filename": "angular.json",
         "path": ".angular"
+      },
+      {
+        "filename": "angular.json",
+        "path": "dist/"
+      },
+      {
+        "filename": "angular.json",
+        "path": ".angular/"
       }
     ]
   },
@@ -991,6 +1211,14 @@
       {
         "filename": ".eslintrc",
         "path": ".eslintcache"
+      },
+      {
+        "filename": "eslint.config.js",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": ".eslintrc.js",
+        "path": ".eslintcache"
       }
     ]
   },
@@ -1003,6 +1231,10 @@
       },
       {
         "filename": "prettier.config.*",
+        "path": ".prettiercache"
+      },
+      {
+        "filename": ".prettierrc",
         "path": ".prettiercache"
       }
     ]
@@ -1078,6 +1310,14 @@
       {
         "filename": "Anchor.toml",
         "path": ".anchor"
+      },
+      {
+        "filename": "Anchor.toml",
+        "path": ".anchor/"
+      },
+      {
+        "filename": "Anchor.toml",
+        "path": "target/"
       }
     ]
   },
@@ -1091,6 +1331,10 @@
       {
         "filename": "blitz.config.ts",
         "path": ".blitz"
+      },
+      {
+        "filename": "blitz.config.ts",
+        "path": ".blitz/"
       }
     ]
   },
@@ -1100,6 +1344,10 @@
       {
         "filename": "redwood.toml",
         "path": ".redwood"
+      },
+      {
+        "filename": "redwood.toml",
+        "path": ".redwood/"
       }
     ]
   },
@@ -1148,6 +1396,10 @@
       {
         "filename": "devenv.nix",
         "path": ".devenv"
+      },
+      {
+        "filename": "devenv.nix",
+        "path": ".devenv/"
       }
     ]
   },
@@ -1157,6 +1409,10 @@
       {
         "filename": "devbox.json",
         "path": ".devbox"
+      },
+      {
+        "filename": "devbox.json",
+        "path": ".devbox/"
       }
     ]
   },
@@ -1178,6 +1434,10 @@
     "search": [
       {
         "filename": "rye.lock",
+        "path": ".rye/"
+      },
+      {
+        "filename": "requirements.lock",
         "path": ".rye/"
       }
     ]
@@ -1689,6 +1949,14 @@
       {
         "filename": "cypress.json",
         "path": "cypress/videos/"
+      },
+      {
+        "filename": "cypress.config.js",
+        "path": "cypress/screenshots/"
+      },
+      {
+        "filename": "cypress.config.js",
+        "path": "cypress/videos/"
       }
     ]
   },
@@ -1701,6 +1969,14 @@
       },
       {
         "filename": "ampt.config.ts",
+        "path": ".ampt/"
+      },
+      {
+        "filename": ".amptignore",
+        "path": ".ampt/"
+      },
+      {
+        "filename": "package.json",
         "path": ".ampt/"
       }
     ]
@@ -1777,6 +2053,41 @@
       {
         "filename": "contentlayer.config.cjs",
         "struct": ".contentlayer/"
+      },
+      {
+        "filename": "contentlayer.config.ts",
+        "path": ".contentlayer/"
+      }
+    ]
+  },
+  {
+    "tag": "ember",
+    "search": [
+      {
+        "filename": "ember-cli-build.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "ember-cli-build.js",
+        "path": "tmp/"
+      }
+    ]
+  },
+  {
+    "tag": "task",
+    "search": [
+      {
+        "filename": "Taskfile.yml",
+        "path": ".task/"
+      }
+    ]
+  },
+  {
+    "tag": "svelte",
+    "search": [
+      {
+        "filename": "svelte.config.js",
+        "path": ".svelte-kit/"
       }
     ]
   }
