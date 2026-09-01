@@ -2090,5 +2090,60 @@
         "path": ".svelte-kit/"
       }
     ]
+  },
+  {
+    "tag": "devspace",
+    "search": [
+      {
+        "filename": "devspace.yaml",
+        "path": ".devspace/"
+      },
+      {
+        "filename": "devspace.yml",
+        "path": ".devspace/"
+      }
+    ]
+  },
+  {
+    "tag": "garden",
+    "search": [
+      {
+        "filename": "garden.yaml",
+        "path": ".garden/"
+      },
+      {
+        "filename": "garden.yml",
+        "path": ".garden/"
+      }
+    ]
+  },
+  {
+    "tag": "trunk",
+    "search": [
+      {
+        "filename": "trunk.yaml",
+        "path": ".trunk/out/"
+      },
+      {
+        "filename": "trunk.yaml",
+        "path": ".trunk/logs/"
+      },
+      {
+        "filename": "trunk.yaml",
+        "path": ".trunk/plugins/"
+      },
+      {
+        "filename": ".trunk/trunk.yaml",
+        "path": ".trunk/out/"
+      },
+      {
+        "filename": ".trunk/trunk.yaml",
+        "path": ".trunk/logs/"
+      },
+      {
+        "filename": ".trunk/trunk.yaml",
+        "path": ".trunk/plugins/"
+      }
+    ]
   }
 ]
