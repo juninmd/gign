@@ -4364,5 +4364,28 @@
     "anchor": [
       "Anchor.toml"
     ]
+  },
+  {
+    "earthly": [
+      "Earthfile"
+    ]
+  },
+  {
+    "devspace": [
+      "devspace.yaml",
+      "devspace.yml"
+    ]
+  },
+  {
+    "garden": [
+      "garden.yml",
+      "garden.yaml"
+    ]
+  },
+  {
+    "trunk": [
+      "trunk.yaml",
+      ".trunk/trunk.yaml"
+    ]
   }
 ]
