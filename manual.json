@@ -1219,6 +1219,18 @@
       {
         "filename": ".eslintrc.js",
         "path": ".eslintcache"
+      },
+      {
+        "filename": "eslint.config.mjs",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": "eslint.config.cjs",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": "eslint.config.ts",
+        "path": ".eslintcache"
       }
     ]
   },
@@ -2143,6 +2155,149 @@
       {
         "filename": ".trunk/trunk.yaml",
         "path": ".trunk/plugins/"
+      }
+    ]
+  },
+  {
+    "tag": "unocss",
+    "search": [
+      {
+        "filename": "uno.config.js",
+        "path": ".unocss/"
+      },
+      {
+        "filename": "uno.config.ts",
+        "path": ".unocss/"
+      },
+      {
+        "filename": "unocss.config.js",
+        "path": ".unocss/"
+      },
+      {
+        "filename": "unocss.config.ts",
+        "path": ".unocss/"
+      }
+    ]
+  },
+  {
+    "tag": "tamagui",
+    "search": [
+      {
+        "filename": "tamagui.config.ts",
+        "path": ".tamagui/"
+      },
+      {
+        "filename": "tamagui.config.js",
+        "path": ".tamagui/"
+      }
+    ]
+  },
+  {
+    "tag": "preact",
+    "search": [
+      {
+        "filename": "preact.config.js",
+        "path": "build/"
+      },
+      {
+        "filename": "preact.config.js",
+        "path": "dist/"
+      }
+    ]
+  },
+  {
+    "tag": "dioxus",
+    "search": [
+      {
+        "filename": "Dioxus.toml",
+        "path": "dist/"
+      },
+      {
+        "filename": "Dioxus.toml",
+        "path": ".dioxus/"
+      }
+    ]
+  },
+  {
+    "tag": "keystatic",
+    "search": [
+      {
+        "filename": "keystatic.config.ts",
+        "path": ".keystatic/"
+      },
+      {
+        "filename": "keystatic.config.js",
+        "path": ".keystatic/"
+      }
+    ]
+  },
+  {
+    "tag": "commitlint",
+    "search": [
+      {
+        "filename": "commitlint.config.js",
+        "path": ".commitlintcache"
+      },
+      {
+        "filename": "commitlint.config.cjs",
+        "path": ".commitlintcache"
+      },
+      {
+        "filename": "commitlint.config.mjs",
+        "path": ".commitlintcache"
+      },
+      {
+        "filename": "commitlint.config.ts",
+        "path": ".commitlintcache"
+      }
+    ]
+  },
+  {
+    "tag": "lint-staged",
+    "search": [
+      {
+        "filename": "lint-staged.config.js",
+        "path": ".lintstagedcache"
+      },
+      {
+        "filename": "lint-staged.config.cjs",
+        "path": ".lintstagedcache"
+      },
+      {
+        "filename": "lint-staged.config.mjs",
+        "path": ".lintstagedcache"
+      },
+      {
+        "filename": "lint-staged.config.ts",
+        "path": ".lintstagedcache"
+      },
+      {
+        "filename": ".lintstagedrc",
+        "path": ".lintstagedcache"
+      },
+      {
+        "filename": ".lintstagedrc.json",
+        "path": ".lintstagedcache"
+      },
+      {
+        "filename": ".lintstagedrc.yaml",
+        "path": ".lintstagedcache"
+      },
+      {
+        "filename": ".lintstagedrc.yml",
+        "path": ".lintstagedcache"
+      },
+      {
+        "filename": ".lintstagedrc.js",
+        "path": ".lintstagedcache"
+      },
+      {
+        "filename": ".lintstagedrc.cjs",
+        "path": ".lintstagedcache"
+      },
+      {
+        "filename": ".lintstagedrc.mjs",
+        "path": ".lintstagedcache"
       }
     ]
   }
