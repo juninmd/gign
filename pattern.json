@@ -1514,7 +1514,9 @@
   {
     "pulumi": [
       "Pulumi.yaml",
-      "Pulumi.yml"
+      "Pulumi.yml",
+      "Pulumi.dev.yaml",
+      "Pulumi.prod.yaml"
     ]
   },
   {
@@ -2079,20 +2081,26 @@
     "vitest": [
       "vitest.config.js",
       "vitest.config.ts",
-      "vitest.config.mjs"
+      "vitest.config.mjs",
+      "vitest.workspace.ts",
+      "vitest.workspace.js"
     ]
   },
   {
     "playwright": [
       "playwright.config.js",
-      "playwright.config.ts"
+      "playwright.config.ts",
+      "playwright.config.cjs",
+      "playwright.config.mjs"
     ]
   },
   {
     "cypress": [
       "cypress.json",
       "cypress.config.js",
-      "cypress.config.ts"
+      "cypress.config.ts",
+      "cypress.config.mjs",
+      "cypress.config.cjs"
     ]
   },
   {
@@ -4100,7 +4108,9 @@
   },
   {
     "cloudflare": [
-      "wrangler.toml"
+      "wrangler.toml",
+      "wrangler.json",
+      "wrangler.jsonc"
     ]
   },
   {
@@ -4386,6 +4396,55 @@
     "trunk": [
       "trunk.yaml",
       ".trunk/trunk.yaml"
+    ]
+  },
+  {
+    "cdktf": [
+      "cdktf.json"
+    ]
+  },
+  {
+    "esbuild": [
+      "esbuild.js",
+      "esbuild.mjs",
+      "esbuild.cjs"
+    ]
+  },
+  {
+    "babel": [
+      "babel.config.js",
+      "babel.config.json",
+      ".babelrc",
+      ".babelrc.json"
+    ]
+  },
+  {
+    "husky": [
+      ".husky/pre-commit"
+    ]
+  },
+  {
+    "vite": [
+      "vite.config.js",
+      "vite.config.ts",
+      "vite.config.cjs",
+      "vite.config.mjs"
+    ]
+  },
+  {
+    "webpack": [
+      "webpack.config.js",
+      "webpack.config.ts",
+      "webpack.config.cjs",
+      "webpack.config.mjs"
+    ]
+  },
+  {
+    "rollup": [
+      "rollup.config.js",
+      "rollup.config.ts",
+      "rollup.config.cjs",
+      "rollup.config.mjs"
     ]
   }
 ]

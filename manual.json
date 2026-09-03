@@ -52,6 +52,22 @@
       {
         "filename": "playwright.config.*",
         "path": "playwright/.cache"
+      },
+      {
+        "filename": "playwright.config.cjs",
+        "path": "test-results/"
+      },
+      {
+        "filename": "playwright.config.cjs",
+        "path": "playwright-report/"
+      },
+      {
+        "filename": "playwright.config.mjs",
+        "path": "test-results/"
+      },
+      {
+        "filename": "playwright.config.mjs",
+        "path": "playwright-report/"
       }
     ]
   },
@@ -1270,6 +1286,14 @@
       {
         "filename": "wrangler.toml",
         "path": ".wrangler"
+      },
+      {
+        "filename": "wrangler.json",
+        "path": ".wrangler/"
+      },
+      {
+        "filename": "wrangler.jsonc",
+        "path": ".wrangler/"
       }
     ]
   },
@@ -2298,6 +2322,32 @@
       {
         "filename": ".lintstagedrc.mjs",
         "path": ".lintstagedcache"
+      }
+    ]
+  },
+  {
+    "tag": "cdktf",
+    "search": [
+      {
+        "filename": "cdktf.json",
+        "path": "cdktf.out/"
+      },
+      {
+        "filename": "cdktf.json",
+        "path": ".gen/"
+      }
+    ]
+  },
+  {
+    "tag": "babel",
+    "search": [
+      {
+        "filename": "babel.config.js",
+        "path": "lib/"
+      },
+      {
+        "filename": ".babelrc",
+        "path": "lib/"
       }
     ]
   }
