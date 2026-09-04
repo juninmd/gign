@@ -343,7 +343,9 @@
       "react-native.config.js",
       "inngest",
       ".husky/pre-commit",
-      "solid.config.js"
+      "solid.config.js",
+      ".vuepress/config.js",
+      ".vuepress/config.ts"
     ]
   },
   {
@@ -400,7 +402,9 @@
       "dagster.yaml",
       "dbt_project.yml",
       ".pre-commit-config.yaml",
-      "requirements.lock"
+      "requirements.lock",
+      "mkdocs.yml",
+      "mkdocs.yaml"
     ]
   },
   {
@@ -422,7 +426,14 @@
       ".golangci.yml",
       ".golangci.yaml",
       ".goreleaser.yaml",
-      ".goreleaser.yml"
+      ".goreleaser.yml",
+      ".golangci.toml",
+      ".golangci.json",
+      "buf.yaml",
+      "buf.gen.yaml",
+      "buf.work.yaml",
+      "sqlc.yaml",
+      "sqlc.json"
     ]
   },
   {
@@ -444,7 +455,8 @@
       "Cargo.toml",
       "Dioxus.toml",
       "clippy.toml",
-      "rustfmt.toml"
+      "rustfmt.toml",
+      ".zola"
     ]
   },
   {
@@ -565,7 +577,8 @@
     "terraform": [
       "*.tf",
       "*.tfstate",
-      "*.tfvars"
+      "*.tfvars",
+      ".tflint.hcl"
     ]
   },
   {
@@ -4128,7 +4141,10 @@
     "kubernetes": [
       "k8s",
       "*.yaml",
-      "*.yml"
+      "*.yml",
+      "kustomization.yaml",
+      "kustomization.yml",
+      "Kustomization"
     ]
   },
   {

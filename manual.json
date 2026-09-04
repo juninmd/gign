@@ -258,6 +258,30 @@
       {
         "filename": ".vuepress/config.ts",
         "path": ".vuepress/dist"
+      },
+      {
+        "filename": ".vuepress/config.js",
+        "path": ".vuepress/dist/"
+      },
+      {
+        "filename": ".vuepress/config.js",
+        "path": ".vuepress/cache/"
+      },
+      {
+        "filename": ".vuepress/config.js",
+        "path": ".vuepress/.temp/"
+      },
+      {
+        "filename": ".vuepress/config.ts",
+        "path": ".vuepress/dist/"
+      },
+      {
+        "filename": ".vuepress/config.ts",
+        "path": ".vuepress/cache/"
+      },
+      {
+        "filename": ".vuepress/config.ts",
+        "path": ".vuepress/.temp/"
       }
     ]
   },
@@ -618,11 +642,11 @@
     "search": [
       {
         "filename": "docusaurus.config.*",
-        "path": ".docusaurus"
+        "path": ".docusaurus/"
       },
       {
         "filename": "docusaurus.config.*",
-        "path": "build"
+        "path": "build/"
       },
       {
         "filename": "docusaurus.config.js",
@@ -630,6 +654,14 @@
       },
       {
         "filename": "docusaurus.config.js",
+        "path": "build/"
+      },
+      {
+        "filename": "docusaurus.config.ts",
+        "path": ".docusaurus/"
+      },
+      {
+        "filename": "docusaurus.config.ts",
         "path": "build/"
       }
     ]
@@ -2348,6 +2380,37 @@
       {
         "filename": ".babelrc",
         "path": "lib/"
+      }
+    ]
+  },
+  {
+    "tag": "tflint",
+    "search": [
+      {
+        "filename": ".tflint.hcl",
+        "path": ".tflint.d/"
+      }
+    ]
+  },
+  {
+    "tag": "sphinx",
+    "search": [
+      {
+        "filename": "conf.py",
+        "path": "_build/"
+      },
+      {
+        "filename": "docs/conf.py",
+        "path": "docs/_build/"
+      }
+    ]
+  },
+  {
+    "tag": "zola",
+    "search": [
+      {
+        "filename": "config.toml",
+        "path": "public/"
       }
     ]
   }
