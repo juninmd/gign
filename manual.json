@@ -744,6 +744,10 @@
       {
         "filename": "wrangler.toml",
         "path": ".wrangler/"
+      },
+      {
+        "filename": "wrangler.json",
+        "path": ".wrangler/"
       }
     ]
   },
@@ -1127,6 +1131,10 @@
       },
       {
         "filename": "config.toml",
+        "path": ".supabase/"
+      },
+      {
+        "filename": "supabase/config.toml",
         "path": ".supabase/"
       }
     ]
@@ -2411,6 +2419,19 @@
       {
         "filename": "config.toml",
         "path": "public/"
+      }
+    ]
+  },
+  {
+    "tag": "grafbase",
+    "search": [
+      {
+        "filename": "grafbase.config.ts",
+        "path": ".grafbase/"
+      },
+      {
+        "filename": "grafbase.config.js",
+        "path": ".grafbase/"
       }
     ]
   }

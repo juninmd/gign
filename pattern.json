@@ -345,7 +345,13 @@
       ".husky/pre-commit",
       "solid.config.js",
       ".vuepress/config.js",
-      ".vuepress/config.ts"
+      ".vuepress/config.ts",
+      "grafbase.config.ts",
+      "grafbase.config.js",
+      "wrangler.json",
+      "schema.prisma",
+      "prisma/schema.prisma",
+      "supabase/config.toml"
     ]
   },
   {
