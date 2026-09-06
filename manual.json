@@ -22,6 +22,10 @@
       {
         "filename": "vite.config.*",
         "path": "*.local"
+      },
+      {
+        "filename": "vite.config.*",
+        "path": ".vite/"
       }
     ]
   },
@@ -803,6 +807,10 @@
       {
         "filename": "sst.config.js",
         "path": ".sst/"
+      },
+      {
+        "filename": "sst.config.*",
+        "path": ".sst/"
       }
     ]
   },
@@ -1174,6 +1182,14 @@
       {
         "filename": "deno.json",
         "path": "cov_profile/"
+      },
+      {
+        "filename": "deno.json",
+        "path": ".deno/"
+      },
+      {
+        "filename": "deno.jsonc",
+        "path": ".deno/"
       }
     ]
   },
@@ -2432,6 +2448,28 @@
       {
         "filename": "grafbase.config.js",
         "path": ".grafbase/"
+      }
+    ]
+  },
+  {
+    "tag": "react-router",
+    "search": [
+      {
+        "filename": "react-router.config.*",
+        "path": "build/"
+      },
+      {
+        "filename": "react-router.config.*",
+        "path": ".react-router/"
+      }
+    ]
+  },
+  {
+    "tag": "nitric",
+    "search": [
+      {
+        "filename": "nitric.y*ml",
+        "path": ".nitric/"
       }
     ]
   }
