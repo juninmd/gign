@@ -110,6 +110,7 @@
       "build.config.ts",
       "bun.lock",
       "bun.lockb",
+      "bunfig.toml",
       "capacitor.config.json",
       "capacitor.config.ts",
       "changelog.config.js",
@@ -227,6 +228,7 @@
       "plopfile.js",
       "plopfile.ts",
       "pm2.config.js",
+      "pnpm-lock.yaml",
       "pnpm-workspace.yaml",
       "postcss.config.cjs",
       "postcss.config.js",
@@ -593,6 +595,7 @@
       "*.tf",
       "*.tfstate",
       "*.tfvars",
+      ".terraform.lock.hcl",
       ".tflint.hcl"
     ]
   },
