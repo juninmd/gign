@@ -451,6 +451,18 @@
       {
         "filename": "nuxt.config.ts",
         "path": ".output/"
+      },
+      {
+        "filename": "nuxt.config.js",
+        "path": ".nuxt/"
+      },
+      {
+        "filename": "nuxt.config.ts",
+        "path": ".nuxt/"
+      },
+      {
+        "filename": "nuxt.config.js",
+        "path": ".output/"
       }
     ]
   },
@@ -914,6 +926,14 @@
       {
         "filename": "rspack.config.mjs",
         "path": "build/"
+      },
+      {
+        "filename": "rspack.config.js",
+        "path": ".rspack/"
+      },
+      {
+        "filename": "rspack.config.ts",
+        "path": ".rspack/"
       }
     ]
   },
@@ -1106,6 +1126,14 @@
       {
         "filename": ".vitepress/config.js",
         "path": ".vitepress/cache/"
+      },
+      {
+        "filename": ".vitepress/config.ts",
+        "path": ".vitepress/cache/"
+      },
+      {
+        "filename": ".vitepress/config.ts",
+        "path": ".vitepress/dist/"
       }
     ]
   },
