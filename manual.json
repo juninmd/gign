@@ -128,6 +128,10 @@
       {
         "filename": "netlify.toml",
         "path": ".netlify"
+      },
+      {
+        "filename": "netlify.toml",
+        "path": ".netlify/"
       }
     ]
   },
@@ -137,6 +141,14 @@
       {
         "filename": "eas.json",
         "path": ".expo"
+      },
+      {
+        "filename": "app.json",
+        "path": ".expo/"
+      },
+      {
+        "filename": "eas.json",
+        "path": ".expo/"
       }
     ]
   },
@@ -171,6 +183,10 @@
       {
         "filename": "cdk.json",
         "path": "cdk.out"
+      },
+      {
+        "filename": "cdk.json",
+        "path": "cdk.out/"
       }
     ]
   },
@@ -341,6 +357,14 @@
       {
         "filename": "serverless.json",
         "path": ".build"
+      },
+      {
+        "filename": "serverless.yml",
+        "path": ".serverless/"
+      },
+      {
+        "filename": "serverless.ts",
+        "path": ".serverless/"
       }
     ]
   },
@@ -2498,6 +2522,19 @@
       {
         "filename": "nitric.y*ml",
         "path": ".nitric/"
+      }
+    ]
+  },
+  {
+    "tag": "firebase",
+    "search": [
+      {
+        "filename": "firebase.json",
+        "path": ".firebase/"
+      },
+      {
+        "filename": ".firebaserc",
+        "path": ".firebase/"
       }
     ]
   }
