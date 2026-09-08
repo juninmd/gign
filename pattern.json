@@ -846,7 +846,8 @@
   },
   {
     "firebase": [
-      "firebase.json"
+      "firebase.json",
+      ".firebaserc"
     ]
   },
   {
