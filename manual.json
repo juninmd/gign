@@ -265,6 +265,10 @@
       {
         "filename": "nest-cli.json",
         "path": "dist"
+      },
+      {
+        "filename": "nest-cli.json",
+        "path": "dist/"
       }
     ]
   },
