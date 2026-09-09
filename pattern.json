@@ -174,6 +174,7 @@
       "jest.config.json",
       "jest.config.mjs",
       "jest.config.ts",
+      "jest.preset.js",
       "keystatic.config.js",
       "keystatic.config.ts",
       "keystone.js",
@@ -198,6 +199,7 @@
       "modern.config.ts",
       "moon.yaml",
       "moon.yml",
+      "nest-cli.json",
       "next.config.cjs",
       "next.config.js",
       "next.config.mjs",
@@ -455,13 +457,13 @@
   },
   {
     "ruby": [
-      "Gemfile",
-      "*.rb",
-      "Gemfile.lock",
       "*.gemspec",
-      ".ruby-version",
+      "*.rb",
+      ".rubocop.yaml",
       ".rubocop.yml",
-      ".rubocop.yaml"
+      ".ruby-version",
+      "Gemfile",
+      "Gemfile.lock"
     ]
   },
   {
@@ -484,8 +486,8 @@
   },
   {
     "kotlin": [
-      "build.gradle.kts",
       "*.kt",
+      "build.gradle.kts",
       "settings.gradle.kts"
     ]
   },
@@ -506,8 +508,8 @@
   },
   {
     "swift": [
-      "Package.swift",
-      "*.swift"
+      "*.swift",
+      "Package.swift"
     ]
   },
   {
@@ -519,9 +521,9 @@
   },
   {
     "elixir": [
-      "mix.exs",
       "*.ex",
       "*.exs",
+      "mix.exs",
       "mix.lock"
     ]
   },
@@ -655,8 +657,8 @@
   },
   {
     "scala": [
-      "build.sbt",
-      "*.scala"
+      "*.scala",
+      "build.sbt"
     ]
   },
   {
@@ -688,6 +690,7 @@
   {
     "r": [
       "*.R",
+      "*.Rmd",
       "*.Rproj",
       "DESCRIPTION",
       "NAMESPACE"
@@ -697,16 +700,16 @@
     "haskell": [
       "*.cabal",
       "*.hs",
+      "cabal.project",
       "package.yaml",
-      "stack.yaml",
-      "cabal.project"
+      "stack.yaml"
     ]
   },
   {
     "erlang": [
-      "rebar.config",
       "*.erl",
-      "*.hrl"
+      "*.hrl",
+      "rebar.config"
     ]
   },
   {
@@ -834,9 +837,9 @@
   },
   {
     "clojure": [
-      "project.clj",
+      "build.boot",
       "deps.edn",
-      "build.boot"
+      "project.clj"
     ]
   },
   {
@@ -866,8 +869,8 @@
   },
   {
     "lua": [
-      ".luacheckrc",
-      "*.lua"
+      "*.lua",
+      ".luacheckrc"
     ]
   },
   {
@@ -887,12 +890,13 @@
   },
   {
     "elm": [
-      "elm.json",
-      "*.elm"
+      "*.elm",
+      "elm.json"
     ]
   },
   {
     "purescript": [
+      "bower.json",
       "spago.dhall"
     ]
   },
@@ -917,9 +921,10 @@
   },
   {
     "fortran": [
-      "fpm.toml",
+      "*.F90",
       "*.f",
-      "*.f90"
+      "*.f90",
+      "fpm.toml"
     ]
   },
   {
@@ -995,8 +1000,8 @@
     "fsharp": [
       "*.fs",
       "*.fsi",
-      "*.fsx",
-      "*.fsproj"
+      "*.fsproj",
+      "*.fsx"
     ]
   },
   {
@@ -1314,8 +1319,8 @@
       "composer.json",
       "composer.lock",
       "phpstan.neon",
-      "psalm.xml",
-      "phpunit.xml"
+      "phpunit.xml",
+      "psalm.xml"
     ]
   },
   {
@@ -1332,7 +1337,9 @@
   {
     "csharp": [
       "*.cs",
-      "*.csx"
+      "*.csproj",
+      "*.csx",
+      "*.sln"
     ]
   },
   {
@@ -1815,8 +1822,8 @@
   },
   {
     "v": [
-      "v.mod",
-      "*.v"
+      "*.v",
+      "v.mod"
     ]
   },
   {
@@ -4066,8 +4073,10 @@
   },
   {
     "lisp": [
+      "*.asd",
+      "*.cl",
       "*.lisp",
-      "*.asd"
+      "*.lsp"
     ]
   },
   {
@@ -4480,6 +4489,16 @@
       "rollup.config.ts",
       "rollup.config.cjs",
       "rollup.config.mjs"
+    ]
+  },
+  {
+    "objectivec": [
+      "Podfile"
+    ]
+  },
+  {
+    "reason": [
+      "bsconfig.json"
     ]
   }
 ]
