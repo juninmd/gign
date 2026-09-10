@@ -8,11 +8,13 @@
       ".babelrc.js",
       ".babelrc.json",
       ".changeset/config.json",
+      ".codegen",
       ".commitlintrc.cjs",
       ".commitlintrc.js",
       ".commitlintrc.json",
       ".commitlintrc.mjs",
       ".commitlintrc.yml",
+      ".continue",
       ".cz.json",
       ".cz.yaml",
       ".dockerignore",
@@ -147,10 +149,13 @@
       "dprint.json",
       "dprint.jsonc",
       "drizzle.config.js",
+      "drizzle.config.json",
       "drizzle.config.ts",
       "dts-bundle-generator.config.ts",
       "ecosystem.config.cjs",
       "ecosystem.config.js",
+      "eleventy.config.cjs",
+      "eleventy.config.js",
       "esbuild.js",
       "eslint.config.cjs",
       "eslint.config.js",
@@ -295,6 +300,7 @@
       "snowpack.config.js",
       "snowpack.config.mjs",
       "solid.config.js",
+      "src-tauri/tauri.conf.json",
       "sst.config.js",
       "sst.config.ts",
       "starlight.config.js",
@@ -317,6 +323,9 @@
       "tailwind.config.ts",
       "tamagui.config.js",
       "tamagui.config.ts",
+      "tauri.conf.cjs",
+      "tauri.conf.json",
+      "tauri.conf.json5",
       "testcafe.config.js",
       "tinkun.config.js",
       "tsconfig.app.json",
@@ -369,6 +378,7 @@
   },
   {
     "visualstudiocode": [
+      "*.code-workspace",
       ".vscode"
     ]
   },
@@ -614,6 +624,7 @@
   },
   {
     "vue": [
+      "*.vue",
       "vue.config.js"
     ]
   },
@@ -714,8 +725,9 @@
   },
   {
     "svelte": [
-      "svelte.config.js",
-      "svelte.config.cjs"
+      "*.svelte",
+      "svelte.config.cjs",
+      "svelte.config.js"
     ]
   },
   {
@@ -1050,16 +1062,6 @@
     "react": [
       "*.jsx",
       "*.tsx"
-    ]
-  },
-  {
-    "vue": [
-      "*.vue"
-    ]
-  },
-  {
-    "svelte": [
-      "*.svelte"
     ]
   },
   {
@@ -1546,11 +1548,6 @@
     ]
   },
   {
-    "visualstudiocode": [
-      "*.code-workspace"
-    ]
-  },
-  {
     "pulumi": [
       "Pulumi.yaml",
       "Pulumi.yml",
@@ -1637,60 +1634,6 @@
   {
     "craftcms": [
       "craft"
-    ]
-  },
-  {
-    "node": [
-      "webpack.config.js",
-      ".prettierrc",
-      "*.ts",
-      ".eslintrc.yml",
-      "jest.config.json",
-      ".eslintrc.json",
-      ".eslintrc",
-      "jest.config.js",
-      ".prettierrc.yaml",
-      "pnpm-workspace.yaml",
-      "babel.config.js",
-      "babel.config.json",
-      ".babelrc.json",
-      ".eslintrc.yaml",
-      "webpack.config.mjs",
-      ".babelrc",
-      "prettier.config.js",
-      "tsconfig.json",
-      "pnpm-lock.yaml",
-      ".prettierrc.js",
-      ".prettierrc.json",
-      ".babelrc.js",
-      "webpack.config.ts",
-      ".prettierrc.yml",
-      "*.tsx",
-      "webpack.config.cjs",
-      ".eslintrc.js",
-      "eslint.config.js",
-      "jest.config.ts",
-      "rspack.config.js",
-      "rspack.config.ts",
-      "rspack.config.cjs",
-      "rspack.config.mjs",
-      "rsbuild.config.js",
-      "rsbuild.config.ts",
-      "rsbuild.config.cjs",
-      "rsbuild.config.mjs",
-      "panda.config.js",
-      "panda.config.ts",
-      "panda.config.cjs",
-      "panda.config.mjs",
-      "eleventy.config.js",
-      "eleventy.config.cjs",
-      ".eleventy.js",
-      "stencil.config.ts",
-      ".husky/pre-commit",
-      "vite.config.js",
-      "vite.config.ts",
-      "vite.config.cjs",
-      "vite.config.mjs"
     ]
   },
   {
