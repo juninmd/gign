@@ -2541,5 +2541,23 @@
         "path": ".firebase/"
       }
     ]
+  },
+  {
+    "tag": "prisma",
+    "search": [
+      {
+        "filename": "schema.prisma",
+        "path": ".prisma/"
+      }
+    ]
+  },
+  {
+    "tag": "continue",
+    "search": [
+      {
+        "filename": ".continue",
+        "path": ".continue/"
+      }
+    ]
   }
 ]
