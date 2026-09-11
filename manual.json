@@ -2559,5 +2559,143 @@
         "path": ".continue/"
       }
     ]
+  },
+  {
+    "tag": "uv",
+    "search": [
+      {
+        "filename": "uv.lock",
+        "path": ".venv/"
+      }
+    ]
+  },
+  {
+    "tag": "rolldown",
+    "search": [
+      {
+        "filename": "rolldown.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "rolldown.config.ts",
+        "path": "dist/"
+      },
+      {
+        "filename": "rolldown.config.mjs",
+        "path": "dist/"
+      },
+      {
+        "filename": "rolldown.config.cjs",
+        "path": "dist/"
+      }
+    ]
+  },
+  {
+    "tag": "jest",
+    "search": [
+      {
+        "filename": "jest.config.js",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.ts",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.cjs",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.mjs",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.json",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.preset.js",
+        "path": "coverage/"
+      }
+    ]
+  },
+  {
+    "tag": "nyc",
+    "search": [
+      {
+        "filename": ".nycrc",
+        "path": ".nyc_output/"
+      },
+      {
+        "filename": ".nycrc",
+        "path": "coverage/"
+      },
+      {
+        "filename": ".nycrc.json",
+        "path": ".nyc_output/"
+      },
+      {
+        "filename": ".nycrc.json",
+        "path": "coverage/"
+      },
+      {
+        "filename": "nyc.config.js",
+        "path": ".nyc_output/"
+      },
+      {
+        "filename": "nyc.config.js",
+        "path": "coverage/"
+      },
+      {
+        "filename": "nyc.config.cjs",
+        "path": ".nyc_output/"
+      },
+      {
+        "filename": "nyc.config.cjs",
+        "path": "coverage/"
+      },
+      {
+        "filename": "nyc.config.mjs",
+        "path": ".nyc_output/"
+      },
+      {
+        "filename": "nyc.config.mjs",
+        "path": "coverage/"
+      }
+    ]
+  },
+  {
+    "tag": "c8",
+    "search": [
+      {
+        "filename": ".c8rc",
+        "path": "coverage/"
+      },
+      {
+        "filename": ".c8rc.json",
+        "path": "coverage/"
+      },
+      {
+        "filename": "c8.config.js",
+        "path": "coverage/"
+      },
+      {
+        "filename": "c8.config.cjs",
+        "path": "coverage/"
+      },
+      {
+        "filename": "c8.config.mjs",
+        "path": "coverage/"
+      }
+    ]
+  },
+  {
+    "tag": "ionic",
+    "search": [
+      {
+        "filename": "ionic.config.json",
+        "path": "www/"
+      }
+    ]
   }
 ]
