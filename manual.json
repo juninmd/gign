@@ -2559,5 +2559,35 @@
         "path": ".continue/"
       }
     ]
+  },
+  {
+    "tag": "aider",
+    "search": [
+      {
+        "filename": ".aider.chat.history.md",
+        "path": ".aider.chat.history.md"
+      },
+      {
+        "filename": ".aider.tags.cache.v3",
+        "path": ".aider.tags.cache.v3"
+      },
+      {
+        "filename": ".aider.tags.cache.v3",
+        "path": ".aider.tags.cache.v3/"
+      }
+    ]
+  },
+  {
+    "tag": "biome",
+    "search": [
+      {
+        "filename": "biome.json",
+        "path": ".biome/"
+      },
+      {
+        "filename": "biome.jsonc",
+        "path": ".biome/"
+      }
+    ]
   }
 ]

@@ -4252,7 +4252,9 @@
   },
   {
     "aider": [
-      ".aider"
+      ".aider",
+      ".aider*",
+      ".aider.conf.yml"
     ]
   },
   {
@@ -4442,6 +4444,18 @@
   {
     "reason": [
       "bsconfig.json"
+    ]
+  },
+  {
+    "duckdb": [
+      "*.duckdb",
+      "*.ddb",
+      "*.duckdb.wal"
+    ]
+  },
+  {
+    "parquet": [
+      "*.parquet"
     ]
   }
 ]
