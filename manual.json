@@ -26,6 +26,22 @@
       {
         "filename": "vite.config.*",
         "path": ".vite/"
+      },
+      {
+        "filename": "vite.config.ts",
+        "path": ".vite/"
+      },
+      {
+        "filename": "vite.config.js",
+        "path": ".vite/"
+      },
+      {
+        "filename": "vite.config.cjs",
+        "path": ".vite/"
+      },
+      {
+        "filename": "vite.config.mjs",
+        "path": ".vite/"
       }
     ]
   },
@@ -1246,6 +1262,10 @@
       {
         "filename": "deno.jsonc",
         "path": ".deno/"
+      },
+      {
+        "filename": "deno.jsonc",
+        "path": "cov_profile/"
       }
     ]
   },
@@ -1274,11 +1294,19 @@
     "tag": "nextjs",
     "search": [
       {
-        "filename": "next.config.*",
-        "path": ".next"
+        "filename": "next.config.js",
+        "path": ".next/"
       },
       {
-        "filename": "next.config.js",
+        "filename": "next.config.cjs",
+        "path": ".next/"
+      },
+      {
+        "filename": "next.config.mjs",
+        "path": ".next/"
+      },
+      {
+        "filename": "next.config.ts",
         "path": ".next/"
       }
     ]
@@ -1287,19 +1315,19 @@
     "tag": "gatsby",
     "search": [
       {
-        "filename": "gatsby-config.*",
-        "path": ".cache"
-      },
-      {
-        "filename": "gatsby-config.*",
-        "path": "public"
-      },
-      {
         "filename": "gatsby-config.js",
         "path": ".cache/"
       },
       {
+        "filename": "gatsby-config.ts",
+        "path": ".cache/"
+      },
+      {
         "filename": "gatsby-config.js",
+        "path": "public/"
+      },
+      {
+        "filename": "gatsby-config.ts",
         "path": "public/"
       }
     ]
@@ -1307,14 +1335,6 @@
   {
     "tag": "angular",
     "search": [
-      {
-        "filename": "angular.json",
-        "path": "dist"
-      },
-      {
-        "filename": "angular.json",
-        "path": ".angular"
-      },
       {
         "filename": "angular.json",
         "path": "dist/"
@@ -1329,19 +1349,7 @@
     "tag": "eslint",
     "search": [
       {
-        "filename": "eslint.config.*",
-        "path": ".eslintcache"
-      },
-      {
-        "filename": ".eslintrc.*",
-        "path": ".eslintcache"
-      },
-      {
         "filename": ".eslintrc",
-        "path": ".eslintcache"
-      },
-      {
-        "filename": "eslint.config.js",
         "path": ".eslintcache"
       },
       {
@@ -1349,11 +1357,31 @@
         "path": ".eslintcache"
       },
       {
-        "filename": "eslint.config.mjs",
+        "filename": ".eslintrc.cjs",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": ".eslintrc.json",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": ".eslintrc.yaml",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": ".eslintrc.yml",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": "eslint.config.js",
         "path": ".eslintcache"
       },
       {
         "filename": "eslint.config.cjs",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": "eslint.config.mjs",
         "path": ".eslintcache"
       },
       {
@@ -1366,15 +1394,43 @@
     "tag": "prettier",
     "search": [
       {
-        "filename": ".prettierrc*",
-        "path": ".prettiercache"
-      },
-      {
-        "filename": "prettier.config.*",
-        "path": ".prettiercache"
-      },
-      {
         "filename": ".prettierrc",
+        "path": ".prettiercache"
+      },
+      {
+        "filename": ".prettierrc.js",
+        "path": ".prettiercache"
+      },
+      {
+        "filename": ".prettierrc.cjs",
+        "path": ".prettiercache"
+      },
+      {
+        "filename": ".prettierrc.json",
+        "path": ".prettiercache"
+      },
+      {
+        "filename": ".prettierrc.yaml",
+        "path": ".prettiercache"
+      },
+      {
+        "filename": ".prettierrc.yml",
+        "path": ".prettiercache"
+      },
+      {
+        "filename": "prettier.config.js",
+        "path": ".prettiercache"
+      },
+      {
+        "filename": "prettier.config.cjs",
+        "path": ".prettiercache"
+      },
+      {
+        "filename": "prettier.config.mjs",
+        "path": ".prettiercache"
+      },
+      {
+        "filename": "prettier.config.ts",
         "path": ".prettiercache"
       }
     ]
@@ -2517,6 +2573,38 @@
       {
         "filename": "react-router.config.*",
         "path": ".react-router/"
+      },
+      {
+        "filename": "react-router.config.ts",
+        "path": "build/"
+      },
+      {
+        "filename": "react-router.config.js",
+        "path": "build/"
+      },
+      {
+        "filename": "react-router.config.cjs",
+        "path": "build/"
+      },
+      {
+        "filename": "react-router.config.mjs",
+        "path": "build/"
+      },
+      {
+        "filename": "react-router.config.ts",
+        "path": ".react-router/"
+      },
+      {
+        "filename": "react-router.config.js",
+        "path": ".react-router/"
+      },
+      {
+        "filename": "react-router.config.cjs",
+        "path": ".react-router/"
+      },
+      {
+        "filename": "react-router.config.mjs",
+        "path": ".react-router/"
       }
     ]
   },
@@ -2525,6 +2613,14 @@
     "search": [
       {
         "filename": "nitric.y*ml",
+        "path": ".nitric/"
+      },
+      {
+        "filename": "nitric.yaml",
+        "path": ".nitric/"
+      },
+      {
+        "filename": "nitric.yml",
         "path": ".nitric/"
       }
     ]
@@ -2557,6 +2653,126 @@
       {
         "filename": ".continue",
         "path": ".continue/"
+      }
+    ]
+  },
+  {
+    "tag": "aider",
+    "search": [
+      {
+        "filename": ".aider.chat.history.md",
+        "path": ".aider.tags.cache.v3"
+      },
+      {
+        "filename": ".aider.chat.history.md",
+        "path": ".aider.tags.cache.v3-wal"
+      }
+    ]
+  },
+  {
+    "tag": "biome",
+    "search": [
+      {
+        "filename": "biome.json",
+        "path": ".biome/"
+      },
+      {
+        "filename": "biome.jsonc",
+        "path": ".biome/"
+      }
+    ]
+  },
+  {
+    "tag": "uv",
+    "search": [
+      {
+        "filename": "uv.lock",
+        "path": ".venv/"
+      }
+    ]
+  },
+  {
+    "tag": "rolldown",
+    "search": [
+      {
+        "filename": "rolldown.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "rolldown.config.mjs",
+        "path": "dist/"
+      },
+      {
+        "filename": "rolldown.config.cjs",
+        "path": "dist/"
+      },
+      {
+        "filename": "rolldown.config.ts",
+        "path": "dist/"
+      }
+    ]
+  },
+  {
+    "tag": "nyc",
+    "search": [
+      {
+        "filename": ".nycrc",
+        "path": ".nyc_output/"
+      },
+      {
+        "filename": ".nycrc.json",
+        "path": ".nyc_output/"
+      }
+    ]
+  },
+  {
+    "tag": "c8",
+    "search": [
+      {
+        "filename": ".c8rc",
+        "path": "coverage/"
+      },
+      {
+        "filename": ".c8rc.json",
+        "path": "coverage/"
+      }
+    ]
+  },
+  {
+    "tag": "jest",
+    "search": [
+      {
+        "filename": "jest.config.js",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.ts",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.mjs",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.cjs",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.json",
+        "path": "coverage/"
+      }
+    ]
+  },
+  {
+    "tag": "ionic",
+    "search": [
+      {
+        "filename": "ionic.config.json",
+        "path": "www/"
+      },
+      {
+        "filename": "ionic.config.json",
+        "path": ".ionic/"
       }
     ]
   }
