@@ -35,6 +35,14 @@
       {
         "filename": "vitest.config.*",
         "path": "coverage"
+      },
+      {
+        "filename": "vitest.workspace.ts",
+        "path": "coverage/"
+      },
+      {
+        "filename": "vitest.workspace.js",
+        "path": "coverage/"
       }
     ]
   },

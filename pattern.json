@@ -373,7 +373,12 @@
       "wrangler.json",
       "wrangler.toml",
       "wxt.config.js",
-      "wxt.config.ts"
+      "wxt.config.ts",
+      "tslog.json",
+      ".tslog",
+      "release.config.js",
+      "release.config.cjs",
+      "tslint.json"
     ]
   },
   {
@@ -1055,7 +1060,8 @@
   {
     "packer": [
       "*.pkr.hcl",
-      "packer.json"
+      "packer.json",
+      "packer.pkr.hcl"
     ]
   },
   {
@@ -4442,6 +4448,22 @@
   {
     "reason": [
       "bsconfig.json"
+    ]
+  },
+  {
+    "nomad": [
+      "*.nomad",
+      "nomad.hcl"
+    ]
+  },
+  {
+    "waypoint": [
+      "waypoint.hcl"
+    ]
+  },
+  {
+    "boundary": [
+      "boundary.hcl"
     ]
   }
 ]
