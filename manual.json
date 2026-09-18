@@ -1162,6 +1162,22 @@
       {
         "filename": ".vitepress/config.ts",
         "path": ".vitepress/dist/"
+      },
+      {
+        "filename": ".vitepress/config.mts",
+        "path": ".vitepress/dist/"
+      },
+      {
+        "filename": ".vitepress/config.mts",
+        "path": ".vitepress/cache/"
+      },
+      {
+        "filename": ".vitepress/config.cjs",
+        "path": ".vitepress/dist/"
+      },
+      {
+        "filename": ".vitepress/config.cjs",
+        "path": ".vitepress/cache/"
       }
     ]
   },
@@ -2557,6 +2573,15 @@
       {
         "filename": ".continue",
         "path": ".continue/"
+      }
+    ]
+  },
+  {
+    "tag": "slidev",
+    "search": [
+      {
+        "filename": "slidev.config.ts",
+        "path": ".slidev/"
       }
     ]
   }
