@@ -86,6 +86,7 @@
       ".yarnrc",
       ".yarnrc.yml",
       "Dockerfile",
+      "MLproject",
       "ampt.config.js",
       "ampt.config.ts",
       "api-extractor.json",
@@ -296,6 +297,7 @@
       "sentry.properties",
       "sequelize.js",
       "sequelize.ts",
+      "slides.md",
       "snowpack.config.cjs",
       "snowpack.config.js",
       "snowpack.config.mjs",
@@ -361,6 +363,7 @@
       "vite.config.ts",
       "vitest.config.js",
       "vitest.config.ts",
+      "wandb/settings",
       "wdio.conf.js",
       "wdio.conf.ts",
       "webpack.config.cjs",
@@ -4442,6 +4445,21 @@
   {
     "reason": [
       "bsconfig.json"
+    ]
+  },
+  {
+    "mlflow": [
+      "MLproject"
+    ]
+  },
+  {
+    "wandb": [
+      "wandb/settings"
+    ]
+  },
+  {
+    "slidev": [
+      "slides.md"
     ]
   }
 ]
