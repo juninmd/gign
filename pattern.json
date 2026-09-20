@@ -373,7 +373,15 @@
       "wrangler.json",
       "wrangler.toml",
       "wxt.config.js",
-      "wxt.config.ts"
+      "wxt.config.ts",
+      "slides.md",
+      "hono.config.ts",
+      "vitepress.config.ts",
+      "vitepress.config.js",
+      "elysia.config.ts",
+      "elysia.config.js",
+      "stylex.config.js",
+      "stylex.config.ts"
     ]
   },
   {
@@ -4442,6 +4450,33 @@
   {
     "reason": [
       "bsconfig.json"
+    ]
+  },
+  {
+    "mlflow": [
+      "MLproject"
+    ]
+  },
+  {
+    "wandb": [
+      "wandb/settings"
+    ]
+  },
+  {
+    "slidev": [
+      "slides.md"
+    ]
+  },
+  {
+    "duckdb": [
+      "*.duckdb",
+      "*.ddb",
+      "*.duckdb.wal"
+    ]
+  },
+  {
+    "parquet": [
+      "*.parquet"
     ]
   }
 ]

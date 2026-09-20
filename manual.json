@@ -2559,5 +2559,66 @@
         "path": ".continue/"
       }
     ]
+  },
+  {
+    "tag": "mlflow",
+    "search": [
+      {
+        "filename": "MLproject",
+        "path": "mlruns/"
+      },
+      {
+        "filename": "MLproject",
+        "path": ".trash/"
+      }
+    ]
+  },
+  {
+    "tag": "wandb",
+    "search": [
+      {
+        "filename": "wandb/settings",
+        "path": "wandb/"
+      }
+    ]
+  },
+  {
+    "tag": "slidev",
+    "search": [
+      {
+        "filename": "slides.md",
+        "path": ".slidev/"
+      }
+    ]
+  },
+  {
+    "tag": "duckdb",
+    "search": [
+      {
+        "filename": "*.duckdb",
+        "path": "*.duckdb"
+      },
+      {
+        "filename": "*.ddb",
+        "path": "*.ddb"
+      },
+      {
+        "filename": "*.duckdb.wal",
+        "path": "*.duckdb.wal"
+      }
+    ]
+  },
+  {
+    "tag": "aider",
+    "search": [
+      {
+        "filename": ".aider",
+        "path": ".aider.chat.history.md"
+      },
+      {
+        "filename": ".aider",
+        "path": ".aider.tags.cache.v3"
+      }
+    ]
   }
 ]
