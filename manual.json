@@ -2559,5 +2559,112 @@
         "path": ".continue/"
       }
     ]
+  },
+  {
+    "tag": "uv",
+    "search": [
+      {
+        "filename": "uv.lock",
+        "path": ".venv/"
+      }
+    ]
+  },
+  {
+    "tag": "rolldown",
+    "search": [
+      {
+        "filename": "rolldown.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "rolldown.config.ts",
+        "path": "dist/"
+      },
+      {
+        "filename": "rolldown.config.mjs",
+        "path": "dist/"
+      },
+      {
+        "filename": "rolldown.config.cjs",
+        "path": "dist/"
+      }
+    ]
+  },
+  {
+    "tag": "nyc",
+    "search": [
+      {
+        "filename": ".nycrc",
+        "path": ".nyc_output/"
+      },
+      {
+        "filename": ".nycrc.json",
+        "path": ".nyc_output/"
+      },
+      {
+        "filename": "nyc.config.js",
+        "path": ".nyc_output/"
+      }
+    ]
+  },
+  {
+    "tag": "c8",
+    "search": [
+      {
+        "filename": ".c8rc",
+        "path": "coverage/"
+      },
+      {
+        "filename": ".c8rc.json",
+        "path": "coverage/"
+      }
+    ]
+  },
+  {
+    "tag": "jest",
+    "search": [
+      {
+        "filename": "jest.config.js",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.ts",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.mjs",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.cjs",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.json",
+        "path": "coverage/"
+      }
+    ]
+  },
+  {
+    "tag": "dprint",
+    "search": [
+      {
+        "filename": "dprint.json",
+        "path": ".dprint/"
+      },
+      {
+        "filename": "dprint.jsonc",
+        "path": ".dprint/"
+      }
+    ]
+  },
+  {
+    "tag": "ionic",
+    "search": [
+      {
+        "filename": "ionic.config.json",
+        "path": "www/"
+      }
+    ]
   }
 ]
