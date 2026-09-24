@@ -94,6 +94,8 @@
       "app.config.js",
       "app.config.ts",
       "appwrite.json",
+      "artillery.yaml",
+      "artillery.yml",
       "astro.config.mjs",
       "astro.config.ts",
       "ava.config.cjs",
@@ -390,6 +392,7 @@
       ".flake8",
       ".isort.cfg",
       ".nox",
+      ".pre-commit-config.yaml",
       ".pydocstyle",
       ".pydocstyle.ini",
       ".pylintrc",
@@ -403,11 +406,15 @@
       "bandit.yaml",
       "celeryconfig.py",
       "conftest.py",
+      "dagster.yaml",
+      "dbt_project.yml",
       "dodo.py",
       "fabfile.py",
       "hatch.toml",
       "invoke.yaml",
       "manage.py",
+      "mkdocs.yaml",
+      "mkdocs.yml",
       "mypy.ini",
       "noxfile.py",
       "pdm.lock",
@@ -419,21 +426,17 @@
       "pyrightconfig.json",
       "pytest.ini",
       "requirements-dev.txt",
+      "requirements.lock",
       "requirements.txt",
       "ruff.toml",
+      "rxconfig.py",
       "rye.lock",
       "scrapy.cfg",
       "setup.cfg",
       "setup.py",
       "tox.ini",
       "uv.lock",
-      "venv",
-      "dagster.yaml",
-      "dbt_project.yml",
-      ".pre-commit-config.yaml",
-      "requirements.lock",
-      "mkdocs.yml",
-      "mkdocs.yaml"
+      "venv"
     ]
   },
   {
@@ -1670,7 +1673,8 @@
   },
   {
     "sam": [
-      "samconfig.toml"
+      "samconfig.toml",
+      "template.yaml"
     ]
   },
   {

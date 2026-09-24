@@ -640,6 +640,30 @@
       {
         "filename": "docker-compose.yaml",
         "path": "docker-compose.override.yaml"
+      },
+      {
+        "filename": "docker-compose.yml",
+        "path": "docker-compose.local.yml"
+      },
+      {
+        "filename": "docker-compose.yml",
+        "path": "docker-compose.local.yaml"
+      },
+      {
+        "filename": "compose.yaml",
+        "path": "docker-compose.local.yml"
+      },
+      {
+        "filename": "compose.yaml",
+        "path": "docker-compose.local.yaml"
+      },
+      {
+        "filename": "compose.yml",
+        "path": "docker-compose.local.yml"
+      },
+      {
+        "filename": "compose.yml",
+        "path": "docker-compose.local.yaml"
       }
     ]
   },
@@ -1631,6 +1655,10 @@
       {
         "filename": "pyproject.toml",
         "path": ".pytest_cache/"
+      },
+      {
+        "filename": "rxconfig.py",
+        "path": ".web/"
       }
     ]
   },
