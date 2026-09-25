@@ -4443,5 +4443,45 @@
     "reason": [
       "bsconfig.json"
     ]
+  },
+  {
+    "payload": [
+      "payload.config.js",
+      "payload.config.ts"
+    ]
+  },
+  {
+    "moon": [
+      "moon.yaml",
+      "moon.yml"
+    ]
+  },
+  {
+    "typeorm": [
+      "typeorm.config.js",
+      "typeorm.config.ts"
+    ]
+  },
+  {
+    "mikroorm": [
+      "mikro-orm.config.js",
+      "mikro-orm.config.ts",
+      "mikro-orm.config.cjs",
+      "mikro-orm.config.mjs"
+    ]
+  },
+  {
+    "farm": [
+      "farm.config.js",
+      "farm.config.ts"
+    ]
+  },
+  {
+    "rolldown": [
+      "rolldown.config.js",
+      "rolldown.config.ts",
+      "rolldown.config.cjs",
+      "rolldown.config.mjs"
+    ]
   }
 ]
