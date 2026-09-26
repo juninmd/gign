@@ -26,6 +26,22 @@
       {
         "filename": "vite.config.*",
         "path": ".vite/"
+      },
+      {
+        "filename": "vite.config.ts",
+        "path": ".vite/"
+      },
+      {
+        "filename": "vite.config.js",
+        "path": ".vite/"
+      },
+      {
+        "filename": "vite.config.cjs",
+        "path": ".vite/"
+      },
+      {
+        "filename": "vite.config.mjs",
+        "path": ".vite/"
       }
     ]
   },
@@ -369,6 +385,10 @@
       {
         "filename": "serverless.ts",
         "path": ".serverless/"
+      },
+      {
+        "filename": "serverless.yaml",
+        "path": ".serverless/"
       }
     ]
   },
@@ -385,6 +405,14 @@
       },
       {
         "filename": "solid.config.js",
+        "path": ".solid/"
+      },
+      {
+        "filename": "vite.config.ts",
+        "path": ".solid/"
+      },
+      {
+        "filename": "vite.config.js",
         "path": ".solid/"
       }
     ]
@@ -1043,6 +1071,18 @@
       {
         "filename": "drizzle.config.*",
         "path": ".drizzle"
+      },
+      {
+        "filename": "drizzle.config.ts",
+        "path": ".drizzle/"
+      },
+      {
+        "filename": "drizzle.config.js",
+        "path": ".drizzle/"
+      },
+      {
+        "filename": "drizzle.config.json",
+        "path": ".drizzle/"
       }
     ]
   },
@@ -1359,6 +1399,22 @@
       {
         "filename": "eslint.config.ts",
         "path": ".eslintcache"
+      },
+      {
+        "filename": ".eslintrc.json",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": ".eslintrc.cjs",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": ".eslintrc.yaml",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": ".eslintrc.yml",
+        "path": ".eslintcache"
       }
     ]
   },
@@ -1587,6 +1643,10 @@
       {
         "filename": "requirements.lock",
         "path": ".rye/"
+      },
+      {
+        "filename": "requirements-dev.lock",
+        "path": ".rye/"
       }
     ]
   },
@@ -1708,6 +1768,10 @@
       {
         "filename": "cspell.json",
         "path": ".cspellcache"
+      },
+      {
+        "filename": ".cspell.json",
+        "path": ".cspellcache"
       }
     ]
   },
@@ -1821,6 +1885,10 @@
       {
         "filename": "pnpm-lock.yaml",
         "path": ".pnpm-store/"
+      },
+      {
+        "filename": "pnpm-workspace.yaml",
+        "path": ".pnpm-store/"
       }
     ]
   },
@@ -1879,6 +1947,10 @@
       },
       {
         "filename": "stryker.conf.mjs",
+        "path": ".stryker-tmp/"
+      },
+      {
+        "filename": "stryker.conf.cjs",
         "path": ".stryker-tmp/"
       }
     ]
@@ -2105,6 +2177,18 @@
       {
         "filename": "cypress.config.js",
         "path": "cypress/videos/"
+      },
+      {
+        "filename": "cypress.config.ts",
+        "path": "cypress/screenshots/"
+      },
+      {
+        "filename": "cypress.config.cjs",
+        "path": "cypress/screenshots/"
+      },
+      {
+        "filename": "cypress.config.mjs",
+        "path": "cypress/screenshots/"
       }
     ]
   },
@@ -2204,6 +2288,10 @@
       },
       {
         "filename": "contentlayer.config.ts",
+        "path": ".contentlayer/"
+      },
+      {
+        "filename": "contentlayer.config.js",
         "path": ".contentlayer/"
       }
     ]
@@ -2526,6 +2614,10 @@
       {
         "filename": "nitric.y*ml",
         "path": ".nitric/"
+      },
+      {
+        "filename": "nitric.yaml",
+        "path": ".nitric/"
       }
     ]
   },
@@ -2557,6 +2649,175 @@
       {
         "filename": ".continue",
         "path": ".continue/"
+      }
+    ]
+  },
+  {
+    "tag": "biome",
+    "search": [
+      {
+        "filename": "biome.json",
+        "path": ".biome/"
+      },
+      {
+        "filename": "biome.jsonc",
+        "path": ".biome/"
+      }
+    ]
+  },
+  {
+    "tag": "mlflow",
+    "search": [
+      {
+        "filename": "MLproject",
+        "path": "mlruns/"
+      }
+    ]
+  },
+  {
+    "tag": "wandb",
+    "search": [
+      {
+        "filename": "wandb/settings",
+        "path": "wandb/"
+      }
+    ]
+  },
+  {
+    "tag": "slidev",
+    "search": [
+      {
+        "filename": "slides.md",
+        "path": ".slidev/"
+      }
+    ]
+  },
+  {
+    "tag": "uv",
+    "search": [
+      {
+        "filename": "uv.lock",
+        "path": ".venv/"
+      }
+    ]
+  },
+  {
+    "tag": "rolldown",
+    "search": [
+      {
+        "filename": "rolldown.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "rolldown.config.ts",
+        "path": "dist/"
+      },
+      {
+        "filename": "rolldown.config.mjs",
+        "path": "dist/"
+      },
+      {
+        "filename": "rolldown.config.cjs",
+        "path": "dist/"
+      }
+    ]
+  },
+  {
+    "tag": "nyc",
+    "search": [
+      {
+        "filename": ".nycrc",
+        "path": ".nyc_output/"
+      },
+      {
+        "filename": ".nycrc.json",
+        "path": ".nyc_output/"
+      }
+    ]
+  },
+  {
+    "tag": "c8",
+    "search": [
+      {
+        "filename": ".c8rc",
+        "path": "coverage/"
+      },
+      {
+        "filename": ".c8rc.json",
+        "path": "coverage/"
+      }
+    ]
+  },
+  {
+    "tag": "jest",
+    "search": [
+      {
+        "filename": "jest.config.js",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.ts",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.cjs",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.mjs",
+        "path": "coverage/"
+      }
+    ]
+  },
+  {
+    "tag": "panda",
+    "search": [
+      {
+        "filename": "panda.config.ts",
+        "path": "styled-system/"
+      },
+      {
+        "filename": "panda.config.js",
+        "path": "styled-system/"
+      },
+      {
+        "filename": "panda.config.mjs",
+        "path": "styled-system/"
+      },
+      {
+        "filename": "panda.config.cjs",
+        "path": "styled-system/"
+      }
+    ]
+  },
+  {
+    "tag": "awscdk",
+    "search": [
+      {
+        "filename": "cdk.json",
+        "path": "cdk.out/"
+      }
+    ]
+  },
+  {
+    "tag": "reflex",
+    "search": [
+      {
+        "filename": "rxconfig.py",
+        "path": ".web/"
+      }
+    ]
+  },
+  {
+    "tag": "reactrouter",
+    "search": [
+      {
+        "filename": "react-router.config.ts",
+        "path": "build/"
+      },
+      {
+        "filename": "react-router.config.js",
+        "path": "build/"
       }
     ]
   }
