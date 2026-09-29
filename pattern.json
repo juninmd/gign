@@ -1166,7 +1166,8 @@
       "deno.json",
       "deno.jsonc",
       "fresh.gen.ts",
-      "import_map.json"
+      "import_map.json",
+      "deno.lock"
     ]
   },
   {
