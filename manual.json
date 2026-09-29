@@ -1631,6 +1631,10 @@
       {
         "filename": "pyproject.toml",
         "path": ".pytest_cache/"
+      },
+      {
+        "filename": "uv.lock",
+        "path": ".venv/"
       }
     ]
   },
@@ -2557,6 +2561,27 @@
       {
         "filename": ".continue",
         "path": ".continue/"
+      }
+    ]
+  },
+  {
+    "tag": "rolldown",
+    "search": [
+      {
+        "filename": "rolldown.config.cjs",
+        "path": "dist/"
+      },
+      {
+        "filename": "rolldown.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "rolldown.config.mjs",
+        "path": "dist/"
+      },
+      {
+        "filename": "rolldown.config.ts",
+        "path": "dist/"
       }
     ]
   }
