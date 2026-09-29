@@ -25,7 +25,6 @@
       ".commitlintrc.yml",
       ".continue",
       ".copilotignore",
-      ".cspell.json",
       ".cursorrules",
       ".cz.json",
       ".cz.yaml",
@@ -53,6 +52,8 @@
       ".huskyrc",
       ".huskyrc.js",
       ".huskyrc.json",
+      ".huskyrc.yaml",
+      ".huskyrc.yml",
       ".idx/dev.nix",
       ".lintstagedrc",
       ".lintstagedrc.cjs",
@@ -73,6 +74,8 @@
       ".npmignore",
       ".npmrc",
       ".nvmrc",
+      ".nycrc",
+      ".nycrc.json",
       ".oxlintrc.json",
       ".parcelrc",
       ".pre-commit-config.yaml",
@@ -91,13 +94,13 @@
       ".releaserc.json",
       ".releaserc.yaml",
       ".releaserc.yml",
-      ".rooconfig",
       ".roomodes",
       ".sailsrc",
       ".sentryclirc",
       ".sequelizerc",
       ".storybook",
-      ".storybook/",
+      ".storybook/main.js",
+      ".storybook/main.ts",
       ".stylelintrc",
       ".stylelintrc.cjs",
       ".stylelintrc.js",
@@ -107,14 +110,15 @@
       ".stylexrc.js",
       ".swcrc",
       ".testcaferc.json",
-      ".trunk/trunk.yaml",
       ".versionrc",
       ".versionrc.js",
       ".versionrc.json",
-      ".vitepress/",
+      ".vitepress/config.js",
+      ".vitepress/config.ts",
       ".vuepress/config.js",
       ".vuepress/config.ts",
       ".windsurfrules",
+      ".wireit",
       ".yarnrc",
       ".yarnrc.yml",
       "Dockerfile",
@@ -151,6 +155,7 @@
       "build.config.js",
       "build.config.mjs",
       "build.config.ts",
+      "build.js",
       "bun.lock",
       "bun.lockb",
       "bunfig.toml",
@@ -174,6 +179,7 @@
       "commitlint.config.mjs",
       "commitlint.config.ts",
       "components.json",
+      "config.toml",
       "contentlayer.config.cjs",
       "contentlayer.config.js",
       "contentlayer.config.mjs",
@@ -209,7 +215,7 @@
       "ecosystem.config.js",
       "eleventy.config.cjs",
       "eleventy.config.js",
-      "elysia.json",
+      "elysia.config.ts",
       "esbuild.js",
       "eslint.config.cjs",
       "eslint.config.js",
@@ -231,6 +237,8 @@
       "hardhat.config.ts",
       "hono.json",
       "inngest",
+      "inngest.config.js",
+      "inngest.config.ts",
       "inngest.json",
       "ionic.config.json",
       "jest.config.cjs",
@@ -241,6 +249,7 @@
       "jest.preset.js",
       "keystatic.config.js",
       "keystatic.config.ts",
+      "keystatic.config.tsx",
       "keystone.js",
       "keystone.ts",
       "knexfile.js",
@@ -355,6 +364,7 @@
       "rspress.config.js",
       "rspress.config.mjs",
       "rspress.config.ts",
+      "sailsrc",
       "sanity.cli.js",
       "sanity.cli.ts",
       "sanity.config.js",
@@ -363,13 +373,15 @@
       "sentry.properties",
       "sequelize.js",
       "sequelize.ts",
-      "serverless.yaml",
+      "serverless.ts",
       "serverless.yml",
       "slides.md",
       "snowpack.config.cjs",
       "snowpack.config.js",
       "snowpack.config.mjs",
+      "snowpack.config.ts",
       "solid.config.js",
+      "solid.config.ts",
       "src-tauri/tauri.conf.json",
       "sst.config.js",
       "sst.config.ts",
@@ -388,6 +400,7 @@
       "stylex.config.js",
       "supabase/config.toml",
       "svelte.config.js",
+      "svelte.config.ts",
       "svgo.config.cjs",
       "svgo.config.js",
       "svgo.config.mjs",
@@ -405,6 +418,7 @@
       "testcafe.config.js",
       "tinkun.config.js",
       "truffle-config.js",
+      "truffle-config.ts",
       "tsconfig.app.json",
       "tsconfig.base.json",
       "tsconfig.eslint.json",
@@ -441,7 +455,6 @@
       "vitest.config.mjs",
       "vitest.config.ts",
       "vitest.workspace.js",
-      "vitest.workspace.json",
       "vitest.workspace.ts",
       "wdio.conf.js",
       "wdio.conf.ts",
@@ -486,6 +499,7 @@
       ".flake8",
       ".isort.cfg",
       ".nox",
+      ".pdm-python",
       ".pre-commit-config.yaml",
       ".pydocstyle",
       ".pydocstyle.ini",
@@ -494,8 +508,6 @@
       ".ruff.toml",
       ".sqlfluff",
       ".sqlfluffignore",
-      ".trunk/trunk.yaml",
-      "Earthfile",
       "MLproject",
       "Pipfile",
       "Pipfile.lock",
@@ -504,10 +516,10 @@
       "bandit.yaml",
       "brownie-config.yaml",
       "celeryconfig.py",
+      "conf.py",
       "conftest.py",
       "dagster.yaml",
       "dbt_project.yml",
-      "devspace.yaml",
       "dodo.py",
       "fabfile.py",
       "garden.yml",
@@ -522,6 +534,7 @@
       "pixi.lock",
       "pixi.toml",
       "poetry.lock",
+      "prefect.yaml",
       "pyproject.toml",
       "pyre.toml",
       "pyrightconfig.json",
@@ -561,15 +574,9 @@
       ".golangci.yml",
       ".goreleaser.yaml",
       ".goreleaser.yml",
-      ".trunk/trunk.yaml",
-      "Earthfile",
-      "Taskfile.yaml",
-      "Taskfile.yml",
       "buf.gen.yaml",
       "buf.work.yaml",
       "buf.yaml",
-      "devspace.yaml",
-      "garden.yml",
       "go.mod",
       "go.sum",
       "sqlc.json",
@@ -593,12 +600,10 @@
       "*.rs",
       ".rustfmt.toml",
       ".zola",
-      "Anchor.toml",
       "Cargo.lock",
       "Cargo.toml",
       "Dioxus.toml",
       "clippy.toml",
-      "foundry.toml",
       "rustfmt.toml"
     ]
   },
@@ -891,9 +896,9 @@
   },
   {
     "hugo": [
+      "hugo.json",
       "hugo.toml",
-      "hugo.yaml",
-      "hugo.json"
+      "hugo.yaml"
     ]
   },
   {
@@ -4383,8 +4388,8 @@
     "aider": [
       ".aider",
       ".aider.chat.history.md",
-      ".aider.tags.cache.v3",
-      ".aider.tags.cache.v3.lock"
+      ".aider.conf.yml",
+      ".aider.tags.cache.v3"
     ]
   },
   {
@@ -4481,6 +4486,7 @@
   },
   {
     "task": [
+      "Taskfile.yaml",
       "Taskfile.yml"
     ]
   },
@@ -4577,37 +4583,61 @@
     ]
   },
   {
-    "hcl": [
-      "nomad.hcl",
+    "duckdb": [
+      "*.duckdb",
+      "*.ddb",
+      "*.duckdb.wal"
+    ]
+  },
+  {
+    "parquet": [
+      "*.parquet"
+    ]
+  },
+  {
+    "kustomize": [
+      "kustomization.yaml",
+      "kustomization.yml",
+      "Kustomization"
+    ]
+  },
+  {
+    "tflint": [
+      ".tflint.hcl"
+    ]
+  },
+  {
+    "buf": [
+      "buf.yaml",
+      "buf.work.yaml",
+      "buf.gen.yaml"
+    ]
+  },
+  {
+    "sqlc": [
+      "sqlc.yaml",
+      "sqlc.yml",
+      "sqlc.json"
+    ]
+  },
+  {
+    "zola": [
+      "config.toml"
+    ]
+  },
+  {
+    "nomad": [
+      "*.nomad"
+    ]
+  },
+  {
+    "waypoint": [
       "waypoint.hcl"
     ]
   },
   {
-    "awssam": [
-      "template.yaml"
-    ]
-  },
-  {
-    "pdm": [
-      "pdm.lock",
-      "pyproject.toml"
-    ]
-  },
-  {
-    "rye": [
-      "requirements-dev.lock",
-      "requirements.lock"
-    ]
-  },
-  {
-    "hatch": [
-      "hatch.toml"
-    ]
-  },
-  {
-    "pixi": [
-      "pixi.lock",
-      "pixi.toml"
+    "boundary": [
+      "boundary.hcl"
     ]
   }
 ]
