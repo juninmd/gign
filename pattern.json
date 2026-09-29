@@ -394,7 +394,9 @@
       "wrangler.json",
       "wrangler.toml",
       "wxt.config.js",
-      "wxt.config.ts"
+      "wxt.config.ts",
+      "compose.yaml",
+      "compose.yml"
     ]
   },
   {
@@ -668,7 +670,8 @@
   },
   {
     "gatsby": [
-      "gatsby-config.js"
+      "gatsby-config.js",
+      "gatsby-config.ts"
     ]
   },
   {
@@ -2117,7 +2120,8 @@
   },
   {
     "supabase": [
-      "supabase/config.toml"
+      "supabase/config.toml",
+      "config.toml"
     ]
   },
   {
@@ -4278,8 +4282,9 @@
   {
     "aider": [
       ".aider",
-      ".aider*",
-      ".aider.conf.yml"
+      ".aider.chat.history.md",
+      ".aider.tags.cache.v3",
+      ".aider.tags.cache.v3-wal"
     ]
   },
   {
@@ -4481,6 +4486,123 @@
   {
     "parquet": [
       "*.parquet"
+    ]
+  },
+  {
+    "uv": [
+      "uv.lock"
+    ]
+  },
+  {
+    "rolldown": [
+      "rolldown.config.js",
+      "rolldown.config.mjs",
+      "rolldown.config.cjs",
+      "rolldown.config.ts"
+    ]
+  },
+  {
+    "nyc": [
+      ".nycrc",
+      ".nycrc.json"
+    ]
+  },
+  {
+    "c8": [
+      ".c8rc",
+      ".c8rc.json"
+    ]
+  },
+  {
+    "jest": [
+      "jest.config.js",
+      "jest.config.ts",
+      "jest.config.mjs",
+      "jest.config.cjs",
+      "jest.config.json"
+    ]
+  },
+  {
+    "grafbase": [
+      "grafbase.config.ts",
+      "grafbase.config.js"
+    ]
+  },
+  {
+    "eslint": [
+      ".eslintrc",
+      ".eslintrc.js",
+      ".eslintrc.cjs",
+      ".eslintrc.json",
+      ".eslintrc.yaml",
+      ".eslintrc.yml",
+      "eslint.config.js",
+      "eslint.config.cjs",
+      "eslint.config.mjs",
+      "eslint.config.ts"
+    ]
+  },
+  {
+    "prettier": [
+      ".prettierrc",
+      ".prettierrc.js",
+      ".prettierrc.cjs",
+      ".prettierrc.json",
+      ".prettierrc.yaml",
+      ".prettierrc.yml",
+      "prettier.config.js",
+      "prettier.config.cjs",
+      "prettier.config.mjs",
+      "prettier.config.ts"
+    ]
+  },
+  {
+    "hardhat": [
+      "hardhat.config.js",
+      "hardhat.config.ts"
+    ]
+  },
+  {
+    "truffle": [
+      "truffle-config.js"
+    ]
+  },
+  {
+    "rspack": [
+      "rspack.config.js",
+      "rspack.config.ts",
+      "rspack.config.cjs",
+      "rspack.config.mjs"
+    ]
+  },
+  {
+    "rsbuild": [
+      "rsbuild.config.js",
+      "rsbuild.config.ts",
+      "rsbuild.config.cjs",
+      "rsbuild.config.mjs"
+    ]
+  },
+  {
+    "snowpack": [
+      "snowpack.config.js",
+      "snowpack.config.cjs",
+      "snowpack.config.mjs"
+    ]
+  },
+  {
+    "pandacss": [
+      "panda.config.js",
+      "panda.config.ts",
+      "panda.config.cjs",
+      "panda.config.mjs"
+    ]
+  },
+  {
+    "eleventy": [
+      "eleventy.config.js",
+      "eleventy.config.cjs",
+      ".eleventy.js"
     ]
   }
 ]
