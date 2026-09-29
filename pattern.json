@@ -1,15 +1,22 @@
 [
   {
     "node": [
+      "*.ddb",
+      "*.duckdb",
+      "*.duckdb.wal",
+      "*.parquet",
       "*.ts",
       "*.tsx",
       ".adonisrc.json",
+      ".aider.chat.history.md",
+      ".aider.tags.cache.v3",
       ".babelrc",
       ".babelrc.js",
       ".babelrc.json",
       ".c8rc",
       ".c8rc.json",
       ".changeset/config.json",
+      ".clinerules",
       ".codegen",
       ".commitlintrc.cjs",
       ".commitlintrc.js",
@@ -17,6 +24,9 @@
       ".commitlintrc.mjs",
       ".commitlintrc.yml",
       ".continue",
+      ".copilotignore",
+      ".cspell.json",
+      ".cursorrules",
       ".cz.json",
       ".cz.yaml",
       ".czrc",
@@ -28,6 +38,7 @@
       ".env.production",
       ".env.test",
       ".eslintrc",
+      ".eslintrc.cjs",
       ".eslintrc.js",
       ".eslintrc.json",
       ".eslintrc.yaml",
@@ -37,12 +48,11 @@
       ".graphqlrc.json",
       ".graphqlrc.ts",
       ".graphqlrc.yml",
+      ".husky/",
       ".husky/pre-commit",
       ".huskyrc",
       ".huskyrc.js",
       ".huskyrc.json",
-      ".huskyrc.yaml",
-      ".huskyrc.yml",
       ".idx/dev.nix",
       ".lintstagedrc",
       ".lintstagedrc.cjs",
@@ -59,17 +69,20 @@
       ".mocharc.json",
       ".mocharc.yaml",
       ".mocharc.yml",
+      ".moon/",
       ".npmignore",
       ".npmrc",
       ".nvmrc",
-      ".nycrc",
-      ".nycrc.json",
+      ".oxlintrc.json",
       ".parcelrc",
+      ".pre-commit-config.yaml",
       ".prettierrc",
+      ".prettierrc.cjs",
       ".prettierrc.js",
       ".prettierrc.json",
       ".prettierrc.yaml",
       ".prettierrc.yml",
+      ".puppeteerrc.cjs",
       ".release-it.json",
       ".release-please-manifest.json",
       ".releaserc",
@@ -78,30 +91,36 @@
       ".releaserc.json",
       ".releaserc.yaml",
       ".releaserc.yml",
+      ".rooconfig",
+      ".roomodes",
       ".sailsrc",
       ".sentryclirc",
       ".sequelizerc",
       ".storybook",
+      ".storybook/",
       ".stylelintrc",
+      ".stylelintrc.cjs",
       ".stylelintrc.js",
       ".stylelintrc.json",
       ".stylelintrc.yaml",
       ".stylelintrc.yml",
       ".stylexrc.js",
       ".swcrc",
+      ".testcaferc.json",
+      ".trunk/trunk.yaml",
       ".versionrc",
       ".versionrc.js",
       ".versionrc.json",
-      ".vitepress/config.cjs",
-      ".vitepress/config.js",
-      ".vitepress/config.mts",
-      ".vitepress/config.ts",
+      ".vitepress/",
       ".vuepress/config.js",
       ".vuepress/config.ts",
+      ".windsurfrules",
       ".yarnrc",
       ".yarnrc.yml",
       "Dockerfile",
-      "MLproject",
+      "Earthfile",
+      "Taskfile.yaml",
+      "Taskfile.yml",
       "ampt.config.js",
       "ampt.config.ts",
       "api-extractor.json",
@@ -109,16 +128,20 @@
       "app.arc",
       "app.config.js",
       "app.config.ts",
+      "app.json",
       "appwrite.json",
       "artillery.yaml",
       "artillery.yml",
+      "astro.config.js",
       "astro.config.mjs",
       "astro.config.ts",
       "ava.config.cjs",
       "ava.config.js",
       "ava.config.mjs",
+      "babel.config.cjs",
       "babel.config.js",
       "babel.config.json",
+      "babel.config.mjs",
       "biome.json",
       "biome.jsonc",
       "blitz.config.js",
@@ -136,8 +159,11 @@
       "c8.config.mjs",
       "capacitor.config.json",
       "capacitor.config.ts",
+      "cdk.json",
+      "cdktf.json",
       "changelog.config.js",
       "codecept.conf.js",
+      "codecept.conf.ts",
       "codegen.json",
       "codegen.ts",
       "codegen.yml",
@@ -152,17 +178,23 @@
       "contentlayer.config.js",
       "contentlayer.config.mjs",
       "contentlayer.config.ts",
+      "copilot-instructions.md",
       "craco.config.cjs",
       "craco.config.js",
       "craco.config.ts",
       "cspell.json",
       "cucumber.js",
+      "cypress.config.cjs",
       "cypress.config.js",
+      "cypress.config.mjs",
       "cypress.config.ts",
       "cypress.json",
       "cz.json",
       "cz.yaml",
+      "deno.json",
+      "deno.jsonc",
       "devcontainer.json",
+      "devspace.yaml",
       "docker-compose.yaml",
       "docker-compose.yml",
       "docusaurus.config.js",
@@ -177,7 +209,7 @@
       "ecosystem.config.js",
       "eleventy.config.cjs",
       "eleventy.config.js",
-      "elysia.config.ts",
+      "elysia.json",
       "esbuild.js",
       "eslint.config.cjs",
       "eslint.config.js",
@@ -185,7 +217,9 @@
       "eslint.config.ts",
       "farm.config.js",
       "farm.config.ts",
+      "firebase.json",
       "fly.toml",
+      "garden.yml",
       "gatsby-config.js",
       "gatsby-config.ts",
       "grafbase.config.js",
@@ -193,7 +227,9 @@
       "graphql.config.js",
       "graphql.config.json",
       "graphql.config.ts",
-      "hono.config.ts",
+      "hardhat.config.js",
+      "hardhat.config.ts",
+      "hono.json",
       "inngest",
       "inngest.json",
       "ionic.config.json",
@@ -230,9 +266,11 @@
       "moon.yaml",
       "moon.yml",
       "nest-cli.json",
+      "netlify.toml",
       "next.config.cjs",
       "next.config.js",
       "next.config.mjs",
+      "next.config.ts",
       "nightwatch.conf.js",
       "nightwatch.json",
       "nitric.yaml",
@@ -247,6 +285,7 @@
       "nyc.config.js",
       "openapi.json",
       "openapi.yaml",
+      "ormconfig.json",
       "oxlint.json",
       "package-lock.json",
       "package.json",
@@ -256,7 +295,9 @@
       "panda.config.ts",
       "payload.config.js",
       "payload.config.ts",
+      "playwright.config.cjs",
       "playwright.config.js",
+      "playwright.config.mjs",
       "playwright.config.ts",
       "plopfile.js",
       "plopfile.ts",
@@ -322,6 +363,8 @@
       "sentry.properties",
       "sequelize.js",
       "sequelize.ts",
+      "serverless.yaml",
+      "serverless.yml",
       "slides.md",
       "snowpack.config.cjs",
       "snowpack.config.js",
@@ -333,12 +376,14 @@
       "starlight.config.js",
       "starlight.config.ts",
       "stencil.config.ts",
+      "stryker.conf.cjs",
       "stryker.conf.js",
       "stryker.conf.json",
       "stryker.conf.mjs",
       "stryker.config.js",
       "stryker.config.json",
       "stryker.config.mjs",
+      "stylelint.config.cjs",
       "stylelint.config.js",
       "stylex.config.js",
       "supabase/config.toml",
@@ -359,6 +404,7 @@
       "tauri.conf.json5",
       "testcafe.config.js",
       "tinkun.config.js",
+      "truffle-config.js",
       "tsconfig.app.json",
       "tsconfig.base.json",
       "tsconfig.eslint.json",
@@ -390,9 +436,13 @@
       "vite.config.js",
       "vite.config.mjs",
       "vite.config.ts",
+      "vitest.config.cjs",
       "vitest.config.js",
+      "vitest.config.mjs",
       "vitest.config.ts",
-      "wandb/settings",
+      "vitest.workspace.js",
+      "vitest.workspace.json",
+      "vitest.workspace.ts",
       "wdio.conf.js",
       "wdio.conf.ts",
       "webpack.config.cjs",
@@ -424,7 +474,13 @@
   },
   {
     "python": [
+      "*.ddb",
+      "*.duckdb",
+      "*.duckdb.wal",
+      "*.parquet",
       "*.py",
+      ".aider.chat.history.md",
+      ".aider.tags.cache.v3",
       ".bandit",
       ".black",
       ".flake8",
@@ -438,6 +494,9 @@
       ".ruff.toml",
       ".sqlfluff",
       ".sqlfluffignore",
+      ".trunk/trunk.yaml",
+      "Earthfile",
+      "MLproject",
       "Pipfile",
       "Pipfile.lock",
       "alembic.ini",
@@ -448,8 +507,10 @@
       "conftest.py",
       "dagster.yaml",
       "dbt_project.yml",
+      "devspace.yaml",
       "dodo.py",
       "fabfile.py",
+      "garden.yml",
       "hatch.toml",
       "invoke.yaml",
       "manage.py",
@@ -465,6 +526,7 @@
       "pyre.toml",
       "pyrightconfig.json",
       "pytest.ini",
+      "requirements-dev.lock",
       "requirements-dev.txt",
       "requirements.lock",
       "requirements.txt",
@@ -476,7 +538,8 @@
       "setup.py",
       "tox.ini",
       "uv.lock",
-      "venv"
+      "venv",
+      "wandb/settings"
     ]
   },
   {
@@ -492,20 +555,26 @@
   {
     "go": [
       "*.go",
-      "go.mod",
-      "go.sum",
-      "wails.json",
-      ".golangci.yml",
+      ".golangci.json",
+      ".golangci.toml",
       ".golangci.yaml",
+      ".golangci.yml",
       ".goreleaser.yaml",
       ".goreleaser.yml",
-      ".golangci.toml",
-      ".golangci.json",
-      "buf.yaml",
+      ".trunk/trunk.yaml",
+      "Earthfile",
+      "Taskfile.yaml",
+      "Taskfile.yml",
       "buf.gen.yaml",
       "buf.work.yaml",
+      "buf.yaml",
+      "devspace.yaml",
+      "garden.yml",
+      "go.mod",
+      "go.sum",
+      "sqlc.json",
       "sqlc.yaml",
-      "sqlc.json"
+      "wails.json"
     ]
   },
   {
@@ -523,12 +592,14 @@
     "rust": [
       "*.rs",
       ".rustfmt.toml",
+      ".zola",
+      "Anchor.toml",
       "Cargo.lock",
       "Cargo.toml",
       "Dioxus.toml",
       "clippy.toml",
-      "rustfmt.toml",
-      ".zola"
+      "foundry.toml",
+      "rustfmt.toml"
     ]
   },
   {
@@ -592,9 +663,9 @@
   },
   {
     "unity": [
+      "*.unity",
       "ProjectSettings",
-      "ProjectSettings/ProjectSettings.asset",
-      "*.unity"
+      "ProjectSettings/ProjectSettings.asset"
     ]
   },
   {
@@ -606,13 +677,13 @@
   },
   {
     "gradle": [
-      "gradlew",
+      "*.kts",
       "build.gradle",
-      "settings.gradle",
-      "gradlew.bat",
       "build.gradle.kts",
-      "settings.gradle.kts",
-      "*.kts"
+      "gradlew",
+      "gradlew.bat",
+      "settings.gradle",
+      "settings.gradle.kts"
     ]
   },
   {
@@ -651,7 +722,8 @@
       "*.tfstate",
       "*.tfvars",
       ".terraform.lock.hcl",
-      ".tflint.hcl"
+      ".tflint.hcl",
+      "terragrunt.hcl"
     ]
   },
   {
@@ -700,9 +772,9 @@
   },
   {
     "flutter": [
-      "pubspec.yaml",
       ".flutter-plugins",
-      ".flutter-plugins-dependencies"
+      ".flutter-plugins-dependencies",
+      "pubspec.yaml"
     ]
   },
   {
@@ -1099,8 +1171,8 @@
   {
     "packer": [
       "*.pkr.hcl",
-      "packer.json",
-      "packer.pkr.hcl"
+      "packer.hcl",
+      "packer.json"
     ]
   },
   {
@@ -1196,6 +1268,7 @@
     "deno": [
       "deno.json",
       "deno.jsonc",
+      "deno.lock",
       "fresh.gen.ts",
       "import_map.json",
       "deno.lock"
@@ -1596,10 +1669,10 @@
   },
   {
     "pulumi": [
-      "Pulumi.yaml",
-      "Pulumi.yml",
       "Pulumi.dev.yaml",
-      "Pulumi.prod.yaml"
+      "Pulumi.prod.yaml",
+      "Pulumi.yaml",
+      "Pulumi.yml"
     ]
   },
   {
@@ -1819,11 +1892,11 @@
   },
   {
     "nix": [
-      "default.nix",
-      "shell.nix",
       "*.nix",
+      "default.nix",
+      "flake.lock",
       "flake.nix",
-      "flake.lock"
+      "shell.nix"
     ]
   },
   {
@@ -2212,7 +2285,8 @@
   },
   {
     "objective-c": [
-      "*.m"
+      "*.m",
+      "Podfile"
     ]
   },
   {
@@ -2287,7 +2361,8 @@
   },
   {
     "bicep": [
-      "*.bicep"
+      "*.bicep",
+      "main.bicep"
     ]
   },
   {
@@ -4153,12 +4228,13 @@
   {
     "docker": [
       "Dockerfile",
-      "docker-compose.yml",
       "compose.yaml",
       "compose.yml",
-      "docker-compose.yaml",
+      "docker-compose.local.yml",
+      "docker-compose.override.yaml",
       "docker-compose.override.yml",
-      "docker-compose.override.yaml"
+      "docker-compose.yaml",
+      "docker-compose.yml"
     ]
   },
   {
@@ -4293,9 +4369,9 @@
   {
     "cursor": [
       ".cursor",
-      ".cursorrules",
+      ".cursor/",
       ".cursorignore",
-      ".cursor/"
+      ".cursorrules"
     ]
   },
   {
@@ -4341,8 +4417,8 @@
   },
   {
     "dagster": [
-      "workspace.yaml",
-      "dagster.yaml"
+      "dagster.yaml",
+      "workspace.yaml"
     ]
   },
   {
@@ -4373,8 +4449,8 @@
   },
   {
     "roocode": [
-      ".roomodes",
-      ".rooconfig"
+      ".rooconfig",
+      ".roomodes"
     ]
   },
   {
@@ -4431,14 +4507,14 @@
   },
   {
     "garden": [
-      "garden.yml",
-      "garden.yaml"
+      "garden.yaml",
+      "garden.yml"
     ]
   },
   {
     "trunk": [
-      "trunk.yaml",
-      ".trunk/trunk.yaml"
+      ".trunk/trunk.yaml",
+      "trunk.yaml"
     ]
   },
   {
@@ -4501,30 +4577,37 @@
     ]
   },
   {
-    "mlflow": [
-      "MLproject"
+    "hcl": [
+      "nomad.hcl",
+      "waypoint.hcl"
     ]
   },
   {
-    "wandb": [
-      "wandb/settings"
+    "awssam": [
+      "template.yaml"
     ]
   },
   {
-    "slidev": [
-      "slides.md"
+    "pdm": [
+      "pdm.lock",
+      "pyproject.toml"
     ]
   },
   {
-    "duckdb": [
-      "*.duckdb",
-      "*.ddb",
-      "*.duckdb.wal"
+    "rye": [
+      "requirements-dev.lock",
+      "requirements.lock"
     ]
   },
   {
-    "parquet": [
-      "*.parquet"
+    "hatch": [
+      "hatch.toml"
+    ]
+  },
+  {
+    "pixi": [
+      "pixi.lock",
+      "pixi.toml"
     ]
   }
 ]
