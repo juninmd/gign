@@ -101,6 +101,7 @@
       ".yarnrc",
       ".yarnrc.yml",
       "Dockerfile",
+      "MLproject",
       "ampt.config.js",
       "ampt.config.ts",
       "api-extractor.json",
@@ -321,7 +322,7 @@
       "sentry.properties",
       "sequelize.js",
       "sequelize.ts",
-      "slidev.config.ts",
+      "slides.md",
       "snowpack.config.cjs",
       "snowpack.config.js",
       "snowpack.config.mjs",
@@ -391,6 +392,7 @@
       "vite.config.ts",
       "vitest.config.js",
       "vitest.config.ts",
+      "wandb/settings",
       "wdio.conf.js",
       "wdio.conf.ts",
       "webpack.config.cjs",
@@ -4494,89 +4496,18 @@
     ]
   },
   {
-    "rolldown": [
-      "rolldown.config.js",
-      "rolldown.config.ts"
+    "mlflow": [
+      "MLproject"
     ]
   },
   {
-    "dprint": [
-      "dprint.json",
-      "dprint.jsonc"
+    "wandb": [
+      "wandb/settings"
     ]
   },
   {
-    "testcafe": [
-      "testcafe.config.js"
-    ]
-  },
-  {
-    "codeceptjs": [
-      "codecept.conf.js"
-    ]
-  },
-  {
-    "sequelize": [
-      ".sequelizerc",
-      "sequelize.js"
-    ]
-  },
-  {
-    "nox": [
-      "noxfile.py"
-    ]
-  },
-  {
-    "tox": [
-      "tox.ini"
-    ]
-  },
-  {
-    "codegen": [
-      "codegen.ts",
-      "codegen.yml",
-      "codegen.json",
-      ".codegen"
-    ]
-  },
-  {
-    "tflint": [
-      ".tflint.hcl"
-    ]
-  },
-  {
-    "vuepress": [
-      ".vuepress/config.js"
-    ]
-  },
-  {
-    "sphinx": [
-      "conf.py"
-    ]
-  },
-  {
-    "zola": [
-      "config.toml"
-    ]
-  },
-  {
-    "moon": [
-      "moon.yml"
-    ]
-  },
-  {
-    "nomad": [
-      "nomad.hcl"
-    ]
-  },
-  {
-    "waypoint": [
-      "waypoint.hcl"
-    ]
-  },
-  {
-    "boundary": [
-      "boundary.hcl"
+    "slidev": [
+      "slides.md"
     ]
   }
 ]

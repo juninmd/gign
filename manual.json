@@ -2645,10 +2645,32 @@
     ]
   },
   {
+    "tag": "mlflow",
+    "search": [
+      {
+        "filename": "MLproject",
+        "path": "mlruns/"
+      },
+      {
+        "filename": "MLproject",
+        "path": ".trash/"
+      }
+    ]
+  },
+  {
+    "tag": "wandb",
+    "search": [
+      {
+        "filename": "wandb/settings",
+        "path": "wandb/"
+      }
+    ]
+  },
+  {
     "tag": "slidev",
     "search": [
       {
-        "filename": "slidev.config.ts",
+        "filename": "slides.md",
         "path": ".slidev/"
       }
     ]
