@@ -110,6 +110,8 @@
       "app.config.js",
       "app.config.ts",
       "appwrite.json",
+      "artillery.yaml",
+      "artillery.yml",
       "astro.config.mjs",
       "astro.config.ts",
       "ava.config.cjs",
@@ -467,6 +469,7 @@
       "requirements.lock",
       "requirements.txt",
       "ruff.toml",
+      "rxconfig.py",
       "rye.lock",
       "scrapy.cfg",
       "setup.cfg",
@@ -1714,7 +1717,8 @@
   },
   {
     "sam": [
-      "samconfig.toml"
+      "samconfig.toml",
+      "template.yaml"
     ]
   },
   {
