@@ -1186,6 +1186,22 @@
       {
         "filename": ".vitepress/config.ts",
         "path": ".vitepress/dist/"
+      },
+      {
+        "filename": ".vitepress/config.mts",
+        "path": ".vitepress/dist/"
+      },
+      {
+        "filename": ".vitepress/config.mts",
+        "path": ".vitepress/cache/"
+      },
+      {
+        "filename": ".vitepress/config.cjs",
+        "path": ".vitepress/dist/"
+      },
+      {
+        "filename": ".vitepress/config.cjs",
+        "path": ".vitepress/cache/"
       }
     ]
   },
@@ -2629,85 +2645,11 @@
     ]
   },
   {
-    "tag": "biome",
+    "tag": "slidev",
     "search": [
       {
-        "filename": "biome.json",
-        "path": ".biome/"
-      },
-      {
-        "filename": "biome.jsonc",
-        "path": ".biome/"
-      }
-    ]
-  },
-  {
-    "tag": "rolldown",
-    "search": [
-      {
-        "filename": "rolldown.config.js",
-        "path": "dist/"
-      },
-      {
-        "filename": "rolldown.config.ts",
-        "path": "dist/"
-      },
-      {
-        "filename": "rolldown.config.cjs",
-        "path": "dist/"
-      },
-      {
-        "filename": "rolldown.config.mjs",
-        "path": "dist/"
-      }
-    ]
-  },
-  {
-    "tag": "nyc",
-    "search": [
-      {
-        "filename": ".nycrc",
-        "path": ".nyc_output/"
-      }
-    ]
-  },
-  {
-    "tag": "c8",
-    "search": [
-      {
-        "filename": ".c8rc",
-        "path": "coverage/"
-      }
-    ]
-  },
-  {
-    "tag": "jest",
-    "search": [
-      {
-        "filename": "jest.config.js",
-        "path": "coverage/"
-      },
-      {
-        "filename": "jest.config.ts",
-        "path": "coverage/"
-      }
-    ]
-  },
-  {
-    "tag": "sentry",
-    "search": [
-      {
-        "filename": ".sentryclirc",
-        "path": ".sentry/"
-      }
-    ]
-  },
-  {
-    "tag": "awscdk",
-    "search": [
-      {
-        "filename": "cdk.json",
-        "path": "cdk.out/"
+        "filename": "slidev.config.ts",
+        "path": ".slidev/"
       }
     ]
   }
