@@ -2727,7 +2727,11 @@
       "*.json",
       "*.xml",
       "*.yml",
-      "*.yaml"
+      "*.yaml",
+      "*.duckdb",
+      "*.ddb",
+      "*.duckdb.wal",
+      "*.parquet"
     ]
   },
   {
@@ -4288,7 +4292,7 @@
       ".aider",
       ".aider.chat.history.md",
       ".aider.tags.cache.v3",
-      ".aider.tags.cache.v3-wal"
+      ".aider.tags.cache.v3.lock"
     ]
   },
   {
@@ -4481,8 +4485,78 @@
     ]
   },
   {
+    "rolldown": [
+      "rolldown.config.js",
+      "rolldown.config.ts"
+    ]
+  },
+  {
+    "dprint": [
+      "dprint.json",
+      "dprint.jsonc"
+    ]
+  },
+  {
+    "testcafe": [
+      "testcafe.config.js"
+    ]
+  },
+  {
+    "codeceptjs": [
+      "codecept.conf.js"
+    ]
+  },
+  {
+    "sequelize": [
+      ".sequelizerc",
+      "sequelize.js"
+    ]
+  },
+  {
+    "nox": [
+      "noxfile.py"
+    ]
+  },
+  {
+    "tox": [
+      "tox.ini"
+    ]
+  },
+  {
+    "codegen": [
+      "codegen.ts",
+      "codegen.yml",
+      "codegen.json",
+      ".codegen"
+    ]
+  },
+  {
+    "tflint": [
+      ".tflint.hcl"
+    ]
+  },
+  {
+    "vuepress": [
+      ".vuepress/config.js"
+    ]
+  },
+  {
+    "sphinx": [
+      "conf.py"
+    ]
+  },
+  {
+    "zola": [
+      "config.toml"
+    ]
+  },
+  {
+    "moon": [
+      "moon.yml"
+    ]
+  },
+  {
     "nomad": [
-      "*.nomad",
       "nomad.hcl"
     ]
   },

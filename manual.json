@@ -34,14 +34,6 @@
       {
         "filename": "vite.config.js",
         "path": ".vite/"
-      },
-      {
-        "filename": "vite.config.cjs",
-        "path": ".vite/"
-      },
-      {
-        "filename": "vite.config.mjs",
-        "path": ".vite/"
       }
     ]
   },
@@ -1067,6 +1059,14 @@
       {
         "filename": "drizzle.config.*",
         "path": ".drizzle"
+      },
+      {
+        "filename": "drizzle.config.json",
+        "path": ".drizzle/"
+      },
+      {
+        "filename": "drizzle.config.ts",
+        "path": ".drizzle/"
       }
     ]
   },
@@ -1395,6 +1395,10 @@
       {
         "filename": "eslint.config.ts",
         "path": ".eslintcache"
+      },
+      {
+        "filename": "eslint.config.js",
+        "path": ".eslintcache/"
       }
     ]
   },
@@ -1406,40 +1410,8 @@
         "path": ".prettiercache"
       },
       {
-        "filename": ".prettierrc.js",
-        "path": ".prettiercache"
-      },
-      {
-        "filename": ".prettierrc.cjs",
-        "path": ".prettiercache"
-      },
-      {
-        "filename": ".prettierrc.json",
-        "path": ".prettiercache"
-      },
-      {
-        "filename": ".prettierrc.yaml",
-        "path": ".prettiercache"
-      },
-      {
-        "filename": ".prettierrc.yml",
-        "path": ".prettiercache"
-      },
-      {
-        "filename": "prettier.config.js",
-        "path": ".prettiercache"
-      },
-      {
-        "filename": "prettier.config.cjs",
-        "path": ".prettiercache"
-      },
-      {
-        "filename": "prettier.config.mjs",
-        "path": ".prettiercache"
-      },
-      {
-        "filename": "prettier.config.ts",
-        "path": ".prettiercache"
+        "filename": ".prettierrc",
+        "path": ".prettiercache/"
       }
     ]
   },
@@ -1546,6 +1518,10 @@
       },
       {
         "filename": "blitz.config.ts",
+        "path": ".blitz/"
+      },
+      {
+        "filename": "blitz.config.js",
         "path": ".blitz/"
       }
     ]
@@ -2595,31 +2571,15 @@
         "path": "build/"
       },
       {
-        "filename": "react-router.config.js",
-        "path": "build/"
-      },
-      {
-        "filename": "react-router.config.cjs",
-        "path": "build/"
-      },
-      {
-        "filename": "react-router.config.mjs",
-        "path": "build/"
-      },
-      {
         "filename": "react-router.config.ts",
         "path": ".react-router/"
       },
       {
         "filename": "react-router.config.js",
-        "path": ".react-router/"
+        "path": "build/"
       },
       {
-        "filename": "react-router.config.cjs",
-        "path": ".react-router/"
-      },
-      {
-        "filename": "react-router.config.mjs",
+        "filename": "react-router.config.js",
         "path": ".react-router/"
       }
     ]
@@ -2633,10 +2593,6 @@
       },
       {
         "filename": "nitric.yaml",
-        "path": ".nitric/"
-      },
-      {
-        "filename": "nitric.yml",
         "path": ".nitric/"
       }
     ]
@@ -2673,19 +2629,6 @@
     ]
   },
   {
-    "tag": "aider",
-    "search": [
-      {
-        "filename": ".aider.chat.history.md",
-        "path": ".aider.tags.cache.v3"
-      },
-      {
-        "filename": ".aider.chat.history.md",
-        "path": ".aider.tags.cache.v3-wal"
-      }
-    ]
-  },
-  {
     "tag": "biome",
     "search": [
       {
@@ -2699,15 +2642,6 @@
     ]
   },
   {
-    "tag": "uv",
-    "search": [
-      {
-        "filename": "uv.lock",
-        "path": ".venv/"
-      }
-    ]
-  },
-  {
     "tag": "rolldown",
     "search": [
       {
@@ -2715,7 +2649,7 @@
         "path": "dist/"
       },
       {
-        "filename": "rolldown.config.mjs",
+        "filename": "rolldown.config.ts",
         "path": "dist/"
       },
       {
@@ -2723,7 +2657,7 @@
         "path": "dist/"
       },
       {
-        "filename": "rolldown.config.ts",
+        "filename": "rolldown.config.mjs",
         "path": "dist/"
       }
     ]
@@ -2734,10 +2668,6 @@
       {
         "filename": ".nycrc",
         "path": ".nyc_output/"
-      },
-      {
-        "filename": ".nycrc.json",
-        "path": ".nyc_output/"
       }
     ]
   },
@@ -2746,10 +2676,6 @@
     "search": [
       {
         "filename": ".c8rc",
-        "path": "coverage/"
-      },
-      {
-        "filename": ".c8rc.json",
         "path": "coverage/"
       }
     ]
@@ -2764,31 +2690,24 @@
       {
         "filename": "jest.config.ts",
         "path": "coverage/"
-      },
-      {
-        "filename": "jest.config.mjs",
-        "path": "coverage/"
-      },
-      {
-        "filename": "jest.config.cjs",
-        "path": "coverage/"
-      },
-      {
-        "filename": "jest.config.json",
-        "path": "coverage/"
       }
     ]
   },
   {
-    "tag": "ionic",
+    "tag": "sentry",
     "search": [
       {
-        "filename": "ionic.config.json",
-        "path": "www/"
-      },
+        "filename": ".sentryclirc",
+        "path": ".sentry/"
+      }
+    ]
+  },
+  {
+    "tag": "awscdk",
+    "search": [
       {
-        "filename": "ionic.config.json",
-        "path": ".ionic/"
+        "filename": "cdk.json",
+        "path": "cdk.out/"
       }
     ]
   }
