@@ -4277,7 +4277,9 @@
   },
   {
     "aider": [
-      ".aider"
+      ".aider",
+      ".aider*",
+      ".aider.conf.yml"
     ]
   },
   {
@@ -4470,43 +4472,15 @@
     ]
   },
   {
-    "payload": [
-      "payload.config.js",
-      "payload.config.ts"
+    "duckdb": [
+      "*.duckdb",
+      "*.ddb",
+      "*.duckdb.wal"
     ]
   },
   {
-    "moon": [
-      "moon.yaml",
-      "moon.yml"
-    ]
-  },
-  {
-    "typeorm": [
-      "typeorm.config.js",
-      "typeorm.config.ts"
-    ]
-  },
-  {
-    "mikroorm": [
-      "mikro-orm.config.js",
-      "mikro-orm.config.ts",
-      "mikro-orm.config.cjs",
-      "mikro-orm.config.mjs"
-    ]
-  },
-  {
-    "farm": [
-      "farm.config.js",
-      "farm.config.ts"
-    ]
-  },
-  {
-    "rolldown": [
-      "rolldown.config.js",
-      "rolldown.config.ts",
-      "rolldown.config.cjs",
-      "rolldown.config.mjs"
+    "parquet": [
+      "*.parquet"
     ]
   }
 ]
