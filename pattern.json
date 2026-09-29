@@ -202,6 +202,8 @@
       "lint-staged.config.js",
       "lint-staged.config.mjs",
       "lint-staged.config.ts",
+      "midway.config.js",
+      "midway.config.ts",
       "mikro-orm.config.cjs",
       "mikro-orm.config.js",
       "mikro-orm.config.mjs",
@@ -400,6 +402,7 @@
       ".flake8",
       ".isort.cfg",
       ".nox",
+      ".pre-commit-config.yaml",
       ".pydocstyle",
       ".pydocstyle.ini",
       ".pylintrc",
@@ -410,14 +413,20 @@
       "Pipfile",
       "Pipfile.lock",
       "alembic.ini",
+      "ape-config.yaml",
       "bandit.yaml",
+      "brownie-config.yaml",
       "celeryconfig.py",
       "conftest.py",
+      "dagster.yaml",
+      "dbt_project.yml",
       "dodo.py",
       "fabfile.py",
       "hatch.toml",
       "invoke.yaml",
       "manage.py",
+      "mkdocs.yaml",
+      "mkdocs.yml",
       "mypy.ini",
       "noxfile.py",
       "pdm.lock",
@@ -429,6 +438,7 @@
       "pyrightconfig.json",
       "pytest.ini",
       "requirements-dev.txt",
+      "requirements.lock",
       "requirements.txt",
       "ruff.toml",
       "rye.lock",
@@ -437,13 +447,7 @@
       "setup.py",
       "tox.ini",
       "uv.lock",
-      "venv",
-      "dagster.yaml",
-      "dbt_project.yml",
-      ".pre-commit-config.yaml",
-      "requirements.lock",
-      "mkdocs.yml",
-      "mkdocs.yaml"
+      "venv"
     ]
   },
   {
@@ -1332,7 +1336,8 @@
       "composer.lock",
       "phpstan.neon",
       "phpunit.xml",
-      "psalm.xml"
+      "psalm.xml",
+      "rector.php"
     ]
   },
   {
