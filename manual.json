@@ -2674,5 +2674,35 @@
         "path": ".slidev/"
       }
     ]
+  },
+  {
+    "tag": "duckdb",
+    "search": [
+      {
+        "filename": "*.duckdb",
+        "path": "*.duckdb"
+      },
+      {
+        "filename": "*.ddb",
+        "path": "*.ddb"
+      },
+      {
+        "filename": "*.duckdb.wal",
+        "path": "*.duckdb.wal"
+      }
+    ]
+  },
+  {
+    "tag": "aider",
+    "search": [
+      {
+        "filename": ".aider",
+        "path": ".aider.chat.history.md"
+      },
+      {
+        "filename": ".aider",
+        "path": ".aider.tags.cache.v3"
+      }
+    ]
   }
 ]

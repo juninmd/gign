@@ -406,11 +406,14 @@
       "wrangler.toml",
       "wxt.config.js",
       "wxt.config.ts",
-      "tslog.json",
-      ".tslog",
-      "release.config.js",
-      "release.config.cjs",
-      "tslint.json"
+      "slides.md",
+      "hono.config.ts",
+      "vitepress.config.ts",
+      "vitepress.config.js",
+      "elysia.config.ts",
+      "elysia.config.js",
+      "stylex.config.js",
+      "stylex.config.ts"
     ]
   },
   {
@@ -4508,6 +4511,18 @@
   {
     "slidev": [
       "slides.md"
+    ]
+  },
+  {
+    "duckdb": [
+      "*.duckdb",
+      "*.ddb",
+      "*.duckdb.wal"
+    ]
+  },
+  {
+    "parquet": [
+      "*.parquet"
     ]
   }
 ]
