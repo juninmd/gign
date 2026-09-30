@@ -213,8 +213,13 @@
       "dts-bundle-generator.config.ts",
       "ecosystem.config.cjs",
       "ecosystem.config.js",
+      "electron-builder.json",
+      "electron-builder.json5",
+      "electron-builder.yaml5",
+      "electron-builder.yml",
       "eleventy.config.cjs",
       "eleventy.config.js",
+      "elysia.config.js",
       "elysia.config.ts",
       "esbuild.js",
       "eslint.config.cjs",
@@ -235,6 +240,7 @@
       "graphql.config.ts",
       "hardhat.config.js",
       "hardhat.config.ts",
+      "hono.config.ts",
       "hono.json",
       "inngest",
       "inngest.config.js",
@@ -373,6 +379,8 @@
       "sentry.properties",
       "sequelize.js",
       "sequelize.ts",
+      "serverless.js",
+      "serverless.json",
       "serverless.ts",
       "serverless.yml",
       "slides.md",
@@ -398,6 +406,7 @@
       "stylelint.config.cjs",
       "stylelint.config.js",
       "stylex.config.js",
+      "stylex.config.ts",
       "supabase/config.toml",
       "svelte.config.js",
       "svelte.config.ts",
@@ -450,6 +459,8 @@
       "vite.config.js",
       "vite.config.mjs",
       "vite.config.ts",
+      "vitepress.config.js",
+      "vitepress.config.ts",
       "vitest.config.cjs",
       "vitest.config.js",
       "vitest.config.mjs",
@@ -468,15 +479,7 @@
       "wrangler.json",
       "wrangler.toml",
       "wxt.config.js",
-      "wxt.config.ts",
-      "slides.md",
-      "hono.config.ts",
-      "vitepress.config.ts",
-      "vitepress.config.js",
-      "elysia.config.ts",
-      "elysia.config.js",
-      "stylex.config.js",
-      "stylex.config.ts"
+      "wxt.config.ts"
     ]
   },
   {
@@ -604,7 +607,9 @@
       "Cargo.toml",
       "Dioxus.toml",
       "clippy.toml",
-      "rustfmt.toml"
+      "rustfmt.toml",
+      "src-tauri/tauri.conf.json",
+      "tauri.conf.json"
     ]
   },
   {
@@ -1008,12 +1013,12 @@
   },
   {
     "solidity": [
+      "*.sol",
+      "Anchor.toml",
+      "foundry.toml",
       "hardhat.config.js",
       "hardhat.config.ts",
-      "truffle-config.js",
-      "*.sol",
-      "foundry.toml",
-      "Anchor.toml"
+      "truffle-config.js"
     ]
   },
   {
@@ -2213,6 +2218,7 @@
   },
   {
     "prisma": [
+      "prisma/schema.prisma",
       "schema.prisma"
     ]
   },
@@ -4638,6 +4644,34 @@
   {
     "boundary": [
       "boundary.hcl"
+    ]
+  },
+  {
+    "electron": [
+      "electron-builder.json",
+      "electron-builder.json5",
+      "electron-builder.yaml5",
+      "electron-builder.yml"
+    ]
+  },
+  {
+    "nx": [
+      "nx.json",
+      "workspace.json"
+    ]
+  },
+  {
+    "tauri": [
+      "src-tauri/tauri.conf.json",
+      "tauri.conf.cjs",
+      "tauri.conf.json",
+      "tauri.conf.json5"
+    ]
+  },
+  {
+    "hardhat": [
+      "hardhat.config.js",
+      "hardhat.config.ts"
     ]
   }
 ]

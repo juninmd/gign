@@ -143,6 +143,14 @@
       {
         "filename": "nx.json",
         "path": "tmp"
+      },
+      {
+        "filename": "nx.json",
+        "path": ".nx/"
+      },
+      {
+        "filename": "workspace.json",
+        "path": ".nx/"
       }
     ]
   },
@@ -1253,6 +1261,22 @@
       },
       {
         "filename": ".vitepress/config.cjs",
+        "path": ".vitepress/cache/"
+      },
+      {
+        "filename": "vitepress.config.js",
+        "path": ".vitepress/dist/"
+      },
+      {
+        "filename": "vitepress.config.js",
+        "path": ".vitepress/cache/"
+      },
+      {
+        "filename": "vitepress.config.ts",
+        "path": ".vitepress/dist/"
+      },
+      {
+        "filename": "vitepress.config.ts",
         "path": ".vitepress/cache/"
       }
     ]
