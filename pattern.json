@@ -1,5 +1,2444 @@
 [
   {
+    "1c": [
+      "*.epf",
+      "*.erf",
+      "*.cf",
+      "*.cfu"
+    ]
+  },
+  {
+    "1c-bitrix": [
+      "bitrix",
+      "local"
+    ]
+  },
+  {
+    "a-frame": [
+      "*.html"
+    ]
+  },
+  {
+    "actionscript": [
+      "*.as"
+    ]
+  },
+  {
+    "ada": [
+      "*.gpr"
+    ]
+  },
+  {
+    "adobe": [
+      "*.psd",
+      "*.ai",
+      "*.indd",
+      "*.prproj"
+    ]
+  },
+  {
+    "advancedinstaller": [
+      "*.aip"
+    ]
+  },
+  {
+    "adventuregamestudio": [
+      "Game.agf"
+    ]
+  },
+  {
+    "agda": [
+      "*.agda"
+    ]
+  },
+  {
+    "aider": [
+      ".aider",
+      ".aider.chat.history.md",
+      ".aider.conf.yml",
+      ".aider.tags.cache.v3"
+    ]
+  },
+  {
+    "airflow": [
+      "airflow.cfg"
+    ]
+  },
+  {
+    "al": [
+      "*.al"
+    ]
+  },
+  {
+    "alteraquartusii": [
+      "*.qpf"
+    ]
+  },
+  {
+    "altium": [
+      "*.PrjPcb"
+    ]
+  },
+  {
+    "amplify": [
+      "amplify/"
+    ]
+  },
+  {
+    "anchor": [
+      "Anchor.toml"
+    ]
+  },
+  {
+    "android": [
+      "local.properties",
+      "*.apk"
+    ]
+  },
+  {
+    "androidstudio": [
+      ".idea",
+      "local.properties",
+      "*.apk"
+    ]
+  },
+  {
+    "angular": [
+      "angular.json"
+    ]
+  },
+  {
+    "anjuta": [
+      "*.anjuta"
+    ]
+  },
+  {
+    "ansible": [
+      "ansible.cfg"
+    ]
+  },
+  {
+    "ansibletower": [
+      "tower_cli.cfg"
+    ]
+  },
+  {
+    "ant": [
+      "build.xml"
+    ]
+  },
+  {
+    "apache": [
+      ".htaccess",
+      "httpd.conf"
+    ]
+  },
+  {
+    "apachecordova": [
+      "config.xml"
+    ]
+  },
+  {
+    "apachehadoop": [
+      "core-site.xml",
+      "hdfs-site.xml"
+    ]
+  },
+  {
+    "appbuilder": [
+      "*.abproject"
+    ]
+  },
+  {
+    "appceleratortitanium": [
+      "tiapp.xml"
+    ]
+  },
+  {
+    "appcode": [
+      "*.xcworkspace",
+      "*.xcodeproj",
+      "*.pbxproj"
+    ]
+  },
+  {
+    "appcode+all": [
+      "*.xcworkspace",
+      "*.xcodeproj",
+      "*.pbxproj"
+    ]
+  },
+  {
+    "appcode+iml": [
+      "*.iml"
+    ]
+  },
+  {
+    "appengine": [
+      "app.yaml"
+    ]
+  },
+  {
+    "appveyor": [
+      "appveyor.yml"
+    ]
+  },
+  {
+    "appwrite": [
+      "appwrite.json"
+    ]
+  },
+  {
+    "apt": [
+      "Aptfile",
+      "aptfile"
+    ]
+  },
+  {
+    "aptanastudio": [
+      ".project"
+    ]
+  },
+  {
+    "arcanist": [
+      ".arcconfig"
+    ]
+  },
+  {
+    "architect": [
+      "app.arc"
+    ]
+  },
+  {
+    "archive": [
+      "*.zip",
+      "*.tar",
+      "*.gz",
+      "*.rar",
+      "*.7z"
+    ]
+  },
+  {
+    "archives": [
+      "*.zip",
+      "*.tar",
+      "*.gz",
+      "*.rar",
+      "*.7z",
+      "*.bz2",
+      "*.xz"
+    ]
+  },
+  {
+    "archlinuxpackages": [
+      "PKGBUILD"
+    ]
+  },
+  {
+    "arduino": [
+      "*.ino"
+    ]
+  },
+  {
+    "asdf": [
+      ".tool-versions"
+    ]
+  },
+  {
+    "aspnetcore": [
+      "appsettings.json",
+      "wwwroot"
+    ]
+  },
+  {
+    "assembler": [
+      "*.asm"
+    ]
+  },
+  {
+    "astro": [
+      "astro.config.mjs",
+      "astro.config.js",
+      "astro.config.ts"
+    ]
+  },
+  {
+    "ate": [
+      "*.ate"
+    ]
+  },
+  {
+    "atmelstudio": [
+      "*.cproj"
+    ]
+  },
+  {
+    "ats": [
+      "*.sats",
+      "*.dats",
+      "*.hats"
+    ]
+  },
+  {
+    "audio": [
+      "*.mp3",
+      "*.wav",
+      "*.ogg",
+      "*.flac"
+    ]
+  },
+  {
+    "autohotkey": [
+      "*.ahk"
+    ]
+  },
+  {
+    "automationstudio": [
+      "*.apj"
+    ]
+  },
+  {
+    "autotools": [
+      "configure.ac",
+      "Makefile.am"
+    ]
+  },
+  {
+    "autotools+strict": [
+      "configure.ac",
+      "Makefile.am"
+    ]
+  },
+  {
+    "awr": [
+      "*.emp"
+    ]
+  },
+  {
+    "aws": [
+      "aws"
+    ]
+  },
+  {
+    "aws-sam": [
+      "samconfig.toml"
+    ]
+  },
+  {
+    "awscdk": [
+      "cdk.json"
+    ]
+  },
+  {
+    "azure": [
+      "azure"
+    ]
+  },
+  {
+    "azurefunctions": [
+      "local.settings.json"
+    ]
+  },
+  {
+    "azurite": [
+      "__blobstorage__",
+      "__queuestorage__",
+      "__tablestorage__"
+    ]
+  },
+  {
+    "babel": [
+      "babel.config.js",
+      "babel.config.json",
+      ".babelrc",
+      ".babelrc.json"
+    ]
+  },
+  {
+    "backup": [
+      "*.bak"
+    ]
+  },
+  {
+    "ballerina": [
+      "Ballerina.toml"
+    ]
+  },
+  {
+    "basercms": [
+      "app/Config/database.php",
+      "app/Config/install.php"
+    ]
+  },
+  {
+    "bash": [
+      "*.sh",
+      "*.bash"
+    ]
+  },
+  {
+    "basic": [
+      "*.bas"
+    ]
+  },
+  {
+    "bat": [
+      "*.bat",
+      "*.cmd"
+    ]
+  },
+  {
+    "batch": [
+      "*.bat",
+      "*.cmd"
+    ]
+  },
+  {
+    "bazaar": [
+      ".bzr"
+    ]
+  },
+  {
+    "bazel": [
+      "WORKSPACE",
+      "BUILD",
+      "BUILD.bazel"
+    ]
+  },
+  {
+    "behat": [
+      "behat.yml"
+    ]
+  },
+  {
+    "bicep": [
+      "*.bicep",
+      "main.bicep"
+    ]
+  },
+  {
+    "biome": [
+      "biome.json",
+      "biome.jsonc"
+    ]
+  },
+  {
+    "bitbucket": [
+      "bitbucket-pipelines.yml"
+    ]
+  },
+  {
+    "bitrise": [
+      "bitrise.yml"
+    ]
+  },
+  {
+    "bitrix": [
+      "bitrix"
+    ]
+  },
+  {
+    "bittorrent": [
+      "*.torrent"
+    ]
+  },
+  {
+    "blackbox": [
+      "blackbox.yml"
+    ]
+  },
+  {
+    "blender": [
+      "*.blend"
+    ]
+  },
+  {
+    "bloop": [
+      ".bloop"
+    ]
+  },
+  {
+    "bluej": [
+      "package.bluej"
+    ]
+  },
+  {
+    "bookdown": [
+      "_bookdown.yml"
+    ]
+  },
+  {
+    "boundary": [
+      "boundary.hcl"
+    ]
+  },
+  {
+    "bower": [
+      "bower.json"
+    ]
+  },
+  {
+    "bricxcc": [
+      "*.bxc"
+    ]
+  },
+  {
+    "brunch": [
+      "brunch-config.js",
+      "brunch-config.coffee",
+      "brunch-config.ts"
+    ]
+  },
+  {
+    "bruno": [
+      "bruno.json"
+    ]
+  },
+  {
+    "buck": [
+      ".buckconfig"
+    ]
+  },
+  {
+    "buf": [
+      "buf.yaml",
+      "buf.work.yaml",
+      "buf.gen.yaml"
+    ]
+  },
+  {
+    "c": [
+      "*.c",
+      "*.h"
+    ]
+  },
+  {
+    "c++": [
+      "CMakeLists.txt",
+      "*.cpp",
+      "*.hpp",
+      "*.cc",
+      "*.cxx",
+      "Makefile"
+    ]
+  },
+  {
+    "caddy": [
+      "Caddyfile"
+    ]
+  },
+  {
+    "cake": [
+      "build.cake"
+    ]
+  },
+  {
+    "cakephp": [
+      "bin/cake"
+    ]
+  },
+  {
+    "cakephp2": [
+      "app/Config/core.php"
+    ]
+  },
+  {
+    "cakephp3": [
+      "config/app.php"
+    ]
+  },
+  {
+    "calabash": [
+      "features/support/env.rb"
+    ]
+  },
+  {
+    "capacitor": [
+      "capacitor.config.json",
+      "capacitor.config.ts"
+    ]
+  },
+  {
+    "capistrano": [
+      "Capfile"
+    ]
+  },
+  {
+    "carthage": [
+      "Cartfile"
+    ]
+  },
+  {
+    "cassandra": [
+      "cassandra"
+    ]
+  },
+  {
+    "cdktf": [
+      "cdktf.json"
+    ]
+  },
+  {
+    "certificates": [
+      "*.pem",
+      "*.crt",
+      "*.cer",
+      "*.p12",
+      "*.pfx"
+    ]
+  },
+  {
+    "ceylon": [
+      "module.ceylon"
+    ]
+  },
+  {
+    "cfwheels": [
+      "events/OnApplicationStart.cfm"
+    ]
+  },
+  {
+    "chef": [
+      "Berksfile",
+      "metadata.rb"
+    ]
+  },
+  {
+    "chefcookbook": [
+      "Berksfile"
+    ]
+  },
+  {
+    "chocolatey": [
+      "*.nupkg"
+    ]
+  },
+  {
+    "circleci": [
+      ".circleci/config.yml"
+    ]
+  },
+  {
+    "circuitpython": [
+      "boot_out.txt"
+    ]
+  },
+  {
+    "clean": [
+      "*.icl",
+      "*.dcl"
+    ]
+  },
+  {
+    "cline": [
+      ".clinerules"
+    ]
+  },
+  {
+    "clion": [
+      "CMakeLists.txt",
+      "*.cpp",
+      "*.hpp",
+      "*.c",
+      "*.h",
+      ".idea"
+    ]
+  },
+  {
+    "clion+all": [
+      "CMakeLists.txt",
+      "*.cpp",
+      "*.hpp",
+      "*.c",
+      "*.h"
+    ]
+  },
+  {
+    "clion+iml": [
+      "*.iml"
+    ]
+  },
+  {
+    "clojure": [
+      "build.boot",
+      "deps.edn",
+      "project.clj"
+    ]
+  },
+  {
+    "cloud9": [
+      ".c9"
+    ]
+  },
+  {
+    "cloudflare": [
+      "wrangler.toml",
+      "wrangler.json",
+      "wrangler.jsonc"
+    ]
+  },
+  {
+    "cmake": [
+      "CMakeLists.txt"
+    ]
+  },
+  {
+    "cocoapods": [
+      "Podfile"
+    ]
+  },
+  {
+    "cocos2dx": [
+      ".cocos-project.json",
+      "cocos2d.x"
+    ]
+  },
+  {
+    "cocoscreator": [
+      "project.json"
+    ]
+  },
+  {
+    "codeblocks": [
+      "*.cbp"
+    ]
+  },
+  {
+    "codecomposerstudio": [
+      ".ccsproject",
+      ".cproject",
+      ".project"
+    ]
+  },
+  {
+    "codecov": [
+      "codecov.yml",
+      ".codecov.yml"
+    ]
+  },
+  {
+    "codeigniter": [
+      "spark"
+    ]
+  },
+  {
+    "codeio": [
+      ".codeio"
+    ]
+  },
+  {
+    "codekit": [
+      "config.codekit"
+    ]
+  },
+  {
+    "codesniffer": [
+      "phpcs.xml"
+    ]
+  },
+  {
+    "coffeescript": [
+      "*.coffee"
+    ]
+  },
+  {
+    "commonlisp": [
+      "*.lisp",
+      "*.asd"
+    ]
+  },
+  {
+    "compodoc": [
+      ".compodocrc"
+    ]
+  },
+  {
+    "composer": [
+      "composer.json",
+      "composer.lock"
+    ]
+  },
+  {
+    "compressed": [
+      "*.zip",
+      "*.tar",
+      "*.gz",
+      "*.rar",
+      "*.7z",
+      "*.bz2",
+      "*.xz"
+    ]
+  },
+  {
+    "compressedarchive": [
+      "*.zip",
+      "*.tar",
+      "*.gz",
+      "*.rar",
+      "*.7z"
+    ]
+  },
+  {
+    "compression": [
+      "*.zip",
+      "*.tar",
+      "*.gz",
+      "*.rar",
+      "*.7z",
+      "*.bz2",
+      "*.xz"
+    ]
+  },
+  {
+    "conan": [
+      "conanfile.txt",
+      "conanfile.py"
+    ]
+  },
+  {
+    "concrete5": [
+      "concrete"
+    ]
+  },
+  {
+    "copilot": [
+      ".copilotignore",
+      "copilot-instructions.md"
+    ]
+  },
+  {
+    "coq": [
+      "_CoqProject"
+    ]
+  },
+  {
+    "cordova": [
+      "config.xml"
+    ]
+  },
+  {
+    "cplusplus": [
+      "CMakeLists.txt",
+      "*.cpp",
+      "*.h",
+      "*.hpp"
+    ]
+  },
+  {
+    "craftcms": [
+      "craft"
+    ]
+  },
+  {
+    "crashlytics": [
+      "crashlytics-build.properties"
+    ]
+  },
+  {
+    "crbasic": [
+      "*.cr1"
+    ]
+  },
+  {
+    "crossbar": [
+      ".crossbar"
+    ]
+  },
+  {
+    "crystal": [
+      "*.cr",
+      "shard.yml"
+    ]
+  },
+  {
+    "cs-cart": [
+      "config.local.php"
+    ]
+  },
+  {
+    "csharp": [
+      "*.cs",
+      "*.csproj",
+      "*.csx",
+      "*.sln"
+    ]
+  },
+  {
+    "cuda": [
+      "*.cu",
+      "*.cuh"
+    ]
+  },
+  {
+    "cursor": [
+      ".cursor",
+      ".cursor/",
+      ".cursorignore",
+      ".cursorrules"
+    ]
+  },
+  {
+    "cvs": [
+      "CVS"
+    ]
+  },
+  {
+    "cypress": [
+      "cypress.json",
+      "cypress.config.js",
+      "cypress.config.ts",
+      "cypress.config.mjs",
+      "cypress.config.cjs"
+    ]
+  },
+  {
+    "cypressio": [
+      "cypress.json",
+      "cypress.config.js",
+      "cypress.config.ts",
+      "cypress.config.cjs",
+      "cypress.config.mjs"
+    ]
+  },
+  {
+    "d": [
+      "dub.json",
+      "dub.sdl",
+      "*.d"
+    ]
+  },
+  {
+    "dagger": [
+      ".dagger"
+    ]
+  },
+  {
+    "dagster": [
+      "dagster.yaml",
+      "workspace.yaml"
+    ]
+  },
+  {
+    "dart": [
+      "*.dart",
+      "pubspec.lock",
+      "pubspec.yaml"
+    ]
+  },
+  {
+    "darteditor": [
+      ".project",
+      ".buildlog"
+    ]
+  },
+  {
+    "data": [
+      "*.csv",
+      "*.json",
+      "*.xml",
+      "*.yml",
+      "*.yaml",
+      "*.duckdb",
+      "*.ddb",
+      "*.duckdb.wal",
+      "*.parquet"
+    ]
+  },
+  {
+    "database": [
+      "*.db",
+      "*.sqlite",
+      "*.sqlite3"
+    ]
+  },
+  {
+    "datarecovery": [
+      "*.chk"
+    ]
+  },
+  {
+    "dbeaver": [
+      ".dbeaver"
+    ]
+  },
+  {
+    "dbt": [
+      "dbt_project.yml"
+    ]
+  },
+  {
+    "defold": [
+      "game.project"
+    ]
+  },
+  {
+    "delphi": [
+      "*.dproj"
+    ]
+  },
+  {
+    "deno": [
+      "deno.json",
+      "deno.jsonc",
+      "deno.lock",
+      "fresh.gen.ts",
+      "import_map.json",
+      "deno.lock"
+    ]
+  },
+  {
+    "devbox": [
+      "devbox.json"
+    ]
+  },
+  {
+    "devenv": [
+      "devenv.nix"
+    ]
+  },
+  {
+    "devspace": [
+      "devspace.yaml",
+      "devspace.yml"
+    ]
+  },
+  {
+    "dframe": [
+      "*.df"
+    ]
+  },
+  {
+    "diff": [
+      "*.patch",
+      "*.diff"
+    ]
+  },
+  {
+    "direnv": [
+      ".envrc"
+    ]
+  },
+  {
+    "diskimage": [
+      "*.iso",
+      "*.img",
+      "*.dmg",
+      "*.vdi",
+      "*.vhd"
+    ]
+  },
+  {
+    "django": [
+      "manage.py"
+    ]
+  },
+  {
+    "dm": [
+      "*.dme"
+    ]
+  },
+  {
+    "docfx": [
+      "docfx.json"
+    ]
+  },
+  {
+    "docker": [
+      "Dockerfile",
+      "compose.yaml",
+      "compose.yml",
+      "docker-compose.local.yml",
+      "docker-compose.override.yaml",
+      "docker-compose.override.yml",
+      "docker-compose.yaml",
+      "docker-compose.yml"
+    ]
+  },
+  {
+    "docpress": [
+      "docpress.json"
+    ]
+  },
+  {
+    "docusaurus": [
+      "docusaurus.config.js"
+    ]
+  },
+  {
+    "docz": [
+      "doczrc.js"
+    ]
+  },
+  {
+    "dotenv": [
+      ".env"
+    ]
+  },
+  {
+    "dotfilessh": [
+      ".ssh"
+    ]
+  },
+  {
+    "dotnetcore": [
+      "project.json",
+      "global.json",
+      ".config/dotnet-tools.json",
+      "appsettings.json"
+    ]
+  },
+  {
+    "dotsettings": [
+      "*.DotSettings"
+    ]
+  },
+  {
+    "doxygen": [
+      "Doxyfile"
+    ]
+  },
+  {
+    "dreamweaver": [
+      "_notes",
+      "dwsync.xml"
+    ]
+  },
+  {
+    "dropbox": [
+      ".dropbox"
+    ]
+  },
+  {
+    "drupal": [
+      "sites/default/settings.php"
+    ]
+  },
+  {
+    "drupal7": [
+      "sites/default/settings.php"
+    ]
+  },
+  {
+    "drupal8": [
+      "sites/default/settings.php"
+    ]
+  },
+  {
+    "duckdb": [
+      "*.duckdb",
+      "*.ddb",
+      "*.duckdb.wal"
+    ]
+  },
+  {
+    "dvc": [
+      ".dvc",
+      "dvc.yaml"
+    ]
+  },
+  {
+    "e2studio": [
+      ".cproject",
+      ".project"
+    ]
+  },
+  {
+    "eagle": [
+      "*.sch",
+      "*.brd"
+    ]
+  },
+  {
+    "earthly": [
+      "Earthfile"
+    ]
+  },
+  {
+    "easybook": [
+      "book.json"
+    ]
+  },
+  {
+    "eclipse": [
+      ".project",
+      ".classpath"
+    ]
+  },
+  {
+    "eiffelstudio": [
+      "*.ecf"
+    ]
+  },
+  {
+    "elasticbeanstalk": [
+      ".elasticbeanstalk"
+    ]
+  },
+  {
+    "electron": [
+      "electron-builder.json",
+      "electron-builder.json5",
+      "electron-builder.yaml5",
+      "electron-builder.yml"
+    ]
+  },
+  {
+    "elisp": [
+      "*.el"
+    ]
+  },
+  {
+    "elixir": [
+      "*.ex",
+      "*.exs",
+      "mix.exs",
+      "mix.lock"
+    ]
+  },
+  {
+    "elm": [
+      "*.elm",
+      "elm.json"
+    ]
+  },
+  {
+    "emacs": [
+      ".emacs",
+      "_emacs"
+    ]
+  },
+  {
+    "ember": [
+      "ember-cli-build.js"
+    ]
+  },
+  {
+    "ensime": [
+      ".ensime"
+    ]
+  },
+  {
+    "episerver": [
+      "module.config"
+    ]
+  },
+  {
+    "erlang": [
+      "*.erl",
+      "*.hrl",
+      "rebar.config"
+    ]
+  },
+  {
+    "esbuild": [
+      "esbuild.js",
+      "esbuild.mjs",
+      "esbuild.cjs"
+    ]
+  },
+  {
+    "esp32": [
+      "esp32"
+    ]
+  },
+  {
+    "espresso": [
+      "*.esproj"
+    ]
+  },
+  {
+    "executable": [
+      "*.exe",
+      "*.app",
+      "*.dmg",
+      "*.deb",
+      "*.rpm"
+    ]
+  },
+  {
+    "exercism": [
+      ".exercism"
+    ]
+  },
+  {
+    "expo": [
+      "app.json",
+      "eas.json"
+    ]
+  },
+  {
+    "expressionengine": [
+      "system/expressionengine"
+    ]
+  },
+  {
+    "extjs": [
+      "app.json",
+      "workspace.json"
+    ]
+  },
+  {
+    "fabric": [
+      "fabfile.py"
+    ]
+  },
+  {
+    "fancy": [
+      "Fancyfile"
+    ]
+  },
+  {
+    "fastapi": [
+      "main.py",
+      "app.py"
+    ]
+  },
+  {
+    "fastlane": [
+      "fastlane",
+      "Fastfile"
+    ]
+  },
+  {
+    "finale": [
+      "*.mus",
+      "*.musx"
+    ]
+  },
+  {
+    "firebase": [
+      "firebase.json",
+      ".firebaserc"
+    ]
+  },
+  {
+    "fish": [
+      "*.fish"
+    ]
+  },
+  {
+    "flashbuilder": [
+      ".project",
+      ".actionScriptProperties",
+      ".flexProperties"
+    ]
+  },
+  {
+    "flask": [
+      ".flaskenv",
+      "app.py"
+    ]
+  },
+  {
+    "flatpak": [
+      "*.json",
+      "*.yaml",
+      "*.yml"
+    ]
+  },
+  {
+    "flex": [
+      "*.l",
+      "*.lex"
+    ]
+  },
+  {
+    "flexbuilder": [
+      ".project",
+      ".actionScriptProperties",
+      ".flexProperties"
+    ]
+  },
+  {
+    "floobits": [
+      ".floo"
+    ]
+  },
+  {
+    "flox": [
+      "flox.nix"
+    ]
+  },
+  {
+    "flutter": [
+      ".flutter-plugins",
+      ".flutter-plugins-dependencies",
+      "pubspec.yaml"
+    ]
+  },
+  {
+    "fly": [
+      "fly.toml"
+    ]
+  },
+  {
+    "flyio": [
+      "fly.toml"
+    ]
+  },
+  {
+    "font": [
+      "*.ttf",
+      "*.otf",
+      "*.woff",
+      "*.woff2"
+    ]
+  },
+  {
+    "fontforge": [
+      "*.sfd"
+    ]
+  },
+  {
+    "forcedotcom": [
+      "salesforce.schema"
+    ]
+  },
+  {
+    "forgegradle": [
+      "build.gradle",
+      "gradle.properties"
+    ]
+  },
+  {
+    "fortran": [
+      "*.F90",
+      "*.f",
+      "*.f90",
+      "fpm.toml"
+    ]
+  },
+  {
+    "foundry": [
+      "foundry.toml"
+    ]
+  },
+  {
+    "freecad": [
+      "*.FCStd"
+    ]
+  },
+  {
+    "freepascal": [
+      "*.lpr",
+      "*.lpi"
+    ]
+  },
+  {
+    "fsharp": [
+      "*.fs",
+      "*.fsi",
+      "*.fsproj",
+      "*.fsx"
+    ]
+  },
+  {
+    "fuelphp": [
+      "fuel/app/config/config.php"
+    ]
+  },
+  {
+    "fusetools": [
+      "*.unoproj"
+    ]
+  },
+  {
+    "gamemaker": [
+      "*.yyp"
+    ]
+  },
+  {
+    "games": [
+      "*.sav",
+      "*.dat",
+      "*.pak"
+    ]
+  },
+  {
+    "garden": [
+      "garden.yaml",
+      "garden.yml"
+    ]
+  },
+  {
+    "gatsby": [
+      "gatsby-config.js",
+      "gatsby-config.ts"
+    ]
+  },
+  {
+    "gcov": [
+      "*.gcno",
+      "*.gcda"
+    ]
+  },
+  {
+    "gcp": [
+      "gcp"
+    ]
+  },
+  {
+    "genero4gl": [
+      "*.4gl",
+      "*.4fd"
+    ]
+  },
+  {
+    "geth": [
+      "genesis.json"
+    ]
+  },
+  {
+    "ggts": [
+      ".project",
+      ".classpath"
+    ]
+  },
+  {
+    "gis": [
+      "*.shp",
+      "*.shx",
+      "*.dbf",
+      "*.prj"
+    ]
+  },
+  {
+    "git": [
+      ".git"
+    ]
+  },
+  {
+    "gitbook": [
+      "book.json"
+    ]
+  },
+  {
+    "github": [
+      ".github/workflows"
+    ]
+  },
+  {
+    "gitlab": [
+      ".gitlab-ci.yml"
+    ]
+  },
+  {
+    "gleam": [
+      "gleam.toml"
+    ]
+  },
+  {
+    "gnuplot": [
+      "*.plt",
+      "*.gp"
+    ]
+  },
+  {
+    "go": [
+      "*.go",
+      ".golangci.json",
+      ".golangci.toml",
+      ".golangci.yaml",
+      ".golangci.yml",
+      ".goreleaser.yaml",
+      ".goreleaser.yml",
+      "buf.gen.yaml",
+      "buf.work.yaml",
+      "buf.yaml",
+      "go.mod",
+      "go.sum",
+      "sqlc.json",
+      "sqlc.yaml",
+      "wails.json"
+    ]
+  },
+  {
+    "godot": [
+      "project.godot"
+    ]
+  },
+  {
+    "goland": [
+      "go.mod",
+      "go.sum",
+      "*.go"
+    ]
+  },
+  {
+    "goland+all": [
+      "go.mod",
+      "go.sum",
+      "*.go"
+    ]
+  },
+  {
+    "goland+iml": [
+      "*.iml"
+    ]
+  },
+  {
+    "goodsync": [
+      "_gsdata_"
+    ]
+  },
+  {
+    "gpg": [
+      "*.gpg",
+      "*.sig"
+    ]
+  },
+  {
+    "gradle": [
+      "*.kts",
+      "build.gradle",
+      "build.gradle.kts",
+      "gradlew",
+      "gradlew.bat",
+      "settings.gradle",
+      "settings.gradle.kts"
+    ]
+  },
+  {
+    "grails": [
+      "grails-app"
+    ]
+  },
+  {
+    "graphql": [
+      "*.graphql",
+      "*.gql"
+    ]
+  },
+  {
+    "graphviz": [
+      "*.dot"
+    ]
+  },
+  {
+    "greenfoot": [
+      "project.greenfoot"
+    ]
+  },
+  {
+    "groovy": [
+      "*.groovy"
+    ]
+  },
+  {
+    "grunt": [
+      "Gruntfile.js",
+      "Gruntfile.coffee"
+    ]
+  },
+  {
+    "gwt": [
+      "*.gwt.xml"
+    ]
+  },
+  {
+    "hardhat": [
+      "hardhat.config.js",
+      "hardhat.config.ts"
+    ]
+  },
+  {
+    "haskell": [
+      "*.cabal",
+      "*.hs",
+      "cabal.project",
+      "package.yaml",
+      "stack.yaml"
+    ]
+  },
+  {
+    "haxe": [
+      "*.hxml",
+      "*.hx"
+    ]
+  },
+  {
+    "helm": [
+      "Chart.yaml"
+    ]
+  },
+  {
+    "heroku": [
+      "Procfile"
+    ]
+  },
+  {
+    "hexo": [
+      "_config.yml"
+    ]
+  },
+  {
+    "hol": [
+      "*.sml",
+      "Holmakefile"
+    ]
+  },
+  {
+    "homeassistant": [
+      "configuration.yaml"
+    ]
+  },
+  {
+    "homebrew": [
+      "Brewfile"
+    ]
+  },
+  {
+    "hsp": [
+      "*.hsp"
+    ]
+  },
+  {
+    "hugo": [
+      "hugo.json",
+      "hugo.toml",
+      "hugo.yaml"
+    ]
+  },
+  {
+    "husky": [
+      ".husky/pre-commit"
+    ]
+  },
+  {
+    "hyperledgercomposer": [
+      "*.bna"
+    ]
+  },
+  {
+    "iar": [
+      "*.eww",
+      "*.ewp",
+      "*.ewt"
+    ]
+  },
+  {
+    "iar_ewarm": [
+      "*.eww",
+      "*.ewp",
+      "*.ewt"
+    ]
+  },
+  {
+    "iarembeddedworkbench": [
+      "*.eww",
+      "*.ewp",
+      "*.ewt"
+    ]
+  },
+  {
+    "idapro": [
+      "*.idb",
+      "*.i64"
+    ]
+  },
+  {
+    "idris": [
+      "*.ipkg"
+    ]
+  },
+  {
+    "igorpro": [
+      "*.ipf"
+    ]
+  },
+  {
+    "images": [
+      "*.jpg",
+      "*.png",
+      "*.gif",
+      "*.jpeg",
+      "*.bmp",
+      "*.tiff",
+      "*.webp",
+      "*.svg"
+    ]
+  },
+  {
+    "infer": [
+      "infer-out/"
+    ]
+  },
+  {
+    "inforcms": [
+      "*.vfs"
+    ]
+  },
+  {
+    "inforcrm": [
+      "*.vfs"
+    ]
+  },
+  {
+    "intellij": [
+      ".idea",
+      "*.iml"
+    ]
+  },
+  {
+    "intellij+all": [
+      "*.iml",
+      ".idea"
+    ]
+  },
+  {
+    "intellij+iml": [
+      "*.iml"
+    ]
+  },
+  {
+    "ionic": [
+      "ionic.config.json"
+    ]
+  },
+  {
+    "ionic3": [
+      "ionic.config.json"
+    ]
+  },
+  {
+    "jabref": [
+      "*.bib"
+    ]
+  },
+  {
+    "janet": [
+      "project.janet"
+    ]
+  },
+  {
+    "java": [
+      "pom.xml",
+      "build.gradle",
+      "*.java",
+      "*.class",
+      "*.jar",
+      "build.xml"
+    ]
+  },
+  {
+    "jboss": [
+      "jboss-deployment-structure.xml"
+    ]
+  },
+  {
+    "jboss-4-2-3-ga": [
+      "jboss-web.xml"
+    ]
+  },
+  {
+    "jboss-6-x": [
+      "jboss-web.xml"
+    ]
+  },
+  {
+    "jboss4": [
+      "jboss-web.xml"
+    ]
+  },
+  {
+    "jboss6": [
+      "jboss-web.xml"
+    ]
+  },
+  {
+    "jdeveloper": [
+      "*.jpr"
+    ]
+  },
+  {
+    "jekyll": [
+      "_config.yml"
+    ]
+  },
+  {
+    "jenkins": [
+      "Jenkinsfile"
+    ]
+  },
+  {
+    "jenv": [
+      ".java-version"
+    ]
+  },
+  {
+    "jetbrains": [
+      ".idea",
+      "*.iml"
+    ]
+  },
+  {
+    "jetbrains+all": [
+      ".idea",
+      "*.iml",
+      "*.iws"
+    ]
+  },
+  {
+    "jetbrains+iml": [
+      "*.iml"
+    ]
+  },
+  {
+    "jgiven": [
+      "*.jgiven"
+    ]
+  },
+  {
+    "jigsaw": [
+      "*.jigsaw"
+    ]
+  },
+  {
+    "jmeter": [
+      "*.jmx"
+    ]
+  },
+  {
+    "joe": [
+      "*~",
+      ".*.swp"
+    ]
+  },
+  {
+    "joomla": [
+      "htaccess.txt",
+      "configuration.php"
+    ]
+  },
+  {
+    "jsonnet": [
+      "*.jsonnet",
+      "*.libsonnet"
+    ]
+  },
+  {
+    "jspm": [
+      "jspm.config.js"
+    ]
+  },
+  {
+    "julia": [
+      "*.jl",
+      "Manifest.toml",
+      "Project.toml"
+    ]
+  },
+  {
+    "jupyternotebooks": [
+      "*.ipynb"
+    ]
+  },
+  {
+    "just": [
+      "Justfile",
+      "justfile"
+    ]
+  },
+  {
+    "justcode": [
+      "*.JustCode"
+    ]
+  },
+  {
+    "kafka": [
+      "kafka"
+    ]
+  },
+  {
+    "kaldi": [
+      "cmd.sh",
+      "path.sh"
+    ]
+  },
+  {
+    "kate": [
+      ".kateproject"
+    ]
+  },
+  {
+    "kdevelop4": [
+      "*.kdev4"
+    ]
+  },
+  {
+    "kdiff3": [
+      "*.kdiff3"
+    ]
+  },
+  {
+    "keil": [
+      "*.uvproj"
+    ]
+  },
+  {
+    "kentico": [
+      "*.export"
+    ]
+  },
+  {
+    "keystonejs": [
+      "keystone.ts"
+    ]
+  },
+  {
+    "kicad": [
+      "*.kicad_pcb"
+    ]
+  },
+  {
+    "kirby2": [
+      "site/config/config.php"
+    ]
+  },
+  {
+    "kirby3": [
+      "site/config/config.php"
+    ]
+  },
+  {
+    "kobalt": [
+      "Build.kt"
+    ]
+  },
+  {
+    "kohana": [
+      "application/bootstrap.php"
+    ]
+  },
+  {
+    "komodoedit": [
+      "*.komodoproject"
+    ]
+  },
+  {
+    "konyvisualizer": [
+      "*.kony"
+    ]
+  },
+  {
+    "kotlin": [
+      "*.kt",
+      "build.gradle.kts",
+      "settings.gradle.kts"
+    ]
+  },
+  {
+    "kubernetes": [
+      "k8s",
+      "*.yaml",
+      "*.yml",
+      "kustomization.yaml",
+      "kustomization.yml",
+      "Kustomization"
+    ]
+  },
+  {
+    "kustomize": [
+      "kustomization.yaml",
+      "kustomization.yml",
+      "Kustomization"
+    ]
+  },
+  {
+    "labview": [
+      "*.lvproj"
+    ]
+  },
+  {
+    "labviewnxg": [
+      "*.gcomp"
+    ]
+  },
+  {
+    "lamp": [
+      "*.php",
+      "*.html",
+      "*.css",
+      "*.js"
+    ]
+  },
+  {
+    "laravel": [
+      "artisan"
+    ]
+  },
+  {
+    "latex": [
+      "*.tex",
+      "*.ltx"
+    ]
+  },
+  {
+    "lazarus": [
+      "*.lpi"
+    ]
+  },
+  {
+    "lefthook": [
+      "lefthook.yml",
+      "lefthook.yaml"
+    ]
+  },
+  {
+    "leiningen": [
+      "project.clj",
+      "profiles.clj"
+    ]
+  },
+  {
+    "lemonstand": [
+      "config/config.php"
+    ]
+  },
+  {
+    "less": [
+      "*.less"
+    ]
+  },
+  {
+    "liberosoc": [
+      "*.prjx"
+    ]
+  },
+  {
+    "librarian-chef": [
+      "Cheffile"
+    ]
+  },
+  {
+    "libreoffice": [
+      "*.odt",
+      "*.ods",
+      "*.odp",
+      "*.odg"
+    ]
+  },
+  {
+    "lighthouseci": [
+      "lighthouserc.json",
+      "lighthouserc.js"
+    ]
+  },
+  {
+    "lilypond": [
+      "*.ly"
+    ]
+  },
+  {
+    "linux": [
+      ".directory",
+      "*~"
+    ]
+  },
+  {
+    "lisp": [
+      "*.asd",
+      "*.cl",
+      "*.lisp",
+      "*.lsp"
+    ]
+  },
+  {
+    "lithium": [
+      "config/bootstrap.php"
+    ]
+  },
+  {
+    "localstack": [
+      "docker-compose.yml"
+    ]
+  },
+  {
+    "logtalk": [
+      "*.lgt",
+      "*.logtalk"
+    ]
+  },
+  {
+    "lsspice": [
+      "*.asc"
+    ]
+  },
+  {
+    "ltspice": [
+      "*.asc",
+      "*.plt"
+    ]
+  },
+  {
+    "lua": [
+      "*.lua",
+      ".luacheckrc"
+    ]
+  },
+  {
+    "lyx": [
+      "*.lyx"
+    ]
+  },
+  {
+    "macos": [
+      ".DS_Store",
+      "Brewfile"
+    ]
+  },
+  {
+    "magento": [
+      "bin/magento"
+    ]
+  },
+  {
+    "magento1": [
+      "app/etc/local.xml"
+    ]
+  },
+  {
+    "magento2": [
+      "bin/magento"
+    ]
+  },
+  {
+    "magic-xpa": [
+      "*.edp"
+    ]
+  },
+  {
+    "makefile": [
+      "Makefile"
+    ]
+  },
+  {
+    "matlab": [
+      "*.m",
+      "*.mat"
+    ]
+  },
+  {
+    "maven": [
+      "pom.xml",
+      "mvnw",
+      "mvnw.cmd"
+    ]
+  },
+  {
+    "mavensmate": [
+      "src/package.xml"
+    ]
+  },
+  {
+    "mdbook": [
+      "book.toml"
+    ]
+  },
+  {
+    "mean": [
+      "package.json",
+      "angular.json"
+    ]
+  },
+  {
+    "mercurial": [
+      ".hg"
+    ]
+  },
+  {
+    "mercury": [
+      "*.m"
+    ]
+  },
+  {
+    "meson": [
+      "meson.build"
+    ]
+  },
+  {
+    "metals": [
+      ".metals"
+    ]
+  },
+  {
+    "metalsmith": [
+      "metalsmith.json"
+    ]
+  },
+  {
+    "metaprogrammingsystem": [
+      "*.mpr",
+      "*.msd"
+    ]
+  },
+  {
+    "meteor": [
+      ".meteor"
+    ]
+  },
+  {
+    "meteorjs": [
+      ".meteor"
+    ]
+  },
+  {
+    "microsoftoffice": [
+      "*.doc",
+      "*.docx",
+      "*.ppt",
+      "*.pptx",
+      "*.xls",
+      "*.xlsx"
+    ]
+  },
+  {
+    "mikroc": [
+      "*.mcppi"
+    ]
+  },
+  {
+    "mill": [
+      "build.sc"
+    ]
+  },
+  {
+    "mise": [
+      "mise.toml"
+    ]
+  },
+  {
+    "mkdocs": [
+      "mkdocs.yml"
+    ]
+  },
+  {
+    "moban": [
+      ".moban.yaml"
+    ]
+  },
+  {
+    "modelsim": [
+      "*.mpf"
+    ]
+  },
+  {
+    "modx": [
+      "core/config/config.inc.php"
+    ]
+  },
+  {
+    "momentics": [
+      ".momentics"
+    ]
+  },
+  {
+    "mongodb": [
+      "mongodb"
+    ]
+  },
+  {
+    "monodevelop": [
+      "*.sln",
+      "*.csproj"
+    ]
+  },
+  {
+    "mplabx": [
+      "*.X/"
+    ]
+  },
+  {
+    "mule": [
+      "mule-artifact.json",
+      "mule-deploy.properties"
+    ]
+  },
+  {
+    "mysql": [
+      "*.sql"
+    ]
+  },
+  {
+    "nanoc": [
+      "nanoc.yaml"
+    ]
+  },
+  {
+    "nativescript": [
+      "nativescript.config.ts",
+      "nsconfig.json"
+    ]
+  },
+  {
+    "ncrunch": [
+      "*.ncrunchproject"
+    ]
+  },
+  {
+    "nesc": [
+      "*.nc"
+    ]
+  },
+  {
+    "nestjs": [
+      "nest-cli.json"
+    ]
+  },
+  {
+    "netbeans": [
+      "nbproject"
+    ]
+  },
+  {
+    "netlify": [
+      "netlify.toml"
+    ]
+  },
+  {
+    "nette": [
+      "app/config/config.neon"
+    ]
+  },
+  {
+    "nextjs": [
+      "next.config.js",
+      "next.config.mjs",
+      "next.config.ts",
+      "next.config.cjs"
+    ]
+  },
+  {
+    "nginx": [
+      "nginx.conf"
+    ]
+  },
+  {
+    "nikola": [
+      "conf.py"
+    ]
+  },
+  {
+    "nim": [
+      "*.nim",
+      "*.nimble"
+    ]
+  },
+  {
+    "ninja": [
+      "build.ninja"
+    ]
+  },
+  {
+    "nix": [
+      "*.nix",
+      "default.nix",
+      "flake.lock",
+      "flake.nix",
+      "shell.nix"
+    ]
+  },
+  {
     "node": [
       "*.ddb",
       "*.duckdb",
@@ -127,6 +2566,7 @@
       "Taskfile.yml",
       "ampt.config.js",
       "ampt.config.ts",
+      "ampt.yaml",
       "api-extractor.json",
       "apollo.config.js",
       "app.arc",
@@ -197,6 +2637,7 @@
       "cypress.json",
       "cz.json",
       "cz.yaml",
+      "databricks.yml",
       "deno.json",
       "deno.jsonc",
       "devcontainer.json",
@@ -228,6 +2669,7 @@
       "eslint.config.ts",
       "farm.config.js",
       "farm.config.ts",
+      "fastly.toml",
       "firebase.json",
       "fly.toml",
       "garden.yml",
@@ -370,6 +2812,7 @@
       "rspress.config.js",
       "rspress.config.mjs",
       "rspress.config.ts",
+      "rush.json",
       "sailsrc",
       "sanity.cli.js",
       "sanity.cli.ts",
@@ -483,9 +2926,494 @@
     ]
   },
   {
-    "visualstudiocode": [
-      "*.code-workspace",
-      ".vscode"
+    "nodechakratimetraveldebug": [
+      "ttdlog"
+    ]
+  },
+  {
+    "nohup": [
+      "nohup.out"
+    ]
+  },
+  {
+    "nomad": [
+      "*.nomad"
+    ]
+  },
+  {
+    "notepadpp": [
+      "session.xml"
+    ]
+  },
+  {
+    "nova": [
+      ".nova"
+    ]
+  },
+  {
+    "now": [
+      "now.json"
+    ]
+  },
+  {
+    "nuxt": [
+      "nuxt.config.js",
+      "nuxt.config.ts"
+    ]
+  },
+  {
+    "nuxtjs": [
+      "nuxt.config.js",
+      "nuxt.config.ts",
+      "nuxt.config.mjs"
+    ]
+  },
+  {
+    "nwjs": [
+      "package.nw"
+    ]
+  },
+  {
+    "nx": [
+      "nx.json",
+      "workspace.json"
+    ]
+  },
+  {
+    "objective-c": [
+      "*.m",
+      "Podfile"
+    ]
+  },
+  {
+    "objectivec": [
+      "Podfile"
+    ]
+  },
+  {
+    "obsidian": [
+      ".obsidian"
+    ]
+  },
+  {
+    "ocaml": [
+      "*.ml",
+      "*.mli",
+      "_build",
+      "dune",
+      "dune-project"
+    ]
+  },
+  {
+    "octave": [
+      "*.oct"
+    ]
+  },
+  {
+    "octobercms": [
+      "artisan"
+    ]
+  },
+  {
+    "odin": [
+      "*.odin"
+    ]
+  },
+  {
+    "opa": [
+      "*.rego"
+    ]
+  },
+  {
+    "opencart": [
+      "admin/config.php"
+    ]
+  },
+  {
+    "opencv": [
+      "CMakeLists.txt"
+    ]
+  },
+  {
+    "openfoam": [
+      "system/controlDict"
+    ]
+  },
+  {
+    "openframeworks": [
+      "addons.make"
+    ]
+  },
+  {
+    "openframeworks+visualstudio": [
+      "*.vcxproj"
+    ]
+  },
+  {
+    "openscad": [
+      "*.scad"
+    ]
+  },
+  {
+    "oracleforms": [
+      "*.fmb",
+      "*.fmx"
+    ]
+  },
+  {
+    "orcad": [
+      "*.opj",
+      "*.dsn"
+    ]
+  },
+  {
+    "osx": [
+      ".DS_Store",
+      ".AppleDouble",
+      ".LSOverride",
+      "Icon\r",
+      "._*",
+      ".Spotlight-V100",
+      ".Trashes"
+    ]
+  },
+  {
+    "otto": [
+      "otto.json"
+    ]
+  },
+  {
+    "oxideshop": [
+      "config.inc.php"
+    ]
+  },
+  {
+    "oxygenxmleditor": [
+      "*.xpr"
+    ]
+  },
+  {
+    "packer": [
+      "*.pkr.hcl",
+      "packer.hcl",
+      "packer.json"
+    ]
+  },
+  {
+    "pants": [
+      "pants.toml",
+      "pants.ini"
+    ]
+  },
+  {
+    "parquet": [
+      "*.parquet"
+    ]
+  },
+  {
+    "particle": [
+      "project.properties"
+    ]
+  },
+  {
+    "pascal": [
+      "*.pas",
+      "*.dpr"
+    ]
+  },
+  {
+    "patch": [
+      "*.patch"
+    ]
+  },
+  {
+    "pawn": [
+      "*.pwn",
+      "*.amx"
+    ]
+  },
+  {
+    "pelican": [
+      "pelicanconf.py"
+    ]
+  },
+  {
+    "perl": [
+      "Makefile.PL",
+      "cpanfile",
+      "*.pl",
+      "*.pm"
+    ]
+  },
+  {
+    "perl6": [
+      "META6.json"
+    ]
+  },
+  {
+    "ph7cms": [
+      "_install"
+    ]
+  },
+  {
+    "phalcon": [
+      "public/index.php",
+      "app/config/config.php"
+    ]
+  },
+  {
+    "phoenix": [
+      "mix.exs"
+    ]
+  },
+  {
+    "php": [
+      "*.php",
+      "composer.json",
+      "composer.lock",
+      "phpstan.neon",
+      "phpunit.xml",
+      "psalm.xml",
+      "rector.php"
+    ]
+  },
+  {
+    "php-cs-fixer": [
+      ".php-cs-fixer.dist.php",
+      ".php_cs.dist"
+    ]
+  },
+  {
+    "phpcodesniffer": [
+      "phpcs.xml"
+    ]
+  },
+  {
+    "phpspec": [
+      "phpspec.yml"
+    ]
+  },
+  {
+    "phpstorm": [
+      ".idea",
+      "*.iml"
+    ]
+  },
+  {
+    "phpstorm+all": [
+      ".idea",
+      "*.iml"
+    ]
+  },
+  {
+    "phpstorm+iml": [
+      "*.iml"
+    ]
+  },
+  {
+    "phpunit": [
+      "phpunit.xml"
+    ]
+  },
+  {
+    "pico8": [
+      "*.p8"
+    ]
+  },
+  {
+    "pimcore": [
+      "composer.json"
+    ]
+  },
+  {
+    "pimcore4": [
+      "composer.json"
+    ]
+  },
+  {
+    "pimcore5": [
+      "composer.json"
+    ]
+  },
+  {
+    "pinegrow": [
+      "pinegrow.json"
+    ]
+  },
+  {
+    "pkgx": [
+      "pkgx.yaml"
+    ]
+  },
+  {
+    "platformio": [
+      "platformio.ini"
+    ]
+  },
+  {
+    "play": [
+      "build.sbt"
+    ]
+  },
+  {
+    "playframework": [
+      "conf/application.conf",
+      "conf/routes"
+    ]
+  },
+  {
+    "playwright": [
+      "playwright.config.js",
+      "playwright.config.ts",
+      "playwright.config.cjs",
+      "playwright.config.mjs"
+    ]
+  },
+  {
+    "plone": [
+      "buildout.cfg"
+    ]
+  },
+  {
+    "polymer": [
+      "polymer.json"
+    ]
+  },
+  {
+    "postgresql": [
+      "*.sql"
+    ]
+  },
+  {
+    "powershell": [
+      "*.ps1",
+      "*.psd1",
+      "*.psm1"
+    ]
+  },
+  {
+    "precommit": [
+      ".pre-commit-config.yaml"
+    ]
+  },
+  {
+    "prefect": [
+      "prefect.yaml"
+    ]
+  },
+  {
+    "premake-gmake": [
+      "premake4.lua",
+      "premake5.lua"
+    ]
+  },
+  {
+    "prepros": [
+      "prepros-6.config",
+      "prepros.config"
+    ]
+  },
+  {
+    "prestashop": [
+      "config/settings.inc.php"
+    ]
+  },
+  {
+    "prisma": [
+      "prisma/schema.prisma",
+      "schema.prisma"
+    ]
+  },
+  {
+    "processing": [
+      "*.pde"
+    ]
+  },
+  {
+    "progressabl": [
+      "*.p",
+      "*.w",
+      "*.i",
+      "*.cls"
+    ]
+  },
+  {
+    "prolog": [
+      "*.pl",
+      "*.pro"
+    ]
+  },
+  {
+    "psoccreator": [
+      "*.cywrk"
+    ]
+  },
+  {
+    "pulumi": [
+      "Pulumi.dev.yaml",
+      "Pulumi.prod.yaml",
+      "Pulumi.yaml",
+      "Pulumi.yml"
+    ]
+  },
+  {
+    "pulumi+stacks": [
+      "Pulumi.yaml",
+      "Pulumi.*.yaml"
+    ]
+  },
+  {
+    "puppet": [
+      "Puppetfile",
+      "*.pp"
+    ]
+  },
+  {
+    "puppet-librarian": [
+      "Puppetfile"
+    ]
+  },
+  {
+    "purebasic": [
+      "*.pb"
+    ]
+  },
+  {
+    "purescript": [
+      "bower.json",
+      "spago.dhall"
+    ]
+  },
+  {
+    "putty": [
+      "*.ppk"
+    ]
+  },
+  {
+    "pvs": [
+      "*.pvs"
+    ]
+  },
+  {
+    "pycharm": [
+      "requirements.txt",
+      "*.py"
+    ]
+  },
+  {
+    "pycharm+all": [
+      ".idea",
+      "*.iml"
+    ]
+  },
+  {
+    "pycharm+iml": [
+      "*.iml"
+    ]
+  },
+  {
+    "pydev": [
+      ".pydevproject"
     ]
   },
   {
@@ -559,269 +3487,35 @@
     ]
   },
   {
-    "java": [
-      "pom.xml",
-      "build.gradle",
-      "*.java",
-      "*.class",
-      "*.jar",
-      "build.xml"
+    "pythonvanilla": [
+      "*.py"
     ]
   },
   {
-    "go": [
-      "*.go",
-      ".golangci.json",
-      ".golangci.toml",
-      ".golangci.yaml",
-      ".golangci.yml",
-      ".goreleaser.yaml",
-      ".goreleaser.yml",
-      "buf.gen.yaml",
-      "buf.work.yaml",
-      "buf.yaml",
-      "go.mod",
-      "go.sum",
-      "sqlc.json",
-      "sqlc.yaml",
-      "wails.json"
+    "qml": [
+      "*.qml"
     ]
   },
   {
-    "ruby": [
-      "*.gemspec",
-      "*.rb",
-      ".rubocop.yaml",
-      ".rubocop.yml",
-      ".ruby-version",
-      "Gemfile",
-      "Gemfile.lock"
+    "qooxdoo": [
+      "Manifest.json"
     ]
   },
   {
-    "rust": [
-      "*.rs",
-      ".rustfmt.toml",
-      ".zola",
-      "Cargo.lock",
-      "Cargo.toml",
-      "Dioxus.toml",
-      "clippy.toml",
-      "rustfmt.toml",
-      "src-tauri/tauri.conf.json",
-      "tauri.conf.json"
+    "qt": [
+      "*.pro",
+      "*.pri"
     ]
   },
   {
-    "composer": [
-      "composer.json",
-      "composer.lock"
+    "qtcreator": [
+      "*.pro.user"
     ]
   },
   {
-    "kotlin": [
-      "*.kt",
-      "build.gradle.kts",
-      "settings.gradle.kts"
-    ]
-  },
-  {
-    "c++": [
-      "CMakeLists.txt",
-      "*.cpp",
-      "*.hpp",
-      "*.cc",
-      "*.cxx",
-      "Makefile"
-    ]
-  },
-  {
-    "cmake": [
-      "CMakeLists.txt"
-    ]
-  },
-  {
-    "swift": [
-      "*.swift",
-      "Package.swift"
-    ]
-  },
-  {
-    "dart": [
-      "*.dart",
-      "pubspec.lock",
-      "pubspec.yaml"
-    ]
-  },
-  {
-    "elixir": [
-      "*.ex",
-      "*.exs",
-      "mix.exs",
-      "mix.lock"
-    ]
-  },
-  {
-    "django": [
-      "manage.py"
-    ]
-  },
-  {
-    "laravel": [
-      "artisan"
-    ]
-  },
-  {
-    "unity": [
-      "*.unity",
-      "ProjectSettings",
-      "ProjectSettings/ProjectSettings.asset"
-    ]
-  },
-  {
-    "maven": [
-      "pom.xml",
-      "mvnw",
-      "mvnw.cmd"
-    ]
-  },
-  {
-    "gradle": [
-      "*.kts",
-      "build.gradle",
-      "build.gradle.kts",
-      "gradlew",
-      "gradlew.bat",
-      "settings.gradle",
-      "settings.gradle.kts"
-    ]
-  },
-  {
-    "visualstudio": [
-      "*.sln",
-      "*.csproj",
-      "*.vbproj",
-      ".vs"
-    ]
-  },
-  {
-    "intellij": [
-      ".idea",
-      "*.iml"
-    ]
-  },
-  {
-    "eclipse": [
-      ".project",
-      ".classpath"
-    ]
-  },
-  {
-    "netbeans": [
-      "nbproject"
-    ]
-  },
-  {
-    "vagrant": [
-      "Vagrantfile"
-    ]
-  },
-  {
-    "terraform": [
-      "*.tf",
-      "*.tfstate",
-      "*.tfvars",
-      ".terraform.lock.hcl",
-      ".tflint.hcl",
-      "terragrunt.hcl"
-    ]
-  },
-  {
-    "android": [
-      "local.properties",
-      "*.apk"
-    ]
-  },
-  {
-    "angular": [
-      "angular.json"
-    ]
-  },
-  {
-    "vue": [
-      "*.vue",
-      "vue.config.js"
-    ]
-  },
-  {
-    "nextjs": [
-      "next.config.js",
-      "next.config.mjs",
-      "next.config.ts",
-      "next.config.cjs"
-    ]
-  },
-  {
-    "nuxtjs": [
-      "nuxt.config.js",
-      "nuxt.config.ts",
-      "nuxt.config.mjs"
-    ]
-  },
-  {
-    "gatsby": [
-      "gatsby-config.js",
-      "gatsby-config.ts"
-    ]
-  },
-  {
-    "reactnative": [
-      "metro.config.js",
-      "react-native.config.js"
-    ]
-  },
-  {
-    "flutter": [
-      ".flutter-plugins",
-      ".flutter-plugins-dependencies",
-      "pubspec.yaml"
-    ]
-  },
-  {
-    "cocoapods": [
-      "Podfile"
-    ]
-  },
-  {
-    "scala": [
-      "*.scala",
-      "build.sbt"
-    ]
-  },
-  {
-    "c": [
-      "*.c",
-      "*.h"
-    ]
-  },
-  {
-    "unrealengine": [
-      "*.uproject"
-    ]
-  },
-  {
-    "godot": [
-      "project.godot"
-    ]
-  },
-  {
-    "jupyternotebooks": [
-      "*.ipynb"
-    ]
-  },
-  {
-    "ansible": [
-      "ansible.cfg"
+    "quasar": [
+      "quasar.config.js",
+      "quasar.conf.js"
     ]
   },
   {
@@ -834,170 +3528,8 @@
     ]
   },
   {
-    "haskell": [
-      "*.cabal",
-      "*.hs",
-      "cabal.project",
-      "package.yaml",
-      "stack.yaml"
-    ]
-  },
-  {
-    "erlang": [
-      "*.erl",
-      "*.hrl",
-      "rebar.config"
-    ]
-  },
-  {
-    "svelte": [
-      "*.svelte",
-      "svelte.config.cjs",
-      "svelte.config.js"
-    ]
-  },
-  {
-    "ionic3": [
-      "ionic.config.json"
-    ]
-  },
-  {
-    "julia": [
-      "*.jl",
-      "Manifest.toml",
-      "Project.toml"
-    ]
-  },
-  {
-    "perl": [
-      "Makefile.PL",
-      "cpanfile",
-      "*.pl",
-      "*.pm"
-    ]
-  },
-  {
-    "sublimetext": [
-      "*.sublime-project"
-    ]
-  },
-  {
-    "yarn": [
-      "yarn.lock"
-    ]
-  },
-  {
-    "sonarqube": [
-      "sonar-project.properties"
-    ]
-  },
-  {
-    "serverless": [
-      "serverless.yml",
-      "serverless.ts",
-      "serverless.js",
-      "serverless.json"
-    ]
-  },
-  {
-    "hugo": [
-      "hugo.json",
-      "hugo.toml",
-      "hugo.yaml"
-    ]
-  },
-  {
-    "jekyll": [
-      "_config.yml"
-    ]
-  },
-  {
-    "hexo": [
-      "_config.yml"
-    ]
-  },
-  {
-    "vim": [
-      ".vimrc"
-    ]
-  },
-  {
-    "helm": [
-      "Chart.yaml"
-    ]
-  },
-  {
-    "wordpress": [
-      "wp-config.php"
-    ]
-  },
-  {
-    "symfony": [
-      "symfony.lock",
-      "bin/console"
-    ]
-  },
-  {
-    "salesforcedx": [
-      "sfdx-project.json"
-    ]
-  },
-  {
-    "meteor": [
-      ".meteor"
-    ]
-  },
-  {
-    "chefcookbook": [
-      "Berksfile"
-    ]
-  },
-  {
-    "puppet": [
-      "Puppetfile",
-      "*.pp"
-    ]
-  },
-  {
-    "lazarus": [
-      "*.lpi"
-    ]
-  },
-  {
-    "labview": [
-      "*.lvproj"
-    ]
-  },
-  {
-    "kicad": [
-      "*.kicad_pcb"
-    ]
-  },
-  {
-    "clojure": [
-      "build.boot",
-      "deps.edn",
-      "project.clj"
-    ]
-  },
-  {
-    "zig": [
-      "build.zig"
-    ]
-  },
-  {
-    "firebase": [
-      "firebase.json",
-      ".firebaserc"
-    ]
-  },
-  {
-    "ocaml": [
-      "*.ml",
-      "*.mli",
-      "_build",
-      "dune",
-      "dune-project"
+    "rabbitmq": [
+      "rabbitmq"
     ]
   },
   {
@@ -1006,183 +3538,18 @@
     ]
   },
   {
-    "lua": [
-      "*.lua",
-      ".luacheckrc"
+    "rails": [
+      "bin/rails"
     ]
   },
   {
-    "solidity": [
-      "*.sol",
-      "Anchor.toml",
-      "foundry.toml",
-      "hardhat.config.js",
-      "hardhat.config.ts",
-      "truffle-config.js"
+    "railway": [
+      "railway.json"
     ]
   },
   {
-    "tex": [
-      "*.tex"
-    ]
-  },
-  {
-    "elm": [
-      "*.elm",
-      "elm.json"
-    ]
-  },
-  {
-    "purescript": [
-      "bower.json",
-      "spago.dhall"
-    ]
-  },
-  {
-    "crystal": [
-      "*.cr",
-      "shard.yml"
-    ]
-  },
-  {
-    "nim": [
-      "*.nim",
-      "*.nimble"
-    ]
-  },
-  {
-    "d": [
-      "dub.json",
-      "dub.sdl",
-      "*.d"
-    ]
-  },
-  {
-    "fortran": [
-      "*.F90",
-      "*.f",
-      "*.f90",
-      "fpm.toml"
-    ]
-  },
-  {
-    "platformio": [
-      "platformio.ini"
-    ]
-  },
-  {
-    "ros": [
-      "package.xml",
-      "colcon.meta",
-      "colcon.pkg"
-    ]
-  },
-  {
-    "actionscript": [
-      "*.as"
-    ]
-  },
-  {
-    "ada": [
-      "*.gpr"
-    ]
-  },
-  {
-    "agda": [
-      "*.agda"
-    ]
-  },
-  {
-    "coq": [
-      "_CoqProject"
-    ]
-  },
-  {
-    "idris": [
-      "*.ipkg"
-    ]
-  },
-  {
-    "xcode": [
-      "*.xcodeproj",
-      "*.xcworkspace"
-    ]
-  },
-  {
-    "dm": [
-      "*.dme"
-    ]
-  },
-  {
-    "bitrix": [
-      "bitrix"
-    ]
-  },
-  {
-    "typo3": [
-      "typo3conf"
-    ]
-  },
-  {
-    "joomla": [
-      "htaccess.txt",
-      "configuration.php"
-    ]
-  },
-  {
-    "grails": [
-      "grails-app"
-    ]
-  },
-  {
-    "fsharp": [
-      "*.fs",
-      "*.fsi",
-      "*.fsproj",
-      "*.fsx"
-    ]
-  },
-  {
-    "cuda": [
-      "*.cu",
-      "*.cuh"
-    ]
-  },
-  {
-    "zephir": [
-      "*.zep"
-    ]
-  },
-  {
-    "red": [
-      "*.red"
-    ]
-  },
-  {
-    "igorpro": [
-      "*.ipf"
-    ]
-  },
-  {
-    "opa": [
-      "*.rego"
-    ]
-  },
-  {
-    "yeoman": [
-      ".yo-rc.json"
-    ]
-  },
-  {
-    "terragrunt": [
-      "terragrunt.hcl"
-    ]
-  },
-  {
-    "packer": [
-      "*.pkr.hcl",
-      "packer.hcl",
-      "packer.json"
+    "raspberrypi": [
+      "raspberrypi"
     ]
   },
   {
@@ -1192,286 +3559,14 @@
     ]
   },
   {
-    "qt": [
-      "*.pro",
-      "*.pri"
+    "reactnative": [
+      "metro.config.js",
+      "react-native.config.js"
     ]
   },
   {
-    "bazel": [
-      "WORKSPACE",
-      "BUILD",
-      "BUILD.bazel"
-    ]
-  },
-  {
-    "meson": [
-      "meson.build"
-    ]
-  },
-  {
-    "ninja": [
-      "build.ninja"
-    ]
-  },
-  {
-    "yii2": [
-      "yii"
-    ]
-  },
-  {
-    "codeigniter": [
-      "spark"
-    ]
-  },
-  {
-    "groovy": [
-      "*.groovy"
-    ]
-  },
-  {
-    "blender": [
-      "*.blend"
-    ]
-  },
-  {
-    "eagle": [
-      "*.sch",
-      "*.brd"
-    ]
-  },
-  {
-    "dotenv": [
-      ".env"
-    ]
-  },
-  {
-    "scons": [
-      "SConstruct"
-    ]
-  },
-  {
-    "appengine": [
-      "app.yaml"
-    ]
-  },
-  {
-    "scrivener": [
-      "*.scriv"
-    ]
-  },
-  {
-    "cypressio": [
-      "cypress.json",
-      "cypress.config.js",
-      "cypress.config.ts",
-      "cypress.config.cjs",
-      "cypress.config.mjs"
-    ]
-  },
-  {
-    "storybookjs": [
-      ".storybook"
-    ]
-  },
-  {
-    "deno": [
-      "deno.json",
-      "deno.jsonc",
-      "deno.lock",
-      "fresh.gen.ts",
-      "import_map.json",
-      "deno.lock"
-    ]
-  },
-  {
-    "turbo": [
-      "turbo.json"
-    ]
-  },
-  {
-    "ember": [
-      "ember-cli-build.js"
-    ]
-  },
-  {
-    "fastlane": [
-      "fastlane",
-      "Fastfile"
-    ]
-  },
-  {
-    "grunt": [
-      "Gruntfile.js",
-      "Gruntfile.coffee"
-    ]
-  },
-  {
-    "nativescript": [
-      "nativescript.config.ts",
-      "nsconfig.json"
-    ]
-  },
-  {
-    "dbt": [
-      "dbt_project.yml"
-    ]
-  },
-  {
-    "remix": [
-      "remix.config.js",
-      "remix.config.ts",
-      "remix.config.cjs"
-    ]
-  },
-  {
-    "astro": [
-      "astro.config.mjs",
-      "astro.config.js",
-      "astro.config.ts"
-    ]
-  },
-  {
-    "git": [
-      ".git"
-    ]
-  },
-  {
-    "macos": [
-      ".DS_Store",
-      "Brewfile"
-    ]
-  },
-  {
-    "windows": [
-      "Thumbs.db",
-      "Desktop.ini"
-    ]
-  },
-  {
-    "docusaurus": [
-      "docusaurus.config.js"
-    ]
-  },
-  {
-    "gitbook": [
-      "book.json"
-    ]
-  },
-  {
-    "vercel": [
-      "vercel.json"
-    ]
-  },
-  {
-    "delphi": [
-      "*.dproj"
-    ]
-  },
-  {
-    "matlab": [
-      "*.m",
-      "*.mat"
-    ]
-  },
-  {
-    "assembler": [
-      "*.asm"
-    ]
-  },
-  {
-    "rails": [
-      "bin/rails"
-    ]
-  },
-  {
-    "cakephp": [
-      "bin/cake"
-    ]
-  },
-  {
-    "magento": [
-      "bin/magento"
-    ]
-  },
-  {
-    "prestashop": [
-      "config/settings.inc.php"
-    ]
-  },
-  {
-    "svn": [
-      ".svn"
-    ]
-  },
-  {
-    "mercurial": [
-      ".hg"
-    ]
-  },
-  {
-    "carthage": [
-      "Cartfile"
-    ]
-  },
-  {
-    "swiftpackagemanager": [
-      "Package.swift"
-    ]
-  },
-  {
-    "codeblocks": [
-      "*.cbp"
-    ]
-  },
-  {
-    "elisp": [
-      "*.el"
-    ]
-  },
-  {
-    "drupal": [
-      "sites/default/settings.php"
-    ]
-  },
-  {
-    "magento1": [
-      "app/etc/local.xml"
-    ]
-  },
-  {
-    "backup": [
-      "*.bak"
-    ]
-  },
-  {
-    "php": [
-      "*.php",
-      "composer.json",
-      "composer.lock",
-      "phpstan.neon",
-      "phpunit.xml",
-      "psalm.xml",
-      "rector.php"
-    ]
-  },
-  {
-    "arduino": [
-      "*.ino"
-    ]
-  },
-  {
-    "linux": [
-      ".directory",
-      "*~"
-    ]
-  },
-  {
-    "csharp": [
-      "*.cs",
-      "*.csproj",
-      "*.csx",
-      "*.sln"
+    "reason": [
+      "bsconfig.json"
     ]
   },
   {
@@ -1482,188 +3577,13 @@
     ]
   },
   {
-    "bower": [
-      "bower.json"
+    "red": [
+      "*.red"
     ]
   },
   {
-    "cake": [
-      "build.cake"
-    ]
-  },
-  {
-    "direnv": [
-      ".envrc"
-    ]
-  },
-  {
-    "doxygen": [
-      "Doxyfile"
-    ]
-  },
-  {
-    "gcov": [
-      "*.gcno",
-      "*.gcda"
-    ]
-  },
-  {
-    "leiningen": [
-      "project.clj",
-      "profiles.clj"
-    ]
-  },
-  {
-    "less": [
-      "*.less"
-    ]
-  },
-  {
-    "sass": [
-      "*.sass",
-      "*.scss"
-    ]
-  },
-  {
-    "smalltalk": [
-      "*.st"
-    ]
-  },
-  {
-    "standardml": [
-      "*.sml"
-    ]
-  },
-  {
-    "stylus": [
-      "*.styl"
-    ]
-  },
-  {
-    "scheme": [
-      "*.scm",
-      "*.ss"
-    ]
-  },
-  {
-    "tags": [
-      "tags",
-      ".tags"
-    ]
-  },
-  {
-    "textmate": [
-      "*.tmproj"
-    ]
-  },
-  {
-    "waf": [
-      "wscript"
-    ]
-  },
-  {
-    "typings": [
-      "typings.json"
-    ]
-  },
-  {
-    "powershell": [
-      "*.ps1",
-      "*.psd1",
-      "*.psm1"
-    ]
-  },
-  {
-    "valgrind": [
-      "vgcore.*"
-    ]
-  },
-  {
-    "dropbox": [
-      ".dropbox"
-    ]
-  },
-  {
-    "cvs": [
-      "CVS"
-    ]
-  },
-  {
-    "bazaar": [
-      ".bzr"
-    ]
-  },
-  {
-    "bitrise": [
-      "bitrise.yml"
-    ]
-  },
-  {
-    "robotframework": [
-      "*.robot"
-    ]
-  },
-  {
-    "archlinuxpackages": [
-      "PKGBUILD"
-    ]
-  },
-  {
-    "elasticbeanstalk": [
-      ".elasticbeanstalk"
-    ]
-  },
-  {
-    "jdeveloper": [
-      "*.jpr"
-    ]
-  },
-  {
-    "keil": [
-      "*.uvproj"
-    ]
-  },
-  {
-    "qtcreator": [
-      "*.pro.user"
-    ]
-  },
-  {
-    "visualbasic": [
-      "*.vb"
-    ]
-  },
-  {
-    "tortoisegit": [
-      ".tgitconfig"
-    ]
-  },
-  {
-    "flask": [
-      ".flaskenv",
-      "app.py"
-    ]
-  },
-  {
-    "sbt": [
-      "build.sbt",
-      "*.sbt"
-    ]
-  },
-  {
-    "microsoftoffice": [
-      "*.doc",
-      "*.docx",
-      "*.ppt",
-      "*.pptx",
-      "*.xls",
-      "*.xlsx"
-    ]
-  },
-  {
-    "playframework": [
-      "conf/application.conf",
-      "conf/routes"
+    "redcar": [
+      ".redcar"
     ]
   },
   {
@@ -1672,1450 +3592,15 @@
     ]
   },
   {
-    "emacs": [
-      ".emacs",
-      "_emacs"
-    ]
-  },
-  {
-    "pulumi": [
-      "Pulumi.dev.yaml",
-      "Pulumi.prod.yaml",
-      "Pulumi.yaml",
-      "Pulumi.yml"
-    ]
-  },
-  {
-    "al": [
-      "*.al"
-    ]
-  },
-  {
-    "renpy": [
-      "*.rpy"
-    ]
-  },
-  {
-    "pico8": [
-      "*.p8"
-    ]
-  },
-  {
-    "sas": [
-      "*.sas"
-    ]
-  },
-  {
-    "stata": [
-      "*.do"
-    ]
-  },
-  {
-    "openfoam": [
-      "system/controlDict"
-    ]
-  },
-  {
-    "magento2": [
-      "bin/magento"
-    ]
-  },
-  {
-    "circuitpython": [
-      "boot_out.txt"
-    ]
-  },
-  {
-    "octave": [
-      "*.oct"
-    ]
-  },
-  {
-    "cordova": [
-      "config.xml"
-    ]
-  },
-  {
-    "opencart": [
-      "admin/config.php"
-    ]
-  },
-  {
-    "concrete5": [
-      "concrete"
-    ]
-  },
-  {
-    "sugarcrm": [
-      "sugar_version.php"
-    ]
-  },
-  {
-    "shopware": [
-      "engine/Shopware",
-      "shopware.php"
-    ]
-  },
-  {
-    "expressionengine": [
-      "system/expressionengine"
-    ]
-  },
-  {
-    "craftcms": [
-      "craft"
-    ]
-  },
-  {
-    "dotnetcore": [
-      "project.json",
-      "global.json",
-      ".config/dotnet-tools.json",
-      "appsettings.json"
-    ]
-  },
-  {
-    "aspnetcore": [
-      "appsettings.json",
-      "wwwroot"
-    ]
-  },
-  {
-    "jetbrains": [
-      ".idea",
-      "*.iml"
-    ]
-  },
-  {
-    "androidstudio": [
-      ".idea",
-      "local.properties",
-      "*.apk"
-    ]
-  },
-  {
-    "amplify": [
-      "amplify/"
-    ]
-  },
-  {
-    "sam": [
-      "samconfig.toml",
-      "template.yaml"
-    ]
-  },
-  {
-    "database": [
-      "*.db",
-      "*.sqlite",
-      "*.sqlite3"
-    ]
-  },
-  {
-    "azurefunctions": [
-      "local.settings.json"
-    ]
-  },
-  {
-    "buck": [
-      ".buckconfig"
-    ]
-  },
-  {
-    "pants": [
-      "pants.toml",
-      "pants.ini"
-    ]
-  },
-  {
-    "autotools": [
-      "configure.ac",
-      "Makefile.am"
-    ]
-  },
-  {
-    "snapcraft": [
-      "snap/snapcraft.yaml"
-    ]
-  },
-  {
-    "altium": [
-      "*.PrjPcb"
-    ]
-  },
-  {
-    "vivado": [
-      "*.xpr"
-    ]
-  },
-  {
-    "alteraquartusii": [
-      "*.qpf"
-    ]
-  },
-  {
-    "modelsim": [
-      "*.mpf"
-    ]
-  },
-  {
-    "slickedit": [
-      "*.vpw"
-    ]
-  },
-  {
-    "bloop": [
-      ".bloop"
-    ]
-  },
-  {
-    "metals": [
-      ".metals"
-    ]
-  },
-  {
-    "autohotkey": [
-      "*.ahk"
-    ]
-  },
-  {
-    "ballerina": [
-      "Ballerina.toml"
-    ]
-  },
-  {
-    "haxe": [
-      "*.hxml",
-      "*.hx"
-    ]
-  },
-  {
-    "odin": [
-      "*.odin"
-    ]
-  },
-  {
-    "v": [
-      "*.v",
-      "v.mod"
-    ]
-  },
-  {
-    "nix": [
-      "*.nix",
-      "default.nix",
-      "flake.lock",
-      "flake.nix",
-      "shell.nix"
-    ]
-  },
-  {
-    "dvc": [
-      ".dvc",
-      "dvc.yaml"
-    ]
-  },
-  {
     "redwood": [
       "redwood.toml"
     ]
   },
   {
-    "just": [
-      "Justfile",
-      "justfile"
-    ]
-  },
-  {
-    "gleam": [
-      "gleam.toml"
-    ]
-  },
-  {
-    "tcl": [
-      "*.tcl"
-    ]
-  },
-  {
-    "verilog": [
-      "*.v",
-      "*.sv"
-    ]
-  },
-  {
-    "vhdl": [
-      "*.vhd",
-      "*.vhdl"
-    ]
-  },
-  {
-    "gnuplot": [
-      "*.plt",
-      "*.gp"
-    ]
-  },
-  {
-    "graphviz": [
-      "*.dot"
-    ]
-  },
-  {
-    "coffeescript": [
-      "*.coffee"
-    ]
-  },
-  {
-    "airflow": [
-      "airflow.cfg"
-    ]
-  },
-  {
-    "virtualbox": [
-      "*.vbox"
-    ]
-  },
-  {
-    "vmware": [
-      "*.vmx"
-    ]
-  },
-  {
-    "cfwheels": [
-      "events/OnApplicationStart.cfm"
-    ]
-  },
-  {
-    "plone": [
-      "buildout.cfg"
-    ]
-  },
-  {
-    "fancy": [
-      "Fancyfile"
-    ]
-  },
-  {
-    "appceleratortitanium": [
-      "tiapp.xml"
-    ]
-  },
-  {
-    "rhodes": [
-      "rhoconfig.txt"
-    ]
-  },
-  {
-    "commonlisp": [
-      "*.lisp",
-      "*.asd"
-    ]
-  },
-  {
-    "gamemaker": [
-      "*.yyp"
-    ]
-  },
-  {
-    "defold": [
-      "game.project"
-    ]
-  },
-  {
-    "sketchup": [
-      "*.skp"
-    ]
-  },
-  {
-    "openscad": [
-      "*.scad"
-    ]
-  },
-  {
-    "pelican": [
-      "pelicanconf.py"
-    ]
-  },
-  {
-    "nikola": [
-      "conf.py"
-    ]
-  },
-  {
-    "brunch": [
-      "brunch-config.js",
-      "brunch-config.coffee",
-      "brunch-config.ts"
-    ]
-  },
-  {
-    "conan": [
-      "conanfile.txt",
-      "conanfile.py"
-    ]
-  },
-  {
-    "capistrano": [
-      "Capfile"
-    ]
-  },
-  {
-    "fabric": [
-      "fabfile.py"
-    ]
-  },
-  {
-    "behat": [
-      "behat.yml"
-    ]
-  },
-  {
-    "phpspec": [
-      "phpspec.yml"
-    ]
-  },
-  {
-    "ionic": [
-      "ionic.config.json"
-    ]
-  },
-  {
-    "mkdocs": [
-      "mkdocs.yml"
-    ]
-  },
-  {
-    "nanoc": [
-      "nanoc.yaml"
-    ]
-  },
-  {
-    "gwt": [
-      "*.gwt.xml"
-    ]
-  },
-  {
-    "jboss": [
-      "jboss-deployment-structure.xml"
-    ]
-  },
-  {
-    "zendframework": [
-      "config/application.config.php"
-    ]
-  },
-  {
-    "fuelphp": [
-      "fuel/app/config/config.php"
-    ]
-  },
-  {
-    "phalcon": [
-      "public/index.php",
-      "app/config/config.php"
-    ]
-  },
-  {
-    "vuejs": [
-      "vue.config.js",
-      "*.vue"
-    ]
-  },
-  {
-    "meteorjs": [
-      ".meteor"
-    ]
-  },
-  {
-    "apachecordova": [
-      "config.xml"
-    ]
-  },
-  {
-    "polymer": [
-      "polymer.json"
-    ]
-  },
-  {
-    "salesforce": [
-      "sfdx-project.json"
-    ]
-  },
-  {
-    "nestjs": [
-      "nest-cli.json"
-    ]
-  },
-  {
-    "strapi": [
-      "config/database.js",
-      "config/admin.js",
-      ".strapi"
-    ]
-  },
-  {
-    "obsidian": [
-      ".obsidian"
-    ]
-  },
-  {
-    "mdbook": [
-      "book.toml"
-    ]
-  },
-  {
-    "snyk": [
-      ".snyk"
-    ]
-  },
-  {
-    "yalc": [
-      "yalc.lock",
-      ".yalc"
-    ]
-  },
-  {
-    "replit": [
-      ".replit"
-    ]
-  },
-  {
-    "jsonnet": [
-      "*.jsonnet",
-      "*.libsonnet"
-    ]
-  },
-  {
-    "nuxt": [
-      "nuxt.config.js",
-      "nuxt.config.ts"
-    ]
-  },
-  {
-    "vitest": [
-      "vitest.config.js",
-      "vitest.config.ts",
-      "vitest.config.mjs",
-      "vitest.workspace.ts",
-      "vitest.workspace.js"
-    ]
-  },
-  {
-    "playwright": [
-      "playwright.config.js",
-      "playwright.config.ts",
-      "playwright.config.cjs",
-      "playwright.config.mjs"
-    ]
-  },
-  {
-    "cypress": [
-      "cypress.json",
-      "cypress.config.js",
-      "cypress.config.ts",
-      "cypress.config.mjs",
-      "cypress.config.cjs"
-    ]
-  },
-  {
-    "prisma": [
-      "prisma/schema.prisma",
-      "schema.prisma"
-    ]
-  },
-  {
-    "supabase": [
-      "supabase/config.toml",
-      "config.toml"
-    ]
-  },
-  {
-    "expo": [
-      "app.json",
-      "eas.json"
-    ]
-  },
-  {
-    "awscdk": [
-      "cdk.json"
-    ]
-  },
-  {
-    "aws-sam": [
-      "samconfig.toml"
-    ]
-  },
-  {
-    "latex": [
-      "*.tex",
-      "*.ltx"
-    ]
-  },
-  {
-    "silverstripe": [
-      "_config.php"
-    ]
-  },
-  {
-    "splunk": [
-      "default/app.conf",
-      "local/app.conf"
-    ]
-  },
-  {
-    "extjs": [
-      "app.json",
-      "workspace.json"
-    ]
-  },
-  {
-    "modx": [
-      "core/config/config.inc.php"
-    ]
-  },
-  {
-    "mule": [
-      "mule-artifact.json",
-      "mule-deploy.properties"
-    ]
-  },
-  {
-    "momentics": [
-      ".momentics"
-    ]
-  },
-  {
-    "basercms": [
-      "app/Config/database.php",
-      "app/Config/install.php"
-    ]
-  },
-  {
-    "umbraco": [
-      "App_Data/umbraco.config"
-    ]
-  },
-  {
-    "objective-c": [
-      "*.m",
-      "Podfile"
-    ]
-  },
-  {
-    "yii": [
-      "yii"
-    ]
-  },
-  {
-    "forcedotcom": [
-      "salesforce.schema"
-    ]
-  },
-  {
-    "sdcc": [
-      "*.rel",
-      "*.rst",
-      "*.sym"
-    ]
-  },
-  {
-    "textpattern": [
-      "textpattern"
-    ]
-  },
-  {
-    "stella": [
-      "*.a26",
-      "*.a78"
-    ]
-  },
-  {
-    "twincat3": [
-      "*.plcproj.bak",
-      "*.tmc",
-      "*.tsproj.bak",
-      "*.xti.bak",
-      "*.vsm"
-    ]
-  },
-  {
-    "xojo": [
-      "*.xojo_uistate",
-      "*.rbuistate"
-    ]
-  },
-  {
-    "wails": [
-      "wails.json"
-    ]
-  },
-  {
-    "capacitor": [
-      "capacitor.config.json",
-      "capacitor.config.ts"
-    ]
-  },
-  {
-    "quasar": [
-      "quasar.config.js",
-      "quasar.conf.js"
-    ]
-  },
-  {
-    "skaffold": [
-      "skaffold.yaml"
-    ]
-  },
-  {
-    "tilt": [
-      "Tiltfile"
-    ]
-  },
-  {
-    "bicep": [
-      "*.bicep",
-      "main.bicep"
-    ]
-  },
-  {
-    "processing": [
-      "*.pde"
-    ]
-  },
-  {
-    "ros2": [
-      "colcon.meta",
-      "colcon.pkg"
-    ]
-  },
-  {
-    "nwjs": [
-      "package.nw"
-    ]
-  },
-  {
-    "cocos2dx": [
-      ".cocos-project.json",
-      "cocos2d.x"
-    ]
-  },
-  {
-    "homebrew": [
-      "Brewfile"
-    ]
-  },
-  {
-    "phpunit": [
-      "phpunit.xml"
-    ]
-  },
-  {
-    "sonar": [
-      "sonar-project.properties"
-    ]
-  },
-  {
-    "lefthook": [
-      "lefthook.yml",
-      "lefthook.yaml"
-    ]
-  },
-  {
-    "appcode": [
-      "*.xcworkspace",
-      "*.xcodeproj",
-      "*.pbxproj"
-    ]
-  },
-  {
-    "clion": [
-      "CMakeLists.txt",
-      "*.cpp",
-      "*.hpp",
-      "*.c",
-      "*.h",
-      ".idea"
-    ]
-  },
-  {
-    "goland": [
-      "go.mod",
-      "go.sum",
-      "*.go"
-    ]
-  },
-  {
-    "pycharm": [
-      "requirements.txt",
-      "*.py"
-    ]
-  },
-  {
-    "rubymine": [
-      "Gemfile",
-      "Gemfile.lock",
-      "*.rb"
-    ]
-  },
-  {
-    "webstorm": [
-      "package.json",
-      "*.js",
-      "*.ts",
-      "*.jsx",
-      "*.tsx",
-      ".idea"
-    ]
-  },
-  {
-    "rider": [
-      "*.sln",
-      "*.csproj",
-      ".idea"
-    ]
-  },
-  {
-    "vs": [
-      "*.sln",
-      "*.csproj",
-      "*.vbproj",
-      "*.fsproj"
-    ]
-  },
-  {
-    "xamarinstudio": [
-      "*.sln",
-      "*.csproj"
-    ]
-  },
-  {
-    "monodevelop": [
-      "*.sln",
-      "*.csproj"
-    ]
-  },
-  {
-    "flashbuilder": [
-      ".project",
-      ".actionScriptProperties",
-      ".flexProperties"
-    ]
-  },
-  {
-    "flexbuilder": [
-      ".project",
-      ".actionScriptProperties",
-      ".flexProperties"
-    ]
-  },
-  {
-    "bricxcc": [
-      "*.bxc"
-    ]
-  },
-  {
-    "codecomposerstudio": [
-      ".ccsproject",
-      ".cproject",
-      ".project"
-    ]
-  },
-  {
-    "dreamweaver": [
-      "_notes",
-      "dwsync.xml"
-    ]
-  },
-  {
-    "atmelstudio": [
-      "*.cproj"
-    ]
-  },
-  {
-    "automationstudio": [
-      "*.apj"
-    ]
-  },
-  {
-    "e2studio": [
-      ".cproject",
-      ".project"
-    ]
-  },
-  {
-    "iarembeddedworkbench": [
-      "*.eww",
-      "*.ewp",
-      "*.ewt"
-    ]
-  },
-  {
-    "psoccreator": [
-      "*.cywrk"
-    ]
-  },
-  {
-    "mikroc": [
-      "*.mcppi"
-    ]
-  },
-  {
-    "xilinxise": [
-      "*.xise"
-    ]
-  },
-  {
-    "xilinxvivado": [
-      "*.xpr"
-    ]
-  },
-  {
-    "orcad": [
-      "*.opj",
-      "*.dsn"
-    ]
-  },
-  {
-    "ltspice": [
-      "*.asc",
-      "*.plt"
-    ]
-  },
-  {
-    "zukencr8000": [
-      "*.ftp",
-      "*.pnl"
-    ]
-  },
-  {
-    "libreoffice": [
-      "*.odt",
-      "*.ods",
-      "*.odp",
-      "*.odg"
-    ]
-  },
-  {
-    "dbeaver": [
-      ".dbeaver"
-    ]
-  },
-  {
-    "virtualenv": [
-      "venv",
-      ".venv",
-      "env",
-      ".env"
-    ]
-  },
-  {
-    "venv": [
-      "venv",
-      ".venv",
-      "env",
-      ".env"
-    ]
-  },
-  {
-    "chocolatey": [
-      "*.nupkg"
-    ]
-  },
-  {
-    "vcpkg": [
-      "vcpkg.json"
-    ]
-  },
-  {
-    "crashlytics": [
-      "crashlytics-build.properties"
-    ]
-  },
-  {
-    "werckercli": [
-      "wercker.yml"
-    ]
-  },
-  {
-    "ansibletower": [
-      "tower_cli.cfg"
-    ]
-  },
-  {
-    "localstack": [
-      "docker-compose.yml"
-    ]
-  },
-  {
-    "pulumi+stacks": [
-      "Pulumi.yaml",
-      "Pulumi.*.yaml"
-    ]
-  },
-  {
-    "sam+config": [
-      "samconfig.toml"
-    ]
-  },
-  {
-    "hyperledgercomposer": [
-      "*.bna"
-    ]
-  },
-  {
-    "arcanist": [
-      ".arcconfig"
-    ]
-  },
-  {
-    "testcomplete": [
-      "*.pjs",
-      "*.mds"
-    ]
-  },
-  {
-    "qml": [
-      "*.qml"
-    ]
-  },
-  {
-    "xtext": [
-      "*.mwe2",
-      "*.xtext"
-    ]
-  },
-  {
-    "cs-cart": [
-      "config.local.php"
-    ]
-  },
-  {
-    "inforcrm": [
-      "*.vfs"
-    ]
-  },
-  {
-    "kentico": [
-      "*.export"
-    ]
-  },
-  {
-    "magic-xpa": [
-      "*.edp"
-    ]
-  },
-  {
-    "oracleforms": [
-      "*.fmb",
-      "*.fmx"
-    ]
-  },
-  {
-    "purebasic": [
-      "*.pb"
-    ]
-  },
-  {
-    "senchatouch": [
-      "app.json"
-    ]
-  },
-  {
-    "typo3-composer": [
-      "composer.json",
-      "composer.lock",
-      "ext_emconf.php"
-    ]
-  },
-  {
-    "wintersmith": [
-      "config.json"
-    ]
-  },
-  {
-    "wyam": [
-      "config.wyam"
-    ]
-  },
-  {
-    "a-frame": [
-      "*.html"
-    ]
-  },
-  {
-    "advancedinstaller": [
-      "*.aip"
-    ]
-  },
-  {
-    "adventuregamestudio": [
-      "Game.agf"
-    ]
-  },
-  {
-    "anjuta": [
-      "*.anjuta"
-    ]
-  },
-  {
-    "apachehadoop": [
-      "core-site.xml",
-      "hdfs-site.xml"
-    ]
-  },
-  {
-    "appbuilder": [
-      "*.abproject"
-    ]
-  },
-  {
-    "aptanastudio": [
-      ".project"
-    ]
-  },
-  {
-    "audio": [
-      "*.mp3",
-      "*.wav",
-      "*.ogg",
-      "*.flac"
-    ]
-  },
-  {
-    "video": [
-      "*.mp4",
-      "*.avi",
-      "*.mkv",
-      "*.mov"
-    ]
-  },
-  {
-    "archive": [
-      "*.zip",
-      "*.tar",
-      "*.gz",
-      "*.rar",
-      "*.7z"
-    ]
-  },
-  {
-    "compressedarchive": [
-      "*.zip",
-      "*.tar",
-      "*.gz",
-      "*.rar",
-      "*.7z"
-    ]
-  },
-  {
-    "executable": [
-      "*.exe",
-      "*.app",
-      "*.dmg",
-      "*.deb",
-      "*.rpm"
-    ]
-  },
-  {
-    "font": [
-      "*.ttf",
-      "*.otf",
-      "*.woff",
-      "*.woff2"
-    ]
-  },
-  {
-    "data": [
-      "*.csv",
-      "*.json",
-      "*.xml",
-      "*.yml",
-      "*.yaml",
-      "*.duckdb",
-      "*.ddb",
-      "*.duckdb.wal",
-      "*.parquet"
-    ]
-  },
-  {
-    "text": [
-      "*.txt",
-      "*.md",
-      "*.rst"
-    ]
-  },
-  {
-    "spreadsheet": [
-      "*.xls",
-      "*.xlsx",
-      "*.ods"
-    ]
-  },
-  {
-    "asdf": [
-      ".tool-versions"
-    ]
-  },
-  {
-    "autotools+strict": [
-      "configure.ac",
-      "Makefile.am"
-    ]
-  },
-  {
-    "azurite": [
-      "__blobstorage__",
-      "__queuestorage__",
-      "__tablestorage__"
-    ]
-  },
-  {
-    "basic": [
-      "*.bas"
-    ]
-  },
-  {
-    "batch": [
-      "*.bat",
-      "*.cmd"
-    ]
-  },
-  {
-    "bittorrent": [
-      "*.torrent"
-    ]
-  },
-  {
-    "blackbox": [
-      "blackbox.yml"
-    ]
-  },
-  {
-    "calabash": [
-      "features/support/env.rb"
-    ]
-  },
-  {
-    "ceylon": [
-      "module.ceylon"
-    ]
-  },
-  {
-    "clean": [
-      "*.icl",
-      "*.dcl"
-    ]
-  },
-  {
-    "cloud9": [
-      ".c9"
-    ]
-  },
-  {
-    "cocoscreator": [
-      "project.json"
-    ]
-  },
-  {
-    "codeio": [
-      ".codeio"
-    ]
-  },
-  {
-    "codekit": [
-      "config.codekit"
-    ]
-  },
-  {
-    "compodoc": [
-      ".compodocrc"
-    ]
-  },
-  {
-    "crbasic": [
-      "*.cr1"
-    ]
-  },
-  {
-    "crossbar": [
-      ".crossbar"
-    ]
-  },
-  {
-    "datarecovery": [
-      "*.chk"
-    ]
-  },
-  {
-    "docfx": [
-      "docfx.json"
-    ]
-  },
-  {
-    "docpress": [
-      "docpress.json"
-    ]
-  },
-  {
-    "docz": [
-      "doczrc.js"
-    ]
-  },
-  {
-    "dotsettings": [
-      "*.DotSettings"
-    ]
-  },
-  {
-    "exercism": [
-      ".exercism"
-    ]
-  },
-  {
-    "floobits": [
-      ".floo"
-    ]
-  },
-  {
-    "freecad": [
-      "*.FCStd"
-    ]
-  },
-  {
-    "freepascal": [
-      "*.lpr",
-      "*.lpi"
-    ]
-  },
-  {
-    "ggts": [
-      ".project",
-      ".classpath"
-    ]
-  },
-  {
-    "goodsync": [
-      "_gsdata_"
-    ]
-  },
-  {
-    "homeassistant": [
-      "configuration.yaml"
-    ]
-  },
-  {
-    "inforcms": [
-      "*.vfs"
-    ]
-  },
-  {
-    "jspm": [
-      "jspm.config.js"
-    ]
-  },
-  {
-    "justcode": [
-      "*.JustCode"
-    ]
-  },
-  {
-    "keystonejs": [
-      "keystone.ts"
-    ]
-  },
-  {
-    "liberosoc": [
-      "*.prjx"
-    ]
-  },
-  {
-    "librarian-chef": [
-      "Cheffile"
-    ]
-  },
-  {
-    "lighthouseci": [
-      "lighthouserc.json",
-      "lighthouserc.js"
-    ]
-  },
-  {
-    "lithium": [
-      "config/bootstrap.php"
-    ]
-  },
-  {
-    "lsspice": [
-      "*.asc"
-    ]
-  },
-  {
-    "mercury": [
-      "*.m"
-    ]
-  },
-  {
-    "nesc": [
-      "*.nc"
-    ]
-  },
-  {
-    "nodechakratimetraveldebug": [
-      "ttdlog"
-    ]
-  },
-  {
-    "octobercms": [
-      "artisan"
-    ]
-  },
-  {
-    "opencv": [
-      "CMakeLists.txt"
-    ]
-  },
-  {
-    "oxygenxmleditor": [
-      "*.xpr"
-    ]
-  },
-  {
-    "particle": [
-      "project.properties"
-    ]
-  },
-  {
-    "patch": [
-      "*.patch"
-    ]
-  },
-  {
-    "ph7cms": [
-      "_install"
-    ]
-  },
-  {
-    "pimcore": [
-      "composer.json"
-    ]
-  },
-  {
-    "pimcore4": [
-      "composer.json"
-    ]
-  },
-  {
-    "pimcore5": [
-      "composer.json"
-    ]
-  },
-  {
-    "puppet-librarian": [
-      "Puppetfile"
-    ]
-  },
-  {
-    "redcar": [
-      ".redcar"
+    "remix": [
+      "remix.config.js",
+      "remix.config.ts",
+      "remix.config.cjs"
     ]
   },
   {
@@ -3144,446 +3629,34 @@
     ]
   },
   {
-    "rust-analyzer": [
-      "rust-project.json"
+    "render": [
+      "render.yaml"
     ]
   },
   {
-    "soliditytruffle": [
-      "truffle-config.js"
+    "renpy": [
+      "*.rpy"
     ]
   },
   {
-    "sourcepawn": [
-      "*.sp"
+    "replit": [
+      ".replit"
     ]
   },
   {
-    "specflow": [
-      "*.feature"
+    "rescript": [
+      "bsconfig.json",
+      "rescript.json"
     ]
   },
   {
-    "symphonycms": [
-      "manifest/config.php"
+    "retool": [
+      "*.retool"
     ]
   },
   {
-    "synopsysvcs": [
-      "*.vdb"
-    ]
-  },
-  {
-    "tarmainstallmate": [
-      "*.tin"
-    ]
-  },
-  {
-    "vrealizeorchestrator": [
-      "*.package"
-    ]
-  },
-  {
-    "xcodeinjection": [
-      "InjectionProject"
-    ]
-  },
-  {
-    "1c": [
-      "*.epf",
-      "*.erf",
-      "*.cf",
-      "*.cfu"
-    ]
-  },
-  {
-    "1c-bitrix": [
-      "bitrix",
-      "local"
-    ]
-  },
-  {
-    "adobe": [
-      "*.psd",
-      "*.ai",
-      "*.indd",
-      "*.prproj"
-    ]
-  },
-  {
-    "appcode+all": [
-      "*.xcworkspace",
-      "*.xcodeproj",
-      "*.pbxproj"
-    ]
-  },
-  {
-    "appcode+iml": [
-      "*.iml"
-    ]
-  },
-  {
-    "archives": [
-      "*.zip",
-      "*.tar",
-      "*.gz",
-      "*.rar",
-      "*.7z",
-      "*.bz2",
-      "*.xz"
-    ]
-  },
-  {
-    "ate": [
-      "*.ate"
-    ]
-  },
-  {
-    "ats": [
-      "*.sats",
-      "*.dats",
-      "*.hats"
-    ]
-  },
-  {
-    "awr": [
-      "*.emp"
-    ]
-  },
-  {
-    "bluej": [
-      "package.bluej"
-    ]
-  },
-  {
-    "bookdown": [
-      "_bookdown.yml"
-    ]
-  },
-  {
-    "certificates": [
-      "*.pem",
-      "*.crt",
-      "*.cer",
-      "*.p12",
-      "*.pfx"
-    ]
-  },
-  {
-    "clion+all": [
-      "CMakeLists.txt",
-      "*.cpp",
-      "*.hpp",
-      "*.c",
-      "*.h"
-    ]
-  },
-  {
-    "clion+iml": [
-      "*.iml"
-    ]
-  },
-  {
-    "codesniffer": [
-      "phpcs.xml"
-    ]
-  },
-  {
-    "compressed": [
-      "*.zip",
-      "*.tar",
-      "*.gz",
-      "*.rar",
-      "*.7z",
-      "*.bz2",
-      "*.xz"
-    ]
-  },
-  {
-    "compression": [
-      "*.zip",
-      "*.tar",
-      "*.gz",
-      "*.rar",
-      "*.7z",
-      "*.bz2",
-      "*.xz"
-    ]
-  },
-  {
-    "darteditor": [
-      ".project",
-      ".buildlog"
-    ]
-  },
-  {
-    "dframe": [
-      "*.df"
-    ]
-  },
-  {
-    "diff": [
-      "*.patch",
-      "*.diff"
-    ]
-  },
-  {
-    "diskimage": [
-      "*.iso",
-      "*.img",
-      "*.dmg",
-      "*.vdi",
-      "*.vhd"
-    ]
-  },
-  {
-    "dotfilessh": [
-      ".ssh"
-    ]
-  },
-  {
-    "drupal7": [
-      "sites/default/settings.php"
-    ]
-  },
-  {
-    "drupal8": [
-      "sites/default/settings.php"
-    ]
-  },
-  {
-    "easybook": [
-      "book.json"
-    ]
-  },
-  {
-    "eiffelstudio": [
-      "*.ecf"
-    ]
-  },
-  {
-    "ensime": [
-      ".ensime"
-    ]
-  },
-  {
-    "episerver": [
-      "module.config"
-    ]
-  },
-  {
-    "espresso": [
-      "*.esproj"
-    ]
-  },
-  {
-    "finale": [
-      "*.mus",
-      "*.musx"
-    ]
-  },
-  {
-    "fish": [
-      "*.fish"
-    ]
-  },
-  {
-    "flatpak": [
-      "*.json",
-      "*.yaml",
-      "*.yml"
-    ]
-  },
-  {
-    "flex": [
-      "*.l",
-      "*.lex"
-    ]
-  },
-  {
-    "fontforge": [
-      "*.sfd"
-    ]
-  },
-  {
-    "forgegradle": [
-      "build.gradle",
-      "gradle.properties"
-    ]
-  },
-  {
-    "fusetools": [
-      "*.unoproj"
-    ]
-  },
-  {
-    "games": [
-      "*.sav",
-      "*.dat",
-      "*.pak"
-    ]
-  },
-  {
-    "genero4gl": [
-      "*.4gl",
-      "*.4fd"
-    ]
-  },
-  {
-    "geth": [
-      "genesis.json"
-    ]
-  },
-  {
-    "gis": [
-      "*.shp",
-      "*.shx",
-      "*.dbf",
-      "*.prj"
-    ]
-  },
-  {
-    "goland+all": [
-      "go.mod",
-      "go.sum",
-      "*.go"
-    ]
-  },
-  {
-    "goland+iml": [
-      "*.iml"
-    ]
-  },
-  {
-    "intellij+all": [
-      "*.iml",
-      ".idea"
-    ]
-  },
-  {
-    "intellij+iml": [
-      "*.iml"
-    ]
-  },
-  {
-    "jetbrains+all": [
-      ".idea",
-      "*.iml",
-      "*.iws"
-    ]
-  },
-  {
-    "jetbrains+iml": [
-      "*.iml"
-    ]
-  },
-  {
-    "jgiven": [
-      "*.jgiven"
-    ]
-  },
-  {
-    "kdevelop4": [
-      "*.kdev4"
-    ]
-  },
-  {
-    "konyvisualizer": [
-      "*.kony"
-    ]
-  },
-  {
-    "nohup": [
-      "nohup.out"
-    ]
-  },
-  {
-    "php-cs-fixer": [
-      ".php-cs-fixer.dist.php",
-      ".php_cs.dist"
-    ]
-  },
-  {
-    "phpcodesniffer": [
-      "phpcs.xml"
-    ]
-  },
-  {
-    "phpstorm": [
-      ".idea",
-      "*.iml"
-    ]
-  },
-  {
-    "phpstorm+all": [
-      ".idea",
-      "*.iml"
-    ]
-  },
-  {
-    "phpstorm+iml": [
-      "*.iml"
-    ]
-  },
-  {
-    "pinegrow": [
-      "pinegrow.json"
-    ]
-  },
-  {
-    "premake-gmake": [
-      "premake4.lua",
-      "premake5.lua"
-    ]
-  },
-  {
-    "prepros": [
-      "prepros-6.config",
-      "prepros.config"
-    ]
-  },
-  {
-    "progressabl": [
-      "*.p",
-      "*.w",
-      "*.i",
-      "*.cls"
-    ]
-  },
-  {
-    "putty": [
-      "*.ppk"
-    ]
-  },
-  {
-    "pvs": [
-      "*.pvs"
-    ]
-  },
-  {
-    "pycharm+all": [
-      ".idea",
-      "*.iml"
-    ]
-  },
-  {
-    "pycharm+iml": [
-      "*.iml"
-    ]
-  },
-  {
-    "pydev": [
-      ".pydevproject"
-    ]
-  },
-  {
-    "pythonvanilla": [
-      "*.py"
-    ]
-  },
-  {
-    "qooxdoo": [
-      "Manifest.json"
+    "rhodes": [
+      "rhoconfig.txt"
     ]
   },
   {
@@ -3592,8 +3665,65 @@
     ]
   },
   {
+    "rider": [
+      "*.sln",
+      "*.csproj",
+      ".idea"
+    ]
+  },
+  {
+    "robotframework": [
+      "*.robot"
+    ]
+  },
+  {
+    "rollup": [
+      "rollup.config.js",
+      "rollup.config.ts",
+      "rollup.config.cjs",
+      "rollup.config.mjs"
+    ]
+  },
+  {
+    "roocode": [
+      ".rooconfig",
+      ".roomodes"
+    ]
+  },
+  {
     "root": [
       "*.root"
+    ]
+  },
+  {
+    "ros": [
+      "package.xml",
+      "colcon.meta",
+      "colcon.pkg"
+    ]
+  },
+  {
+    "ros2": [
+      "colcon.meta",
+      "colcon.pkg"
+    ]
+  },
+  {
+    "ruby": [
+      "*.gemspec",
+      "*.rb",
+      ".rubocop.yaml",
+      ".rubocop.yml",
+      ".ruby-version",
+      "Gemfile",
+      "Gemfile.lock"
+    ]
+  },
+  {
+    "rubymine": [
+      "Gemfile",
+      "Gemfile.lock",
+      "*.rb"
     ]
   },
   {
@@ -3608,8 +3738,144 @@
     ]
   },
   {
+    "ruff": [
+      "ruff.toml",
+      ".ruff.toml"
+    ]
+  },
+  {
+    "rust": [
+      "*.rs",
+      ".rustfmt.toml",
+      ".zola",
+      "Cargo.lock",
+      "Cargo.toml",
+      "Dioxus.toml",
+      "clippy.toml",
+      "rustfmt.toml",
+      "src-tauri/tauri.conf.json",
+      "tauri.conf.json"
+    ]
+  },
+  {
+    "rust-analyzer": [
+      "rust-project.json"
+    ]
+  },
+  {
+    "salesforce": [
+      "sfdx-project.json"
+    ]
+  },
+  {
+    "salesforcedx": [
+      "sfdx-project.json"
+    ]
+  },
+  {
+    "sam": [
+      "samconfig.toml",
+      "template.yaml"
+    ]
+  },
+  {
+    "sam+config": [
+      "samconfig.toml"
+    ]
+  },
+  {
+    "sas": [
+      "*.sas"
+    ]
+  },
+  {
+    "sass": [
+      "*.sass",
+      "*.scss"
+    ]
+  },
+  {
+    "sbt": [
+      "build.sbt",
+      "*.sbt"
+    ]
+  },
+  {
+    "scala": [
+      "*.scala",
+      "build.sbt"
+    ]
+  },
+  {
+    "scheme": [
+      "*.scm",
+      "*.ss"
+    ]
+  },
+  {
+    "scons": [
+      "SConstruct"
+    ]
+  },
+  {
+    "scrivener": [
+      "*.scriv"
+    ]
+  },
+  {
+    "sdcc": [
+      "*.rel",
+      "*.rst",
+      "*.sym"
+    ]
+  },
+  {
     "seamgen": [
       "build.xml"
+    ]
+  },
+  {
+    "senchatouch": [
+      "app.json"
+    ]
+  },
+  {
+    "serverless": [
+      "serverless.yml",
+      "serverless.ts",
+      "serverless.js",
+      "serverless.json"
+    ]
+  },
+  {
+    "shopware": [
+      "engine/Shopware",
+      "shopware.php"
+    ]
+  },
+  {
+    "silverstripe": [
+      "_config.php"
+    ]
+  },
+  {
+    "skaffold": [
+      "skaffold.yaml"
+    ]
+  },
+  {
+    "sketchup": [
+      "*.skp"
+    ]
+  },
+  {
+    "slickedit": [
+      "*.vpw"
+    ]
+  },
+  {
+    "smalltalk": [
+      "*.st"
     ]
   },
   {
@@ -3618,8 +3884,101 @@
     ]
   },
   {
+    "snapcraft": [
+      "snap/snapcraft.yaml"
+    ]
+  },
+  {
+    "snyk": [
+      ".snyk"
+    ]
+  },
+  {
+    "solana": [
+      "anchor.toml"
+    ]
+  },
+  {
+    "solidity": [
+      "*.sol",
+      "Anchor.toml",
+      "foundry.toml",
+      "hardhat.config.js",
+      "hardhat.config.ts",
+      "truffle-config.js"
+    ]
+  },
+  {
+    "soliditytruffle": [
+      "truffle-config.js"
+    ]
+  },
+  {
+    "sonar": [
+      "sonar-project.properties"
+    ]
+  },
+  {
+    "sonarqube": [
+      "sonar-project.properties"
+    ]
+  },
+  {
+    "sourcepawn": [
+      "*.sp"
+    ]
+  },
+  {
     "spark": [
       "*.spark"
+    ]
+  },
+  {
+    "specflow": [
+      "*.feature"
+    ]
+  },
+  {
+    "splunk": [
+      "default/app.conf",
+      "local/app.conf"
+    ]
+  },
+  {
+    "spreadsheet": [
+      "*.xls",
+      "*.xlsx",
+      "*.ods"
+    ]
+  },
+  {
+    "spring": [
+      "pom.xml",
+      "build.gradle"
+    ]
+  },
+  {
+    "springboot": [
+      "pom.xml",
+      "build.gradle"
+    ]
+  },
+  {
+    "sql": [
+      "*.sql"
+    ]
+  },
+  {
+    "sqlc": [
+      "sqlc.yaml",
+      "sqlc.yml",
+      "sqlc.json"
+    ]
+  },
+  {
+    "sqlite": [
+      "*.sqlite",
+      "*.db"
     ]
   },
   {
@@ -3630,8 +3989,30 @@
     ]
   },
   {
+    "sst": [
+      "sst.config.js",
+      "sst.config.ts"
+    ]
+  },
+  {
+    "standardml": [
+      "*.sml"
+    ]
+  },
+  {
+    "stata": [
+      "*.do"
+    ]
+  },
+  {
     "stdlib": [
       "*.stdlib"
+    ]
+  },
+  {
+    "stella": [
+      "*.a26",
+      "*.a78"
     ]
   },
   {
@@ -3640,13 +4021,136 @@
     ]
   },
   {
+    "storybookjs": [
+      ".storybook"
+    ]
+  },
+  {
+    "strapi": [
+      "config/database.js",
+      "config/admin.js",
+      ".strapi"
+    ]
+  },
+  {
+    "stylus": [
+      "*.styl"
+    ]
+  },
+  {
+    "sublimetext": [
+      "*.sublime-project"
+    ]
+  },
+  {
+    "sugarcrm": [
+      "sugar_version.php"
+    ]
+  },
+  {
+    "supabase": [
+      "supabase/config.toml",
+      "config.toml"
+    ]
+  },
+  {
+    "svelte": [
+      "*.svelte",
+      "svelte.config.cjs",
+      "svelte.config.js"
+    ]
+  },
+  {
+    "svn": [
+      ".svn"
+    ]
+  },
+  {
+    "swift": [
+      "*.swift",
+      "Package.swift"
+    ]
+  },
+  {
+    "swiftpackagemanager": [
+      "Package.swift"
+    ]
+  },
+  {
     "swiftpm": [
       "Package.swift"
     ]
   },
   {
+    "symfony": [
+      "symfony.lock",
+      "bin/console"
+    ]
+  },
+  {
+    "symphonycms": [
+      "manifest/config.php"
+    ]
+  },
+  {
     "synology": [
       "*.syno"
+    ]
+  },
+  {
+    "synopsysvcs": [
+      "*.vdb"
+    ]
+  },
+  {
+    "tags": [
+      "tags",
+      ".tags"
+    ]
+  },
+  {
+    "tarmainstallmate": [
+      "*.tin"
+    ]
+  },
+  {
+    "task": [
+      "Taskfile.yaml",
+      "Taskfile.yml"
+    ]
+  },
+  {
+    "taskfile": [
+      "Taskfile.yml",
+      "Taskfile.yaml"
+    ]
+  },
+  {
+    "tauri": [
+      "src-tauri/tauri.conf.json",
+      "tauri.conf.cjs",
+      "tauri.conf.json",
+      "tauri.conf.json5"
+    ]
+  },
+  {
+    "tcl": [
+      "*.tcl"
+    ]
+  },
+  {
+    "terraform": [
+      "*.tf",
+      "*.tfstate",
+      "*.tfvars",
+      ".terraform.lock.hcl",
+      ".tflint.hcl",
+      "terragrunt.hcl"
+    ]
+  },
+  {
+    "terragrunt": [
+      "terragrunt.hcl"
     ]
   },
   {
@@ -3656,14 +4160,57 @@
     ]
   },
   {
+    "testcomplete": [
+      "*.pjs",
+      "*.mds"
+    ]
+  },
+  {
     "testinfra": [
       "test_*.py"
+    ]
+  },
+  {
+    "tex": [
+      "*.tex"
+    ]
+  },
+  {
+    "text": [
+      "*.txt",
+      "*.md",
+      "*.rst"
+    ]
+  },
+  {
+    "textmate": [
+      "*.tmproj"
+    ]
+  },
+  {
+    "textpattern": [
+      "textpattern"
+    ]
+  },
+  {
+    "tflint": [
+      ".tflint.hcl"
     ]
   },
   {
     "theos-tweak": [
       "Makefile",
       "control"
+    ]
+  },
+  {
+    "thinkphp": [
+      "think"
+    ]
+  },
+  {
+    "tilt": [
+      "Tiltfile"
     ]
   },
   {
@@ -3677,8 +4224,29 @@
     ]
   },
   {
+    "tortoisegit": [
+      ".tgitconfig"
+    ]
+  },
+  {
     "tower": [
       "*.tower"
+    ]
+  },
+  {
+    "travisci": [
+      ".travis.yml"
+    ]
+  },
+  {
+    "trunk": [
+      ".trunk/trunk.yaml",
+      "trunk.yaml"
+    ]
+  },
+  {
+    "turbo": [
+      "turbo.json"
     ]
   },
   {
@@ -3687,8 +4255,57 @@
     ]
   },
   {
+    "twincat3": [
+      "*.plcproj.bak",
+      "*.tmc",
+      "*.tsproj.bak",
+      "*.xti.bak",
+      "*.vsm"
+    ]
+  },
+  {
     "tye": [
       "tye.yaml"
+    ]
+  },
+  {
+    "typings": [
+      "typings.json"
+    ]
+  },
+  {
+    "typo3": [
+      "typo3conf"
+    ]
+  },
+  {
+    "typo3-composer": [
+      "composer.json",
+      "composer.lock",
+      "ext_emconf.php"
+    ]
+  },
+  {
+    "umbraco": [
+      "App_Data/umbraco.config"
+    ]
+  },
+  {
+    "unity": [
+      "*.unity",
+      "ProjectSettings",
+      "ProjectSettings/ProjectSettings.asset"
+    ]
+  },
+  {
+    "unrealengine": [
+      "*.uproject"
+    ]
+  },
+  {
+    "v": [
+      "*.v",
+      "v.mod"
     ]
   },
   {
@@ -3697,8 +4314,83 @@
     ]
   },
   {
+    "vagrant": [
+      "Vagrantfile"
+    ]
+  },
+  {
+    "valgrind": [
+      "vgcore.*"
+    ]
+  },
+  {
     "vapor": [
       "Package.swift"
+    ]
+  },
+  {
+    "vcpkg": [
+      "vcpkg.json"
+    ]
+  },
+  {
+    "venv": [
+      "venv",
+      ".venv",
+      "env",
+      ".env"
+    ]
+  },
+  {
+    "vercel": [
+      "vercel.json"
+    ]
+  },
+  {
+    "verilog": [
+      "*.v",
+      "*.sv"
+    ]
+  },
+  {
+    "vertx": [
+      "*.java",
+      "*.kt",
+      "*.groovy",
+      "*.js",
+      "*.rb"
+    ]
+  },
+  {
+    "vhdl": [
+      "*.vhd",
+      "*.vhdl"
+    ]
+  },
+  {
+    "video": [
+      "*.mp4",
+      "*.avi",
+      "*.mkv",
+      "*.mov"
+    ]
+  },
+  {
+    "vim": [
+      ".vimrc"
+    ]
+  },
+  {
+    "virtualbox": [
+      "*.vbox"
+    ]
+  },
+  {
+    "virtualenv": [
+      "venv",
+      ".venv",
+      "env",
+      ".env"
     ]
   },
   {
@@ -3707,8 +4399,79 @@
     ]
   },
   {
+    "visualbasic": [
+      "*.vb"
+    ]
+  },
+  {
+    "visualstudio": [
+      "*.sln",
+      "*.csproj",
+      "*.vbproj",
+      ".vs"
+    ]
+  },
+  {
+    "visualstudiocode": [
+      "*.code-workspace",
+      ".vscode"
+    ]
+  },
+  {
+    "vite": [
+      "vite.config.js",
+      "vite.config.ts",
+      "vite.config.cjs",
+      "vite.config.mjs"
+    ]
+  },
+  {
+    "vitest": [
+      "vitest.config.js",
+      "vitest.config.ts",
+      "vitest.config.mjs",
+      "vitest.workspace.ts",
+      "vitest.workspace.js"
+    ]
+  },
+  {
+    "vivado": [
+      "*.xpr"
+    ]
+  },
+  {
     "vlab": [
       "*.vlab"
+    ]
+  },
+  {
+    "vmware": [
+      "*.vmx"
+    ]
+  },
+  {
+    "vrealizeorchestrator": [
+      "*.package"
+    ]
+  },
+  {
+    "vs": [
+      "*.sln",
+      "*.csproj",
+      "*.vbproj",
+      "*.fsproj"
+    ]
+  },
+  {
+    "vue": [
+      "*.vue",
+      "vue.config.js"
+    ]
+  },
+  {
+    "vuejs": [
+      "vue.config.js",
+      "*.vue"
     ]
   },
   {
@@ -3717,9 +4480,24 @@
     ]
   },
   {
+    "waf": [
+      "wscript"
+    ]
+  },
+  {
+    "wails": [
+      "wails.json"
+    ]
+  },
+  {
     "wakanda": [
       "*.waSolution",
       "*.waProject"
+    ]
+  },
+  {
+    "waypoint": [
+      "waypoint.hcl"
     ]
   },
   {
@@ -3738,6 +4516,24 @@
     ]
   },
   {
+    "webpack": [
+      "webpack.config.js",
+      "webpack.config.ts",
+      "webpack.config.cjs",
+      "webpack.config.mjs"
+    ]
+  },
+  {
+    "webstorm": [
+      "package.json",
+      "*.js",
+      "*.ts",
+      "*.jsx",
+      "*.tsx",
+      ".idea"
+    ]
+  },
+  {
     "webstorm+all": [
       ".idea",
       "*.iml"
@@ -3749,8 +4545,66 @@
     ]
   },
   {
+    "werckercli": [
+      "wercker.yml"
+    ]
+  },
+  {
+    "windows": [
+      "Thumbs.db",
+      "Desktop.ini"
+    ]
+  },
+  {
+    "windsurf": [
+      ".windsurfrules"
+    ]
+  },
+  {
+    "wintersmith": [
+      "config.json"
+    ]
+  },
+  {
+    "wordpress": [
+      "wp-config.php"
+    ]
+  },
+  {
+    "wyam": [
+      "config.wyam"
+    ]
+  },
+  {
+    "xamarinstudio": [
+      "*.sln",
+      "*.csproj"
+    ]
+  },
+  {
+    "xcode": [
+      "*.xcodeproj",
+      "*.xcworkspace"
+    ]
+  },
+  {
+    "xcodeinjection": [
+      "InjectionProject"
+    ]
+  },
+  {
     "xilinx": [
       "*.xise",
+      "*.xpr"
+    ]
+  },
+  {
+    "xilinxise": [
+      "*.xise"
+    ]
+  },
+  {
+    "xilinxvivado": [
       "*.xpr"
     ]
   },
@@ -3765,8 +4619,71 @@
     ]
   },
   {
+    "xojo": [
+      "*.xojo_uistate",
+      "*.rbuistate"
+    ]
+  },
+  {
+    "xtext": [
+      "*.mwe2",
+      "*.xtext"
+    ]
+  },
+  {
     "y86": [
       "*.ys"
+    ]
+  },
+  {
+    "yalc": [
+      "yalc.lock",
+      ".yalc"
+    ]
+  },
+  {
+    "yarn": [
+      "yarn.lock"
+    ]
+  },
+  {
+    "yeoman": [
+      ".yo-rc.json"
+    ]
+  },
+  {
+    "yii": [
+      "yii"
+    ]
+  },
+  {
+    "yii2": [
+      "yii"
+    ]
+  },
+  {
+    "zed": [
+      ".zed"
+    ]
+  },
+  {
+    "zendframework": [
+      "config/application.config.php"
+    ]
+  },
+  {
+    "zephir": [
+      "*.zep"
+    ]
+  },
+  {
+    "zig": [
+      "build.zig"
+    ]
+  },
+  {
+    "zola": [
+      "config.toml"
     ]
   },
   {
@@ -3777,901 +4694,9 @@
     ]
   },
   {
-    "cakephp2": [
-      "app/Config/core.php"
-    ]
-  },
-  {
-    "cakephp3": [
-      "config/app.php"
-    ]
-  },
-  {
-    "gpg": [
-      "*.gpg",
-      "*.sig"
-    ]
-  },
-  {
-    "greenfoot": [
-      "project.greenfoot"
-    ]
-  },
-  {
-    "hol": [
-      "*.sml",
-      "Holmakefile"
-    ]
-  },
-  {
-    "hsp": [
-      "*.hsp"
-    ]
-  },
-  {
-    "iar": [
-      "*.eww",
-      "*.ewp",
-      "*.ewt"
-    ]
-  },
-  {
-    "iar_ewarm": [
-      "*.eww",
-      "*.ewp",
-      "*.ewt"
-    ]
-  },
-  {
-    "idapro": [
-      "*.idb",
-      "*.i64"
-    ]
-  },
-  {
-    "images": [
-      "*.jpg",
-      "*.png",
-      "*.gif",
-      "*.jpeg",
-      "*.bmp",
-      "*.tiff",
-      "*.webp",
-      "*.svg"
-    ]
-  },
-  {
-    "infer": [
-      "infer-out/"
-    ]
-  },
-  {
-    "jabref": [
-      "*.bib"
-    ]
-  },
-  {
-    "janet": [
-      "project.janet"
-    ]
-  },
-  {
-    "jboss-4-2-3-ga": [
-      "jboss-web.xml"
-    ]
-  },
-  {
-    "jboss-6-x": [
-      "jboss-web.xml"
-    ]
-  },
-  {
-    "jboss4": [
-      "jboss-web.xml"
-    ]
-  },
-  {
-    "jboss6": [
-      "jboss-web.xml"
-    ]
-  },
-  {
-    "jenv": [
-      ".java-version"
-    ]
-  },
-  {
-    "jigsaw": [
-      "*.jigsaw"
-    ]
-  },
-  {
-    "jmeter": [
-      "*.jmx"
-    ]
-  },
-  {
-    "joe": [
-      "*~",
-      ".*.swp"
-    ]
-  },
-  {
-    "kaldi": [
-      "cmd.sh",
-      "path.sh"
-    ]
-  },
-  {
-    "kate": [
-      ".kateproject"
-    ]
-  },
-  {
-    "kdiff3": [
-      "*.kdiff3"
-    ]
-  },
-  {
-    "kirby2": [
-      "site/config/config.php"
-    ]
-  },
-  {
-    "kirby3": [
-      "site/config/config.php"
-    ]
-  },
-  {
-    "kobalt": [
-      "Build.kt"
-    ]
-  },
-  {
-    "kohana": [
-      "application/bootstrap.php"
-    ]
-  },
-  {
-    "komodoedit": [
-      "*.komodoproject"
-    ]
-  },
-  {
-    "labviewnxg": [
-      "*.gcomp"
-    ]
-  },
-  {
-    "lamp": [
-      "*.php",
-      "*.html",
-      "*.css",
-      "*.js"
-    ]
-  },
-  {
-    "lemonstand": [
-      "config/config.php"
-    ]
-  },
-  {
-    "lilypond": [
-      "*.ly"
-    ]
-  },
-  {
-    "logtalk": [
-      "*.lgt",
-      "*.logtalk"
-    ]
-  },
-  {
-    "lyx": [
-      "*.lyx"
-    ]
-  },
-  {
-    "mavensmate": [
-      "src/package.xml"
-    ]
-  },
-  {
-    "mean": [
-      "package.json",
-      "angular.json"
-    ]
-  },
-  {
-    "metalsmith": [
-      "metalsmith.json"
-    ]
-  },
-  {
-    "metaprogrammingsystem": [
-      "*.mpr",
-      "*.msd"
-    ]
-  },
-  {
-    "mill": [
-      "build.sc"
-    ]
-  },
-  {
-    "moban": [
-      ".moban.yaml"
-    ]
-  },
-  {
-    "mplabx": [
-      "*.X/"
-    ]
-  },
-  {
-    "ncrunch": [
-      "*.ncrunchproject"
-    ]
-  },
-  {
-    "nette": [
-      "app/config/config.neon"
-    ]
-  },
-  {
-    "notepadpp": [
-      "session.xml"
-    ]
-  },
-  {
-    "nova": [
-      ".nova"
-    ]
-  },
-  {
-    "now": [
-      "now.json"
-    ]
-  },
-  {
-    "openframeworks": [
-      "addons.make"
-    ]
-  },
-  {
-    "openframeworks+visualstudio": [
-      "*.vcxproj"
-    ]
-  },
-  {
-    "osx": [
-      ".DS_Store",
-      ".AppleDouble",
-      ".LSOverride",
-      "Icon\r",
-      "._*",
-      ".Spotlight-V100",
-      ".Trashes"
-    ]
-  },
-  {
-    "otto": [
-      "otto.json"
-    ]
-  },
-  {
-    "oxideshop": [
-      "config.inc.php"
-    ]
-  },
-  {
-    "pawn": [
-      "*.pwn",
-      "*.amx"
-    ]
-  },
-  {
-    "perl6": [
-      "META6.json"
-    ]
-  },
-  {
-    "phoenix": [
-      "mix.exs"
-    ]
-  },
-  {
-    "retool": [
-      "*.retool"
-    ]
-  },
-  {
-    "thinkphp": [
-      "think"
-    ]
-  },
-  {
-    "vertx": [
-      "*.java",
-      "*.kt",
-      "*.groovy",
-      "*.js",
-      "*.rb"
-    ]
-  },
-  {
-    "fastapi": [
-      "main.py",
-      "app.py"
-    ]
-  },
-  {
-    "spring": [
-      "pom.xml",
-      "build.gradle"
-    ]
-  },
-  {
-    "springboot": [
-      "pom.xml",
-      "build.gradle"
-    ]
-  },
-  {
-    "play": [
-      "build.sbt"
-    ]
-  },
-  {
-    "cplusplus": [
-      "CMakeLists.txt",
-      "*.cpp",
-      "*.h",
-      "*.hpp"
-    ]
-  },
-  {
-    "makefile": [
-      "Makefile"
-    ]
-  },
-  {
-    "bash": [
-      "*.sh",
-      "*.bash"
-    ]
-  },
-  {
-    "bat": [
-      "*.bat",
-      "*.cmd"
-    ]
-  },
-  {
-    "rescript": [
-      "bsconfig.json",
-      "rescript.json"
-    ]
-  },
-  {
-    "lisp": [
-      "*.asd",
-      "*.cl",
-      "*.lisp",
-      "*.lsp"
-    ]
-  },
-  {
-    "prolog": [
-      "*.pl",
-      "*.pro"
-    ]
-  },
-  {
-    "pascal": [
-      "*.pas",
-      "*.dpr"
-    ]
-  },
-  {
-    "sql": [
-      "*.sql"
-    ]
-  },
-  {
-    "mysql": [
-      "*.sql"
-    ]
-  },
-  {
-    "postgresql": [
-      "*.sql"
-    ]
-  },
-  {
-    "sqlite": [
-      "*.sqlite",
-      "*.db"
-    ]
-  },
-  {
-    "mongodb": [
-      "mongodb"
-    ]
-  },
-  {
-    "cassandra": [
-      "cassandra"
-    ]
-  },
-  {
-    "aws": [
-      "aws"
-    ]
-  },
-  {
-    "azure": [
-      "azure"
-    ]
-  },
-  {
-    "gcp": [
-      "gcp"
-    ]
-  },
-  {
-    "heroku": [
-      "Procfile"
-    ]
-  },
-  {
-    "netlify": [
-      "netlify.toml"
-    ]
-  },
-  {
-    "cloudflare": [
-      "wrangler.toml",
-      "wrangler.json",
-      "wrangler.jsonc"
-    ]
-  },
-  {
-    "docker": [
-      "Dockerfile",
-      "compose.yaml",
-      "compose.yml",
-      "docker-compose.local.yml",
-      "docker-compose.override.yaml",
-      "docker-compose.override.yml",
-      "docker-compose.yaml",
-      "docker-compose.yml"
-    ]
-  },
-  {
-    "kubernetes": [
-      "k8s",
-      "*.yaml",
-      "*.yml",
-      "kustomization.yaml",
-      "kustomization.yml",
-      "Kustomization"
-    ]
-  },
-  {
-    "chef": [
-      "Berksfile",
-      "metadata.rb"
-    ]
-  },
-  {
-    "jenkins": [
-      "Jenkinsfile"
-    ]
-  },
-  {
-    "gitlab": [
-      ".gitlab-ci.yml"
-    ]
-  },
-  {
-    "github": [
-      ".github/workflows"
-    ]
-  },
-  {
-    "bitbucket": [
-      "bitbucket-pipelines.yml"
-    ]
-  },
-  {
-    "circleci": [
-      ".circleci/config.yml"
-    ]
-  },
-  {
-    "travisci": [
-      ".travis.yml"
-    ]
-  },
-  {
-    "appveyor": [
-      "appveyor.yml"
-    ]
-  },
-  {
-    "codecov": [
-      "codecov.yml",
-      ".codecov.yml"
-    ]
-  },
-  {
-    "nginx": [
-      "nginx.conf"
-    ]
-  },
-  {
-    "apache": [
-      ".htaccess",
-      "httpd.conf"
-    ]
-  },
-  {
-    "caddy": [
-      "Caddyfile"
-    ]
-  },
-  {
-    "kafka": [
-      "kafka"
-    ]
-  },
-  {
-    "rabbitmq": [
-      "rabbitmq"
-    ]
-  },
-  {
-    "graphql": [
-      "*.graphql",
-      "*.gql"
-    ]
-  },
-  {
-    "raspberrypi": [
-      "raspberrypi"
-    ]
-  },
-  {
-    "esp32": [
-      "esp32"
-    ]
-  },
-  {
-    "architect": [
-      "app.arc"
-    ]
-  },
-  {
-    "appwrite": [
-      "appwrite.json"
-    ]
-  },
-  {
-    "devenv": [
-      "devenv.nix"
-    ]
-  },
-  {
-    "devbox": [
-      "devbox.json"
-    ]
-  },
-  {
-    "mise": [
-      "mise.toml"
-    ]
-  },
-  {
-    "zed": [
-      ".zed"
-    ]
-  },
-  {
-    "cursor": [
-      ".cursor",
-      ".cursor/",
-      ".cursorignore",
-      ".cursorrules"
-    ]
-  },
-  {
-    "dagger": [
-      ".dagger"
-    ]
-  },
-  {
-    "aider": [
-      ".aider",
-      ".aider.chat.history.md",
-      ".aider.conf.yml",
-      ".aider.tags.cache.v3"
-    ]
-  },
-  {
-    "biome": [
-      "biome.json",
-      "biome.jsonc"
-    ]
-  },
-  {
-    "bruno": [
-      "bruno.json"
-    ]
-  },
-  {
-    "ruff": [
-      "ruff.toml",
-      ".ruff.toml"
-    ]
-  },
-  {
-    "taskfile": [
-      "Taskfile.yml",
-      "Taskfile.yaml"
-    ]
-  },
-  {
-    "precommit": [
-      ".pre-commit-config.yaml"
-    ]
-  },
-  {
-    "dagster": [
-      "dagster.yaml",
-      "workspace.yaml"
-    ]
-  },
-  {
-    "prefect": [
-      "prefect.yaml"
-    ]
-  },
-  {
-    "ant": [
-      "build.xml"
-    ]
-  },
-  {
-    "copilot": [
-      ".copilotignore",
-      "copilot-instructions.md"
-    ]
-  },
-  {
-    "windsurf": [
-      ".windsurfrules"
-    ]
-  },
-  {
-    "cline": [
-      ".clinerules"
-    ]
-  },
-  {
-    "roocode": [
-      ".rooconfig",
-      ".roomodes"
-    ]
-  },
-  {
-    "flyio": [
-      "fly.toml"
-    ]
-  },
-  {
-    "railway": [
-      "railway.json"
-    ]
-  },
-  {
-    "render": [
-      "render.yaml"
-    ]
-  },
-  {
-    "sst": [
-      "sst.config.js",
-      "sst.config.ts"
-    ]
-  },
-  {
-    "fly": [
-      "fly.toml"
-    ]
-  },
-  {
-    "task": [
-      "Taskfile.yaml",
-      "Taskfile.yml"
-    ]
-  },
-  {
-    "foundry": [
-      "foundry.toml"
-    ]
-  },
-  {
-    "anchor": [
-      "Anchor.toml"
-    ]
-  },
-  {
-    "earthly": [
-      "Earthfile"
-    ]
-  },
-  {
-    "devspace": [
-      "devspace.yaml",
-      "devspace.yml"
-    ]
-  },
-  {
-    "garden": [
-      "garden.yaml",
-      "garden.yml"
-    ]
-  },
-  {
-    "trunk": [
-      ".trunk/trunk.yaml",
-      "trunk.yaml"
-    ]
-  },
-  {
-    "cdktf": [
-      "cdktf.json"
-    ]
-  },
-  {
-    "esbuild": [
-      "esbuild.js",
-      "esbuild.mjs",
-      "esbuild.cjs"
-    ]
-  },
-  {
-    "babel": [
-      "babel.config.js",
-      "babel.config.json",
-      ".babelrc",
-      ".babelrc.json"
-    ]
-  },
-  {
-    "husky": [
-      ".husky/pre-commit"
-    ]
-  },
-  {
-    "vite": [
-      "vite.config.js",
-      "vite.config.ts",
-      "vite.config.cjs",
-      "vite.config.mjs"
-    ]
-  },
-  {
-    "webpack": [
-      "webpack.config.js",
-      "webpack.config.ts",
-      "webpack.config.cjs",
-      "webpack.config.mjs"
-    ]
-  },
-  {
-    "rollup": [
-      "rollup.config.js",
-      "rollup.config.ts",
-      "rollup.config.cjs",
-      "rollup.config.mjs"
-    ]
-  },
-  {
-    "objectivec": [
-      "Podfile"
-    ]
-  },
-  {
-    "reason": [
-      "bsconfig.json"
-    ]
-  },
-  {
-    "duckdb": [
-      "*.duckdb",
-      "*.ddb",
-      "*.duckdb.wal"
-    ]
-  },
-  {
-    "parquet": [
-      "*.parquet"
-    ]
-  },
-  {
-    "kustomize": [
-      "kustomization.yaml",
-      "kustomization.yml",
-      "Kustomization"
-    ]
-  },
-  {
-    "tflint": [
-      ".tflint.hcl"
-    ]
-  },
-  {
-    "buf": [
-      "buf.yaml",
-      "buf.work.yaml",
-      "buf.gen.yaml"
-    ]
-  },
-  {
-    "sqlc": [
-      "sqlc.yaml",
-      "sqlc.yml",
-      "sqlc.json"
-    ]
-  },
-  {
-    "zola": [
-      "config.toml"
-    ]
-  },
-  {
-    "nomad": [
-      "*.nomad"
-    ]
-  },
-  {
-    "waypoint": [
-      "waypoint.hcl"
-    ]
-  },
-  {
-    "boundary": [
-      "boundary.hcl"
-    ]
-  },
-  {
-    "electron": [
-      "electron-builder.json",
-      "electron-builder.json5",
-      "electron-builder.yaml5",
-      "electron-builder.yml"
-    ]
-  },
-  {
-    "nx": [
-      "nx.json",
-      "workspace.json"
-    ]
-  },
-  {
-    "tauri": [
-      "src-tauri/tauri.conf.json",
-      "tauri.conf.cjs",
-      "tauri.conf.json",
-      "tauri.conf.json5"
-    ]
-  },
-  {
-    "hardhat": [
-      "hardhat.config.js",
-      "hardhat.config.ts"
+    "zukencr8000": [
+      "*.ftp",
+      "*.pnl"
     ]
   }
 ]
