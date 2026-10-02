@@ -417,6 +417,10 @@
       {
         "filename": "deno.jsonc",
         "path": "cov_profile/"
+      },
+      {
+        "filename": "deno.lock",
+        "path": ".deno/"
       }
     ]
   },
@@ -1178,6 +1182,10 @@
       },
       {
         "filename": "nitric.yaml",
+        "path": ".nitric/"
+      },
+      {
+        "filename": "nitric.yml",
         "path": ".nitric/"
       }
     ]
@@ -3288,6 +3296,55 @@
       {
         "filename": "config.toml",
         "path": "public/"
+      }
+    ]
+  },
+  {
+    "tag": "uv",
+    "search": [
+      {
+        "filename": "uv.lock",
+        "path": ".venv/"
+      }
+    ]
+  },
+  {
+    "tag": "rolldown",
+    "search": [
+      {
+        "filename": "rolldown.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "rolldown.config.ts",
+        "path": "dist/"
+      }
+    ]
+  },
+  {
+    "tag": "slidev",
+    "search": [
+      {
+        "filename": "slides.md",
+        "path": ".slidev/"
+      }
+    ]
+  },
+  {
+    "tag": "direnv",
+    "search": [
+      {
+        "filename": ".envrc",
+        "path": ".direnv/"
+      }
+    ]
+  },
+  {
+    "tag": "reflex",
+    "search": [
+      {
+        "filename": "rxconfig.py",
+        "path": ".web/"
       }
     ]
   }

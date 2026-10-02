@@ -321,7 +321,8 @@
   },
   {
     "aws-sam": [
-      "samconfig.toml"
+      "samconfig.toml",
+      "template.yaml"
     ]
   },
   {
@@ -981,9 +982,9 @@
       "deno.json",
       "deno.jsonc",
       "deno.lock",
+      "deno.lock",
       "fresh.gen.ts",
-      "import_map.json",
-      "deno.lock"
+      "import_map.json"
     ]
   },
   {
@@ -2897,6 +2898,7 @@
       "uno.config.ts",
       "unocss.config.js",
       "unocss.config.ts",
+      "uv.lock",
       "vercel.json",
       "vite.config.cjs",
       "vite.config.js",
@@ -4697,6 +4699,103 @@
     "zukencr8000": [
       "*.ftp",
       "*.pnl"
+    ]
+  },
+  {
+    "uv": [
+      "uv.lock"
+    ]
+  },
+  {
+    "rolldown": [
+      "rolldown.config.cjs",
+      "rolldown.config.js",
+      "rolldown.config.mjs",
+      "rolldown.config.ts"
+    ]
+  },
+  {
+    "pdm": [
+      "pdm.lock",
+      "pyproject.toml"
+    ]
+  },
+  {
+    "rye": [
+      "requirements-dev.lock",
+      "requirements.lock",
+      "rye.lock"
+    ]
+  },
+  {
+    "hatch": [
+      "hatch.toml"
+    ]
+  },
+  {
+    "pixi": [
+      "pixi.lock",
+      "pixi.toml"
+    ]
+  },
+  {
+    "hono": [
+      "hono.config.ts",
+      "hono.json"
+    ]
+  },
+  {
+    "vitepress": [
+      ".vitepress/config.js",
+      ".vitepress/config.ts"
+    ]
+  },
+  {
+    "slidev": [
+      "slides.md"
+    ]
+  },
+  {
+    "elysia": [
+      "elysia.config.js",
+      "elysia.config.ts"
+    ]
+  },
+  {
+    "stylex": [
+      "stylex.config.js",
+      "stylex.config.ts"
+    ]
+  },
+  {
+    "artillery": [
+      "artillery.yaml",
+      "artillery.yml"
+    ]
+  },
+  {
+    "reflex": [
+      "rxconfig.py"
+    ]
+  },
+  {
+    "react-router": [
+      "react-router.config.cjs",
+      "react-router.config.js",
+      "react-router.config.mjs",
+      "react-router.config.ts"
+    ]
+  },
+  {
+    "nitric": [
+      "nitric.yaml",
+      "nitric.yml"
+    ]
+  },
+  {
+    "sentry": [
+      ".sentryclirc",
+      "sentry.properties"
     ]
   }
 ]
