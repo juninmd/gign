@@ -145,4 +145,41 @@ describe('project utility', () => {
     expect(ignorePaths.custommanual.values).toContain('some_ignored_value');
     expect(ignorePaths.pathmanual.values).toContain('ignored_dir');
   });
+
+  it('should match glob patterns anywhere in the file name', () => {
+    (fs.readdirSync as jest.Mock).mockReturnValue(['.git', '.gignrc.json', 'app.config.prod.js']);
+    (fs.existsSync as jest.Mock).mockImplementation(
+      (filepath: unknown) => typeof filepath === 'string' && filepath.endsWith('.gignrc.json'),
+    );
+    (fs.readFileSync as jest.Mock).mockReturnValue(
+      JSON.stringify({ pattern: [{ globtag: ['app.*.prod.js'] }, { nomatch: ['app.*.dev.js'] }] }),
+    );
+
+    const [tags] = project('/dummy/dir');
+
+    expect(tags).toContain('globtag');
+    expect(tags).not.toContain('nomatch');
+  });
+
+  it('should collect string arrays from struct, ignoring non-string values and duplicates', () => {
+    (fs.readdirSync as jest.Mock).mockReturnValue(['.git', '.gignrc.json', 'dummy.json']);
+    (fs.existsSync as jest.Mock).mockReturnValue(true);
+    (fs.readFileSync as jest.Mock).mockImplementation((filepath: unknown) => {
+      if (typeof filepath === 'string' && filepath.endsWith('.gignrc.json')) {
+        return JSON.stringify({
+          manual: [
+            { tag: 'list', search: [{ filename: 'dummy.json', struct: 'out' }] },
+            { tag: 'missing', search: [{ filename: 'dummy.json', struct: 'nope' }] },
+            { tag: 'list', search: [{ filename: 'dummy.json', path: 'build' }] },
+          ],
+        });
+      }
+      return JSON.stringify({ out: ['build', 'dist', 42] });
+    });
+
+    const [, ignorePaths] = project('/dummy/dir');
+
+    expect(ignorePaths.list.values).toEqual(['build', 'dist']);
+    expect(ignorePaths.missing.values).toEqual([]);
+  });
 });

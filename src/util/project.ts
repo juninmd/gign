@@ -22,8 +22,59 @@ export interface ManualConfig {
   search: ManualSearch[];
 }
 
+interface CustomConfig {
+  pattern?: PatternConfig[];
+  manual?: ManualConfig[];
+}
+
+const errorMessage = (error: unknown): string => (error instanceof Error ? error.message : String(error));
+
+const globCache = new Map<string, RegExp>();
+
+/** Converts a simple glob (`*` and `?`) into an anchored regular expression. */
+function globToRegExp(glob: string): RegExp {
+  let regex = globCache.get(glob);
+  if (!regex) {
+    const source = glob
+      .replace(/[.+^${}()|[\]\\]/g, '\\$&')
+      .replace(/\*/g, '.*')
+      .replace(/\?/g, '.');
+    regex = new RegExp(`^${source}$`);
+    globCache.set(glob, regex);
+  }
+  return regex;
+}
+
+/** Returns the entries of `dir` matching `query` (glob on names, or exact relative path when it has a slash). */
+function findMatches(dir: string, files: string[], query: string): string[] {
+  if (query.includes('/') || query.includes('\\')) {
+    return fs.existsSync(path.join(dir, query)) ? [query] : [];
+  }
+  if (query.includes('*') || query.includes('?')) {
+    const regex = globToRegExp(query);
+    return files.filter((f) => regex.test(f));
+  }
+  return files.includes(query) ? [query] : [];
+}
+
+function readCustomConfig(file: string, label: string, pick: (json: any) => CustomConfig | undefined): CustomConfig {
+  if (!fs.existsSync(file)) return {};
+  try {
+    return pick(JSON.parse(fs.readFileSync(file, 'utf8'))) ?? {};
+  } catch (error: unknown) {
+    console.warn(`[gign] Failed to parse ${label}: ${errorMessage(error)}`);
+    return {};
+  }
+}
+
+function accessAttrObj(obj: Record<string, unknown>, struct: string): unknown {
+  return struct.split('.').reduce<unknown>((current, attr) => {
+    return current && typeof current === 'object' ? (current as Record<string, unknown>)[attr] : undefined;
+  }, obj);
+}
+
 export default function getProjectTags(dir: string): [string[], IgnorePaths] {
-  const tags: string[] = [];
+  const tags = new Set<string>();
   const ignorePaths: IgnorePaths = {};
 
   const files = fs.readdirSync(dir);
@@ -32,133 +83,56 @@ export default function getProjectTags(dir: string): [string[], IgnorePaths] {
     console.warn('[gign] Initialize a git repository, use "git init" command');
   }
 
-  // Load custom configuration if available
-  const customPattern: PatternConfig[] = [];
-  const customManual: ManualConfig[] = [];
-  const customConfigPath = path.join(dir, '.gignrc.json');
-  if (fs.existsSync(customConfigPath)) {
-    try {
-      const customConfig = JSON.parse(fs.readFileSync(customConfigPath, 'utf8'));
-      if (customConfig.pattern && Array.isArray(customConfig.pattern)) {
-        customPattern.push(...customConfig.pattern);
-      }
-      if (customConfig.manual && Array.isArray(customConfig.manual)) {
-        customManual.push(...customConfig.manual);
-      }
-    } catch (error: unknown) {
-      if (error instanceof Error) {
-        console.warn(`[gign] Failed to parse .gignrc.json: ${error.message}`);
-      } else {
-        console.warn(`[gign] Failed to parse .gignrc.json: ${String(error)}`);
-      }
-    }
+  const customConfigs = [
+    readCustomConfig(path.join(dir, '.gignrc.json'), '.gignrc.json', (json) => json),
+    readCustomConfig(path.join(dir, 'package.json'), 'package.json', (json) => json?.gign),
+  ];
+  const customPatterns = customConfigs.flatMap((c) => (Array.isArray(c.pattern) ? c.pattern : []));
+  const customManuals = customConfigs.flatMap((c) => (Array.isArray(c.manual) ? c.manual : []));
+
+  const allPatterns = [...pattern, ...customPatterns] as PatternConfig[];
+  const allManuals = [...manual, ...customManuals] as ManualConfig[];
+
+  for (const entry of allPatterns) {
+    const key = Object.keys(entry)[0];
+    if (!key || tags.has(key) || !Array.isArray(entry[key])) continue;
+    if (entry[key].some((query) => findMatches(dir, files, query).length > 0)) tags.add(key);
   }
 
-  const packageJsonPath = path.join(dir, 'package.json');
-  if (fs.existsSync(packageJsonPath)) {
-    try {
-      const pkg = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
-      if (pkg.gign) {
-        if (pkg.gign.pattern && Array.isArray(pkg.gign.pattern)) {
-          customPattern.push(...pkg.gign.pattern);
-        }
-        if (pkg.gign.manual && Array.isArray(pkg.gign.manual)) {
-          customManual.push(...pkg.gign.manual);
-        }
-      }
-    } catch (error: unknown) {
-      if (error instanceof Error) {
-        console.warn(`[gign] Failed to parse package.json: ${error.message}`);
-      } else {
-        console.warn(`[gign] Failed to parse package.json: ${String(error)}`);
-      }
-    }
-  }
+  const addValue = (tag: string, value: string) => {
+    const bucket = (ignorePaths[tag] ??= { values: [] });
+    if (!bucket.values.includes(value)) bucket.values.push(value);
+  };
 
-  const allPatterns: PatternConfig[] = [...pattern, ...customPattern] as PatternConfig[];
-  const allManuals: ManualConfig[] = [...manual, ...customManual] as ManualConfig[];
+  for (const item of allManuals) {
+    if (!item?.tag || !Array.isArray(item.search)) continue;
+    for (const query of item.search) {
+      const matchedFiles = findMatches(dir, files, query.filename);
+      if (matchedFiles.length === 0) continue;
 
-  allPatterns.forEach((q: PatternConfig) => {
-    const key = Object.keys(q)[0];
-    if (!key) return;
-    const itens: string[] = q[key];
-    const hasMatch = itens.some((r: string) => {
-      if (r.startsWith('*')) {
-        const ext = r.substring(1);
-        return files.some((f) => f.endsWith(ext));
-      }
-      if (r.endsWith('*')) {
-        const prefix = r.substring(0, r.length - 1);
-        return files.some((f) => f.startsWith(prefix));
-      }
-      if (r.includes('/') || r.includes('\\')) {
-        return fs.existsSync(path.join(dir, r));
-      }
-      return files.includes(r);
-    });
-    if (hasMatch && !tags.includes(key)) tags.push(key);
-  });
+      // Register the tag even when nothing is collected, mirroring the detection result
+      ignorePaths[item.tag] ??= { values: [] };
 
-  allManuals.forEach((item: ManualConfig) => {
-    item.search.forEach((q: ManualSearch) => {
-      let matchedFiles: string[] = [];
-      if (q.filename.startsWith('*')) {
-        const ext = q.filename.substring(1);
-        matchedFiles = files.filter((f) => f.endsWith(ext));
-      } else if (q.filename.endsWith('*')) {
-        const prefix = q.filename.substring(0, q.filename.length - 1);
-        matchedFiles = files.filter((f) => f.startsWith(prefix));
-      } else {
-        if (q.filename.includes('/') || q.filename.includes('\\')) {
-          if (fs.existsSync(path.join(dir, q.filename))) {
-            matchedFiles = [q.filename];
+      if (query.struct) {
+        for (const file of matchedFiles) {
+          try {
+            const obj = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
+            const found = accessAttrObj(obj as Record<string, unknown>, query.struct);
+            const values = Array.isArray(found) ? found : [found];
+            values
+              .filter((v): v is string => typeof v === 'string' && v.length > 0)
+              .forEach((v) => addValue(item.tag, v));
+          } catch (error: unknown) {
+            console.error(
+              `[gign] error on model of ${item.tag}, struct: ${query.struct}, file: ${file}: ${errorMessage(error)}`,
+            );
           }
-        } else if (files.includes(q.filename)) {
-          matchedFiles = [q.filename];
         }
+      } else if (query.path) {
+        addValue(item.tag, query.path);
       }
-
-      if (matchedFiles.length > 0) {
-        if (!ignorePaths[item.tag]) {
-          ignorePaths[item.tag] = { values: [] };
-        }
-
-        if (q.struct) {
-          matchedFiles.forEach((f) => {
-            try {
-              const obj = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
-              ignorePaths[item.tag]!.values.push(acessAttrObj(obj as Record<string, unknown>, q.struct!) as string);
-            } catch (error: unknown) {
-              if (error instanceof Error) {
-                console.error(
-                  `[gign] error on model of ${item.tag}, struct: ${q.struct}, file: ${f}: ${error.message}`,
-                );
-              } else {
-                console.error(
-                  `[gign] error on model of ${item.tag}, struct: ${q.struct}, file: ${f}: ${String(error)}`,
-                );
-              }
-            }
-          });
-        } else if (q.path) {
-          ignorePaths[item.tag]!.values.push(q.path);
-        }
-      }
-    });
-  });
-
-  return [tags, ignorePaths];
-}
-
-function acessAttrObj(obj: Record<string, unknown>, struct: string): unknown {
-  const attrs = struct.split('.');
-  let current: unknown = obj;
-  attrs.forEach((att) => {
-    if (current && typeof current === 'object' && current !== null) {
-      current = (current as Record<string, unknown>)[att];
-    } else {
-      current = undefined;
     }
-  });
-  return current;
+  }
+
+  return [[...tags], ignorePaths];
 }

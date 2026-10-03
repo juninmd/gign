@@ -12,14 +12,13 @@
   },
   "keywords": [
     "git",
-    "gitignore"
+    "gitignore",
+    "cli",
+    "generator",
+    "offline"
   ],
   "homepage": "https://github.com/juninmd/gign#readme",
   "license": "MIT",
-  "dependencies": {
-    "loading-indicator": "^2.0.0",
-    "node-fetch": "^3.3.2"
-  },
   "preferGlobal": true,
   "bin": {
     "gign": "dist/index.js"
@@ -52,7 +51,18 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "build": "esbuild index.ts --bundle --minify --sourcemap --platform=node --target=node20 --external:electron --format=esm --outfile=dist/index.js",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "sync:templates": "node scripts/sync-templates.mjs"
   },
-  "type": "module"
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
 }
