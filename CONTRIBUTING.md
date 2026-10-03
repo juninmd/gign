@@ -31,3 +31,8 @@ To ensure code quality and a smooth development process, we have a robust CI/CD 
 3. Use `npm run build` to build the CLI locally using `esbuild`.
 4. Create your changes in a branch.
 5. Push to your fork and submit a PR!
+
+## Templates e releases
+
+- Os templates ficam em `src/data/templates.json` (gerados de [github/gitignore](https://github.com/github/gitignore), CC0) e `src/data/rules.json` (aliases e regras extras). Para atualizar: `npm run sync:templates`.
+- Para publicar no npm, crie uma release no GitHub com a tag `vX.Y.Z`. O workflow `publish.yml` valida (lint + testes), ajusta a versão pela tag e publica com provenance. Requer o secret `NPM_TOKEN`.

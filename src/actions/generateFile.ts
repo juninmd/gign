@@ -1,9 +1,19 @@
-import os from 'os';
-import getOS from '../util/os.js';
-import downloadFile from '../util/download.js';
-import getProjectTags from '../util/project.js';
 import fs from 'fs';
 import path from 'path';
+import getOS from '../util/os.js';
+import getProjectTags from '../util/project.js';
+import { buildSections, renderSections } from '../util/templates.js';
+
+const SECURITY_LINES = [
+  '.env',
+  '.env.local',
+  '.env.*.local',
+  '*.key',
+  '*.pem',
+  '*.p12',
+  'secrets/',
+  'config/secrets.yml',
+];
 
 export default async function generateFile(dir: string): Promise<void> {
   try {
@@ -19,60 +29,34 @@ export default async function generateFile(dir: string): Promise<void> {
       return;
     }
 
-    const stat = fs.statSync(resolvedDir);
-    if (!stat.isDirectory()) {
+    if (!fs.statSync(resolvedDir).isDirectory()) {
       console.warn('[gign] Path is not a directory');
       return;
     }
 
-    const tags: string[] = [getOS()];
-
     const [projectTags, ignoreManual] = getProjectTags(resolvedDir);
+    const tags = [getOS(), ...projectTags];
 
-    tags.push(...projectTags);
+    const { sections, missing } = buildSections(tags);
+    const manualTags = Object.keys(ignoreManual);
+    for (const tag of manualTags) {
+      sections.push({ title: `${tag} (project)`, lines: ignoreManual[tag]?.values ?? [] });
+    }
+    sections.push({ title: 'Environment and secrets', lines: SECURITY_LINES });
 
-    const outputPath = await downloadFile({
-      directory: resolvedDir,
-      tags,
-    });
+    const outputPath = path.join(resolvedDir, '.gitignore');
+    fs.writeFileSync(outputPath, renderSections(sections));
 
-    let structManual = '';
-    Object.keys(ignoreManual).forEach((q) => {
-      const i = ignoreManual[q];
-      if (i) {
-        structManual += `# ${q}${os.EOL}${i.values.join(os.EOL)}${os.EOL}`;
-      }
-    });
-
-    if (structManual) fs.appendFileSync(outputPath, structManual);
-
-    const securityLines = `
-# Environment and secrets
-.env
-.env.local
-.env.*.local
-*.key
-*.pem
-*.p12
-secrets/
-config/secrets.yml
-`;
-    fs.appendFileSync(outputPath, securityLines);
-
-    if (Object.keys(ignoreManual).length === 0 && projectTags.length === 0) {
-      console.info(`[gign] nothing detected (only security defaults applied)`);
+    if (manualTags.length === 0 && projectTags.length === 0) {
+      console.info(`[gign] nothing detected (only OS and security defaults applied)`);
       return;
     }
 
     console.info(`[gign] generated at ${outputPath}`);
     if (projectTags.length > 0) console.info(`[gign] tags: ${tags.join(',')}`);
-    if (Object.keys(ignoreManual).length > 0)
-      console.info(`[gign] manual tags: ${Object.keys(ignoreManual).join(',')}`);
+    if (manualTags.length > 0) console.info(`[gign] manual tags: ${manualTags.join(',')}`);
+    if (missing.length > 0) console.info(`[gign] no bundled rules for: ${missing.join(',')}`);
   } catch (ex: unknown) {
-    if (ex instanceof Error) {
-      console.error(`[gign] Error: ${ex.message}`);
-    } else {
-      console.error(`[gign] Error: ${String(ex)}`);
-    }
+    console.error(`[gign] Error: ${ex instanceof Error ? ex.message : String(ex)}`);
   }
 }

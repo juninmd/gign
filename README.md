@@ -24,7 +24,9 @@
 
 ## ✨ Funcionalidades
 
-- Geração automática de `.gitignore`
+- Geração automática de `.gitignore`, 100% offline (templates embutidos, sem API externa)
+- Remove regras duplicadas entre templates
+- Publicação automática no npm a cada release
 - Suporte a múltiplas linguagens e frameworks
 - Interface CLI simples e rápida
 - CI/CD com GitHub Actions
@@ -33,8 +35,7 @@
 ## 🛠️ Tech Stack
 
 - **Runtime:** Node.js
-- **Linguagem:** JavaScript
-- **CLI:** Commander
+- **Linguagem:** TypeScript
 - **Testes:** Jest
 - **Linting:** ESLint
 - **CI:** GitHub Actions

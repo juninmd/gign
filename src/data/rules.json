@@ -1,0 +1,606 @@
+{
+  "androidstudio": {
+    "use": ["android", "jetbrains"]
+  },
+  "osx": {
+    "use": ["macos"]
+  },
+  "vs": {
+    "use": ["visualstudio"]
+  },
+  "csharp": {
+    "use": ["visualstudio"]
+  },
+  "xamarinstudio": {
+    "use": ["visualstudio"]
+  },
+  "dotnetcore": {
+    "use": ["dotnet"]
+  },
+  "aspnetcore": {
+    "use": ["dotnet"]
+  },
+  "cplusplus": {
+    "use": ["c++"]
+  },
+  "objectivec": {
+    "use": ["objective-c"]
+  },
+  "perl6": {
+    "use": ["raku"]
+  },
+  "latex": {
+    "use": ["tex"]
+  },
+  "nova": {
+    "lines": [".nova/"]
+  },
+  "obsidian": {
+    "lines": [".obsidian/workspace.json", ".obsidian/workspace-mobile.json", ".obsidian/cache"]
+  },
+  "intellij": {
+    "use": ["jetbrains"]
+  },
+  "intellij+all": {
+    "use": ["jetbrains"]
+  },
+  "intellij+iml": {
+    "use": ["jetbrains"]
+  },
+  "jetbrains": {
+    "use": ["jetbrains"]
+  },
+  "jetbrains+all": {
+    "use": ["jetbrains"]
+  },
+  "jetbrains+iml": {
+    "use": ["jetbrains"]
+  },
+  "appcode": {
+    "use": ["jetbrains"]
+  },
+  "appcode+all": {
+    "use": ["jetbrains"]
+  },
+  "appcode+iml": {
+    "use": ["jetbrains"]
+  },
+  "clion": {
+    "use": ["jetbrains"]
+  },
+  "clion+all": {
+    "use": ["jetbrains"]
+  },
+  "clion+iml": {
+    "use": ["jetbrains"]
+  },
+  "goland": {
+    "use": ["jetbrains"]
+  },
+  "goland+all": {
+    "use": ["jetbrains"]
+  },
+  "goland+iml": {
+    "use": ["jetbrains"]
+  },
+  "phpstorm": {
+    "use": ["jetbrains"]
+  },
+  "phpstorm+all": {
+    "use": ["jetbrains"]
+  },
+  "phpstorm+iml": {
+    "use": ["jetbrains"]
+  },
+  "pycharm": {
+    "use": ["jetbrains"]
+  },
+  "pycharm+all": {
+    "use": ["jetbrains"]
+  },
+  "pycharm+iml": {
+    "use": ["jetbrains"]
+  },
+  "rider": {
+    "use": ["jetbrains"]
+  },
+  "rider+all": {
+    "use": ["jetbrains"]
+  },
+  "rider+iml": {
+    "use": ["jetbrains"]
+  },
+  "rubymine": {
+    "use": ["jetbrains"]
+  },
+  "rubymine+all": {
+    "use": ["jetbrains"]
+  },
+  "rubymine+iml": {
+    "use": ["jetbrains"]
+  },
+  "webstorm": {
+    "use": ["jetbrains"]
+  },
+  "webstorm+all": {
+    "use": ["jetbrains"]
+  },
+  "webstorm+iml": {
+    "use": ["jetbrains"]
+  },
+  "react": {
+    "use": ["node"],
+    "lines": []
+  },
+  "reactnative": {
+    "use": ["node"],
+    "lines": [".expo/", "*.jsbundle", "ios/Pods/", "android/.gradle/", "android/app/build/"]
+  },
+  "typescript": {
+    "use": ["node"],
+    "lines": ["*.tsbuildinfo"]
+  },
+  "tsc": {
+    "use": ["node"],
+    "lines": ["*.tsbuildinfo"]
+  },
+  "tsup": {
+    "use": ["node"],
+    "lines": ["dist/"]
+  },
+  "unbuild": {
+    "use": ["node"],
+    "lines": ["dist/"]
+  },
+  "vuejs": {
+    "use": ["vue", "node"]
+  },
+  "vite": {
+    "use": ["node"],
+    "lines": ["dist/", "dist-ssr/", "*.local", "vite.config.*.timestamp-*"]
+  },
+  "vitest": {
+    "use": ["node"],
+    "lines": ["coverage/"]
+  },
+  "nuxt": {
+    "use": ["node"],
+    "lines": [".nuxt/", ".output/", ".data/", "dist/"]
+  },
+  "nuxtjs": {
+    "use": ["node"],
+    "lines": [".nuxt/", ".output/", ".data/", "dist/"]
+  },
+  "svelte": {
+    "use": ["node"],
+    "lines": [".svelte-kit/", "build/"]
+  },
+  "sveltekit": {
+    "use": ["node"],
+    "lines": [".svelte-kit/", "build/"]
+  },
+  "astro": {
+    "use": ["node"],
+    "lines": [".astro/", "dist/"]
+  },
+  "gatsby": {
+    "use": ["node"],
+    "lines": [".cache/", "public/"]
+  },
+  "remix": {
+    "use": ["node"],
+    "lines": [".cache/", "build/", "public/build/"]
+  },
+  "turbo": {
+    "use": ["node"],
+    "lines": [".turbo/"]
+  },
+  "nx": {
+    "use": ["node"],
+    "lines": [".nx/cache", ".nx/workspace-data"]
+  },
+  "yarn": {
+    "use": ["node"],
+    "lines": [".yarn/cache", ".yarn/unplugged", ".yarn/install-state.gz", ".pnp.*"]
+  },
+  "pnpm": {
+    "use": ["node"],
+    "lines": [".pnpm-store/", ".pnpm-debug.log*"]
+  },
+  "webpack": {
+    "use": ["node"],
+    "lines": [".webpack/", "dist/"]
+  },
+  "parcel": {
+    "use": ["node"],
+    "lines": [".parcel-cache/", "dist/"]
+  },
+  "rollup": {
+    "use": ["node"],
+    "lines": ["dist/"]
+  },
+  "rsbuild": {
+    "use": ["node"],
+    "lines": ["dist/"]
+  },
+  "rspack": {
+    "use": ["node"],
+    "lines": ["dist/"]
+  },
+  "eslint": {
+    "use": ["node"],
+    "lines": [".eslintcache"]
+  },
+  "stylelint": {
+    "use": ["node"],
+    "lines": [".stylelintcache"]
+  },
+  "storybook": {
+    "use": ["node"],
+    "lines": ["storybook-static/"]
+  },
+  "storybookjs": {
+    "use": ["node"],
+    "lines": ["storybook-static/"]
+  },
+  "cypress": {
+    "use": ["node"],
+    "lines": ["cypress/videos/", "cypress/screenshots/", "cypress/downloads/"]
+  },
+  "playwright": {
+    "use": ["node"],
+    "lines": ["test-results/", "playwright-report/", "blob-report/", "playwright/.cache/"]
+  },
+  "coverage": {
+    "lines": ["coverage/", ".nyc_output/", "*.lcov"]
+  },
+  "docusaurus": {
+    "use": ["node"],
+    "lines": [".docusaurus/", "build/"]
+  },
+  "vuepress": {
+    "use": ["node"],
+    "lines": [".vuepress/dist", ".temp/", ".cache/"]
+  },
+  "vitepress": {
+    "use": ["node"],
+    "lines": [".vitepress/dist", ".vitepress/cache"]
+  },
+  "electron": {
+    "use": ["node"],
+    "lines": ["out/", "dist/"]
+  },
+  "serverless": {
+    "use": ["node"],
+    "lines": [".serverless/", ".webpack/"]
+  },
+  "sls": {
+    "use": ["node"],
+    "lines": [".serverless/", ".webpack/"]
+  },
+  "netlify": {
+    "lines": [".netlify/"]
+  },
+  "vercel": {
+    "lines": [".vercel/"]
+  },
+  "wrangler": {
+    "lines": [".wrangler/", ".dev.vars"]
+  },
+  "cloudflare": {
+    "lines": [".wrangler/", ".dev.vars"]
+  },
+  "ionic": {
+    "use": ["node"],
+    "lines": [".ionic/", ".sourcemaps/", ".sass-cache/"]
+  },
+  "quasar": {
+    "use": ["node"],
+    "lines": [".quasar/", "dist/"]
+  },
+  "solid": {
+    "use": ["node"],
+    "lines": [".solid/", "dist/"]
+  },
+  "solidjs": {
+    "use": ["node"],
+    "lines": [".solid/", "dist/"]
+  },
+  "preact": {
+    "use": ["node"],
+    "lines": []
+  },
+  "qwik": {
+    "use": ["node"],
+    "lines": ["dist/"]
+  },
+  "ember": {
+    "use": ["node"],
+    "lines": ["dist/", "tmp/", ".sass-cache/"]
+  },
+  "emberjs": {
+    "use": ["node"],
+    "lines": ["dist/", "tmp/", ".sass-cache/"]
+  },
+  "redwood": {
+    "use": ["node"],
+    "lines": [".redwood/", "web/dist/", "api/dist/"]
+  },
+  "wxt": {
+    "use": ["node"],
+    "lines": [".wxt/", ".output/"]
+  },
+  "sanity": {
+    "use": ["node"],
+    "lines": [".sanity/", "dist/"]
+  },
+  "keystone": {
+    "use": ["node"],
+    "lines": [".keystone/"]
+  },
+  "sails": {
+    "use": ["node"],
+    "lines": [".tmp/"]
+  },
+  "snowpack": {
+    "use": ["node"],
+    "lines": ["build/"]
+  },
+  "stencil": {
+    "use": ["node"],
+    "lines": [".stencil/", "www/"]
+  },
+  "tamagui": {
+    "use": ["node"],
+    "lines": [".tamagui/"]
+  },
+  "contentlayer": {
+    "use": ["node"],
+    "lines": [".contentlayer/"]
+  },
+  "wireit": {
+    "use": ["node"],
+    "lines": [".wireit/"]
+  },
+  "moon": {
+    "lines": [".moon/cache", ".moon/docker"]
+  },
+  "babel": {
+    "use": ["node"],
+    "lines": []
+  },
+  "prettier": {
+    "use": ["node"],
+    "lines": []
+  },
+  "lerna": {
+    "use": ["node"],
+    "lines": []
+  },
+  "craco": {
+    "use": ["node"],
+    "lines": []
+  },
+  "django": {
+    "use": ["python"],
+    "lines": ["*.log", "local_settings.py", "db.sqlite3", "db.sqlite3-journal", "staticfiles/"]
+  },
+  "flask": {
+    "use": ["python"],
+    "lines": ["instance/", ".webassets-cache"]
+  },
+  "fastapi": {
+    "use": ["python"],
+    "lines": []
+  },
+  "pythonvanilla": {
+    "use": ["python"],
+    "lines": []
+  },
+  "pipenv": {
+    "use": ["python"],
+    "lines": []
+  },
+  "poetry": {
+    "use": ["python"],
+    "lines": []
+  },
+  "uv": {
+    "use": ["python"],
+    "lines": []
+  },
+  "mypy": {
+    "use": ["python"],
+    "lines": [".mypy_cache/", ".dmypy.json"]
+  },
+  "ruff": {
+    "use": ["python"],
+    "lines": [".ruff_cache/"]
+  },
+  "pytest": {
+    "use": ["python"],
+    "lines": [".pytest_cache/"]
+  },
+  "tox": {
+    "use": ["python"],
+    "lines": [".tox/"]
+  },
+  "nox": {
+    "use": ["python"],
+    "lines": [".nox/"]
+  },
+  "pdm": {
+    "use": ["python"],
+    "lines": [".pdm-python", ".pdm-build/", "__pypackages__/"]
+  },
+  "sphinx": {
+    "use": ["python"],
+    "lines": ["docs/_build/"]
+  },
+  "venv": {
+    "lines": ["venv/", ".venv/", "env/", "ENV/"]
+  },
+  "mkdocs": {
+    "lines": ["site/"]
+  },
+  "dbt": {
+    "lines": ["target/", "dbt_packages/", "logs/"]
+  },
+  "databricks": {
+    "lines": [".databricks/"]
+  },
+  "php": {
+    "use": ["composer"]
+  },
+  "phpunit": {
+    "lines": [".phpunit.result.cache", ".phpunit.cache/"]
+  },
+  "php-cs-fixer": {
+    "lines": [".php-cs-fixer.cache", ".php_cs.cache"]
+  },
+  "phpcodesniffer": {
+    "use": ["codesniffer"]
+  },
+  "drupal8": {
+    "use": ["drupal"]
+  },
+  "yii2": {
+    "use": ["yii"]
+  },
+  "cakephp2": {
+    "use": ["cakephp"]
+  },
+  "cakephp3": {
+    "use": ["cakephp"]
+  },
+  "typo3-composer": {
+    "use": ["typo3", "composer"]
+  },
+  "spring": {
+    "use": ["java", "maven", "gradle"],
+    "lines": ["HELP.md", ".sts4-cache/", ".springBeans"]
+  },
+  "springboot": {
+    "use": ["java", "maven", "gradle"],
+    "lines": ["HELP.md", ".sts4-cache/", ".springBeans"]
+  },
+  "jboss-4-2-3-ga": {
+    "use": ["jboss"]
+  },
+  "jboss-6-x": {
+    "use": ["jboss"]
+  },
+  "forgegradle": {
+    "use": ["gradle"]
+  },
+  "cocoapods": {
+    "lines": ["Pods/"]
+  },
+  "carthage": {
+    "lines": ["Carthage/Build/"]
+  },
+  "fastlane": {
+    "lines": ["fastlane/report.xml", "fastlane/Preview.html", "fastlane/screenshots/**/*.png", "fastlane/test_output"]
+  },
+  "swiftpm": {
+    "use": ["swift"],
+    "lines": [".build/", ".swiftpm/"]
+  },
+  "swiftpackagemanager": {
+    "use": ["swift"],
+    "lines": [".build/", ".swiftpm/"]
+  },
+  "nativescript": {
+    "lines": ["platforms/", "hooks/"]
+  },
+  "crashlytics": {
+    "lines": ["crashlytics-build.properties", "fabric.properties"]
+  },
+  "helm": {
+    "lines": ["charts/*.tgz"]
+  },
+  "localstack": {
+    "lines": [".localstack/", "volume/"]
+  },
+  "aws-sam": {
+    "lines": [".aws-sam/"]
+  },
+  "sam+config": {
+    "lines": [".aws-sam/", "samconfig.toml"]
+  },
+  "awscdk": {
+    "lines": ["cdk.out/"]
+  },
+  "cdktf": {
+    "lines": ["cdktf.out/", ".gen/", ".terraform/"]
+  },
+  "azurefunctions": {
+    "lines": ["bin/", "obj/", "local.settings.json", ".python_packages/"]
+  },
+  "azurite": {
+    "lines": ["__azurite_db*__.json", "__blobstorage__/", "__queuestorage__/"]
+  },
+  "supabase": {
+    "lines": ["supabase/.branches", "supabase/.temp"]
+  },
+  "devbox": {
+    "lines": [".devbox/"]
+  },
+  "direnv": {
+    "lines": [".direnv/"]
+  },
+  "devenv": {
+    "lines": [".devenv*", "devenv.local.nix"]
+  },
+  "flox": {
+    "lines": [".flox/"]
+  },
+  "garden": {
+    "lines": [".garden/"]
+  },
+  "task": {
+    "lines": [".task/"]
+  },
+  "taskfile": {
+    "lines": [".task/"]
+  },
+  "hardhat": {
+    "lines": ["cache/", "artifacts/", "typechain-types/", "coverage/"]
+  },
+  "truffle": {
+    "lines": ["build/"]
+  },
+  "foundry": {
+    "lines": ["out/", "cache/", "broadcast/*/31337/"]
+  },
+  "solidity": {
+    "lines": ["cache/", "artifacts/"]
+  },
+  "crystal": {
+    "lines": ["/lib/", "/bin/", "/.shards/", "*.dwarf"]
+  },
+  "defold": {
+    "lines": [".internal/", "build/", ".externalToolPaths"]
+  },
+  "git": {
+    "lines": ["*.orig", "*.rej"]
+  },
+  "aider": {
+    "lines": [".aider*"]
+  },
+  "sqlite": {
+    "lines": ["*.sqlite", "*.sqlite3", "*.db-journal"]
+  },
+  "archive": {
+    "use": ["archives"]
+  },
+  "compressed": {
+    "use": ["archives"]
+  },
+  "compression": {
+    "use": ["archives"]
+  },
+  "compressedarchive": {
+    "use": ["archives"]
+  }
+}

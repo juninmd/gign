@@ -4,7 +4,7 @@ jest.unstable_mockModule('fs', () => ({
   default: {
     existsSync: jest.fn(),
     statSync: jest.fn(),
-    appendFileSync: jest.fn(),
+    writeFileSync: jest.fn(),
   },
 }));
 
@@ -16,16 +16,11 @@ jest.unstable_mockModule('../../src/util/project.js', () => ({
   default: jest.fn(),
 }));
 
-jest.unstable_mockModule('../../src/util/download.js', () => ({
-  default: jest.fn(),
-}));
-
 describe('generateFile action', () => {
   let fs: typeof import('fs');
   let path: typeof import('path');
   let os: jest.Mock<() => string>;
   let project: jest.Mock<() => any[]>;
-  let download: jest.Mock<() => Promise<string>>;
   let generateFile: typeof import('../../src/actions/generateFile.js').default;
 
   beforeAll(async () => {
@@ -33,7 +28,6 @@ describe('generateFile action', () => {
     path = (await import('path')).default;
     os = (await import('../../src/util/os.js')).default as unknown as jest.Mock<() => string>;
     project = (await import('../../src/util/project.js')).default as unknown as jest.Mock<() => any[]>;
-    download = (await import('../../src/util/download.js')).default as unknown as jest.Mock<() => Promise<string>>;
     generateFile = (await import('../../src/actions/generateFile.js')).default;
   });
 
@@ -57,23 +51,19 @@ describe('generateFile action', () => {
     (fs.statSync as jest.Mock).mockReturnValue({ isDirectory: () => true });
     os.mockReturnValue('linux');
     project.mockReturnValue([['node', 'react'], { custom: { values: ['ignored_dir'] } }]);
-    download.mockResolvedValue(path.resolve('/dummy/.gitignore'));
-
-    (fs.appendFileSync as jest.Mock).mockImplementation(() => {});
 
     await generateFile('/dummy');
 
     expect(os).toHaveBeenCalled();
     expect(project).toHaveBeenCalledWith(path.resolve('/dummy'));
-    expect(download).toHaveBeenCalledWith({
-      directory: path.resolve('/dummy'),
-      tags: ['linux', 'node', 'react'],
-    });
-
-    expect(fs.appendFileSync).toHaveBeenCalledWith(
-      path.resolve('/dummy/.gitignore'),
-      expect.stringContaining('# custom\nignored_dir\n'),
-    );
+    const [outputPath, content] = (fs.writeFileSync as jest.Mock).mock.calls[0] as [string, string];
+    expect(outputPath).toBe(path.resolve('/dummy/.gitignore'));
+    expect(content).toContain('### linux ###');
+    expect(content).toContain('### node ###\n');
+    expect(content).toContain('node_modules');
+    expect(content).toContain('### custom (project) ###\nignored_dir\n');
+    expect(content).toContain('### Environment and secrets ###');
+    expect(content).toContain('secrets/');
 
     expect(console.info).toHaveBeenCalledWith(`[gign] generated at ${path.resolve('/dummy/.gitignore')}`);
     expect(console.info).toHaveBeenCalledWith(expect.stringContaining('[gign] tags: linux,node,react'));
@@ -85,12 +75,12 @@ describe('generateFile action', () => {
     (fs.statSync as jest.Mock).mockReturnValue({ isDirectory: () => true });
     os.mockReturnValue('linux');
     project.mockReturnValue([[], {}]);
-    download.mockResolvedValue(path.resolve('/dummy/.gitignore'));
 
     await generateFile('/dummy');
 
+    expect(fs.writeFileSync).toHaveBeenCalledWith(path.resolve('/dummy/.gitignore'), expect.stringContaining('*.pem'));
     // It should log security defaults
-    expect(console.info).toHaveBeenCalledWith('[gign] nothing detected (only security defaults applied)');
+    expect(console.info).toHaveBeenCalledWith('[gign] nothing detected (only OS and security defaults applied)');
   });
 
   it('should handle errors gracefully', async () => {
