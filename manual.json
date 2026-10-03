@@ -95,6 +95,10 @@
       {
         "filename": "astro.config.*",
         "path": "dist"
+      },
+      {
+        "filename": "astro.config.*",
+        "path": ".astro/"
       }
     ]
   },
@@ -2584,6 +2588,10 @@
       {
         "filename": "stencil.config.ts",
         "path": "www"
+      },
+      {
+        "filename": "stencil.config.ts",
+        "path": ".stencil/"
       }
     ]
   },
@@ -3345,6 +3353,114 @@
       {
         "filename": "rxconfig.py",
         "path": ".web/"
+      }
+    ]
+  },
+  {
+    "tag": "open-next",
+    "search": [
+      {
+        "filename": "open-next.config.ts",
+        "path": ".open-next/"
+      },
+      {
+        "filename": "open-next.config.js",
+        "path": ".open-next/"
+      }
+    ]
+  },
+  {
+    "tag": "trigger.dev",
+    "search": [
+      {
+        "filename": "trigger.config.ts",
+        "path": ".trigger/"
+      },
+      {
+        "filename": "trigger.config.js",
+        "path": ".trigger/"
+      }
+    ]
+  },
+  {
+    "tag": "encore",
+    "search": [
+      {
+        "filename": "encore.app",
+        "path": ".encore/"
+      }
+    ]
+  },
+  {
+    "tag": "aws-sam",
+    "search": [
+      {
+        "filename": "template.yaml",
+        "path": ".aws-sam/"
+      },
+      {
+        "filename": "samconfig.toml",
+        "path": ".aws-sam/"
+      }
+    ]
+  },
+  {
+    "tag": "goreleaser",
+    "search": [
+      {
+        "filename": ".goreleaser.yaml",
+        "path": "dist/"
+      },
+      {
+        "filename": ".goreleaser.yml",
+        "path": "dist/"
+      }
+    ]
+  },
+  {
+    "tag": "hugo",
+    "search": [
+      {
+        "filename": "hugo.toml",
+        "path": "public/"
+      },
+      {
+        "filename": "hugo.toml",
+        "path": "resources/_gen/"
+      },
+      {
+        "filename": "hugo.yaml",
+        "path": "public/"
+      },
+      {
+        "filename": "hugo.yaml",
+        "path": "resources/_gen/"
+      },
+      {
+        "filename": "hugo.json",
+        "path": "public/"
+      },
+      {
+        "filename": "hugo.json",
+        "path": "resources/_gen/"
+      }
+    ]
+  },
+  {
+    "tag": "mdbook",
+    "search": [
+      {
+        "filename": "book.toml",
+        "path": "book/"
+      }
+    ]
+  },
+  {
+    "tag": "rushjs",
+    "search": [
+      {
+        "filename": "rush.json",
+        "path": "common/temp/"
       }
     ]
   }

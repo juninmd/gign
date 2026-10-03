@@ -2741,6 +2741,8 @@
       "nuxt.config.ts",
       "nx.json",
       "nyc.config.js",
+      "open-next.config.js",
+      "open-next.config.ts",
       "openapi.json",
       "openapi.yaml",
       "ormconfig.json",
@@ -2870,6 +2872,8 @@
       "tauri.conf.json5",
       "testcafe.config.js",
       "tinkun.config.js",
+      "trigger.config.js",
+      "trigger.config.ts",
       "truffle-config.js",
       "truffle-config.ts",
       "tsconfig.app.json",
@@ -4796,6 +4800,34 @@
     "sentry": [
       ".sentryclirc",
       "sentry.properties"
+    ]
+  },
+  {
+    "open-next": [
+      "open-next.config.js",
+      "open-next.config.ts"
+    ]
+  },
+  {
+    "trigger.dev": [
+      "trigger.config.js",
+      "trigger.config.ts"
+    ]
+  },
+  {
+    "encore": [
+      "encore.app"
+    ]
+  },
+  {
+    "goreleaser": [
+      ".goreleaser.yaml",
+      ".goreleaser.yml"
+    ]
+  },
+  {
+    "rushjs": [
+      "rush.json"
     ]
   }
 ]
