@@ -42,4 +42,4 @@ gign <path>           # Generate .gitignore
 - ESM modules (type: module)
 - CLI tool pattern with global install
 - Detection lives in `pattern.json` / `manual.json`; ignore content lives in `src/data/`
-- Releases: publishing a GitHub release runs `.github/workflows/publish.yml` (tag `vX.Y.Z` becomes the npm version; needs the `NPM_TOKEN` secret)
+- Releases: Conventional Commits drive release-please (`.github/workflows/release.yml`); merging its release PR tags, releases and publishes to npm (needs the `NPM_TOKEN` secret). Never bump `package.json` version by hand.

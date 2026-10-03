@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "bootstrap-sha": "479aaa5e5287c51232d7ab9d363bea555e8ae8ff",
+  "packages": {
+    ".": {
+      "release-type": "node",
+      "package-name": "gign",
+      "bump-minor-pre-major": true,
+      "bump-patch-for-minor-pre-major": false,
+      "include-v-in-tag": true
+    }
+  }
+}
