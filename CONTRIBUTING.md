@@ -35,4 +35,4 @@ To ensure code quality and a smooth development process, we have a robust CI/CD 
 ## Templates e releases
 
 - Os templates ficam em `src/data/templates.json` (gerados de [github/gitignore](https://github.com/github/gitignore), CC0) e `src/data/rules.json` (aliases e regras extras). Para atualizar: `npm run sync:templates`.
-- Para publicar no npm, crie uma release no GitHub com a tag `vX.Y.Z`. O workflow `publish.yml` valida (lint + testes), ajusta a versão pela tag e publica com provenance. Requer o secret `NPM_TOKEN`.
+- Releases são automáticas via [release-please](https://github.com/googleapis/release-please): use commits no padrão Conventional Commits (`feat:` → minor, `fix:` → patch, `feat!:`/`BREAKING CHANGE` → major, ou minor enquanto a versão for 0.x). A cada push no `master` o bot abre/atualiza um PR "chore(master): release X.Y.Z" com changelog e bump de versão. Ao mergear esse PR, a tag e a release são criadas e o workflow `release.yml` valida (lint + testes) e publica no npm com provenance. Requer o secret `NPM_TOKEN` e a opção _Settings → Actions → General → Allow GitHub Actions to create and approve pull requests_.
