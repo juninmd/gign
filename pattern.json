@@ -349,10 +349,13 @@
   },
   {
     "babel": [
+      ".babelrc",
+      ".babelrc.js",
+      ".babelrc.json",
+      "babel.config.cjs",
       "babel.config.js",
       "babel.config.json",
-      ".babelrc",
-      ".babelrc.json"
+      "babel.config.mjs"
     ]
   },
   {
@@ -885,11 +888,11 @@
   },
   {
     "cypress": [
-      "cypress.json",
+      "cypress.config.cjs",
       "cypress.config.js",
-      "cypress.config.ts",
       "cypress.config.mjs",
-      "cypress.config.cjs"
+      "cypress.config.ts",
+      "cypress.json"
     ]
   },
   {
@@ -3269,10 +3272,10 @@
   },
   {
     "playwright": [
-      "playwright.config.js",
-      "playwright.config.ts",
       "playwright.config.cjs",
-      "playwright.config.mjs"
+      "playwright.config.js",
+      "playwright.config.mjs",
+      "playwright.config.ts"
     ]
   },
   {
@@ -4523,10 +4526,10 @@
   },
   {
     "webpack": [
-      "webpack.config.js",
-      "webpack.config.ts",
       "webpack.config.cjs",
-      "webpack.config.mjs"
+      "webpack.config.js",
+      "webpack.config.mjs",
+      "webpack.config.ts"
     ]
   },
   {
@@ -4828,6 +4831,153 @@
   {
     "rushjs": [
       "rush.json"
+    ]
+  },
+  {
+    "grafbase": [
+      "grafbase.config.js",
+      "grafbase.config.ts"
+    ]
+  },
+  {
+    "jest": [
+      "jest.config.cjs",
+      "jest.config.js",
+      "jest.config.json",
+      "jest.config.mjs",
+      "jest.config.ts",
+      "jest.preset.js"
+    ]
+  },
+  {
+    "nyc": [
+      ".nycrc",
+      ".nycrc.json",
+      "nyc.config.js"
+    ]
+  },
+  {
+    "c8": [
+      ".c8rc",
+      ".c8rc.json",
+      "c8.config.cjs",
+      "c8.config.js",
+      "c8.config.mjs"
+    ]
+  },
+  {
+    "panda": [
+      "panda.config.cjs",
+      "panda.config.js",
+      "panda.config.mjs",
+      "panda.config.ts"
+    ]
+  },
+  {
+    "puppeteer": [
+      ".puppeteerrc.cjs",
+      "puppeteer.config.cjs",
+      "puppeteer.config.js"
+    ]
+  },
+  {
+    "webdriverio": [
+      "wdio.conf.js",
+      "wdio.conf.ts"
+    ]
+  },
+  {
+    "lerna": [
+      "lerna.json"
+    ]
+  },
+  {
+    "pm2": [
+      "ecosystem.config.cjs",
+      "ecosystem.config.js",
+      "pm2.config.js"
+    ]
+  },
+  {
+    "typedoc": [
+      "typedoc.cjs",
+      "typedoc.config.cjs",
+      "typedoc.config.js",
+      "typedoc.config.mjs",
+      "typedoc.js",
+      "typedoc.json",
+      "typedoc.mjs"
+    ]
+  },
+  {
+    "unbuild": [
+      "build.config.cjs",
+      "build.config.js",
+      "build.config.mjs",
+      "build.config.ts"
+    ]
+  },
+  {
+    "pytest": [
+      "pytest.ini"
+    ]
+  },
+  {
+    "mypy": [
+      "mypy.ini"
+    ]
+  },
+  {
+    "pydocstyle": [
+      ".pydocstyle",
+      ".pydocstyle.ini"
+    ]
+  },
+  {
+    "invoke": [
+      "invoke.yaml"
+    ]
+  },
+  {
+    "celery": [
+      "celeryconfig.py"
+    ]
+  },
+  {
+    "truffle": [
+      "truffle-config.js",
+      "truffle-config.ts"
+    ]
+  },
+  {
+    "rspack": [
+      "rspack.config.cjs",
+      "rspack.config.js",
+      "rspack.config.mjs",
+      "rspack.config.ts"
+    ]
+  },
+  {
+    "rsbuild": [
+      "rsbuild.config.cjs",
+      "rsbuild.config.js",
+      "rsbuild.config.mjs",
+      "rsbuild.config.ts"
+    ]
+  },
+  {
+    "snowpack": [
+      "snowpack.config.cjs",
+      "snowpack.config.js",
+      "snowpack.config.mjs",
+      "snowpack.config.ts"
+    ]
+  },
+  {
+    "eleventy": [
+      ".eleventy.js",
+      "eleventy.config.cjs",
+      "eleventy.config.js"
     ]
   }
 ]

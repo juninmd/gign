@@ -2494,6 +2494,10 @@
       {
         "filename": "snowpack.config.mjs",
         "path": "build/"
+      },
+      {
+        "filename": "snowpack.config.ts",
+        "path": "build/"
       }
     ]
   },
@@ -2814,6 +2818,10 @@
       },
       {
         "filename": "truffle-config.js",
+        "path": "build/contracts/"
+      },
+      {
+        "filename": "truffle-config.ts",
         "path": "build/contracts/"
       }
     ]
@@ -3461,6 +3469,110 @@
       {
         "filename": "rush.json",
         "path": "common/temp/"
+      }
+    ]
+  },
+  {
+    "tag": "jest",
+    "search": [
+      {
+        "filename": "jest.config.cjs",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.js",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.json",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.mjs",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.ts",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.preset.js",
+        "path": "coverage/"
+      }
+    ]
+  },
+  {
+    "tag": "nyc",
+    "search": [
+      {
+        "filename": ".nycrc",
+        "path": "coverage/"
+      },
+      {
+        "filename": ".nycrc",
+        "path": ".nyc_output/"
+      },
+      {
+        "filename": ".nycrc.json",
+        "path": "coverage/"
+      },
+      {
+        "filename": ".nycrc.json",
+        "path": ".nyc_output/"
+      },
+      {
+        "filename": "nyc.config.js",
+        "path": "coverage/"
+      },
+      {
+        "filename": "nyc.config.js",
+        "path": ".nyc_output/"
+      }
+    ]
+  },
+  {
+    "tag": "c8",
+    "search": [
+      {
+        "filename": ".c8rc",
+        "path": "coverage/"
+      },
+      {
+        "filename": ".c8rc.json",
+        "path": "coverage/"
+      },
+      {
+        "filename": "c8.config.cjs",
+        "path": "coverage/"
+      },
+      {
+        "filename": "c8.config.js",
+        "path": "coverage/"
+      },
+      {
+        "filename": "c8.config.mjs",
+        "path": "coverage/"
+      }
+    ]
+  },
+  {
+    "tag": "panda",
+    "search": [
+      {
+        "filename": "panda.config.cjs",
+        "path": "styled-system/"
+      },
+      {
+        "filename": "panda.config.js",
+        "path": "styled-system/"
+      },
+      {
+        "filename": "panda.config.mjs",
+        "path": "styled-system/"
+      },
+      {
+        "filename": "panda.config.ts",
+        "path": "styled-system/"
       }
     ]
   }
