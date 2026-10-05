@@ -3575,5 +3575,67 @@
         "path": "styled-system/"
       }
     ]
+  },
+  {
+    "tag": "gleam",
+    "search": [
+      {
+        "filename": "gleam.toml",
+        "path": "build/"
+      }
+    ]
+  },
+  {
+    "tag": "zig",
+    "search": [
+      {
+        "filename": "build.zig",
+        "path": "zig-out/"
+      },
+      {
+        "filename": "build.zig",
+        "path": "zig-cache/"
+      }
+    ]
+  },
+  {
+    "tag": "v",
+    "search": [
+      {
+        "filename": "v.mod",
+        "path": "v.mod/"
+      }
+    ]
+  },
+  {
+    "tag": "docz",
+    "search": [
+      {
+        "filename": "doczrc.js",
+        "path": ".docz/"
+      }
+    ]
+  },
+  {
+    "tag": "styleguidist",
+    "search": [
+      {
+        "filename": "styleguide.config.js",
+        "path": "styleguide/"
+      }
+    ]
+  },
+  {
+    "tag": "lighthouseci",
+    "search": [
+      {
+        "filename": "lighthouserc.js",
+        "path": ".lighthouseci/"
+      },
+      {
+        "filename": "lighthouserc.json",
+        "path": ".lighthouseci/"
+      }
+    ]
   }
 ]
