@@ -2674,7 +2674,9 @@
       "eslint.config.js",
       "eslint.config.mjs",
       "eslint.config.ts",
+      "farm.config.cjs",
       "farm.config.js",
+      "farm.config.mjs",
       "farm.config.ts",
       "fastly.toml",
       "firebase.json",
@@ -2720,6 +2722,8 @@
       "lint-staged.config.js",
       "lint-staged.config.mjs",
       "lint-staged.config.ts",
+      "medusa-config.js",
+      "medusa-config.ts",
       "midway.config.js",
       "midway.config.ts",
       "mikro-orm.config.cjs",
@@ -2882,6 +2886,8 @@
       "tauri.conf.json5",
       "taze.config.js",
       "testcafe.config.js",
+      "tina/config.js",
+      "tina/config.ts",
       "tinkun.config.js",
       "trigger.config.js",
       "trigger.config.ts",
@@ -4987,6 +4993,56 @@
       ".eleventy.js",
       "eleventy.config.cjs",
       "eleventy.config.js"
+    ]
+  },
+  {
+    "tinacms": [
+      "tina/config.ts",
+      "tina/config.js",
+      "tina/config.tsx",
+      "tina/config.jsx"
+    ]
+  },
+  {
+    "medusa": [
+      "medusa-config.js",
+      "medusa-config.ts"
+    ]
+  },
+  {
+    "payloadcms": [
+      "payload.config.ts",
+      "payload.config.js"
+    ]
+  },
+  {
+    "farm": [
+      "farm.config.js",
+      "farm.config.ts",
+      "farm.config.mjs",
+      "farm.config.cjs"
+    ]
+  },
+  {
+    "mako": [
+      "mako.config.json"
+    ]
+  },
+  {
+    "maestro": [
+      "maestro.yaml"
+    ]
+  },
+  {
+    "k6": [
+      "k6.config.js",
+      "k6.config.json"
+    ]
+  },
+  {
+    "moon": [
+      ".moon/workspace.yml",
+      ".moon/toolchain.yml"
     ]
   }
 ]

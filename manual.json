@@ -3637,5 +3637,44 @@
         "path": ".lighthouseci/"
       }
     ]
+  },
+  {
+    "tag": "tinacms",
+    "search": [
+      {
+        "filename": "tina/config.ts",
+        "path": "tina/__generated__/"
+      },
+      {
+        "filename": "tina/config.js",
+        "path": "tina/__generated__/"
+      }
+    ]
+  },
+  {
+    "tag": "medusa",
+    "search": [
+      {
+        "filename": "medusa-config.js",
+        "path": ".medusa/"
+      },
+      {
+        "filename": "medusa-config.ts",
+        "path": ".medusa/"
+      }
+    ]
+  },
+  {
+    "tag": "payloadcms",
+    "search": [
+      {
+        "filename": "payload.config.ts",
+        "path": "build/"
+      },
+      {
+        "filename": "payload.config.js",
+        "path": "build/"
+      }
+    ]
   }
 ]
