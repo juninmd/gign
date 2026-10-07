@@ -3676,5 +3676,14 @@
         "path": "build/"
       }
     ]
+  },
+  {
+    "tag": "tsr",
+    "search": [
+      {
+        "filename": "tsr.config.json",
+        "path": ".tsr/"
+      }
+    ]
   }
 ]
