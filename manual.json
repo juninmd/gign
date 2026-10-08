@@ -99,6 +99,51 @@
       {
         "filename": "astro.config.*",
         "path": ".astro/"
+      },
+      {
+        "filename": "astro.config.mjs",
+        "path": ".astro/"
+      },
+      {
+        "filename": "astro.config.mjs",
+        "path": "dist/"
+      },
+      {
+        "filename": "astro.config.ts",
+        "path": ".astro/"
+      },
+      {
+        "filename": "astro.config.ts",
+        "path": "dist/"
+      },
+      {
+        "filename": "astro.config.js",
+        "path": ".astro/"
+      },
+      {
+        "filename": "astro.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "astro.config.cjs",
+        "path": ".astro/"
+      },
+      {
+        "filename": "astro.config.cjs",
+        "path": "dist/"
+      }
+    ]
+  },
+  {
+    "tag": "aws-sam",
+    "search": [
+      {
+        "filename": "template.yaml",
+        "path": ".aws-sam/"
+      },
+      {
+        "filename": "samconfig.toml",
+        "path": ".aws-sam/"
       }
     ]
   },
@@ -163,6 +208,31 @@
       {
         "filename": "bun.lock",
         "path": ".bun/"
+      }
+    ]
+  },
+  {
+    "tag": "c8",
+    "search": [
+      {
+        "filename": ".c8rc",
+        "path": "coverage/"
+      },
+      {
+        "filename": ".c8rc.json",
+        "path": "coverage/"
+      },
+      {
+        "filename": "c8.config.cjs",
+        "path": "coverage/"
+      },
+      {
+        "filename": "c8.config.js",
+        "path": "coverage/"
+      },
+      {
+        "filename": "c8.config.mjs",
+        "path": "coverage/"
       }
     ]
   },
@@ -481,6 +551,15 @@
     ]
   },
   {
+    "tag": "direnv",
+    "search": [
+      {
+        "filename": ".envrc",
+        "path": ".direnv/"
+      }
+    ]
+  },
+  {
     "tag": "docker",
     "search": [
       {
@@ -543,6 +622,15 @@
       {
         "filename": "docusaurus.config.ts",
         "path": "build/"
+      }
+    ]
+  },
+  {
+    "tag": "docz",
+    "search": [
+      {
+        "filename": "doczrc.js",
+        "path": ".docz/"
       }
     ]
   },
@@ -644,6 +732,15 @@
       {
         "filename": "ember-cli-build.js",
         "path": "tmp"
+      }
+    ]
+  },
+  {
+    "tag": "encore",
+    "search": [
+      {
+        "filename": "encore.app",
+        "path": ".encore/"
       }
     ]
   },
@@ -820,6 +917,22 @@
       {
         "filename": "gatsby-config.ts",
         "path": "public/"
+      },
+      {
+        "filename": "gatsby-config.mjs",
+        "path": ".cache/"
+      },
+      {
+        "filename": "gatsby-config.mjs",
+        "path": "public/"
+      },
+      {
+        "filename": "gatsby-config.cjs",
+        "path": ".cache/"
+      },
+      {
+        "filename": "gatsby-config.cjs",
+        "path": "public/"
       }
     ]
   },
@@ -849,6 +962,28 @@
       {
         "filename": ".ghost-cli",
         "path": "content/logs/"
+      }
+    ]
+  },
+  {
+    "tag": "gleam",
+    "search": [
+      {
+        "filename": "gleam.toml",
+        "path": "build/"
+      }
+    ]
+  },
+  {
+    "tag": "goreleaser",
+    "search": [
+      {
+        "filename": ".goreleaser.yaml",
+        "path": "dist/"
+      },
+      {
+        "filename": ".goreleaser.yml",
+        "path": "dist/"
       }
     ]
   },
@@ -919,6 +1054,35 @@
     ]
   },
   {
+    "tag": "hugo",
+    "search": [
+      {
+        "filename": "hugo.toml",
+        "path": "public/"
+      },
+      {
+        "filename": "hugo.toml",
+        "path": "resources/_gen/"
+      },
+      {
+        "filename": "hugo.yaml",
+        "path": "public/"
+      },
+      {
+        "filename": "hugo.yaml",
+        "path": "resources/_gen/"
+      },
+      {
+        "filename": "hugo.json",
+        "path": "public/"
+      },
+      {
+        "filename": "hugo.json",
+        "path": "resources/_gen/"
+      }
+    ]
+  },
+  {
     "tag": "husky",
     "search": [
       {
@@ -928,6 +1092,35 @@
       {
         "filename": ".husky/pre-commit",
         "path": ".husky/_/"
+      }
+    ]
+  },
+  {
+    "tag": "jest",
+    "search": [
+      {
+        "filename": "jest.config.cjs",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.js",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.json",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.mjs",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.ts",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.preset.js",
+        "path": "coverage/"
       }
     ]
   },
@@ -1009,6 +1202,19 @@
     ]
   },
   {
+    "tag": "lighthouseci",
+    "search": [
+      {
+        "filename": "lighthouserc.js",
+        "path": ".lighthouseci/"
+      },
+      {
+        "filename": "lighthouserc.json",
+        "path": ".lighthouseci/"
+      }
+    ]
+  },
+  {
     "tag": "lint-staged",
     "search": [
       {
@@ -1054,6 +1260,28 @@
       {
         "filename": ".lintstagedrc.mjs",
         "path": ".lintstagedcache"
+      }
+    ]
+  },
+  {
+    "tag": "mdbook",
+    "search": [
+      {
+        "filename": "book.toml",
+        "path": "book/"
+      }
+    ]
+  },
+  {
+    "tag": "medusa",
+    "search": [
+      {
+        "filename": "medusa-config.js",
+        "path": ".medusa/"
+      },
+      {
+        "filename": "medusa-config.ts",
+        "path": ".medusa/"
       }
     ]
   },
@@ -1696,6 +1924,22 @@
       {
         "filename": "nuxt.config.js",
         "path": ".output/"
+      },
+      {
+        "filename": "nuxt.config.mjs",
+        "path": ".nuxt/"
+      },
+      {
+        "filename": "nuxt.config.mjs",
+        "path": ".output/"
+      },
+      {
+        "filename": "nuxt.config.cjs",
+        "path": ".nuxt/"
+      },
+      {
+        "filename": "nuxt.config.cjs",
+        "path": ".output/"
       }
     ]
   },
@@ -1721,6 +1965,69 @@
       {
         "filename": "workspace.json",
         "path": ".nx/"
+      }
+    ]
+  },
+  {
+    "tag": "nyc",
+    "search": [
+      {
+        "filename": ".nycrc",
+        "path": "coverage/"
+      },
+      {
+        "filename": ".nycrc",
+        "path": ".nyc_output/"
+      },
+      {
+        "filename": ".nycrc.json",
+        "path": "coverage/"
+      },
+      {
+        "filename": ".nycrc.json",
+        "path": ".nyc_output/"
+      },
+      {
+        "filename": "nyc.config.js",
+        "path": "coverage/"
+      },
+      {
+        "filename": "nyc.config.js",
+        "path": ".nyc_output/"
+      }
+    ]
+  },
+  {
+    "tag": "open-next",
+    "search": [
+      {
+        "filename": "open-next.config.ts",
+        "path": ".open-next/"
+      },
+      {
+        "filename": "open-next.config.js",
+        "path": ".open-next/"
+      }
+    ]
+  },
+  {
+    "tag": "panda",
+    "search": [
+      {
+        "filename": "panda.config.cjs",
+        "path": "styled-system/"
+      },
+      {
+        "filename": "panda.config.js",
+        "path": "styled-system/"
+      },
+      {
+        "filename": "panda.config.mjs",
+        "path": "styled-system/"
+      },
+      {
+        "filename": "panda.config.ts",
+        "path": "styled-system/"
       }
     ]
   },
@@ -1773,6 +2080,19 @@
         "filename": "payload.config.*",
         "path": "build"
       },
+      {
+        "filename": "payload.config.ts",
+        "path": "build/"
+      },
+      {
+        "filename": "payload.config.js",
+        "path": "build/"
+      }
+    ]
+  },
+  {
+    "tag": "payloadcms",
+    "search": [
       {
         "filename": "payload.config.ts",
         "path": "build/"
@@ -1963,6 +2283,26 @@
       {
         "filename": "puppeteer.config.cjs",
         "path": ".cache/puppeteer/"
+      },
+      {
+        "filename": ".puppeteerrc.cjs",
+        "path": ".local-chromium/"
+      },
+      {
+        "filename": ".puppeteerrc.js",
+        "path": ".local-chromium/"
+      },
+      {
+        "filename": ".puppeteerrc.json",
+        "path": ".local-chromium/"
+      },
+      {
+        "filename": ".puppeteerrc.yaml",
+        "path": ".local-chromium/"
+      },
+      {
+        "filename": ".puppeteerrc.yml",
+        "path": ".local-chromium/"
       }
     ]
   },
@@ -2147,6 +2487,22 @@
       {
         "filename": "qwik.config.ts",
         "path": "dist"
+      },
+      {
+        "filename": "qwik.config.ts",
+        "path": "dist/"
+      },
+      {
+        "filename": "qwik.config.ts",
+        "path": "server/"
+      },
+      {
+        "filename": "qwik.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "qwik.config.js",
+        "path": "server/"
       }
     ]
   },
@@ -2193,6 +2549,15 @@
     ]
   },
   {
+    "tag": "reflex",
+    "search": [
+      {
+        "filename": "rxconfig.py",
+        "path": ".web/"
+      }
+    ]
+  },
+  {
     "tag": "remix",
     "search": [
       {
@@ -2218,6 +2583,55 @@
       {
         "filename": "remix.config.js",
         "path": "public/build/"
+      },
+      {
+        "filename": "remix.config.ts",
+        "path": ".cache/"
+      },
+      {
+        "filename": "remix.config.ts",
+        "path": "build/"
+      },
+      {
+        "filename": "remix.config.ts",
+        "path": "public/build/"
+      },
+      {
+        "filename": "remix.config.mjs",
+        "path": ".cache/"
+      },
+      {
+        "filename": "remix.config.mjs",
+        "path": "build/"
+      },
+      {
+        "filename": "remix.config.mjs",
+        "path": "public/build/"
+      },
+      {
+        "filename": "remix.config.cjs",
+        "path": ".cache/"
+      },
+      {
+        "filename": "remix.config.cjs",
+        "path": "build/"
+      },
+      {
+        "filename": "remix.config.cjs",
+        "path": "public/build/"
+      }
+    ]
+  },
+  {
+    "tag": "rolldown",
+    "search": [
+      {
+        "filename": "rolldown.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "rolldown.config.ts",
+        "path": "dist/"
       }
     ]
   },
@@ -2355,6 +2769,15 @@
     ]
   },
   {
+    "tag": "rushjs",
+    "search": [
+      {
+        "filename": "rush.json",
+        "path": "common/temp/"
+      }
+    ]
+  },
+  {
     "tag": "rust",
     "search": [
       {
@@ -2456,6 +2879,15 @@
       {
         "filename": "serverless.yaml",
         "path": ".serverless/"
+      }
+    ]
+  },
+  {
+    "tag": "slidev",
+    "search": [
+      {
+        "filename": "slides.md",
+        "path": ".slidev/"
       }
     ]
   },
@@ -2605,6 +3037,22 @@
       {
         "filename": ".storybook",
         "path": "storybook-static"
+      },
+      {
+        "filename": ".storybook/main.js",
+        "path": "storybook-static/"
+      },
+      {
+        "filename": ".storybook/main.ts",
+        "path": "storybook-static/"
+      },
+      {
+        "filename": ".storybook/main.cjs",
+        "path": "storybook-static/"
+      },
+      {
+        "filename": ".storybook/main.mjs",
+        "path": "storybook-static/"
       }
     ]
   },
@@ -2638,6 +3086,15 @@
       {
         "filename": "stryker.conf.cjs",
         "path": ".stryker-tmp/"
+      }
+    ]
+  },
+  {
+    "tag": "styleguidist",
+    "search": [
+      {
+        "filename": "styleguide.config.js",
+        "path": "styleguide/"
       }
     ]
   },
@@ -2696,6 +3153,18 @@
     "search": [
       {
         "filename": "svelte.config.js",
+        "path": ".svelte-kit/"
+      },
+      {
+        "filename": "svelte.config.ts",
+        "path": ".svelte-kit/"
+      },
+      {
+        "filename": "svelte.config.mjs",
+        "path": ".svelte-kit/"
+      },
+      {
+        "filename": "svelte.config.cjs",
         "path": ".svelte-kit/"
       }
     ]
@@ -2801,11 +3270,37 @@
     ]
   },
   {
+    "tag": "tinacms",
+    "search": [
+      {
+        "filename": "tina/config.ts",
+        "path": "tina/__generated__/"
+      },
+      {
+        "filename": "tina/config.js",
+        "path": "tina/__generated__/"
+      }
+    ]
+  },
+  {
     "tag": "tox",
     "search": [
       {
         "filename": "tox.ini",
         "path": ".tox"
+      }
+    ]
+  },
+  {
+    "tag": "trigger.dev",
+    "search": [
+      {
+        "filename": "trigger.config.ts",
+        "path": ".trigger/"
+      },
+      {
+        "filename": "trigger.config.js",
+        "path": ".trigger/"
       }
     ]
   },
@@ -2861,6 +3356,15 @@
       {
         "filename": "tsconfig.json",
         "path": "*.tsbuildinfo"
+      }
+    ]
+  },
+  {
+    "tag": "tsr",
+    "search": [
+      {
+        "filename": "tsr.config.json",
+        "path": ".tsr/"
       }
     ]
   },
@@ -2987,6 +3491,24 @@
     ]
   },
   {
+    "tag": "uv",
+    "search": [
+      {
+        "filename": "uv.lock",
+        "path": ".venv/"
+      }
+    ]
+  },
+  {
+    "tag": "v",
+    "search": [
+      {
+        "filename": "v.mod",
+        "path": "v.mod/"
+      }
+    ]
+  },
+  {
     "tag": "vercel",
     "search": [
       {
@@ -3033,6 +3555,22 @@
       {
         "filename": "vite.config.cjs",
         "path": ".vite/"
+      },
+      {
+        "filename": "vite.config.ts",
+        "path": "dist/"
+      },
+      {
+        "filename": "vite.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "vite.config.mjs",
+        "path": "dist/"
+      },
+      {
+        "filename": "vite.config.cjs",
+        "path": "dist/"
       }
     ]
   },
@@ -3307,285 +3845,6 @@
     ]
   },
   {
-    "tag": "zola",
-    "search": [
-      {
-        "filename": "config.toml",
-        "path": "public/"
-      }
-    ]
-  },
-  {
-    "tag": "uv",
-    "search": [
-      {
-        "filename": "uv.lock",
-        "path": ".venv/"
-      }
-    ]
-  },
-  {
-    "tag": "rolldown",
-    "search": [
-      {
-        "filename": "rolldown.config.js",
-        "path": "dist/"
-      },
-      {
-        "filename": "rolldown.config.ts",
-        "path": "dist/"
-      }
-    ]
-  },
-  {
-    "tag": "slidev",
-    "search": [
-      {
-        "filename": "slides.md",
-        "path": ".slidev/"
-      }
-    ]
-  },
-  {
-    "tag": "direnv",
-    "search": [
-      {
-        "filename": ".envrc",
-        "path": ".direnv/"
-      }
-    ]
-  },
-  {
-    "tag": "reflex",
-    "search": [
-      {
-        "filename": "rxconfig.py",
-        "path": ".web/"
-      }
-    ]
-  },
-  {
-    "tag": "open-next",
-    "search": [
-      {
-        "filename": "open-next.config.ts",
-        "path": ".open-next/"
-      },
-      {
-        "filename": "open-next.config.js",
-        "path": ".open-next/"
-      }
-    ]
-  },
-  {
-    "tag": "trigger.dev",
-    "search": [
-      {
-        "filename": "trigger.config.ts",
-        "path": ".trigger/"
-      },
-      {
-        "filename": "trigger.config.js",
-        "path": ".trigger/"
-      }
-    ]
-  },
-  {
-    "tag": "encore",
-    "search": [
-      {
-        "filename": "encore.app",
-        "path": ".encore/"
-      }
-    ]
-  },
-  {
-    "tag": "aws-sam",
-    "search": [
-      {
-        "filename": "template.yaml",
-        "path": ".aws-sam/"
-      },
-      {
-        "filename": "samconfig.toml",
-        "path": ".aws-sam/"
-      }
-    ]
-  },
-  {
-    "tag": "goreleaser",
-    "search": [
-      {
-        "filename": ".goreleaser.yaml",
-        "path": "dist/"
-      },
-      {
-        "filename": ".goreleaser.yml",
-        "path": "dist/"
-      }
-    ]
-  },
-  {
-    "tag": "hugo",
-    "search": [
-      {
-        "filename": "hugo.toml",
-        "path": "public/"
-      },
-      {
-        "filename": "hugo.toml",
-        "path": "resources/_gen/"
-      },
-      {
-        "filename": "hugo.yaml",
-        "path": "public/"
-      },
-      {
-        "filename": "hugo.yaml",
-        "path": "resources/_gen/"
-      },
-      {
-        "filename": "hugo.json",
-        "path": "public/"
-      },
-      {
-        "filename": "hugo.json",
-        "path": "resources/_gen/"
-      }
-    ]
-  },
-  {
-    "tag": "mdbook",
-    "search": [
-      {
-        "filename": "book.toml",
-        "path": "book/"
-      }
-    ]
-  },
-  {
-    "tag": "rushjs",
-    "search": [
-      {
-        "filename": "rush.json",
-        "path": "common/temp/"
-      }
-    ]
-  },
-  {
-    "tag": "jest",
-    "search": [
-      {
-        "filename": "jest.config.cjs",
-        "path": "coverage/"
-      },
-      {
-        "filename": "jest.config.js",
-        "path": "coverage/"
-      },
-      {
-        "filename": "jest.config.json",
-        "path": "coverage/"
-      },
-      {
-        "filename": "jest.config.mjs",
-        "path": "coverage/"
-      },
-      {
-        "filename": "jest.config.ts",
-        "path": "coverage/"
-      },
-      {
-        "filename": "jest.preset.js",
-        "path": "coverage/"
-      }
-    ]
-  },
-  {
-    "tag": "nyc",
-    "search": [
-      {
-        "filename": ".nycrc",
-        "path": "coverage/"
-      },
-      {
-        "filename": ".nycrc",
-        "path": ".nyc_output/"
-      },
-      {
-        "filename": ".nycrc.json",
-        "path": "coverage/"
-      },
-      {
-        "filename": ".nycrc.json",
-        "path": ".nyc_output/"
-      },
-      {
-        "filename": "nyc.config.js",
-        "path": "coverage/"
-      },
-      {
-        "filename": "nyc.config.js",
-        "path": ".nyc_output/"
-      }
-    ]
-  },
-  {
-    "tag": "c8",
-    "search": [
-      {
-        "filename": ".c8rc",
-        "path": "coverage/"
-      },
-      {
-        "filename": ".c8rc.json",
-        "path": "coverage/"
-      },
-      {
-        "filename": "c8.config.cjs",
-        "path": "coverage/"
-      },
-      {
-        "filename": "c8.config.js",
-        "path": "coverage/"
-      },
-      {
-        "filename": "c8.config.mjs",
-        "path": "coverage/"
-      }
-    ]
-  },
-  {
-    "tag": "panda",
-    "search": [
-      {
-        "filename": "panda.config.cjs",
-        "path": "styled-system/"
-      },
-      {
-        "filename": "panda.config.js",
-        "path": "styled-system/"
-      },
-      {
-        "filename": "panda.config.mjs",
-        "path": "styled-system/"
-      },
-      {
-        "filename": "panda.config.ts",
-        "path": "styled-system/"
-      }
-    ]
-  },
-  {
-    "tag": "gleam",
-    "search": [
-      {
-        "filename": "gleam.toml",
-        "path": "build/"
-      }
-    ]
-  },
-  {
     "tag": "zig",
     "search": [
       {
@@ -3599,90 +3858,11 @@
     ]
   },
   {
-    "tag": "v",
+    "tag": "zola",
     "search": [
       {
-        "filename": "v.mod",
-        "path": "v.mod/"
-      }
-    ]
-  },
-  {
-    "tag": "docz",
-    "search": [
-      {
-        "filename": "doczrc.js",
-        "path": ".docz/"
-      }
-    ]
-  },
-  {
-    "tag": "styleguidist",
-    "search": [
-      {
-        "filename": "styleguide.config.js",
-        "path": "styleguide/"
-      }
-    ]
-  },
-  {
-    "tag": "lighthouseci",
-    "search": [
-      {
-        "filename": "lighthouserc.js",
-        "path": ".lighthouseci/"
-      },
-      {
-        "filename": "lighthouserc.json",
-        "path": ".lighthouseci/"
-      }
-    ]
-  },
-  {
-    "tag": "tinacms",
-    "search": [
-      {
-        "filename": "tina/config.ts",
-        "path": "tina/__generated__/"
-      },
-      {
-        "filename": "tina/config.js",
-        "path": "tina/__generated__/"
-      }
-    ]
-  },
-  {
-    "tag": "medusa",
-    "search": [
-      {
-        "filename": "medusa-config.js",
-        "path": ".medusa/"
-      },
-      {
-        "filename": "medusa-config.ts",
-        "path": ".medusa/"
-      }
-    ]
-  },
-  {
-    "tag": "payloadcms",
-    "search": [
-      {
-        "filename": "payload.config.ts",
-        "path": "build/"
-      },
-      {
-        "filename": "payload.config.js",
-        "path": "build/"
-      }
-    ]
-  },
-  {
-    "tag": "tsr",
-    "search": [
-      {
-        "filename": "tsr.config.json",
-        "path": ".tsr/"
+        "filename": "config.toml",
+        "path": "public/"
       }
     ]
   }
