@@ -29,15 +29,15 @@
     "tag": "ampt",
     "search": [
       {
+        "filename": ".amptignore",
+        "path": ".ampt/"
+      },
+      {
         "filename": "ampt.config.js",
         "path": ".ampt/"
       },
       {
         "filename": "ampt.config.ts",
-        "path": ".ampt/"
-      },
-      {
-        "filename": ".amptignore",
         "path": ".ampt/"
       },
       {
@@ -51,15 +51,15 @@
     "search": [
       {
         "filename": "Anchor.toml",
-        "path": "target"
-      },
-      {
-        "filename": "Anchor.toml",
         "path": ".anchor"
       },
       {
         "filename": "Anchor.toml",
         "path": ".anchor/"
+      },
+      {
+        "filename": "Anchor.toml",
+        "path": "target"
       },
       {
         "filename": "Anchor.toml",
@@ -72,11 +72,11 @@
     "search": [
       {
         "filename": "angular.json",
-        "path": "dist/"
+        "path": ".angular/"
       },
       {
         "filename": "angular.json",
-        "path": ".angular/"
+        "path": "dist/"
       }
     ]
   },
@@ -94,11 +94,27 @@
     "search": [
       {
         "filename": "astro.config.*",
-        "path": "dist"
+        "path": ".astro/"
       },
       {
         "filename": "astro.config.*",
+        "path": "dist"
+      },
+      {
+        "filename": "astro.config.cjs",
         "path": ".astro/"
+      },
+      {
+        "filename": "astro.config.cjs",
+        "path": "dist/"
+      },
+      {
+        "filename": "astro.config.js",
+        "path": ".astro/"
+      },
+      {
+        "filename": "astro.config.js",
+        "path": "dist/"
       },
       {
         "filename": "astro.config.mjs",
@@ -114,22 +130,6 @@
       },
       {
         "filename": "astro.config.ts",
-        "path": "dist/"
-      },
-      {
-        "filename": "astro.config.js",
-        "path": ".astro/"
-      },
-      {
-        "filename": "astro.config.js",
-        "path": "dist/"
-      },
-      {
-        "filename": "astro.config.cjs",
-        "path": ".astro/"
-      },
-      {
-        "filename": "astro.config.cjs",
         "path": "dist/"
       }
     ]
@@ -138,11 +138,11 @@
     "tag": "aws-sam",
     "search": [
       {
-        "filename": "template.yaml",
+        "filename": "samconfig.toml",
         "path": ".aws-sam/"
       },
       {
-        "filename": "samconfig.toml",
+        "filename": "template.yaml",
         "path": ".aws-sam/"
       }
     ]
@@ -151,11 +151,11 @@
     "tag": "babel",
     "search": [
       {
-        "filename": "babel.config.js",
+        "filename": ".babelrc",
         "path": "lib/"
       },
       {
-        "filename": ".babelrc",
+        "filename": "babel.config.js",
         "path": "lib/"
       }
     ]
@@ -168,15 +168,15 @@
         "path": ".blitz"
       },
       {
+        "filename": "blitz.config.js",
+        "path": ".blitz/"
+      },
+      {
         "filename": "blitz.config.ts",
         "path": ".blitz"
       },
       {
         "filename": "blitz.config.ts",
-        "path": ".blitz/"
-      },
-      {
-        "filename": "blitz.config.js",
         "path": ".blitz/"
       }
     ]
@@ -194,19 +194,19 @@
     "tag": "bun",
     "search": [
       {
-        "filename": "bun.lockb",
-        "path": ".bun"
-      },
-      {
         "filename": "bun.lock",
         "path": ".bun"
       },
       {
-        "filename": "bun.lockb",
+        "filename": "bun.lock",
         "path": ".bun/"
       },
       {
-        "filename": "bun.lock",
+        "filename": "bun.lockb",
+        "path": ".bun"
+      },
+      {
+        "filename": "bun.lockb",
         "path": ".bun/"
       }
     ]
@@ -254,11 +254,11 @@
     "search": [
       {
         "filename": "cdktf.json",
-        "path": "cdktf.out/"
+        "path": ".gen/"
       },
       {
         "filename": "cdktf.json",
-        "path": ".gen/"
+        "path": "cdktf.out/"
       }
     ]
   },
@@ -275,16 +275,16 @@
     "tag": "cloudflare",
     "search": [
       {
-        "filename": "wrangler.toml",
-        "path": ".wrangler"
-      },
-      {
         "filename": "wrangler.json",
         "path": ".wrangler/"
       },
       {
         "filename": "wrangler.jsonc",
         "path": ".wrangler/"
+      },
+      {
+        "filename": "wrangler.toml",
+        "path": ".wrangler"
       }
     ]
   },
@@ -292,11 +292,11 @@
     "tag": "commitlint",
     "search": [
       {
-        "filename": "commitlint.config.js",
+        "filename": "commitlint.config.cjs",
         "path": ".commitlintcache"
       },
       {
-        "filename": "commitlint.config.cjs",
+        "filename": "commitlint.config.js",
         "path": ".commitlintcache"
       },
       {
@@ -313,8 +313,12 @@
     "tag": "contentlayer",
     "search": [
       {
-        "filename": "contentlayer.config.ts",
+        "filename": "contentlayer.config.cjs",
         "struct": ".contentlayer/"
+      },
+      {
+        "filename": "contentlayer.config.js",
+        "path": ".contentlayer/"
       },
       {
         "filename": "contentlayer.config.js",
@@ -325,16 +329,12 @@
         "struct": ".contentlayer/"
       },
       {
-        "filename": "contentlayer.config.cjs",
-        "struct": ".contentlayer/"
-      },
-      {
         "filename": "contentlayer.config.ts",
         "path": ".contentlayer/"
       },
       {
-        "filename": "contentlayer.config.js",
-        "path": ".contentlayer/"
+        "filename": "contentlayer.config.ts",
+        "struct": ".contentlayer/"
       }
     ]
   },
@@ -364,15 +364,15 @@
     "tag": "craco",
     "search": [
       {
+        "filename": "craco.config.cjs",
+        "path": "build/"
+      },
+      {
         "filename": "craco.config.js",
         "path": "build/"
       },
       {
         "filename": "craco.config.ts",
-        "path": "build/"
-      },
-      {
-        "filename": "craco.config.cjs",
         "path": "build/"
       }
     ]
@@ -381,11 +381,11 @@
     "tag": "cspell",
     "search": [
       {
-        "filename": "cspell.json",
+        "filename": ".cspell.json",
         "path": ".cspellcache"
       },
       {
-        "filename": ".cspell.json",
+        "filename": "cspell.json",
         "path": ".cspellcache"
       }
     ]
@@ -402,12 +402,8 @@
         "path": "cypress/videos/"
       },
       {
-        "filename": "cypress.json",
+        "filename": "cypress.config.cjs",
         "path": "cypress/screenshots/"
-      },
-      {
-        "filename": "cypress.json",
-        "path": "cypress/videos/"
       },
       {
         "filename": "cypress.config.js",
@@ -416,18 +412,22 @@
       {
         "filename": "cypress.config.js",
         "path": "cypress/videos/"
+      },
+      {
+        "filename": "cypress.config.mjs",
+        "path": "cypress/screenshots/"
       },
       {
         "filename": "cypress.config.ts",
         "path": "cypress/screenshots/"
       },
       {
-        "filename": "cypress.config.cjs",
+        "filename": "cypress.json",
         "path": "cypress/screenshots/"
       },
       {
-        "filename": "cypress.config.mjs",
-        "path": "cypress/screenshots/"
+        "filename": "cypress.json",
+        "path": "cypress/videos/"
       }
     ]
   },
@@ -445,15 +445,15 @@
     "search": [
       {
         "filename": "dbt_project.yml",
-        "path": "target/"
-      },
-      {
-        "filename": "dbt_project.yml",
         "path": "dbt_packages/"
       },
       {
         "filename": "dbt_project.yml",
         "path": "logs/"
+      },
+      {
+        "filename": "dbt_project.yml",
+        "path": "target/"
       }
     ]
   },
@@ -462,31 +462,31 @@
     "search": [
       {
         "filename": "deno.json",
-        "path": "cov_profile"
-      },
-      {
-        "filename": "deno.jsonc",
-        "path": "cov_profile"
+        "path": ".deno/"
       },
       {
         "filename": "deno.json",
         "path": ".vendor/"
       },
       {
-        "filename": "deno.jsonc",
-        "path": ".vendor/"
+        "filename": "deno.json",
+        "path": "cov_profile"
       },
       {
         "filename": "deno.json",
         "path": "cov_profile/"
       },
       {
-        "filename": "deno.json",
+        "filename": "deno.jsonc",
         "path": ".deno/"
       },
       {
         "filename": "deno.jsonc",
-        "path": ".deno/"
+        "path": ".vendor/"
+      },
+      {
+        "filename": "deno.jsonc",
+        "path": "cov_profile"
       },
       {
         "filename": "deno.jsonc",
@@ -542,11 +542,11 @@
     "search": [
       {
         "filename": "Dioxus.toml",
-        "path": "dist/"
+        "path": ".dioxus/"
       },
       {
         "filename": "Dioxus.toml",
-        "path": ".dioxus/"
+        "path": "dist/"
       }
     ]
   },
@@ -563,8 +563,20 @@
     "tag": "docker",
     "search": [
       {
-        "filename": "docker-compose.yml",
-        "path": "docker-compose.override.yml"
+        "filename": "compose.yaml",
+        "path": "docker-compose.local.yaml"
+      },
+      {
+        "filename": "compose.yaml",
+        "path": "docker-compose.local.yml"
+      },
+      {
+        "filename": "compose.yml",
+        "path": "docker-compose.local.yaml"
+      },
+      {
+        "filename": "compose.yml",
+        "path": "docker-compose.local.yml"
       },
       {
         "filename": "docker-compose.yaml",
@@ -572,27 +584,15 @@
       },
       {
         "filename": "docker-compose.yml",
+        "path": "docker-compose.local.yaml"
+      },
+      {
+        "filename": "docker-compose.yml",
         "path": "docker-compose.local.yml"
       },
       {
         "filename": "docker-compose.yml",
-        "path": "docker-compose.local.yaml"
-      },
-      {
-        "filename": "compose.yaml",
-        "path": "docker-compose.local.yml"
-      },
-      {
-        "filename": "compose.yaml",
-        "path": "docker-compose.local.yaml"
-      },
-      {
-        "filename": "compose.yml",
-        "path": "docker-compose.local.yml"
-      },
-      {
-        "filename": "compose.yml",
-        "path": "docker-compose.local.yaml"
+        "path": "docker-compose.override.yml"
       }
     ]
   },
@@ -642,15 +642,15 @@
         "path": ".drizzle"
       },
       {
-        "filename": "drizzle.config.ts",
-        "path": ".drizzle/"
-      },
-      {
         "filename": "drizzle.config.js",
         "path": ".drizzle/"
       },
       {
         "filename": "drizzle.config.json",
+        "path": ".drizzle/"
+      },
+      {
+        "filename": "drizzle.config.ts",
         "path": ".drizzle/"
       }
     ]
@@ -658,6 +658,10 @@
   {
     "tag": "electron",
     "search": [
+      {
+        "filename": "electron-builder.json",
+        "path": "build"
+      },
       {
         "filename": "electron-builder.json",
         "path": "dist"
@@ -668,11 +672,11 @@
       },
       {
         "filename": "electron-builder.json",
-        "path": "build"
+        "path": "release"
       },
       {
-        "filename": "electron-builder.json",
-        "path": "release"
+        "filename": "package.json",
+        "path": "build/"
       },
       {
         "filename": "package.json",
@@ -684,10 +688,6 @@
       },
       {
         "filename": "package.json",
-        "path": "build/"
-      },
-      {
-        "filename": "package.json",
         "path": "release/"
       }
     ]
@@ -696,7 +696,7 @@
     "tag": "eleventy",
     "search": [
       {
-        "filename": "eleventy.config.js",
+        "filename": ".eleventy.js",
         "path": "_site/"
       },
       {
@@ -704,7 +704,7 @@
         "path": "_site/"
       },
       {
-        "filename": ".eleventy.js",
+        "filename": "eleventy.config.js",
         "path": "_site/"
       }
     ]
@@ -752,11 +752,11 @@
         "path": ".eslintcache"
       },
       {
-        "filename": ".eslintrc.js",
+        "filename": ".eslintrc.cjs",
         "path": ".eslintcache"
       },
       {
-        "filename": ".eslintrc.cjs",
+        "filename": ".eslintrc.js",
         "path": ".eslintcache"
       },
       {
@@ -772,11 +772,11 @@
         "path": ".eslintcache"
       },
       {
-        "filename": "eslint.config.js",
+        "filename": "eslint.config.cjs",
         "path": ".eslintcache"
       },
       {
-        "filename": "eslint.config.cjs",
+        "filename": "eslint.config.js",
         "path": ".eslintcache"
       },
       {
@@ -786,22 +786,6 @@
       {
         "filename": "eslint.config.ts",
         "path": ".eslintcache"
-      },
-      {
-        "filename": ".eslintrc.json",
-        "path": ".eslintcache"
-      },
-      {
-        "filename": ".eslintrc.cjs",
-        "path": ".eslintcache"
-      },
-      {
-        "filename": ".eslintrc.yaml",
-        "path": ".eslintcache"
-      },
-      {
-        "filename": ".eslintrc.yml",
-        "path": ".eslintcache"
       }
     ]
   },
@@ -809,12 +793,12 @@
     "tag": "expo",
     "search": [
       {
-        "filename": "eas.json",
-        "path": ".expo"
-      },
-      {
         "filename": "app.json",
         "path": ".expo/"
+      },
+      {
+        "filename": "eas.json",
+        "path": ".expo"
       },
       {
         "filename": "eas.json",
@@ -839,11 +823,11 @@
     "tag": "firebase",
     "search": [
       {
-        "filename": "firebase.json",
+        "filename": ".firebaserc",
         "path": ".firebase/"
       },
       {
-        "filename": ".firebaserc",
+        "filename": "firebase.json",
         "path": ".firebase/"
       }
     ]
@@ -862,7 +846,11 @@
     "search": [
       {
         "filename": "foundry.toml",
-        "path": "out"
+        "path": "broadcast"
+      },
+      {
+        "filename": "foundry.toml",
+        "path": "broadcast/"
       },
       {
         "filename": "foundry.toml",
@@ -870,19 +858,15 @@
       },
       {
         "filename": "foundry.toml",
-        "path": "broadcast"
-      },
-      {
-        "filename": "foundry.toml",
-        "path": "out/"
-      },
-      {
-        "filename": "foundry.toml",
         "path": "cache/"
       },
       {
         "filename": "foundry.toml",
-        "path": "broadcast/"
+        "path": "out"
+      },
+      {
+        "filename": "foundry.toml",
+        "path": "out/"
       }
     ]
   },
@@ -903,19 +887,19 @@
     "tag": "gatsby",
     "search": [
       {
-        "filename": "gatsby-config.js",
+        "filename": "gatsby-config.cjs",
         "path": ".cache/"
       },
       {
-        "filename": "gatsby-config.ts",
-        "path": ".cache/"
-      },
-      {
-        "filename": "gatsby-config.js",
+        "filename": "gatsby-config.cjs",
         "path": "public/"
       },
       {
-        "filename": "gatsby-config.ts",
+        "filename": "gatsby-config.js",
+        "path": ".cache/"
+      },
+      {
+        "filename": "gatsby-config.js",
         "path": "public/"
       },
       {
@@ -927,11 +911,11 @@
         "path": "public/"
       },
       {
-        "filename": "gatsby-config.cjs",
+        "filename": "gatsby-config.ts",
         "path": ".cache/"
       },
       {
-        "filename": "gatsby-config.cjs",
+        "filename": "gatsby-config.ts",
         "path": "public/"
       }
     ]
@@ -945,7 +929,7 @@
       },
       {
         "filename": ".ghost-cli",
-        "path": "versions"
+        "path": "content/data/"
       },
       {
         "filename": ".ghost-cli",
@@ -953,15 +937,15 @@
       },
       {
         "filename": ".ghost-cli",
-        "path": "content/data/"
+        "path": "content/logs/"
+      },
+      {
+        "filename": ".ghost-cli",
+        "path": "versions"
       },
       {
         "filename": ".ghost-cli",
         "path": "versions/"
-      },
-      {
-        "filename": ".ghost-cli",
-        "path": "content/logs/"
       }
     ]
   },
@@ -991,11 +975,11 @@
     "tag": "grafbase",
     "search": [
       {
-        "filename": "grafbase.config.ts",
+        "filename": "grafbase.config.js",
         "path": ".grafbase/"
       },
       {
-        "filename": "grafbase.config.js",
+        "filename": "grafbase.config.ts",
         "path": ".grafbase/"
       }
     ]
@@ -1009,11 +993,23 @@
       },
       {
         "filename": "hardhat.config.js",
+        "path": "artifacts/"
+      },
+      {
+        "filename": "hardhat.config.js",
         "path": "cache"
       },
       {
         "filename": "hardhat.config.js",
+        "path": "cache/"
+      },
+      {
+        "filename": "hardhat.config.js",
         "path": "typechain-types"
+      },
+      {
+        "filename": "hardhat.config.js",
+        "path": "typechain-types/"
       },
       {
         "filename": "hardhat.config.ts",
@@ -1021,7 +1017,15 @@
       },
       {
         "filename": "hardhat.config.ts",
+        "path": "artifacts/"
+      },
+      {
+        "filename": "hardhat.config.ts",
         "path": "cache"
+      },
+      {
+        "filename": "hardhat.config.ts",
+        "path": "cache/"
       },
       {
         "filename": "hardhat.config.ts",
@@ -1029,26 +1033,6 @@
       },
       {
         "filename": "hardhat.config.ts",
-        "path": "artifacts/"
-      },
-      {
-        "filename": "hardhat.config.ts",
-        "path": "cache/"
-      },
-      {
-        "filename": "hardhat.config.ts",
-        "path": "typechain-types/"
-      },
-      {
-        "filename": "hardhat.config.js",
-        "path": "artifacts/"
-      },
-      {
-        "filename": "hardhat.config.js",
-        "path": "cache/"
-      },
-      {
-        "filename": "hardhat.config.js",
         "path": "typechain-types/"
       }
     ]
@@ -1057,6 +1041,14 @@
     "tag": "hugo",
     "search": [
       {
+        "filename": "hugo.json",
+        "path": "public/"
+      },
+      {
+        "filename": "hugo.json",
+        "path": "resources/_gen/"
+      },
+      {
         "filename": "hugo.toml",
         "path": "public/"
       },
@@ -1070,14 +1062,6 @@
       },
       {
         "filename": "hugo.yaml",
-        "path": "resources/_gen/"
-      },
-      {
-        "filename": "hugo.json",
-        "path": "public/"
-      },
-      {
-        "filename": "hugo.json",
         "path": "resources/_gen/"
       }
     ]
@@ -1128,11 +1112,11 @@
     "tag": "keystatic",
     "search": [
       {
-        "filename": "keystatic.config.ts",
+        "filename": "keystatic.config.js",
         "path": ".keystatic/"
       },
       {
-        "filename": "keystatic.config.js",
+        "filename": "keystatic.config.ts",
         "path": ".keystatic/"
       }
     ]
@@ -1154,6 +1138,10 @@
     "tag": "knip",
     "search": [
       {
+        "filename": "knip.js",
+        "path": ".knip/"
+      },
+      {
         "filename": "knip.json",
         "path": ".knip/"
       },
@@ -1164,10 +1152,6 @@
       {
         "filename": "knip.ts",
         "path": ".knip/"
-      },
-      {
-        "filename": "knip.js",
-        "path": ".knip/"
       }
     ]
   },
@@ -1175,11 +1159,7 @@
     "tag": "lefthook",
     "search": [
       {
-        "filename": "lefthook.yml",
-        "path": "lefthook-local.yml"
-      },
-      {
-        "filename": "lefthook.yml",
+        "filename": "lefthook.yaml",
         "path": "lefthook-local.yaml"
       },
       {
@@ -1187,8 +1167,12 @@
         "path": "lefthook-local.yml"
       },
       {
-        "filename": "lefthook.yaml",
+        "filename": "lefthook.yml",
         "path": "lefthook-local.yaml"
+      },
+      {
+        "filename": "lefthook.yml",
+        "path": "lefthook-local.yml"
       }
     ]
   },
@@ -1218,27 +1202,23 @@
     "tag": "lint-staged",
     "search": [
       {
-        "filename": "lint-staged.config.js",
-        "path": ".lintstagedcache"
-      },
-      {
-        "filename": "lint-staged.config.cjs",
-        "path": ".lintstagedcache"
-      },
-      {
-        "filename": "lint-staged.config.mjs",
-        "path": ".lintstagedcache"
-      },
-      {
-        "filename": "lint-staged.config.ts",
-        "path": ".lintstagedcache"
-      },
-      {
         "filename": ".lintstagedrc",
         "path": ".lintstagedcache"
       },
       {
+        "filename": ".lintstagedrc.cjs",
+        "path": ".lintstagedcache"
+      },
+      {
+        "filename": ".lintstagedrc.js",
+        "path": ".lintstagedcache"
+      },
+      {
         "filename": ".lintstagedrc.json",
+        "path": ".lintstagedcache"
+      },
+      {
+        "filename": ".lintstagedrc.mjs",
         "path": ".lintstagedcache"
       },
       {
@@ -1250,15 +1230,19 @@
         "path": ".lintstagedcache"
       },
       {
-        "filename": ".lintstagedrc.js",
+        "filename": "lint-staged.config.cjs",
         "path": ".lintstagedcache"
       },
       {
-        "filename": ".lintstagedrc.cjs",
+        "filename": "lint-staged.config.js",
         "path": ".lintstagedcache"
       },
       {
-        "filename": ".lintstagedrc.mjs",
+        "filename": "lint-staged.config.mjs",
+        "path": ".lintstagedcache"
+      },
+      {
+        "filename": "lint-staged.config.ts",
         "path": ".lintstagedcache"
       }
     ]
@@ -1289,7 +1273,7 @@
     "tag": "mikro-orm",
     "search": [
       {
-        "filename": "mikro-orm.config.ts",
+        "filename": "mikro-orm.config.cjs",
         "path": "temp/"
       },
       {
@@ -1297,11 +1281,11 @@
         "path": "temp/"
       },
       {
-        "filename": "mikro-orm.config.cjs",
+        "filename": "mikro-orm.config.mjs",
         "path": "temp/"
       },
       {
-        "filename": "mikro-orm.config.mjs",
+        "filename": "mikro-orm.config.ts",
         "path": "temp/"
       }
     ]
@@ -1319,11 +1303,11 @@
     "tag": "moon",
     "search": [
       {
-        "filename": "moon.yml",
+        "filename": "moon.yaml",
         "path": ".moon/cache/"
       },
       {
-        "filename": "moon.yaml",
+        "filename": "moon.yml",
         "path": ".moon/cache/"
       }
     ]
@@ -1332,11 +1316,11 @@
     "tag": "mypy",
     "search": [
       {
-        "filename": "mypy.ini",
+        "filename": ".mypy.ini",
         "path": ".mypy_cache"
       },
       {
-        "filename": ".mypy.ini",
+        "filename": "mypy.ini",
         "path": ".mypy_cache"
       },
       {
@@ -1375,11 +1359,11 @@
     "tag": "nextjs",
     "search": [
       {
-        "filename": "next.config.js",
+        "filename": "next.config.cjs",
         "path": ".next/"
       },
       {
-        "filename": "next.config.cjs",
+        "filename": "next.config.js",
         "path": ".next/"
       },
       {
@@ -1426,19 +1410,19 @@
     "tag": "nitro",
     "search": [
       {
-        "filename": "nitro.config.ts",
-        "path": ".nitro/"
-      },
-      {
         "filename": "nitro.config.js",
         "path": ".nitro/"
       },
       {
-        "filename": "nitro.config.ts",
+        "filename": "nitro.config.js",
         "path": ".output/"
       },
       {
-        "filename": "nitro.config.js",
+        "filename": "nitro.config.ts",
+        "path": ".nitro/"
+      },
+      {
+        "filename": "nitro.config.ts",
         "path": ".output/"
       }
     ]
@@ -1464,196 +1448,8 @@
     "tag": "node",
     "search": [
       {
-        "filename": ".release-it.json",
-        "path": ".release-it/"
-      },
-      {
-        "filename": ".eslintrc.*",
-        "path": ".eslintcache"
-      },
-      {
-        "filename": "eslint.config.*",
-        "path": ".eslintcache"
-      },
-      {
-        "filename": "cspell.json",
-        "path": ".cspellcache"
-      },
-      {
-        "filename": "sst.config.ts",
-        "path": ".sst/"
-      },
-      {
-        "filename": "sst.config.js",
-        "path": ".sst/"
-      },
-      {
-        "filename": "biome.json",
-        "path": ".biome/"
-      },
-      {
-        "filename": "biome.jsonc",
-        "path": ".biome/"
-      },
-      {
-        "filename": "wrangler.toml",
-        "path": ".wrangler/"
-      },
-      {
-        "filename": "wrangler.json",
-        "path": ".wrangler/"
-      },
-      {
-        "filename": "pnpm-workspace.yaml",
-        "path": ".pnpm-store/"
-      },
-      {
-        "filename": "rspack.config.js",
-        "path": "dist/"
-      },
-      {
-        "filename": "rspack.config.ts",
-        "path": "dist/"
-      },
-      {
-        "filename": "rspack.config.mjs",
-        "path": "dist/"
-      },
-      {
-        "filename": "rspack.config.cjs",
-        "path": "dist/"
-      },
-      {
-        "filename": "rspack.config.js",
-        "path": "build/"
-      },
-      {
-        "filename": "rspack.config.ts",
-        "path": "build/"
-      },
-      {
-        "filename": "rspack.config.mjs",
-        "path": "build/"
-      },
-      {
-        "filename": "rspack.config.cjs",
-        "path": "build/"
-      },
-      {
-        "filename": "rsbuild.config.js",
-        "path": "dist/"
-      },
-      {
-        "filename": "rsbuild.config.ts",
-        "path": "dist/"
-      },
-      {
-        "filename": "rsbuild.config.mjs",
-        "path": "dist/"
-      },
-      {
-        "filename": "rsbuild.config.cjs",
-        "path": "dist/"
-      },
-      {
-        "filename": "panda.config.js",
-        "path": "styled-system/"
-      },
-      {
-        "filename": "panda.config.ts",
-        "path": "styled-system/"
-      },
-      {
-        "filename": "panda.config.mjs",
-        "path": "styled-system/"
-      },
-      {
-        "filename": "panda.config.cjs",
-        "path": "styled-system/"
-      },
-      {
-        "filename": "eleventy.config.js",
-        "path": "_site/"
-      },
-      {
-        "filename": "eleventy.config.cjs",
-        "path": "_site/"
-      },
-      {
-        "filename": ".eleventy.js",
-        "path": "_site/"
-      },
-      {
-        "filename": "tsup.config.ts",
-        "path": "dist/"
-      },
-      {
-        "filename": "tsup.config.js",
-        "path": "dist/"
-      },
-      {
-        "filename": "serverless.yml",
-        "path": ".serverless/"
-      },
-      {
-        "filename": "serverless.ts",
-        "path": ".serverless/"
-      },
-      {
-        "filename": "stryker.conf.json",
-        "path": ".stryker-tmp/"
-      },
-      {
-        "filename": "stryker.conf.js",
-        "path": ".stryker-tmp/"
-      },
-      {
-        "filename": ".swcrc",
-        "path": ".swc/"
-      },
-      {
-        "filename": "nitro.config.ts",
-        "path": ".nitro/"
-      },
-      {
-        "filename": "nitro.config.ts",
-        "path": ".output/"
-      },
-      {
-        "filename": "wxt.config.ts",
-        "path": ".wxt/"
-      },
-      {
-        "filename": "payload.config.ts",
-        "path": "build/"
-      },
-      {
-        "filename": "payload.config.js",
-        "path": "build/"
-      },
-      {
-        "filename": "slides.md",
-        "path": ".slidev/"
-      },
-      {
-        "filename": "rolldown.config.js",
-        "path": "dist/"
-      },
-      {
-        "filename": "rolldown.config.ts",
-        "path": "dist/"
-      },
-      {
-        "filename": "ionic.config.json",
-        "path": "www/"
-      },
-      {
-        "filename": ".nycrc",
-        "path": ".nyc_output/"
-      },
-      {
-        "filename": ".nycrc.json",
-        "path": ".nyc_output/"
+        "filename": ".ampt",
+        "path": ".ampt/"
       },
       {
         "filename": ".c8rc",
@@ -1664,156 +1460,60 @@
         "path": "coverage/"
       },
       {
-        "filename": "cypress.config.js",
-        "path": "cypress/screenshots/"
+        "filename": ".eleventy.js",
+        "path": "_site/"
       },
       {
-        "filename": "cypress.config.js",
-        "path": "cypress/videos/"
+        "filename": ".eslintrc.*",
+        "path": ".eslintcache"
       },
       {
-        "filename": "cypress.config.ts",
-        "path": "cypress/screenshots/"
+        "filename": ".eslintrc.cjs",
+        "path": ".eslintcache"
       },
       {
-        "filename": "cypress.config.ts",
-        "path": "cypress/videos/"
+        "filename": ".eslintrc.js",
+        "path": ".eslintcache"
       },
       {
-        "filename": "cypress.config.mjs",
-        "path": "cypress/screenshots/"
+        "filename": ".eslintrc.json",
+        "path": ".eslintcache"
       },
       {
-        "filename": "cypress.config.mjs",
-        "path": "cypress/videos/"
+        "filename": ".nycrc",
+        "path": ".nyc_output/"
       },
       {
-        "filename": "cypress.config.cjs",
-        "path": "cypress/screenshots/"
+        "filename": ".nycrc.json",
+        "path": ".nyc_output/"
       },
       {
-        "filename": "cypress.config.cjs",
-        "path": "cypress/videos/"
+        "filename": ".parcelrc",
+        "path": ".parcel-cache/"
       },
       {
-        "filename": "schema.prisma",
-        "path": ".prisma/"
+        "filename": ".release-it.json",
+        "path": ".release-it/"
       },
       {
-        "filename": "config.toml",
-        "path": ".supabase/"
+        "filename": ".swcrc",
+        "path": ".swc/"
       },
       {
-        "filename": "contentlayer.config.ts",
-        "path": ".contentlayer/"
+        "filename": ".vitepress/config.js",
+        "path": ".vitepress/cache/"
       },
       {
-        "filename": "contentlayer.config.js",
-        "path": ".contentlayer/"
+        "filename": ".vitepress/config.js",
+        "path": ".vitepress/dist/"
       },
       {
-        "filename": "rspress.config.ts",
-        "path": "doc_build/"
+        "filename": ".vitepress/config.ts",
+        "path": ".vitepress/cache/"
       },
       {
-        "filename": "rspress.config.ts",
-        "path": ".rspress/"
-      },
-      {
-        "filename": "rspress.config.js",
-        "path": "doc_build/"
-      },
-      {
-        "filename": "rspress.config.js",
-        "path": ".rspress/"
-      },
-      {
-        "filename": "solid.config.ts",
-        "path": ".solid/"
-      },
-      {
-        "filename": "solid.config.js",
-        "path": ".solid/"
-      },
-      {
-        "filename": "craco.config.js",
-        "path": "build/"
-      },
-      {
-        "filename": "craco.config.ts",
-        "path": "build/"
-      },
-      {
-        "filename": "hardhat.config.js",
-        "path": "artifacts/"
-      },
-      {
-        "filename": "hardhat.config.js",
-        "path": "cache/"
-      },
-      {
-        "filename": "hardhat.config.js",
-        "path": "typechain-types/"
-      },
-      {
-        "filename": "hardhat.config.ts",
-        "path": "artifacts/"
-      },
-      {
-        "filename": "hardhat.config.ts",
-        "path": "cache/"
-      },
-      {
-        "filename": "hardhat.config.ts",
-        "path": "typechain-types/"
-      },
-      {
-        "filename": "truffle-config.js",
-        "path": "build/contracts/"
-      },
-      {
-        "filename": "truffle-config.ts",
-        "path": "build/contracts/"
-      },
-      {
-        "filename": "snowpack.config.js",
-        "path": "build/"
-      },
-      {
-        "filename": "snowpack.config.ts",
-        "path": "build/"
-      },
-      {
-        "filename": "grafbase.config.ts",
-        "path": ".grafbase/"
-      },
-      {
-        "filename": "grafbase.config.js",
-        "path": ".grafbase/"
-      },
-      {
-        "filename": "firebase.json",
-        "path": ".firebase/"
-      },
-      {
-        "filename": "netlify.toml",
-        "path": ".netlify/"
-      },
-      {
-        "filename": "vercel.json",
-        "path": ".vercel/"
-      },
-      {
-        "filename": "app.config.ts",
-        "path": ".expo/"
-      },
-      {
-        "filename": "app.config.js",
-        "path": ".expo/"
-      },
-      {
-        "filename": "cdk.json",
-        "path": "cdk.out/"
+        "filename": ".vitepress/config.ts",
+        "path": ".vitepress/dist/"
       },
       {
         "filename": ".vuepress/config.js",
@@ -1824,16 +1524,24 @@
         "path": ".vuepress/dist/"
       },
       {
-        "filename": "cdktf.json",
-        "path": "cdktf.out/"
+        "filename": "app.config.js",
+        "path": ".expo/"
       },
       {
-        "filename": "cdktf.json",
-        "path": ".gen/"
+        "filename": "app.config.ts",
+        "path": ".expo/"
       },
       {
-        "filename": "nest-cli.json",
-        "path": "dist/"
+        "filename": "app.json",
+        "path": ".expo/"
+      },
+      {
+        "filename": "biome.json",
+        "path": ".biome/"
+      },
+      {
+        "filename": "biome.jsonc",
+        "path": ".biome/"
       },
       {
         "filename": "blitz.config.js",
@@ -1844,48 +1552,460 @@
         "path": ".blitz/"
       },
       {
-        "filename": "redwood.toml",
-        "path": ".redwood/"
+        "filename": "cdk.json",
+        "path": "cdk.out/"
       },
       {
-        "filename": ".parcelrc",
-        "path": ".parcel-cache/"
+        "filename": "cdktf.json",
+        "path": ".gen/"
       },
       {
-        "filename": ".vitepress/config.js",
-        "path": ".vitepress/dist/"
+        "filename": "cdktf.json",
+        "path": "cdktf.out/"
       },
       {
-        "filename": ".vitepress/config.ts",
-        "path": ".vitepress/dist/"
+        "filename": "config.toml",
+        "path": ".supabase/"
       },
       {
-        "filename": ".vitepress/config.js",
-        "path": ".vitepress/cache/"
+        "filename": "contentlayer.config.js",
+        "path": ".contentlayer/"
       },
       {
-        "filename": ".vitepress/config.ts",
-        "path": ".vitepress/cache/"
+        "filename": "contentlayer.config.ts",
+        "path": ".contentlayer/"
       },
       {
-        "filename": "react-router.config.ts",
+        "filename": "craco.config.js",
         "path": "build/"
       },
       {
-        "filename": "react-router.config.js",
+        "filename": "craco.config.ts",
         "path": "build/"
       },
       {
-        "filename": "react-router.config.ts",
-        "path": ".react-router/"
+        "filename": "cspell.json",
+        "path": ".cspellcache"
       },
       {
-        "filename": "react-router.config.js",
-        "path": ".react-router/"
+        "filename": "cypress.config.cjs",
+        "path": "cypress/screenshots/"
+      },
+      {
+        "filename": "cypress.config.cjs",
+        "path": "cypress/videos/"
+      },
+      {
+        "filename": "cypress.config.js",
+        "path": "cypress/screenshots/"
+      },
+      {
+        "filename": "cypress.config.js",
+        "path": "cypress/videos/"
+      },
+      {
+        "filename": "cypress.config.mjs",
+        "path": "cypress/screenshots/"
+      },
+      {
+        "filename": "cypress.config.mjs",
+        "path": "cypress/videos/"
+      },
+      {
+        "filename": "cypress.config.ts",
+        "path": "cypress/screenshots/"
+      },
+      {
+        "filename": "cypress.config.ts",
+        "path": "cypress/videos/"
+      },
+      {
+        "filename": "doczrc.js",
+        "path": ".docz/"
+      },
+      {
+        "filename": "drizzle.config.js",
+        "path": ".drizzle/"
+      },
+      {
+        "filename": "drizzle.config.json",
+        "path": ".drizzle/"
+      },
+      {
+        "filename": "drizzle.config.ts",
+        "path": ".drizzle/"
+      },
+      {
+        "filename": "eleventy.config.cjs",
+        "path": "_site/"
+      },
+      {
+        "filename": "eleventy.config.js",
+        "path": "_site/"
+      },
+      {
+        "filename": "eslint.config.*",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": "eslint.config.cjs",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": "eslint.config.js",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": "eslint.config.json",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": "eslint.config.mjs",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": "eslint.config.ts",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": "firebase.json",
+        "path": ".firebase/"
+      },
+      {
+        "filename": "grafbase.config.js",
+        "path": ".grafbase/"
+      },
+      {
+        "filename": "grafbase.config.ts",
+        "path": ".grafbase/"
+      },
+      {
+        "filename": "hardhat.config.js",
+        "path": "artifacts/"
+      },
+      {
+        "filename": "hardhat.config.js",
+        "path": "cache/"
+      },
+      {
+        "filename": "hardhat.config.js",
+        "path": "typechain-types/"
+      },
+      {
+        "filename": "hardhat.config.ts",
+        "path": "artifacts/"
+      },
+      {
+        "filename": "hardhat.config.ts",
+        "path": "cache/"
+      },
+      {
+        "filename": "hardhat.config.ts",
+        "path": "typechain-types/"
+      },
+      {
+        "filename": "ionic.config.json",
+        "path": "www/"
+      },
+      {
+        "filename": "jest.config.cjs",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.js",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.json",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.mjs",
+        "path": "coverage/"
+      },
+      {
+        "filename": "jest.config.ts",
+        "path": "coverage/"
+      },
+      {
+        "filename": "lighthouserc.js",
+        "path": ".lighthouseci/"
+      },
+      {
+        "filename": "medusa-config.js",
+        "path": ".medusa/"
+      },
+      {
+        "filename": "nest-cli.json",
+        "path": "dist/"
+      },
+      {
+        "filename": "netlify.toml",
+        "path": ".netlify/"
       },
       {
         "filename": "nitric.yaml",
         "path": ".nitric/"
+      },
+      {
+        "filename": "nitro.config.ts",
+        "path": ".nitro/"
+      },
+      {
+        "filename": "nitro.config.ts",
+        "path": ".output/"
+      },
+      {
+        "filename": "nx.json",
+        "path": ".nx/"
+      },
+      {
+        "filename": "package.json",
+        "path": ".nyc_output/"
+      },
+      {
+        "filename": "package.json",
+        "path": ".vitepress/cache/"
+      },
+      {
+        "filename": "package.json",
+        "path": ".vitepress/dist/"
+      },
+      {
+        "filename": "panda.config.cjs",
+        "path": "styled-system/"
+      },
+      {
+        "filename": "panda.config.js",
+        "path": "styled-system/"
+      },
+      {
+        "filename": "panda.config.mjs",
+        "path": "styled-system/"
+      },
+      {
+        "filename": "panda.config.ts",
+        "path": "styled-system/"
+      },
+      {
+        "filename": "payload.config.js",
+        "path": "build/"
+      },
+      {
+        "filename": "payload.config.ts",
+        "path": "build/"
+      },
+      {
+        "filename": "pnpm-workspace.yaml",
+        "path": ".pnpm-store/"
+      },
+      {
+        "filename": "react-router.config.js",
+        "path": ".react-router/"
+      },
+      {
+        "filename": "react-router.config.js",
+        "path": "build/"
+      },
+      {
+        "filename": "react-router.config.ts",
+        "path": ".react-router/"
+      },
+      {
+        "filename": "react-router.config.ts",
+        "path": "build/"
+      },
+      {
+        "filename": "redwood.toml",
+        "path": ".redwood/"
+      },
+      {
+        "filename": "rolldown.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "rolldown.config.ts",
+        "path": "dist/"
+      },
+      {
+        "filename": "rsbuild.config.cjs",
+        "path": "dist/"
+      },
+      {
+        "filename": "rsbuild.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "rsbuild.config.mjs",
+        "path": "dist/"
+      },
+      {
+        "filename": "rsbuild.config.ts",
+        "path": "dist/"
+      },
+      {
+        "filename": "rspack.config.cjs",
+        "path": "build/"
+      },
+      {
+        "filename": "rspack.config.cjs",
+        "path": "dist/"
+      },
+      {
+        "filename": "rspack.config.js",
+        "path": "build/"
+      },
+      {
+        "filename": "rspack.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "rspack.config.mjs",
+        "path": "build/"
+      },
+      {
+        "filename": "rspack.config.mjs",
+        "path": "dist/"
+      },
+      {
+        "filename": "rspack.config.ts",
+        "path": "build/"
+      },
+      {
+        "filename": "rspack.config.ts",
+        "path": "dist/"
+      },
+      {
+        "filename": "rspress.config.js",
+        "path": ".rspress/"
+      },
+      {
+        "filename": "rspress.config.js",
+        "path": "doc_build/"
+      },
+      {
+        "filename": "rspress.config.ts",
+        "path": ".rspress/"
+      },
+      {
+        "filename": "rspress.config.ts",
+        "path": "doc_build/"
+      },
+      {
+        "filename": "schema.prisma",
+        "path": ".prisma/"
+      },
+      {
+        "filename": "serverless.ts",
+        "path": ".serverless/"
+      },
+      {
+        "filename": "serverless.yml",
+        "path": ".serverless/"
+      },
+      {
+        "filename": "slides.md",
+        "path": ".slidev/"
+      },
+      {
+        "filename": "snowpack.config.js",
+        "path": "build/"
+      },
+      {
+        "filename": "snowpack.config.ts",
+        "path": "build/"
+      },
+      {
+        "filename": "solid.config.js",
+        "path": ".solid/"
+      },
+      {
+        "filename": "solid.config.ts",
+        "path": ".solid/"
+      },
+      {
+        "filename": "sst.config.js",
+        "path": ".sst/"
+      },
+      {
+        "filename": "sst.config.ts",
+        "path": ".sst/"
+      },
+      {
+        "filename": "stryker.conf.js",
+        "path": ".stryker-tmp/"
+      },
+      {
+        "filename": "stryker.conf.json",
+        "path": ".stryker-tmp/"
+      },
+      {
+        "filename": "tina/config.ts",
+        "path": "tina/__generated__/"
+      },
+      {
+        "filename": "truffle-config.js",
+        "path": "build/contracts/"
+      },
+      {
+        "filename": "truffle-config.ts",
+        "path": "build/contracts/"
+      },
+      {
+        "filename": "tsr.config.json",
+        "path": ".tsr/"
+      },
+      {
+        "filename": "tsup.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "tsup.config.ts",
+        "path": "dist/"
+      },
+      {
+        "filename": "vercel.json",
+        "path": ".vercel/"
+      },
+      {
+        "filename": "vite.config.cjs",
+        "path": ".vite/"
+      },
+      {
+        "filename": "vite.config.js",
+        "path": ".solid/"
+      },
+      {
+        "filename": "vite.config.js",
+        "path": ".vite/"
+      },
+      {
+        "filename": "vite.config.json",
+        "path": ".vite/"
+      },
+      {
+        "filename": "vite.config.mjs",
+        "path": ".vite/"
+      },
+      {
+        "filename": "vite.config.ts",
+        "path": ".solid/"
+      },
+      {
+        "filename": "vite.config.ts",
+        "path": ".vite/"
+      },
+      {
+        "filename": "wrangler.json",
+        "path": ".wrangler/"
+      },
+      {
+        "filename": "wrangler.toml",
+        "path": ".wrangler/"
+      },
+      {
+        "filename": "wxt.config.ts",
+        "path": ".wxt/"
       }
     ]
   },
@@ -1902,15 +2022,11 @@
     "tag": "nuxt",
     "search": [
       {
-        "filename": "nuxt.config.ts",
-        "path": ".output"
+        "filename": "nuxt.config.cjs",
+        "path": ".nuxt/"
       },
       {
-        "filename": "nuxt.config.js",
-        "path": ".output"
-      },
-      {
-        "filename": "nuxt.config.ts",
+        "filename": "nuxt.config.cjs",
         "path": ".output/"
       },
       {
@@ -1918,8 +2034,8 @@
         "path": ".nuxt/"
       },
       {
-        "filename": "nuxt.config.ts",
-        "path": ".nuxt/"
+        "filename": "nuxt.config.js",
+        "path": ".output"
       },
       {
         "filename": "nuxt.config.js",
@@ -1934,11 +2050,15 @@
         "path": ".output/"
       },
       {
-        "filename": "nuxt.config.cjs",
+        "filename": "nuxt.config.ts",
         "path": ".nuxt/"
       },
       {
-        "filename": "nuxt.config.cjs",
+        "filename": "nuxt.config.ts",
+        "path": ".output"
+      },
+      {
+        "filename": "nuxt.config.ts",
         "path": ".output/"
       }
     ]
@@ -1952,15 +2072,15 @@
       },
       {
         "filename": "nx.json",
+        "path": ".nx/"
+      },
+      {
+        "filename": "nx.json",
         "path": "dist"
       },
       {
         "filename": "nx.json",
         "path": "tmp"
-      },
-      {
-        "filename": "nx.json",
-        "path": ".nx/"
       },
       {
         "filename": "workspace.json",
@@ -1973,14 +2093,10 @@
     "search": [
       {
         "filename": ".nycrc",
-        "path": "coverage/"
+        "path": ".nyc_output/"
       },
       {
         "filename": ".nycrc",
-        "path": ".nyc_output/"
-      },
-      {
-        "filename": ".nycrc.json",
         "path": "coverage/"
       },
       {
@@ -1988,12 +2104,16 @@
         "path": ".nyc_output/"
       },
       {
-        "filename": "nyc.config.js",
+        "filename": ".nycrc.json",
         "path": "coverage/"
       },
       {
         "filename": "nyc.config.js",
         "path": ".nyc_output/"
+      },
+      {
+        "filename": "nyc.config.js",
+        "path": "coverage/"
       }
     ]
   },
@@ -2001,11 +2121,11 @@
     "tag": "open-next",
     "search": [
       {
-        "filename": "open-next.config.ts",
+        "filename": "open-next.config.js",
         "path": ".open-next/"
       },
       {
-        "filename": "open-next.config.js",
+        "filename": "open-next.config.ts",
         "path": ".open-next/"
       }
     ]
@@ -2035,11 +2155,11 @@
     "tag": "pandacss",
     "search": [
       {
-        "filename": "panda.config.js",
+        "filename": "panda.config.cjs",
         "path": "styled-system/"
       },
       {
-        "filename": "panda.config.ts",
+        "filename": "panda.config.js",
         "path": "styled-system/"
       },
       {
@@ -2047,7 +2167,7 @@
         "path": "styled-system/"
       },
       {
-        "filename": "panda.config.cjs",
+        "filename": "panda.config.ts",
         "path": "styled-system/"
       }
     ]
@@ -2061,15 +2181,15 @@
       },
       {
         "filename": ".parcelrc",
+        "path": ".parcel-cache/"
+      },
+      {
+        "filename": ".parcelrc",
         "path": "dist"
       },
       {
         "filename": "package.json",
         "path": ".parcel-cache"
-      },
-      {
-        "filename": ".parcelrc",
-        "path": ".parcel-cache/"
       }
     ]
   },
@@ -2081,11 +2201,11 @@
         "path": "build"
       },
       {
-        "filename": "payload.config.ts",
+        "filename": "payload.config.js",
         "path": "build/"
       },
       {
-        "filename": "payload.config.js",
+        "filename": "payload.config.ts",
         "path": "build/"
       }
     ]
@@ -2094,11 +2214,11 @@
     "tag": "payloadcms",
     "search": [
       {
-        "filename": "payload.config.ts",
+        "filename": "payload.config.js",
         "path": "build/"
       },
       {
-        "filename": "payload.config.js",
+        "filename": "payload.config.ts",
         "path": "build/"
       }
     ]
@@ -2108,11 +2228,11 @@
     "search": [
       {
         "filename": "pdm.lock",
-        "path": ".pdm-python/"
+        "path": ".pdm-build/"
       },
       {
         "filename": "pdm.lock",
-        "path": ".pdm-build/"
+        "path": ".pdm-python/"
       }
     ]
   },
@@ -2147,7 +2267,7 @@
     "search": [
       {
         "filename": "playwright.config.*",
-        "path": "test-results"
+        "path": "blob-report"
       },
       {
         "filename": "playwright.config.*",
@@ -2155,27 +2275,27 @@
       },
       {
         "filename": "playwright.config.*",
-        "path": "blob-report"
-      },
-      {
-        "filename": "playwright.config.*",
         "path": "playwright/.cache"
       },
       {
-        "filename": "playwright.config.cjs",
-        "path": "test-results/"
+        "filename": "playwright.config.*",
+        "path": "test-results"
       },
       {
         "filename": "playwright.config.cjs",
         "path": "playwright-report/"
       },
       {
-        "filename": "playwright.config.mjs",
+        "filename": "playwright.config.cjs",
         "path": "test-results/"
       },
       {
         "filename": "playwright.config.mjs",
         "path": "playwright-report/"
+      },
+      {
+        "filename": "playwright.config.mjs",
+        "path": "test-results/"
       }
     ]
   },
@@ -2183,11 +2303,11 @@
     "tag": "pm2",
     "search": [
       {
-        "filename": "ecosystem.config.js",
+        "filename": "ecosystem.config.cjs",
         "path": ".pm2/"
       },
       {
-        "filename": "ecosystem.config.cjs",
+        "filename": "ecosystem.config.js",
         "path": ".pm2/"
       },
       {
@@ -2269,22 +2389,6 @@
     "tag": "puppeteer",
     "search": [
       {
-        "filename": "puppeteer.config.js",
-        "path": ".cache/puppeteer"
-      },
-      {
-        "filename": "puppeteer.config.cjs",
-        "path": ".cache/puppeteer"
-      },
-      {
-        "filename": "puppeteer.config.js",
-        "path": ".cache/puppeteer/"
-      },
-      {
-        "filename": "puppeteer.config.cjs",
-        "path": ".cache/puppeteer/"
-      },
-      {
         "filename": ".puppeteerrc.cjs",
         "path": ".local-chromium/"
       },
@@ -2303,6 +2407,22 @@
       {
         "filename": ".puppeteerrc.yml",
         "path": ".local-chromium/"
+      },
+      {
+        "filename": "puppeteer.config.cjs",
+        "path": ".cache/puppeteer"
+      },
+      {
+        "filename": "puppeteer.config.cjs",
+        "path": ".cache/puppeteer/"
+      },
+      {
+        "filename": "puppeteer.config.js",
+        "path": ".cache/puppeteer"
+      },
+      {
+        "filename": "puppeteer.config.js",
+        "path": ".cache/puppeteer/"
       }
     ]
   },
@@ -2310,11 +2430,11 @@
     "tag": "pytest",
     "search": [
       {
-        "filename": "pytest.ini",
+        "filename": "pyproject.toml",
         "path": ".pytest_cache"
       },
       {
-        "filename": "pyproject.toml",
+        "filename": "pytest.ini",
         "path": ".pytest_cache"
       }
     ]
@@ -2323,72 +2443,56 @@
     "tag": "python",
     "search": [
       {
-        "filename": "pyproject.toml",
-        "path": ".ruff_cache/"
-      },
-      {
-        "filename": "pyproject.toml",
-        "path": ".pytest_cache/"
-      },
-      {
-        "filename": "dagster.yaml",
-        "path": ".dagster/"
-      },
-      {
-        "filename": "prefect.yaml",
-        "path": ".prefect/"
-      },
-      {
-        "filename": "dbt_project.yml",
-        "path": "target/"
-      },
-      {
-        "filename": "dbt_project.yml",
-        "path": "dbt_packages/"
-      },
-      {
-        "filename": "noxfile.py",
-        "path": ".nox/"
-      },
-      {
-        "filename": "MLproject",
-        "path": "mlruns/"
-      },
-      {
-        "filename": "MLproject",
-        "path": ".trash/"
-      },
-      {
-        "filename": "wandb/settings",
-        "path": "wandb/"
-      },
-      {
-        "filename": "uv.lock",
-        "path": ".venv/"
-      },
-      {
-        "filename": "tox.ini",
-        "path": ".tox/"
-      },
-      {
-        "filename": "ruff.toml",
-        "path": ".ruff_cache/"
-      },
-      {
         "filename": ".ruff.toml",
         "path": ".ruff_cache/"
-      },
-      {
-        "filename": "mkdocs.yml",
-        "path": "site/"
       },
       {
         "filename": "conf.py",
         "path": "_build/"
       },
       {
-        "filename": "rxconfig.py",
-        "path": ".web/"
+        "filename": "dagster.yaml",
+        "path": ".dagster/"
+      },
+      {
+        "filename": "dbt_project.yml",
+        "path": "dbt_packages/"
+      },
+      {
+        "filename": "dbt_project.yml",
+        "path": "target/"
+      },
+      {
+        "filename": "mkdocs.yml",
+        "path": "site/"
+      },
+      {
+        "filename": "MLproject",
+        "path": ".trash/"
+      },
+      {
+        "filename": "MLproject",
+        "path": "mlruns/"
+      },
+      {
+        "filename": "noxfile.py",
+        "path": ".nox/"
+      },
+      {
+        "filename": "pixi.lock",
+        "path": ".pixi/"
+      },
+      {
+        "filename": "pixi.toml",
+        "path": ".pixi/"
+      },
+      {
+        "filename": "prefect.yaml",
+        "path": ".prefect/"
+      },
+      {
+        "filename": "pyproject.toml",
+        "path": ".pdm-build/"
       },
       {
         "filename": "pyproject.toml",
@@ -2396,19 +2500,43 @@
       },
       {
         "filename": "pyproject.toml",
-        "path": ".pdm-build/"
+        "path": ".pytest_cache/"
+      },
+      {
+        "filename": "pyproject.toml",
+        "path": ".ruff_cache/"
+      },
+      {
+        "filename": "requirements.lock",
+        "path": ".rye/"
+      },
+      {
+        "filename": "ruff.toml",
+        "path": ".ruff_cache/"
+      },
+      {
+        "filename": "rxconfig.py",
+        "path": ".web/"
       },
       {
         "filename": "rye.lock",
         "path": ".rye/"
       },
       {
-        "filename": "pixi.toml",
-        "path": ".pixi/"
+        "filename": "tox.ini",
+        "path": ".tox/"
       },
       {
-        "filename": "pixi.lock",
-        "path": ".pixi/"
+        "filename": "uv.lock",
+        "path": ".venv/"
+      },
+      {
+        "filename": "uv.toml",
+        "path": ".venv/"
+      },
+      {
+        "filename": "wandb/settings",
+        "path": "wandb/"
       }
     ]
   },
@@ -2416,22 +2544,6 @@
     "tag": "quasar",
     "search": [
       {
-        "filename": "quasar.config.*",
-        "path": ".quasar"
-      },
-      {
-        "filename": "quasar.config.*",
-        "path": "dist"
-      },
-      {
-        "filename": "quasar.config.*",
-        "path": "src-capacitor/www"
-      },
-      {
-        "filename": "quasar.config.*",
-        "path": "src-cordova/platforms"
-      },
-      {
         "filename": "quasar.conf.*",
         "path": ".quasar"
       },
@@ -2448,35 +2560,51 @@
         "path": "src-cordova/platforms"
       },
       {
-        "filename": "quasar.config.js",
+        "filename": "quasar.conf.js",
         "path": ".quasar/"
       },
       {
-        "filename": "quasar.config.js",
+        "filename": "quasar.conf.js",
         "path": "dist/"
       },
       {
-        "filename": "quasar.config.js",
+        "filename": "quasar.conf.js",
         "path": "src-capacitor/www/"
       },
       {
-        "filename": "quasar.config.js",
+        "filename": "quasar.conf.js",
         "path": "src-cordova/platforms/"
       },
       {
-        "filename": "quasar.conf.js",
+        "filename": "quasar.config.*",
+        "path": ".quasar"
+      },
+      {
+        "filename": "quasar.config.*",
+        "path": "dist"
+      },
+      {
+        "filename": "quasar.config.*",
+        "path": "src-capacitor/www"
+      },
+      {
+        "filename": "quasar.config.*",
+        "path": "src-cordova/platforms"
+      },
+      {
+        "filename": "quasar.config.js",
         "path": ".quasar/"
       },
       {
-        "filename": "quasar.conf.js",
+        "filename": "quasar.config.js",
         "path": "dist/"
       },
       {
-        "filename": "quasar.conf.js",
+        "filename": "quasar.config.js",
         "path": "src-capacitor/www/"
       },
       {
-        "filename": "quasar.conf.js",
+        "filename": "quasar.config.js",
         "path": "src-cordova/platforms/"
       }
     ]
@@ -2485,6 +2613,14 @@
     "tag": "qwik",
     "search": [
       {
+        "filename": "qwik.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "qwik.config.js",
+        "path": "server/"
+      },
+      {
         "filename": "qwik.config.ts",
         "path": "dist"
       },
@@ -2494,14 +2630,6 @@
       },
       {
         "filename": "qwik.config.ts",
-        "path": "server/"
-      },
-      {
-        "filename": "qwik.config.js",
-        "path": "dist/"
-      },
-      {
-        "filename": "qwik.config.js",
         "path": "server/"
       }
     ]
@@ -2511,18 +2639,14 @@
     "search": [
       {
         "filename": "react-router.config.*",
-        "path": "build/"
+        "path": ".react-router/"
       },
       {
         "filename": "react-router.config.*",
-        "path": ".react-router/"
-      },
-      {
-        "filename": "react-router.config.ts",
         "path": "build/"
       },
       {
-        "filename": "react-router.config.ts",
+        "filename": "react-router.config.js",
         "path": ".react-router/"
       },
       {
@@ -2530,8 +2654,12 @@
         "path": "build/"
       },
       {
-        "filename": "react-router.config.js",
+        "filename": "react-router.config.ts",
         "path": ".react-router/"
+      },
+      {
+        "filename": "react-router.config.ts",
+        "path": "build/"
       }
     ]
   },
@@ -2573,27 +2701,27 @@
         "path": "public/build"
       },
       {
-        "filename": "remix.config.js",
+        "filename": "remix.config.cjs",
         "path": ".cache/"
       },
       {
-        "filename": "remix.config.js",
+        "filename": "remix.config.cjs",
         "path": "build/"
       },
       {
-        "filename": "remix.config.js",
+        "filename": "remix.config.cjs",
         "path": "public/build/"
       },
       {
-        "filename": "remix.config.ts",
+        "filename": "remix.config.js",
         "path": ".cache/"
       },
       {
-        "filename": "remix.config.ts",
+        "filename": "remix.config.js",
         "path": "build/"
       },
       {
-        "filename": "remix.config.ts",
+        "filename": "remix.config.js",
         "path": "public/build/"
       },
       {
@@ -2609,15 +2737,15 @@
         "path": "public/build/"
       },
       {
-        "filename": "remix.config.cjs",
+        "filename": "remix.config.ts",
         "path": ".cache/"
       },
       {
-        "filename": "remix.config.cjs",
+        "filename": "remix.config.ts",
         "path": "build/"
       },
       {
-        "filename": "remix.config.cjs",
+        "filename": "remix.config.ts",
         "path": "public/build/"
       }
     ]
@@ -2640,11 +2768,11 @@
     "search": [
       {
         "filename": "rollup.config.*",
-        "path": "dist"
+        "path": "build"
       },
       {
         "filename": "rollup.config.*",
-        "path": "build"
+        "path": "dist"
       }
     ]
   },
@@ -2652,19 +2780,19 @@
     "tag": "rsbuild",
     "search": [
       {
-        "filename": "rsbuild.config.js",
-        "path": "dist/"
-      },
-      {
-        "filename": "rsbuild.config.ts",
-        "path": "dist/"
-      },
-      {
         "filename": "rsbuild.config.cjs",
         "path": "dist/"
       },
       {
+        "filename": "rsbuild.config.js",
+        "path": "dist/"
+      },
+      {
         "filename": "rsbuild.config.mjs",
+        "path": "dist/"
+      },
+      {
+        "filename": "rsbuild.config.ts",
         "path": "dist/"
       }
     ]
@@ -2673,19 +2801,7 @@
     "tag": "rspack",
     "search": [
       {
-        "filename": "rspack.config.js",
-        "path": "dist/"
-      },
-      {
-        "filename": "rspack.config.js",
-        "path": "build/"
-      },
-      {
-        "filename": "rspack.config.ts",
-        "path": "dist/"
-      },
-      {
-        "filename": "rspack.config.ts",
+        "filename": "rspack.config.cjs",
         "path": "build/"
       },
       {
@@ -2693,11 +2809,15 @@
         "path": "dist/"
       },
       {
-        "filename": "rspack.config.cjs",
+        "filename": "rspack.config.js",
+        "path": ".rspack/"
+      },
+      {
+        "filename": "rspack.config.js",
         "path": "build/"
       },
       {
-        "filename": "rspack.config.mjs",
+        "filename": "rspack.config.js",
         "path": "dist/"
       },
       {
@@ -2705,12 +2825,20 @@
         "path": "build/"
       },
       {
-        "filename": "rspack.config.js",
-        "path": ".rspack/"
+        "filename": "rspack.config.mjs",
+        "path": "dist/"
       },
       {
         "filename": "rspack.config.ts",
         "path": ".rspack/"
+      },
+      {
+        "filename": "rspack.config.ts",
+        "path": "build/"
+      },
+      {
+        "filename": "rspack.config.ts",
+        "path": "dist/"
       }
     ]
   },
@@ -2718,16 +2846,24 @@
     "tag": "rspress",
     "search": [
       {
-        "filename": "rspress.config.ts",
+        "filename": "rspress.config.cjs",
+        "path": ".rspress/"
+      },
+      {
+        "filename": "rspress.config.cjs",
         "path": "doc_build/"
+      },
+      {
+        "filename": "rspress.config.js",
+        "path": ".rspress/"
       },
       {
         "filename": "rspress.config.js",
         "path": "doc_build/"
       },
       {
-        "filename": "rspress.config.cjs",
-        "path": "doc_build/"
+        "filename": "rspress.config.mjs",
+        "path": ".rspress/"
       },
       {
         "filename": "rspress.config.mjs",
@@ -2738,16 +2874,8 @@
         "path": ".rspress/"
       },
       {
-        "filename": "rspress.config.js",
-        "path": ".rspress/"
-      },
-      {
-        "filename": "rspress.config.cjs",
-        "path": ".rspress/"
-      },
-      {
-        "filename": "rspress.config.mjs",
-        "path": ".rspress/"
+        "filename": "rspress.config.ts",
+        "path": "doc_build/"
       }
     ]
   },
@@ -2755,15 +2883,15 @@
     "tag": "ruff",
     "search": [
       {
-        "filename": "ruff.toml",
-        "path": ".ruff_cache"
-      },
-      {
         "filename": ".ruff.toml",
         "path": ".ruff_cache"
       },
       {
         "filename": "pyproject.toml",
+        "path": ".ruff_cache"
+      },
+      {
+        "filename": "ruff.toml",
         "path": ".ruff_cache"
       }
     ]
@@ -2790,7 +2918,7 @@
     "tag": "rye",
     "search": [
       {
-        "filename": "rye.lock",
+        "filename": "requirements-dev.lock",
         "path": ".rye/"
       },
       {
@@ -2798,7 +2926,7 @@
         "path": ".rye/"
       },
       {
-        "filename": "requirements-dev.lock",
+        "filename": "rye.lock",
         "path": ".rye/"
       }
     ]
@@ -2820,11 +2948,11 @@
         "path": ".sanity"
       },
       {
-        "filename": "sanity.config.ts",
+        "filename": "sanity.config.js",
         "path": ".sanity"
       },
       {
-        "filename": "sanity.config.js",
+        "filename": "sanity.config.ts",
         "path": ".sanity"
       },
       {
@@ -2837,12 +2965,8 @@
     "tag": "serverless",
     "search": [
       {
-        "filename": "serverless.yml",
-        "path": ".serverless"
-      },
-      {
-        "filename": "serverless.ts",
-        "path": ".serverless"
+        "filename": "serverless.js",
+        "path": ".build"
       },
       {
         "filename": "serverless.js",
@@ -2850,27 +2974,19 @@
       },
       {
         "filename": "serverless.json",
-        "path": ".serverless"
+        "path": ".build"
       },
       {
-        "filename": "serverless.yml",
-        "path": ".build"
+        "filename": "serverless.json",
+        "path": ".serverless"
       },
       {
         "filename": "serverless.ts",
         "path": ".build"
       },
       {
-        "filename": "serverless.js",
-        "path": ".build"
-      },
-      {
-        "filename": "serverless.json",
-        "path": ".build"
-      },
-      {
-        "filename": "serverless.yml",
-        "path": ".serverless/"
+        "filename": "serverless.ts",
+        "path": ".serverless"
       },
       {
         "filename": "serverless.ts",
@@ -2878,6 +2994,18 @@
       },
       {
         "filename": "serverless.yaml",
+        "path": ".serverless/"
+      },
+      {
+        "filename": "serverless.yml",
+        "path": ".build"
+      },
+      {
+        "filename": "serverless.yml",
+        "path": ".serverless"
+      },
+      {
+        "filename": "serverless.yml",
         "path": ".serverless/"
       }
     ]
@@ -2895,11 +3023,7 @@
     "tag": "sls",
     "search": [
       {
-        "filename": "serverless.yml",
-        "path": ".serverless/"
-      },
-      {
-        "filename": "serverless.ts",
+        "filename": "serverless.js",
         "path": ".serverless/"
       },
       {
@@ -2907,7 +3031,11 @@
         "path": ".serverless/"
       },
       {
-        "filename": "serverless.js",
+        "filename": "serverless.ts",
+        "path": ".serverless/"
+      },
+      {
+        "filename": "serverless.yml",
         "path": ".serverless/"
       }
     ]
@@ -2916,11 +3044,11 @@
     "tag": "snowpack",
     "search": [
       {
-        "filename": "snowpack.config.js",
+        "filename": "snowpack.config.cjs",
         "path": "build/"
       },
       {
-        "filename": "snowpack.config.cjs",
+        "filename": "snowpack.config.js",
         "path": "build/"
       },
       {
@@ -2958,11 +3086,11 @@
         "path": ".solid/"
       },
       {
-        "filename": "vite.config.ts",
+        "filename": "vite.config.js",
         "path": ".solid/"
       },
       {
-        "filename": "vite.config.js",
+        "filename": "vite.config.ts",
         "path": ".solid/"
       }
     ]
@@ -2993,23 +3121,23 @@
     "tag": "sst",
     "search": [
       {
-        "filename": "sst.config.ts",
-        "path": ".sst"
-      },
-      {
-        "filename": "sst.config.js",
-        "path": ".sst"
-      },
-      {
-        "filename": "sst.config.ts",
-        "path": ".sst/"
-      },
-      {
-        "filename": "sst.config.js",
-        "path": ".sst/"
-      },
-      {
         "filename": "sst.config.*",
+        "path": ".sst/"
+      },
+      {
+        "filename": "sst.config.js",
+        "path": ".sst"
+      },
+      {
+        "filename": "sst.config.js",
+        "path": ".sst/"
+      },
+      {
+        "filename": "sst.config.ts",
+        "path": ".sst"
+      },
+      {
+        "filename": "sst.config.ts",
         "path": ".sst/"
       }
     ]
@@ -3019,15 +3147,15 @@
     "search": [
       {
         "filename": "stencil.config.ts",
+        "path": ".stencil/"
+      },
+      {
+        "filename": "stencil.config.ts",
         "path": "dist"
       },
       {
         "filename": "stencil.config.ts",
         "path": "www"
-      },
-      {
-        "filename": "stencil.config.ts",
-        "path": ".stencil/"
       }
     ]
   },
@@ -3039,19 +3167,19 @@
         "path": "storybook-static"
       },
       {
-        "filename": ".storybook/main.js",
-        "path": "storybook-static/"
-      },
-      {
-        "filename": ".storybook/main.ts",
-        "path": "storybook-static/"
-      },
-      {
         "filename": ".storybook/main.cjs",
         "path": "storybook-static/"
       },
       {
+        "filename": ".storybook/main.js",
+        "path": "storybook-static/"
+      },
+      {
         "filename": ".storybook/main.mjs",
+        "path": "storybook-static/"
+      },
+      {
+        "filename": ".storybook/main.ts",
         "path": "storybook-static/"
       }
     ]
@@ -3060,19 +3188,7 @@
     "tag": "stryker",
     "search": [
       {
-        "filename": "stryker.config.json",
-        "path": ".stryker-tmp/"
-      },
-      {
-        "filename": "stryker.config.js",
-        "path": ".stryker-tmp/"
-      },
-      {
-        "filename": "stryker.config.mjs",
-        "path": ".stryker-tmp/"
-      },
-      {
-        "filename": "stryker.conf.json",
+        "filename": "stryker.conf.cjs",
         "path": ".stryker-tmp/"
       },
       {
@@ -3080,11 +3196,23 @@
         "path": ".stryker-tmp/"
       },
       {
+        "filename": "stryker.conf.json",
+        "path": ".stryker-tmp/"
+      },
+      {
         "filename": "stryker.conf.mjs",
         "path": ".stryker-tmp/"
       },
       {
-        "filename": "stryker.conf.cjs",
+        "filename": "stryker.config.js",
+        "path": ".stryker-tmp/"
+      },
+      {
+        "filename": "stryker.config.json",
+        "path": ".stryker-tmp/"
+      },
+      {
+        "filename": "stryker.config.mjs",
         "path": ".stryker-tmp/"
       }
     ]
@@ -3106,6 +3234,10 @@
         "path": ".stylelintcache"
       },
       {
+        "filename": ".stylelintrc.js",
+        "path": ".stylelintcache"
+      },
+      {
         "filename": ".stylelintrc.json",
         "path": ".stylelintcache"
       },
@@ -3118,15 +3250,11 @@
         "path": ".stylelintcache"
       },
       {
-        "filename": ".stylelintrc.js",
+        "filename": "stylelint.config.cjs",
         "path": ".stylelintcache"
       },
       {
         "filename": "stylelint.config.js",
-        "path": ".stylelintcache"
-      },
-      {
-        "filename": "stylelint.config.cjs",
         "path": ".stylelintcache"
       }
     ]
@@ -3135,12 +3263,12 @@
     "tag": "supabase",
     "search": [
       {
-        "filename": "supabase/config.toml",
-        "path": ".supabase"
-      },
-      {
         "filename": "config.toml",
         "path": ".supabase/"
+      },
+      {
+        "filename": "supabase/config.toml",
+        "path": ".supabase"
       },
       {
         "filename": "supabase/config.toml",
@@ -3152,11 +3280,11 @@
     "tag": "svelte",
     "search": [
       {
-        "filename": "svelte.config.js",
+        "filename": "svelte.config.cjs",
         "path": ".svelte-kit/"
       },
       {
-        "filename": "svelte.config.ts",
+        "filename": "svelte.config.js",
         "path": ".svelte-kit/"
       },
       {
@@ -3164,7 +3292,7 @@
         "path": ".svelte-kit/"
       },
       {
-        "filename": "svelte.config.cjs",
+        "filename": "svelte.config.ts",
         "path": ".svelte-kit/"
       }
     ]
@@ -3195,11 +3323,11 @@
     "tag": "tamagui",
     "search": [
       {
-        "filename": "tamagui.config.ts",
+        "filename": "tamagui.config.js",
         "path": ".tamagui/"
       },
       {
-        "filename": "tamagui.config.js",
+        "filename": "tamagui.config.ts",
         "path": ".tamagui/"
       }
     ]
@@ -3208,11 +3336,11 @@
     "tag": "task",
     "search": [
       {
-        "filename": "Taskfile.yml",
+        "filename": "Taskfile.yaml",
         "path": ".task/"
       },
       {
-        "filename": "Taskfile.yaml",
+        "filename": "Taskfile.yml",
         "path": ".task/"
       }
     ]
@@ -3221,11 +3349,11 @@
     "tag": "taskfile",
     "search": [
       {
-        "filename": "Taskfile.yml",
+        "filename": "Taskfile.yaml",
         "path": ".task/"
       },
       {
-        "filename": "Taskfile.yaml",
+        "filename": "Taskfile.yml",
         "path": ".task/"
       }
     ]
@@ -3235,19 +3363,19 @@
     "search": [
       {
         "filename": "src-tauri/tauri.conf.json",
-        "path": "src-tauri/target"
-      },
-      {
-        "filename": "src-tauri/tauri.conf.json",
         "path": "src-tauri/gen"
       },
       {
-        "filename": "tauri.conf.json",
-        "path": "src-tauri/target/"
+        "filename": "src-tauri/tauri.conf.json",
+        "path": "src-tauri/target"
       },
       {
         "filename": "tauri.conf.json",
         "path": "src-tauri/gen/"
+      },
+      {
+        "filename": "tauri.conf.json",
+        "path": "src-tauri/target/"
       }
     ]
   },
@@ -3273,11 +3401,11 @@
     "tag": "tinacms",
     "search": [
       {
-        "filename": "tina/config.ts",
+        "filename": "tina/config.js",
         "path": "tina/__generated__/"
       },
       {
-        "filename": "tina/config.js",
+        "filename": "tina/config.ts",
         "path": "tina/__generated__/"
       }
     ]
@@ -3295,11 +3423,11 @@
     "tag": "trigger.dev",
     "search": [
       {
-        "filename": "trigger.config.ts",
+        "filename": "trigger.config.js",
         "path": ".trigger/"
       },
       {
-        "filename": "trigger.config.js",
+        "filename": "trigger.config.ts",
         "path": ".trigger/"
       }
     ]
@@ -3325,27 +3453,27 @@
     "tag": "trunk",
     "search": [
       {
-        "filename": "trunk.yaml",
-        "path": ".trunk/out/"
-      },
-      {
-        "filename": "trunk.yaml",
+        "filename": ".trunk/trunk.yaml",
         "path": ".trunk/logs/"
       },
       {
-        "filename": "trunk.yaml",
+        "filename": ".trunk/trunk.yaml",
+        "path": ".trunk/out/"
+      },
+      {
+        "filename": ".trunk/trunk.yaml",
         "path": ".trunk/plugins/"
       },
       {
-        "filename": ".trunk/trunk.yaml",
-        "path": ".trunk/out/"
-      },
-      {
-        "filename": ".trunk/trunk.yaml",
+        "filename": "trunk.yaml",
         "path": ".trunk/logs/"
       },
       {
-        "filename": ".trunk/trunk.yaml",
+        "filename": "trunk.yaml",
+        "path": ".trunk/out/"
+      },
+      {
+        "filename": "trunk.yaml",
         "path": ".trunk/plugins/"
       }
     ]
@@ -3372,7 +3500,7 @@
     "tag": "tsup",
     "search": [
       {
-        "filename": "tsup.config.ts",
+        "filename": "tsup.config.cjs",
         "path": "dist/"
       },
       {
@@ -3380,7 +3508,7 @@
         "path": "dist/"
       },
       {
-        "filename": "tsup.config.cjs",
+        "filename": "tsup.config.json",
         "path": "dist/"
       },
       {
@@ -3388,7 +3516,7 @@
         "path": "dist/"
       },
       {
-        "filename": "tsup.config.json",
+        "filename": "tsup.config.ts",
         "path": "dist/"
       }
     ]
@@ -3410,23 +3538,7 @@
     "tag": "typedoc",
     "search": [
       {
-        "filename": "typedoc.json",
-        "path": "docs/"
-      },
-      {
-        "filename": "typedoc.js",
-        "path": "docs/"
-      },
-      {
         "filename": "typedoc.cjs",
-        "path": "docs/"
-      },
-      {
-        "filename": "typedoc.mjs",
-        "path": "docs/"
-      },
-      {
-        "filename": "typedoc.config.js",
         "path": "docs/"
       },
       {
@@ -3434,7 +3546,23 @@
         "path": "docs/"
       },
       {
+        "filename": "typedoc.config.js",
+        "path": "docs/"
+      },
+      {
         "filename": "typedoc.config.mjs",
+        "path": "docs/"
+      },
+      {
+        "filename": "typedoc.js",
+        "path": "docs/"
+      },
+      {
+        "filename": "typedoc.json",
+        "path": "docs/"
+      },
+      {
+        "filename": "typedoc.mjs",
         "path": "docs/"
       }
     ]
@@ -3452,7 +3580,7 @@
     "tag": "unbuild",
     "search": [
       {
-        "filename": "build.config.ts",
+        "filename": "build.config.cjs",
         "path": ".stub/"
       },
       {
@@ -3460,11 +3588,11 @@
         "path": ".stub/"
       },
       {
-        "filename": "build.config.cjs",
+        "filename": "build.config.mjs",
         "path": ".stub/"
       },
       {
-        "filename": "build.config.mjs",
+        "filename": "build.config.ts",
         "path": ".stub/"
       }
     ]
@@ -3526,11 +3654,7 @@
     "search": [
       {
         "filename": "vite.config.*",
-        "path": "dist"
-      },
-      {
-        "filename": "vite.config.*",
-        "path": "dist-ssr"
+        "path": ".vite/"
       },
       {
         "filename": "vite.config.*",
@@ -3538,27 +3662,23 @@
       },
       {
         "filename": "vite.config.*",
-        "path": ".vite/"
+        "path": "dist"
       },
       {
-        "filename": "vite.config.ts",
-        "path": ".vite/"
-      },
-      {
-        "filename": "vite.config.js",
-        "path": ".vite/"
-      },
-      {
-        "filename": "vite.config.mjs",
-        "path": ".vite/"
+        "filename": "vite.config.*",
+        "path": "dist-ssr"
       },
       {
         "filename": "vite.config.cjs",
         "path": ".vite/"
       },
       {
-        "filename": "vite.config.ts",
+        "filename": "vite.config.cjs",
         "path": "dist/"
+      },
+      {
+        "filename": "vite.config.js",
+        "path": ".vite/"
       },
       {
         "filename": "vite.config.js",
@@ -3566,10 +3686,18 @@
       },
       {
         "filename": "vite.config.mjs",
+        "path": ".vite/"
+      },
+      {
+        "filename": "vite.config.mjs",
         "path": "dist/"
       },
       {
-        "filename": "vite.config.cjs",
+        "filename": "vite.config.ts",
+        "path": ".vite/"
+      },
+      {
+        "filename": "vite.config.ts",
         "path": "dist/"
       }
     ]
@@ -3579,19 +3707,35 @@
     "search": [
       {
         "filename": ".vitepress/config.*",
-        "path": ".vitepress/dist"
-      },
-      {
-        "filename": ".vitepress/config.*",
         "path": ".vitepress/cache"
       },
       {
-        "filename": ".vitepress/config.js",
+        "filename": ".vitepress/config.*",
+        "path": ".vitepress/dist"
+      },
+      {
+        "filename": ".vitepress/config.cjs",
+        "path": ".vitepress/cache/"
+      },
+      {
+        "filename": ".vitepress/config.cjs",
         "path": ".vitepress/dist/"
       },
       {
         "filename": ".vitepress/config.js",
         "path": ".vitepress/cache/"
+      },
+      {
+        "filename": ".vitepress/config.js",
+        "path": ".vitepress/dist/"
+      },
+      {
+        "filename": ".vitepress/config.mts",
+        "path": ".vitepress/cache/"
+      },
+      {
+        "filename": ".vitepress/config.mts",
+        "path": ".vitepress/dist/"
       },
       {
         "filename": ".vitepress/config.ts",
@@ -3602,19 +3746,7 @@
         "path": ".vitepress/dist/"
       },
       {
-        "filename": ".vitepress/config.mts",
-        "path": ".vitepress/dist/"
-      },
-      {
-        "filename": ".vitepress/config.mts",
-        "path": ".vitepress/cache/"
-      },
-      {
-        "filename": ".vitepress/config.cjs",
-        "path": ".vitepress/dist/"
-      },
-      {
-        "filename": ".vitepress/config.cjs",
+        "filename": "vitepress.config.js",
         "path": ".vitepress/cache/"
       },
       {
@@ -3622,16 +3754,12 @@
         "path": ".vitepress/dist/"
       },
       {
-        "filename": "vitepress.config.js",
+        "filename": "vitepress.config.ts",
         "path": ".vitepress/cache/"
       },
       {
         "filename": "vitepress.config.ts",
         "path": ".vitepress/dist/"
-      },
-      {
-        "filename": "vitepress.config.ts",
-        "path": ".vitepress/cache/"
       }
     ]
   },
@@ -3643,12 +3771,21 @@
         "path": "coverage"
       },
       {
-        "filename": "vitest.workspace.ts",
+        "filename": "vitest.workspace.js",
         "path": "coverage/"
       },
       {
-        "filename": "vitest.workspace.js",
+        "filename": "vitest.workspace.ts",
         "path": "coverage/"
+      }
+    ]
+  },
+  {
+    "tag": "vlang",
+    "search": [
+      {
+        "filename": "v.mod",
+        "path": "v.mod/"
       }
     ]
   },
@@ -3657,15 +3794,7 @@
     "search": [
       {
         "filename": ".vuepress/config.js",
-        "path": ".vuepress/dist"
-      },
-      {
-        "filename": ".vuepress/config.ts",
-        "path": ".vuepress/dist"
-      },
-      {
-        "filename": ".vuepress/config.js",
-        "path": ".vuepress/dist/"
+        "path": ".vuepress/.temp/"
       },
       {
         "filename": ".vuepress/config.js",
@@ -3673,11 +3802,15 @@
       },
       {
         "filename": ".vuepress/config.js",
-        "path": ".vuepress/.temp/"
+        "path": ".vuepress/dist"
+      },
+      {
+        "filename": ".vuepress/config.js",
+        "path": ".vuepress/dist/"
       },
       {
         "filename": ".vuepress/config.ts",
-        "path": ".vuepress/dist/"
+        "path": ".vuepress/.temp/"
       },
       {
         "filename": ".vuepress/config.ts",
@@ -3685,7 +3818,11 @@
       },
       {
         "filename": ".vuepress/config.ts",
-        "path": ".vuepress/.temp/"
+        "path": ".vuepress/dist"
+      },
+      {
+        "filename": ".vuepress/config.ts",
+        "path": ".vuepress/dist/"
       }
     ]
   },
@@ -3698,11 +3835,11 @@
       },
       {
         "filename": "wails.json",
-        "path": "build/obj"
+        "path": "build/bin/"
       },
       {
         "filename": "wails.json",
-        "path": "build/bin/"
+        "path": "build/obj"
       },
       {
         "filename": "wails.json",
@@ -3718,12 +3855,12 @@
         "path": ".wdio-logs/"
       },
       {
-        "filename": "wdio.conf.ts",
-        "path": ".wdio-logs/"
-      },
-      {
         "filename": "wdio.conf.js",
         "path": "allure-results/"
+      },
+      {
+        "filename": "wdio.conf.ts",
+        "path": ".wdio-logs/"
       },
       {
         "filename": "wdio.conf.ts",
@@ -3736,11 +3873,11 @@
     "search": [
       {
         "filename": "webpack.config.*",
-        "path": "dist"
+        "path": "build"
       },
       {
         "filename": "webpack.config.*",
-        "path": "build"
+        "path": "dist"
       }
     ]
   },
@@ -3757,15 +3894,15 @@
     "tag": "wrangler",
     "search": [
       {
+        "filename": "wrangler.json",
+        "path": ".wrangler/"
+      },
+      {
         "filename": "wrangler.toml",
         "path": ".wrangler"
       },
       {
         "filename": "wrangler.toml",
-        "path": ".wrangler/"
-      },
-      {
-        "filename": "wrangler.json",
         "path": ".wrangler/"
       }
     ]
@@ -3774,11 +3911,11 @@
     "tag": "wxt",
     "search": [
       {
-        "filename": "wxt.config.ts",
+        "filename": "wxt.config.js",
         "path": ".wxt/"
       },
       {
-        "filename": "wxt.config.js",
+        "filename": "wxt.config.ts",
         "path": ".wxt/"
       }
     ]
@@ -3787,7 +3924,31 @@
     "tag": "yarn",
     "search": [
       {
-        "filename": "yarn.lock",
+        "filename": ".yarnrc.yml",
+        "path": "!.yarn/patches"
+      },
+      {
+        "filename": ".yarnrc.yml",
+        "path": "!.yarn/plugins"
+      },
+      {
+        "filename": ".yarnrc.yml",
+        "path": "!.yarn/releases"
+      },
+      {
+        "filename": ".yarnrc.yml",
+        "path": "!.yarn/sdks"
+      },
+      {
+        "filename": ".yarnrc.yml",
+        "path": "!.yarn/versions"
+      },
+      {
+        "filename": ".yarnrc.yml",
+        "path": ".pnp.*"
+      },
+      {
+        "filename": ".yarnrc.yml",
         "path": ".yarn/*"
       },
       {
@@ -3811,36 +3972,12 @@
         "path": "!.yarn/versions"
       },
       {
-        "filename": ".yarnrc.yml",
-        "path": ".yarn/*"
-      },
-      {
-        "filename": ".yarnrc.yml",
-        "path": "!.yarn/patches"
-      },
-      {
-        "filename": ".yarnrc.yml",
-        "path": "!.yarn/plugins"
-      },
-      {
-        "filename": ".yarnrc.yml",
-        "path": "!.yarn/releases"
-      },
-      {
-        "filename": ".yarnrc.yml",
-        "path": "!.yarn/sdks"
-      },
-      {
-        "filename": ".yarnrc.yml",
-        "path": "!.yarn/versions"
-      },
-      {
         "filename": "yarn.lock",
         "path": ".pnp.*"
       },
       {
-        "filename": ".yarnrc.yml",
-        "path": ".pnp.*"
+        "filename": "yarn.lock",
+        "path": ".yarn/*"
       }
     ]
   },
@@ -3849,11 +3986,11 @@
     "search": [
       {
         "filename": "build.zig",
-        "path": "zig-out/"
+        "path": "zig-cache/"
       },
       {
         "filename": "build.zig",
-        "path": "zig-cache/"
+        "path": "zig-out/"
       }
     ]
   },
