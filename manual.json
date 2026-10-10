@@ -43,6 +43,10 @@
       {
         "filename": "package.json",
         "path": ".ampt/"
+      },
+      {
+        "filename": ".ampt",
+        "path": ".ampt/"
       }
     ]
   },
@@ -161,6 +165,19 @@
     ]
   },
   {
+    "tag": "biome",
+    "search": [
+      {
+        "filename": "biome.json",
+        "path": ".biome/"
+      },
+      {
+        "filename": "biome.jsonc",
+        "path": ".biome/"
+      }
+    ]
+  },
+  {
     "tag": "blitz",
     "search": [
       {
@@ -207,6 +224,10 @@
       },
       {
         "filename": "bun.lockb",
+        "path": ".bun/"
+      },
+      {
+        "filename": "bunfig.toml",
         "path": ".bun/"
       }
     ]
@@ -427,6 +448,18 @@
       },
       {
         "filename": "cypress.json",
+        "path": "cypress/videos/"
+      },
+      {
+        "filename": "cypress.config.ts",
+        "path": "cypress/videos/"
+      },
+      {
+        "filename": "cypress.config.mjs",
+        "path": "cypress/videos/"
+      },
+      {
+        "filename": "cypress.config.cjs",
         "path": "cypress/videos/"
       }
     ]
@@ -1296,6 +1329,19 @@
       {
         "filename": "mkdocs.yml",
         "path": "site"
+      }
+    ]
+  },
+  {
+    "tag": "mlflow",
+    "search": [
+      {
+        "filename": "MLproject",
+        "path": "mlruns/"
+      },
+      {
+        "filename": "MLproject",
+        "path": ".trash/"
       }
     ]
   },
@@ -2296,6 +2342,38 @@
       {
         "filename": "playwright.config.mjs",
         "path": "test-results/"
+      },
+      {
+        "filename": "playwright.config.ts",
+        "path": "test-results/"
+      },
+      {
+        "filename": "playwright.config.ts",
+        "path": "playwright-report/"
+      },
+      {
+        "filename": "playwright.config.ts",
+        "path": "blob-report/"
+      },
+      {
+        "filename": "playwright.config.js",
+        "path": "test-results/"
+      },
+      {
+        "filename": "playwright.config.js",
+        "path": "playwright-report/"
+      },
+      {
+        "filename": "playwright.config.js",
+        "path": "blob-report/"
+      },
+      {
+        "filename": "playwright.config.mjs",
+        "path": "blob-report/"
+      },
+      {
+        "filename": "playwright.config.cjs",
+        "path": "blob-report/"
       }
     ]
   },
@@ -3333,6 +3411,15 @@
     ]
   },
   {
+    "tag": "tanstack-router",
+    "search": [
+      {
+        "filename": "tsr.config.json",
+        "path": ".tsr/"
+      }
+    ]
+  },
+  {
     "tag": "task",
     "search": [
       {
@@ -3528,6 +3615,15 @@
         "filename": "turbo.json",
         "path": ".turbo"
       },
+      {
+        "filename": "turbo.json",
+        "path": ".turbo/"
+      }
+    ]
+  },
+  {
+    "tag": "turborepo",
+    "search": [
       {
         "filename": "turbo.json",
         "path": ".turbo/"
@@ -3848,6 +3944,15 @@
     ]
   },
   {
+    "tag": "wandb",
+    "search": [
+      {
+        "filename": "wandb/settings",
+        "path": "wandb/"
+      }
+    ]
+  },
+  {
     "tag": "webdriverio",
     "search": [
       {
@@ -3978,6 +4083,14 @@
       {
         "filename": "yarn.lock",
         "path": ".yarn/*"
+      },
+      {
+        "filename": ".yarnrc.yml",
+        "path": ".yarn/"
+      },
+      {
+        "filename": "yarn.lock",
+        "path": ".yarn/"
       }
     ]
   },

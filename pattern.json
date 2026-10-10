@@ -240,6 +240,12 @@
     ]
   },
   {
+    "artillery": [
+      "artillery.yaml",
+      "artillery.yml"
+    ]
+  },
+  {
     "asdf": [
       ".tool-versions"
     ]
@@ -511,6 +517,13 @@
     ]
   },
   {
+    "bun": [
+      "bun.lock",
+      "bun.lockb",
+      "bunfig.toml"
+    ]
+  },
+  {
     "c": [
       "*.c",
       "*.h"
@@ -524,6 +537,15 @@
       "*.cc",
       "*.cxx",
       "Makefile"
+    ]
+  },
+  {
+    "c8": [
+      ".c8rc",
+      ".c8rc.json",
+      "c8.config.cjs",
+      "c8.config.js",
+      "c8.config.mjs"
     ]
   },
   {
@@ -580,6 +602,11 @@
   {
     "cdktf": [
       "cdktf.json"
+    ]
+  },
+  {
+    "celery": [
+      "celeryconfig.py"
     ]
   },
   {
@@ -1108,6 +1135,13 @@
     ]
   },
   {
+    "drizzle": [
+      "drizzle.config.ts",
+      "drizzle.config.js",
+      "drizzle.config.json"
+    ]
+  },
+  {
     "dropbox": [
       ".dropbox"
     ]
@@ -1187,6 +1221,13 @@
     ]
   },
   {
+    "eleventy": [
+      ".eleventy.js",
+      "eleventy.config.cjs",
+      "eleventy.config.js"
+    ]
+  },
+  {
     "elisp": [
       "*.el"
     ]
@@ -1206,6 +1247,12 @@
     ]
   },
   {
+    "elysia": [
+      "elysia.config.js",
+      "elysia.config.ts"
+    ]
+  },
+  {
     "emacs": [
       ".emacs",
       "_emacs"
@@ -1214,6 +1261,11 @@
   {
     "ember": [
       "ember-cli-build.js"
+    ]
+  },
+  {
+    "encore": [
+      "encore.app"
     ]
   },
   {
@@ -1289,6 +1341,14 @@
   {
     "fancy": [
       "Fancyfile"
+    ]
+  },
+  {
+    "farm": [
+      "farm.config.js",
+      "farm.config.ts",
+      "farm.config.mjs",
+      "farm.config.cjs"
     ]
   },
   {
@@ -1587,6 +1647,12 @@
     ]
   },
   {
+    "goreleaser": [
+      ".goreleaser.yaml",
+      ".goreleaser.yml"
+    ]
+  },
+  {
     "gpg": [
       "*.gpg",
       "*.sig"
@@ -1601,6 +1667,12 @@
       "gradlew.bat",
       "settings.gradle",
       "settings.gradle.kts"
+    ]
+  },
+  {
+    "grafbase": [
+      "grafbase.config.js",
+      "grafbase.config.ts"
     ]
   },
   {
@@ -1656,6 +1728,11 @@
     ]
   },
   {
+    "hatch": [
+      "hatch.toml"
+    ]
+  },
+  {
     "haxe": [
       "*.hxml",
       "*.hx"
@@ -1690,6 +1767,12 @@
   {
     "homebrew": [
       "Brewfile"
+    ]
+  },
+  {
+    "hono": [
+      "hono.config.ts",
+      "hono.json"
     ]
   },
   {
@@ -1796,6 +1879,11 @@
     ]
   },
   {
+    "invoke": [
+      "invoke.yaml"
+    ]
+  },
+  {
     "ionic": [
       "ionic.config.json"
     ]
@@ -1868,6 +1956,16 @@
   {
     "jenv": [
       ".java-version"
+    ]
+  },
+  {
+    "jest": [
+      "jest.config.cjs",
+      "jest.config.js",
+      "jest.config.json",
+      "jest.config.mjs",
+      "jest.config.ts",
+      "jest.preset.js"
     ]
   },
   {
@@ -1947,6 +2045,12 @@
   {
     "justcode": [
       "*.JustCode"
+    ]
+  },
+  {
+    "k6": [
+      "k6.config.js",
+      "k6.config.json"
     ]
   },
   {
@@ -2101,6 +2205,11 @@
     ]
   },
   {
+    "lerna": [
+      "lerna.json"
+    ]
+  },
+  {
     "less": [
       "*.less"
     ]
@@ -2193,6 +2302,11 @@
     ]
   },
   {
+    "maestro": [
+      "maestro.yaml"
+    ]
+  },
+  {
     "magento": [
       "bin/magento"
     ]
@@ -2215,6 +2329,11 @@
   {
     "makefile": [
       "Makefile"
+    ]
+  },
+  {
+    "mako": [
+      "mako.config.json"
     ]
   },
   {
@@ -2244,6 +2363,12 @@
     "mean": [
       "package.json",
       "angular.json"
+    ]
+  },
+  {
+    "medusa": [
+      "medusa-config.js",
+      "medusa-config.ts"
     ]
   },
   {
@@ -2318,6 +2443,11 @@
     ]
   },
   {
+    "mlflow": [
+      "MLproject"
+    ]
+  },
+  {
     "moban": [
       ".moban.yaml"
     ]
@@ -2349,6 +2479,12 @@
     ]
   },
   {
+    "moon": [
+      ".moon/workspace.yml",
+      ".moon/toolchain.yml"
+    ]
+  },
+  {
     "mplabx": [
       "*.X/"
     ]
@@ -2357,6 +2493,11 @@
     "mule": [
       "mule-artifact.json",
       "mule-deploy.properties"
+    ]
+  },
+  {
+    "mypy": [
+      "mypy.ini"
     ]
   },
   {
@@ -2435,6 +2576,12 @@
     ]
   },
   {
+    "nitric": [
+      "nitric.yaml",
+      "nitric.yml"
+    ]
+  },
+  {
     "nix": [
       "*.nix",
       "default.nix",
@@ -2445,9 +2592,16 @@
   },
   {
     "node": [
+      "*.ddb",
+      "*.duckdb",
+      "*.duckdb.wal",
+      "*.parquet",
+      "*.ts",
+      "*.tsx",
       ".adonisrc.json",
       ".aider.chat.history.md",
       ".aider.tags.cache.v3",
+      ".ampt/",
       ".babelrc",
       ".babelrc.js",
       ".babelrc.json",
@@ -2564,12 +2718,11 @@
       ".wireit",
       ".yarnrc",
       ".yarnrc.yml",
-      "*.ddb",
-      "*.duckdb",
-      "*.duckdb.wal",
-      "*.parquet",
-      "*.ts",
-      "*.tsx",
+      "Dockerfile",
+      "Earthfile",
+      "MLproject",
+      "Taskfile.yaml",
+      "Taskfile.yml",
       "ampt.config.js",
       "ampt.config.ts",
       "ampt.yaml",
@@ -2654,7 +2807,6 @@
       "devspace.yaml",
       "docker-compose.yaml",
       "docker-compose.yml",
-      "Dockerfile",
       "docusaurus.config.js",
       "docusaurus.config.ts",
       "doczrc.js",
@@ -2664,7 +2816,6 @@
       "drizzle.config.json",
       "drizzle.config.ts",
       "dts-bundle-generator.config.ts",
-      "Earthfile",
       "ecosystem.config.cjs",
       "ecosystem.config.js",
       "electron-builder.json",
@@ -2903,8 +3054,6 @@
       "tailwind.config.ts",
       "tamagui.config.js",
       "tamagui.config.ts",
-      "Taskfile.yaml",
-      "Taskfile.yml",
       "tauri.conf.cjs",
       "tauri.conf.json",
       "tauri.conf.json5",
@@ -2958,6 +3107,7 @@
       "vitest.config.ts",
       "vitest.workspace.js",
       "vitest.workspace.ts",
+      "wandb/settings",
       "wdio.conf.js",
       "wdio.conf.ts",
       "webpack.config.cjs",
@@ -3028,6 +3178,13 @@
     ]
   },
   {
+    "nyc": [
+      ".nycrc",
+      ".nycrc.json",
+      "nyc.config.js"
+    ]
+  },
+  {
     "objective-c": [
       "*.m",
       "Podfile"
@@ -3070,6 +3227,12 @@
   {
     "opa": [
       "*.rego"
+    ]
+  },
+  {
+    "open-next": [
+      "open-next.config.js",
+      "open-next.config.ts"
     ]
   },
   {
@@ -3148,6 +3311,14 @@
     ]
   },
   {
+    "panda": [
+      "panda.config.cjs",
+      "panda.config.js",
+      "panda.config.mjs",
+      "panda.config.ts"
+    ]
+  },
+  {
     "pants": [
       "pants.toml",
       "pants.ini"
@@ -3178,6 +3349,18 @@
     "pawn": [
       "*.pwn",
       "*.amx"
+    ]
+  },
+  {
+    "payloadcms": [
+      "payload.config.ts",
+      "payload.config.js"
+    ]
+  },
+  {
+    "pdm": [
+      "pdm.lock",
+      "pyproject.toml"
     ]
   },
   {
@@ -3289,6 +3472,12 @@
     ]
   },
   {
+    "pixi": [
+      "pixi.lock",
+      "pixi.toml"
+    ]
+  },
+  {
     "pkgx": [
       "pkgx.yaml"
     ]
@@ -3320,6 +3509,19 @@
   {
     "plone": [
       "buildout.cfg"
+    ]
+  },
+  {
+    "pm2": [
+      "ecosystem.config.cjs",
+      "ecosystem.config.js",
+      "pm2.config.js"
+    ]
+  },
+  {
+    "pnpm": [
+      "pnpm-workspace.yaml",
+      "pnpm-lock.yaml"
     ]
   },
   {
@@ -3422,6 +3624,13 @@
     ]
   },
   {
+    "puppeteer": [
+      ".puppeteerrc.cjs",
+      "puppeteer.config.cjs",
+      "puppeteer.config.js"
+    ]
+  },
+  {
     "purebasic": [
       "*.pb"
     ]
@@ -3462,6 +3671,17 @@
   {
     "pydev": [
       ".pydevproject"
+    ]
+  },
+  {
+    "pydocstyle": [
+      ".pydocstyle",
+      ".pydocstyle.ini"
+    ]
+  },
+  {
+    "pytest": [
+      "pytest.ini"
     ]
   },
   {
@@ -3607,6 +3827,14 @@
     ]
   },
   {
+    "react-router": [
+      "react-router.config.cjs",
+      "react-router.config.js",
+      "react-router.config.mjs",
+      "react-router.config.ts"
+    ]
+  },
+  {
     "reactnative": [
       "metro.config.js",
       "react-native.config.js"
@@ -3642,6 +3870,11 @@
   {
     "redwood": [
       "redwood.toml"
+    ]
+  },
+  {
+    "reflex": [
+      "rxconfig.py"
     ]
   },
   {
@@ -3725,6 +3958,14 @@
     ]
   },
   {
+    "rolldown": [
+      "rolldown.config.cjs",
+      "rolldown.config.js",
+      "rolldown.config.mjs",
+      "rolldown.config.ts"
+    ]
+  },
+  {
     "rollup": [
       "rollup.config.js",
       "rollup.config.ts",
@@ -3754,6 +3995,22 @@
     "ros2": [
       "colcon.meta",
       "colcon.pkg"
+    ]
+  },
+  {
+    "rsbuild": [
+      "rsbuild.config.cjs",
+      "rsbuild.config.js",
+      "rsbuild.config.mjs",
+      "rsbuild.config.ts"
+    ]
+  },
+  {
+    "rspack": [
+      "rspack.config.cjs",
+      "rspack.config.js",
+      "rspack.config.mjs",
+      "rspack.config.ts"
     ]
   },
   {
@@ -3792,6 +4049,11 @@
     ]
   },
   {
+    "rushjs": [
+      "rush.json"
+    ]
+  },
+  {
     "rust": [
       "*.rs",
       ".rustfmt.toml",
@@ -3808,6 +4070,13 @@
   {
     "rust-analyzer": [
       "rust-project.json"
+    ]
+  },
+  {
+    "rye": [
+      "requirements-dev.lock",
+      "requirements.lock",
+      "rye.lock"
     ]
   },
   {
@@ -3888,6 +4157,12 @@
     ]
   },
   {
+    "sentry": [
+      ".sentryclirc",
+      "sentry.properties"
+    ]
+  },
+  {
     "serverless": [
       "serverless.yml",
       "serverless.ts",
@@ -3922,6 +4197,11 @@
     ]
   },
   {
+    "slidev": [
+      "slides.md"
+    ]
+  },
+  {
     "smalltalk": [
       "*.st"
     ]
@@ -3934,6 +4214,14 @@
   {
     "snapcraft": [
       "snap/snapcraft.yaml"
+    ]
+  },
+  {
+    "snowpack": [
+      "snowpack.config.cjs",
+      "snowpack.config.js",
+      "snowpack.config.mjs",
+      "snowpack.config.ts"
     ]
   },
   {
@@ -4081,6 +4369,12 @@
     ]
   },
   {
+    "stylex": [
+      "stylex.config.js",
+      "stylex.config.ts"
+    ]
+  },
+  {
     "stylus": [
       "*.styl"
     ]
@@ -4097,8 +4391,8 @@
   },
   {
     "supabase": [
-      "supabase/config.toml",
-      "config.toml"
+      "config.toml",
+      "supabase/config.toml"
     ]
   },
   {
@@ -4154,6 +4448,11 @@
     "tags": [
       "tags",
       ".tags"
+    ]
+  },
+  {
+    "tanstack-router": [
+      "tsr.config.json"
     ]
   },
   {
@@ -4262,6 +4561,14 @@
     ]
   },
   {
+    "tinacms": [
+      "tina/config.ts",
+      "tina/config.js",
+      "tina/config.tsx",
+      "tina/config.jsx"
+    ]
+  },
+  {
     "tla+": [
       "*.tla"
     ]
@@ -4287,6 +4594,18 @@
     ]
   },
   {
+    "trigger.dev": [
+      "trigger.config.js",
+      "trigger.config.ts"
+    ]
+  },
+  {
+    "truffle": [
+      "truffle-config.js",
+      "truffle-config.ts"
+    ]
+  },
+  {
     "trunk": [
       ".trunk/trunk.yaml",
       "trunk.yaml"
@@ -4303,6 +4622,11 @@
     ]
   },
   {
+    "turborepo": [
+      "turbo.json"
+    ]
+  },
+  {
     "twincat3": [
       "*.plcproj.bak",
       "*.tmc",
@@ -4314,6 +4638,17 @@
   {
     "tye": [
       "tye.yaml"
+    ]
+  },
+  {
+    "typedoc": [
+      "typedoc.cjs",
+      "typedoc.config.cjs",
+      "typedoc.config.js",
+      "typedoc.config.mjs",
+      "typedoc.js",
+      "typedoc.json",
+      "typedoc.mjs"
     ]
   },
   {
@@ -4339,6 +4674,14 @@
     ]
   },
   {
+    "unbuild": [
+      "build.config.cjs",
+      "build.config.js",
+      "build.config.mjs",
+      "build.config.ts"
+    ]
+  },
+  {
     "unity": [
       "*.unity",
       "ProjectSettings",
@@ -4348,6 +4691,11 @@
   {
     "unrealengine": [
       "*.uproject"
+    ]
+  },
+  {
+    "uv": [
+      "uv.lock"
     ]
   },
   {
@@ -4467,19 +4815,26 @@
   },
   {
     "vite": [
-      "vite.config.js",
-      "vite.config.ts",
       "vite.config.cjs",
-      "vite.config.mjs"
+      "vite.config.js",
+      "vite.config.mjs",
+      "vite.config.ts"
+    ]
+  },
+  {
+    "vitepress": [
+      ".vitepress/config.js",
+      ".vitepress/config.ts"
     ]
   },
   {
     "vitest": [
+      "vitest.config.cjs",
       "vitest.config.js",
-      "vitest.config.ts",
       "vitest.config.mjs",
-      "vitest.workspace.ts",
-      "vitest.workspace.js"
+      "vitest.config.ts",
+      "vitest.workspace.js",
+      "vitest.workspace.ts"
     ]
   },
   {
@@ -4544,6 +4899,11 @@
     ]
   },
   {
+    "wandb": [
+      "wandb/settings"
+    ]
+  },
+  {
     "waypoint": [
       "waypoint.hcl"
     ]
@@ -4556,6 +4916,12 @@
       "*.js",
       "*.ts",
       "*.json"
+    ]
+  },
+  {
+    "webdriverio": [
+      "wdio.conf.js",
+      "wdio.conf.ts"
     ]
   },
   {
@@ -4691,6 +5057,7 @@
   },
   {
     "yarn": [
+      ".yarnrc.yml",
       "yarn.lock"
     ]
   },
@@ -4745,328 +5112,6 @@
     "zukencr8000": [
       "*.ftp",
       "*.pnl"
-    ]
-  },
-  {
-    "uv": [
-      "uv.lock"
-    ]
-  },
-  {
-    "rolldown": [
-      "rolldown.config.cjs",
-      "rolldown.config.js",
-      "rolldown.config.mjs",
-      "rolldown.config.ts"
-    ]
-  },
-  {
-    "pdm": [
-      "pdm.lock",
-      "pyproject.toml"
-    ]
-  },
-  {
-    "rye": [
-      "requirements-dev.lock",
-      "requirements.lock",
-      "rye.lock"
-    ]
-  },
-  {
-    "hatch": [
-      "hatch.toml"
-    ]
-  },
-  {
-    "pixi": [
-      "pixi.lock",
-      "pixi.toml"
-    ]
-  },
-  {
-    "hono": [
-      "hono.config.ts",
-      "hono.json"
-    ]
-  },
-  {
-    "vitepress": [
-      ".vitepress/config.js",
-      ".vitepress/config.ts"
-    ]
-  },
-  {
-    "slidev": [
-      "slides.md"
-    ]
-  },
-  {
-    "elysia": [
-      "elysia.config.js",
-      "elysia.config.ts"
-    ]
-  },
-  {
-    "stylex": [
-      "stylex.config.js",
-      "stylex.config.ts"
-    ]
-  },
-  {
-    "artillery": [
-      "artillery.yaml",
-      "artillery.yml"
-    ]
-  },
-  {
-    "reflex": [
-      "rxconfig.py"
-    ]
-  },
-  {
-    "react-router": [
-      "react-router.config.cjs",
-      "react-router.config.js",
-      "react-router.config.mjs",
-      "react-router.config.ts"
-    ]
-  },
-  {
-    "nitric": [
-      "nitric.yaml",
-      "nitric.yml"
-    ]
-  },
-  {
-    "sentry": [
-      ".sentryclirc",
-      "sentry.properties"
-    ]
-  },
-  {
-    "open-next": [
-      "open-next.config.js",
-      "open-next.config.ts"
-    ]
-  },
-  {
-    "trigger.dev": [
-      "trigger.config.js",
-      "trigger.config.ts"
-    ]
-  },
-  {
-    "encore": [
-      "encore.app"
-    ]
-  },
-  {
-    "goreleaser": [
-      ".goreleaser.yaml",
-      ".goreleaser.yml"
-    ]
-  },
-  {
-    "rushjs": [
-      "rush.json"
-    ]
-  },
-  {
-    "grafbase": [
-      "grafbase.config.js",
-      "grafbase.config.ts"
-    ]
-  },
-  {
-    "jest": [
-      "jest.config.cjs",
-      "jest.config.js",
-      "jest.config.json",
-      "jest.config.mjs",
-      "jest.config.ts",
-      "jest.preset.js"
-    ]
-  },
-  {
-    "nyc": [
-      ".nycrc",
-      ".nycrc.json",
-      "nyc.config.js"
-    ]
-  },
-  {
-    "c8": [
-      ".c8rc",
-      ".c8rc.json",
-      "c8.config.cjs",
-      "c8.config.js",
-      "c8.config.mjs"
-    ]
-  },
-  {
-    "panda": [
-      "panda.config.cjs",
-      "panda.config.js",
-      "panda.config.mjs",
-      "panda.config.ts"
-    ]
-  },
-  {
-    "puppeteer": [
-      ".puppeteerrc.cjs",
-      "puppeteer.config.cjs",
-      "puppeteer.config.js"
-    ]
-  },
-  {
-    "webdriverio": [
-      "wdio.conf.js",
-      "wdio.conf.ts"
-    ]
-  },
-  {
-    "lerna": [
-      "lerna.json"
-    ]
-  },
-  {
-    "pm2": [
-      "ecosystem.config.cjs",
-      "ecosystem.config.js",
-      "pm2.config.js"
-    ]
-  },
-  {
-    "typedoc": [
-      "typedoc.cjs",
-      "typedoc.config.cjs",
-      "typedoc.config.js",
-      "typedoc.config.mjs",
-      "typedoc.js",
-      "typedoc.json",
-      "typedoc.mjs"
-    ]
-  },
-  {
-    "unbuild": [
-      "build.config.cjs",
-      "build.config.js",
-      "build.config.mjs",
-      "build.config.ts"
-    ]
-  },
-  {
-    "pytest": [
-      "pytest.ini"
-    ]
-  },
-  {
-    "mypy": [
-      "mypy.ini"
-    ]
-  },
-  {
-    "pydocstyle": [
-      ".pydocstyle",
-      ".pydocstyle.ini"
-    ]
-  },
-  {
-    "invoke": [
-      "invoke.yaml"
-    ]
-  },
-  {
-    "celery": [
-      "celeryconfig.py"
-    ]
-  },
-  {
-    "truffle": [
-      "truffle-config.js",
-      "truffle-config.ts"
-    ]
-  },
-  {
-    "rspack": [
-      "rspack.config.cjs",
-      "rspack.config.js",
-      "rspack.config.mjs",
-      "rspack.config.ts"
-    ]
-  },
-  {
-    "rsbuild": [
-      "rsbuild.config.cjs",
-      "rsbuild.config.js",
-      "rsbuild.config.mjs",
-      "rsbuild.config.ts"
-    ]
-  },
-  {
-    "snowpack": [
-      "snowpack.config.cjs",
-      "snowpack.config.js",
-      "snowpack.config.mjs",
-      "snowpack.config.ts"
-    ]
-  },
-  {
-    "eleventy": [
-      ".eleventy.js",
-      "eleventy.config.cjs",
-      "eleventy.config.js"
-    ]
-  },
-  {
-    "tinacms": [
-      "tina/config.ts",
-      "tina/config.js",
-      "tina/config.tsx",
-      "tina/config.jsx"
-    ]
-  },
-  {
-    "medusa": [
-      "medusa-config.js",
-      "medusa-config.ts"
-    ]
-  },
-  {
-    "payloadcms": [
-      "payload.config.ts",
-      "payload.config.js"
-    ]
-  },
-  {
-    "farm": [
-      "farm.config.js",
-      "farm.config.ts",
-      "farm.config.mjs",
-      "farm.config.cjs"
-    ]
-  },
-  {
-    "mako": [
-      "mako.config.json"
-    ]
-  },
-  {
-    "maestro": [
-      "maestro.yaml"
-    ]
-  },
-  {
-    "k6": [
-      "k6.config.js",
-      "k6.config.json"
-    ]
-  },
-  {
-    "moon": [
-      ".moon/workspace.yml",
-      ".moon/toolchain.yml"
     ]
   }
 ]
