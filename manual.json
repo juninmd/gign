@@ -369,6 +369,15 @@
     ]
   },
   {
+    "tag": "coolify",
+    "search": [
+      {
+        "filename": "coolify.yaml",
+        "path": ".coolify/"
+      }
+    ]
+  },
+  {
     "tag": "coverage",
     "search": [
       {
@@ -1067,6 +1076,15 @@
       {
         "filename": "hardhat.config.ts",
         "path": "typechain-types/"
+      }
+    ]
+  },
+  {
+    "tag": "hathora",
+    "search": [
+      {
+        "filename": "hathora.yml",
+        "path": ".hathora/"
       }
     ]
   },
@@ -4091,6 +4109,15 @@
       {
         "filename": "yarn.lock",
         "path": ".yarn/"
+      }
+    ]
+  },
+  {
+    "tag": "zeabur",
+    "search": [
+      {
+        "filename": "zeabur.json",
+        "path": ".zeabur/"
       }
     ]
   },
