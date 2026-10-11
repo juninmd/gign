@@ -832,6 +832,11 @@
     ]
   },
   {
+    "coolify": [
+      "coolify.yaml"
+    ]
+  },
+  {
     "copilot": [
       ".copilotignore",
       "copilot-instructions.md"
@@ -1733,6 +1738,11 @@
     ]
   },
   {
+    "hathora": [
+      "hathora.yml"
+    ]
+  },
+  {
     "haxe": [
       "*.hxml",
       "*.hx"
@@ -2134,6 +2144,11 @@
       "*.kt",
       "build.gradle.kts",
       "settings.gradle.kts"
+    ]
+  },
+  {
+    "kpt": [
+      "Kptfile"
     ]
   },
   {
@@ -5074,6 +5089,11 @@
   {
     "yii2": [
       "yii"
+    ]
+  },
+  {
+    "zeabur": [
+      "zeabur.json"
     ]
   },
   {
