@@ -602,6 +602,19 @@
     ]
   },
   {
+    "tag": "django",
+    "search": [
+      {
+        "filename": "manage.py",
+        "path": "*.sqlite3"
+      },
+      {
+        "filename": "manage.py",
+        "path": "local_settings.py"
+      }
+    ]
+  },
+  {
     "tag": "docker",
     "search": [
       {
@@ -635,6 +648,14 @@
       {
         "filename": "docker-compose.yml",
         "path": "docker-compose.override.yml"
+      },
+      {
+        "filename": "Dockerfile",
+        "path": ".dockerignore"
+      },
+      {
+        "filename": "docker-compose.yml",
+        "path": ".dockerignore"
       }
     ]
   },
@@ -748,6 +769,19 @@
       {
         "filename": "eleventy.config.js",
         "path": "_site/"
+      }
+    ]
+  },
+  {
+    "tag": "elixir",
+    "search": [
+      {
+        "filename": "mix.exs",
+        "path": "_build/"
+      },
+      {
+        "filename": "mix.exs",
+        "path": "deps/"
       }
     ]
   },
@@ -2731,6 +2765,27 @@
     ]
   },
   {
+    "tag": "rails",
+    "search": [
+      {
+        "filename": "bin/rails",
+        "path": "log/"
+      },
+      {
+        "filename": "bin/rails",
+        "path": "tmp/"
+      },
+      {
+        "filename": "bin/rails",
+        "path": "public/assets/"
+      },
+      {
+        "filename": "bin/rails",
+        "path": "public/packs/"
+      }
+    ]
+  },
+  {
     "tag": "react-router",
     "search": [
       {
@@ -2972,6 +3027,19 @@
       {
         "filename": "rspress.config.ts",
         "path": "doc_build/"
+      }
+    ]
+  },
+  {
+    "tag": "ruby",
+    "search": [
+      {
+        "filename": "Gemfile",
+        "path": ".bundle/"
+      },
+      {
+        "filename": "Gemfile",
+        "path": "vendor/bundle/"
       }
     ]
   },
@@ -3481,6 +3549,19 @@
       {
         "filename": "tauri.conf.json",
         "path": "src-tauri/target/"
+      }
+    ]
+  },
+  {
+    "tag": "terraform",
+    "search": [
+      {
+        "filename": "*.tf",
+        "path": ".terraform/"
+      },
+      {
+        "filename": "*.tf",
+        "path": "*.tfstate.backup"
       }
     ]
   },

@@ -265,7 +265,8 @@
     "astro": [
       "astro.config.mjs",
       "astro.config.js",
-      "astro.config.ts"
+      "astro.config.ts",
+      "astro.config.cjs"
     ]
   },
   {
@@ -1087,7 +1088,8 @@
       "docker-compose.override.yaml",
       "docker-compose.override.yml",
       "docker-compose.yaml",
-      "docker-compose.yml"
+      "docker-compose.yml",
+      ".dockerignore"
     ]
   },
   {
@@ -1107,7 +1109,8 @@
   },
   {
     "dotenv": [
-      ".env"
+      ".env",
+      ".env.*"
     ]
   },
   {
@@ -1532,7 +1535,9 @@
   {
     "gatsby": [
       "gatsby-config.js",
-      "gatsby-config.ts"
+      "gatsby-config.ts",
+      "gatsby-config.cjs",
+      "gatsby-config.mjs"
     ]
   },
   {
@@ -3171,7 +3176,9 @@
   {
     "nuxt": [
       "nuxt.config.js",
-      "nuxt.config.ts"
+      "nuxt.config.ts",
+      "nuxt.config.cjs",
+      "nuxt.config.mjs"
     ]
   },
   {
@@ -3896,7 +3903,8 @@
     "remix": [
       "remix.config.js",
       "remix.config.ts",
-      "remix.config.cjs"
+      "remix.config.cjs",
+      "remix.config.mjs"
     ]
   },
   {
@@ -4329,7 +4337,8 @@
   {
     "sqlite": [
       "*.sqlite",
-      "*.db"
+      "*.db",
+      "*.sqlite3"
     ]
   },
   {
@@ -4414,7 +4423,9 @@
     "svelte": [
       "*.svelte",
       "svelte.config.cjs",
-      "svelte.config.js"
+      "svelte.config.js",
+      "svelte.config.ts",
+      "svelte.config.mjs"
     ]
   },
   {
@@ -4883,7 +4894,8 @@
   {
     "vue": [
       "*.vue",
-      "vue.config.js"
+      "vue.config.js",
+      "vue.config.ts"
     ]
   },
   {
