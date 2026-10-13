@@ -2453,6 +2453,11 @@
     ]
   },
   {
+    "mintlify": [
+      "mint.json"
+    ]
+  },
+  {
     "mise": [
       "mise.toml"
     ]
@@ -3115,6 +3120,8 @@
       "unocss.config.ts",
       "uv.lock",
       "vercel.json",
+      "vinxi.config.js",
+      "vinxi.config.ts",
       "vite.config.cjs",
       "vite.config.js",
       "vite.config.mjs",
@@ -3127,6 +3134,8 @@
       "vitest.config.ts",
       "vitest.workspace.js",
       "vitest.workspace.ts",
+      "vocs.config.js",
+      "vocs.config.ts",
       "wandb/settings",
       "wdio.conf.js",
       "wdio.conf.ts",
@@ -3613,6 +3622,11 @@
     "prolog": [
       "*.pl",
       "*.pro"
+    ]
+  },
+  {
+    "proto": [
+      ".prototools"
     ]
   },
   {
@@ -4200,6 +4214,11 @@
     ]
   },
   {
+    "shuttle": [
+      "Shuttle.toml"
+    ]
+  },
+  {
     "silverstripe": [
       "_config.php"
     ]
@@ -4288,6 +4307,11 @@
     ]
   },
   {
+    "spack": [
+      "spack.yaml"
+    ]
+  },
+  {
     "spark": [
       "*.spark"
     ]
@@ -4339,6 +4363,11 @@
       "*.sqlite",
       "*.db",
       "*.sqlite3"
+    ]
+  },
+  {
+    "sqlx": [
+      ".sqlx"
     ]
   },
   {
@@ -4803,6 +4832,12 @@
     ]
   },
   {
+    "vinxi": [
+      "vinxi.config.js",
+      "vinxi.config.ts"
+    ]
+  },
+  {
     "virtualbox": [
       "*.vbox"
     ]
@@ -4876,6 +4911,12 @@
   {
     "vmware": [
       "*.vmx"
+    ]
+  },
+  {
+    "vocs": [
+      "vocs.config.js",
+      "vocs.config.ts"
     ]
   },
   {

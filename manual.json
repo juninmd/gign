@@ -29,6 +29,10 @@
     "tag": "ampt",
     "search": [
       {
+        "filename": ".ampt",
+        "path": ".ampt/"
+      },
+      {
         "filename": ".amptignore",
         "path": ".ampt/"
       },
@@ -42,10 +46,6 @@
       },
       {
         "filename": "package.json",
-        "path": ".ampt/"
-      },
-      {
-        "filename": ".ampt",
         "path": ".ampt/"
       }
     ]
@@ -436,40 +436,49 @@
         "path": "cypress/screenshots/"
       },
       {
-        "filename": "cypress.config.js",
-        "path": "cypress/screenshots/"
-      },
-      {
-        "filename": "cypress.config.js",
-        "path": "cypress/videos/"
-      },
-      {
-        "filename": "cypress.config.mjs",
-        "path": "cypress/screenshots/"
-      },
-      {
-        "filename": "cypress.config.ts",
-        "path": "cypress/screenshots/"
-      },
-      {
-        "filename": "cypress.json",
-        "path": "cypress/screenshots/"
-      },
-      {
-        "filename": "cypress.json",
-        "path": "cypress/videos/"
-      },
-      {
-        "filename": "cypress.config.ts",
-        "path": "cypress/videos/"
-      },
-      {
-        "filename": "cypress.config.mjs",
-        "path": "cypress/videos/"
-      },
-      {
         "filename": "cypress.config.cjs",
         "path": "cypress/videos/"
+      },
+      {
+        "filename": "cypress.config.js",
+        "path": "cypress/screenshots/"
+      },
+      {
+        "filename": "cypress.config.js",
+        "path": "cypress/videos/"
+      },
+      {
+        "filename": "cypress.config.mjs",
+        "path": "cypress/screenshots/"
+      },
+      {
+        "filename": "cypress.config.mjs",
+        "path": "cypress/videos/"
+      },
+      {
+        "filename": "cypress.config.ts",
+        "path": "cypress/screenshots/"
+      },
+      {
+        "filename": "cypress.config.ts",
+        "path": "cypress/videos/"
+      },
+      {
+        "filename": "cypress.json",
+        "path": "cypress/screenshots/"
+      },
+      {
+        "filename": "cypress.json",
+        "path": "cypress/videos/"
+      }
+    ]
+  },
+  {
+    "tag": "dagger",
+    "search": [
+      {
+        "filename": ".dagger/env",
+        "path": ".dagger/"
       }
     ]
   },
@@ -639,6 +648,10 @@
       },
       {
         "filename": "docker-compose.yml",
+        "path": ".dockerignore"
+      },
+      {
+        "filename": "docker-compose.yml",
         "path": "docker-compose.local.yaml"
       },
       {
@@ -651,10 +664,6 @@
       },
       {
         "filename": "Dockerfile",
-        "path": ".dockerignore"
-      },
-      {
-        "filename": "docker-compose.yml",
         "path": ".dockerignore"
       }
     ]
@@ -1376,6 +1385,15 @@
     ]
   },
   {
+    "tag": "mintlify",
+    "search": [
+      {
+        "filename": "mint.json",
+        "path": ".mintlify/"
+      }
+    ]
+  },
+  {
     "tag": "mkdocs",
     "search": [
       {
@@ -1389,11 +1407,11 @@
     "search": [
       {
         "filename": "MLproject",
-        "path": "mlruns/"
+        "path": ".trash/"
       },
       {
         "filename": "MLproject",
-        "path": ".trash/"
+        "path": "mlruns/"
       }
     ]
   },
@@ -2381,6 +2399,10 @@
       },
       {
         "filename": "playwright.config.cjs",
+        "path": "blob-report/"
+      },
+      {
+        "filename": "playwright.config.cjs",
         "path": "playwright-report/"
       },
       {
@@ -2388,6 +2410,22 @@
         "path": "test-results/"
       },
       {
+        "filename": "playwright.config.js",
+        "path": "blob-report/"
+      },
+      {
+        "filename": "playwright.config.js",
+        "path": "playwright-report/"
+      },
+      {
+        "filename": "playwright.config.js",
+        "path": "test-results/"
+      },
+      {
+        "filename": "playwright.config.mjs",
+        "path": "blob-report/"
+      },
+      {
         "filename": "playwright.config.mjs",
         "path": "playwright-report/"
       },
@@ -2397,7 +2435,7 @@
       },
       {
         "filename": "playwright.config.ts",
-        "path": "test-results/"
+        "path": "blob-report/"
       },
       {
         "filename": "playwright.config.ts",
@@ -2405,27 +2443,7 @@
       },
       {
         "filename": "playwright.config.ts",
-        "path": "blob-report/"
-      },
-      {
-        "filename": "playwright.config.js",
         "path": "test-results/"
-      },
-      {
-        "filename": "playwright.config.js",
-        "path": "playwright-report/"
-      },
-      {
-        "filename": "playwright.config.js",
-        "path": "blob-report/"
-      },
-      {
-        "filename": "playwright.config.mjs",
-        "path": "blob-report/"
-      },
-      {
-        "filename": "playwright.config.cjs",
-        "path": "blob-report/"
       }
     ]
   },
@@ -2512,6 +2530,15 @@
       {
         "filename": "schema.prisma",
         "path": ".prisma/"
+      }
+    ]
+  },
+  {
+    "tag": "pulumi",
+    "search": [
+      {
+        "filename": "Pulumi.yaml",
+        "path": ".pulumi/"
       }
     ]
   },
@@ -2773,15 +2800,15 @@
       },
       {
         "filename": "bin/rails",
-        "path": "tmp/"
-      },
-      {
-        "filename": "bin/rails",
         "path": "public/assets/"
       },
       {
         "filename": "bin/rails",
         "path": "public/packs/"
+      },
+      {
+        "filename": "bin/rails",
+        "path": "tmp/"
       }
     ]
   },
@@ -3171,6 +3198,15 @@
       {
         "filename": "serverless.yml",
         "path": ".serverless/"
+      }
+    ]
+  },
+  {
+    "tag": "shuttle",
+    "search": [
+      {
+        "filename": "Shuttle.toml",
+        "path": ".shuttle/"
       }
     ]
   },
@@ -4153,6 +4189,10 @@
       },
       {
         "filename": ".yarnrc.yml",
+        "path": ".yarn/"
+      },
+      {
+        "filename": ".yarnrc.yml",
         "path": ".yarn/*"
       },
       {
@@ -4181,15 +4221,11 @@
       },
       {
         "filename": "yarn.lock",
-        "path": ".yarn/*"
-      },
-      {
-        "filename": ".yarnrc.yml",
         "path": ".yarn/"
       },
       {
         "filename": "yarn.lock",
-        "path": ".yarn/"
+        "path": ".yarn/*"
       }
     ]
   },
