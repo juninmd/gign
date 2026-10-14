@@ -22,6 +22,14 @@
       {
         "filename": ".aider.conf.yml",
         "path": ".aider.tags.cache.v3"
+      },
+      {
+        "filename": ".aider",
+        "path": ".aider.chat.history.md"
+      },
+      {
+        "filename": ".aider",
+        "path": ".aider.tags.cache.v3"
       }
     ]
   },
@@ -46,6 +54,10 @@
       },
       {
         "filename": "package.json",
+        "path": ".ampt/"
+      },
+      {
+        "filename": "ampt.yml",
         "path": ".ampt/"
       }
     ]
@@ -81,6 +93,15 @@
       {
         "filename": "angular.json",
         "path": "dist/"
+      }
+    ]
+  },
+  {
+    "tag": "ant",
+    "search": [
+      {
+        "filename": "build.xml",
+        "path": "build/"
       }
     ]
   },
@@ -135,6 +156,15 @@
       {
         "filename": "astro.config.ts",
         "path": "dist/"
+      }
+    ]
+  },
+  {
+    "tag": "aws-cdk",
+    "search": [
+      {
+        "filename": "cdk.json",
+        "path": "cdk.out/"
       }
     ]
   },
@@ -479,6 +509,19 @@
       {
         "filename": ".dagger/env",
         "path": ".dagger/"
+      },
+      {
+        "filename": ".dagger",
+        "path": ".dagger/"
+      }
+    ]
+  },
+  {
+    "tag": "dagster",
+    "search": [
+      {
+        "filename": "dagster.yaml",
+        "path": ".dagster/"
       }
     ]
   },
@@ -724,6 +767,23 @@
       {
         "filename": "drizzle.config.ts",
         "path": ".drizzle/"
+      }
+    ]
+  },
+  {
+    "tag": "duckdb",
+    "search": [
+      {
+        "filename": "*.duckdb",
+        "path": "*.duckdb"
+      },
+      {
+        "filename": "*.duckdb",
+        "path": "*.ddb"
+      },
+      {
+        "filename": "*.duckdb",
+        "path": "*.duckdb.wal"
       }
     ]
   },
@@ -1276,6 +1336,15 @@
       {
         "filename": "lerna.json",
         "path": "lerna-debug.log"
+      }
+    ]
+  },
+  {
+    "tag": "lighthouse-ci",
+    "search": [
+      {
+        "filename": "lighthouserc.js",
+        "path": ".lighthouseci/"
       }
     ]
   },
@@ -2310,6 +2379,15 @@
     ]
   },
   {
+    "tag": "parquet",
+    "search": [
+      {
+        "filename": "*.parquet",
+        "path": "*.parquet"
+      }
+    ]
+  },
+  {
     "tag": "payload",
     "search": [
       {
@@ -2512,6 +2590,15 @@
     ]
   },
   {
+    "tag": "prefect",
+    "search": [
+      {
+        "filename": "prefect.yaml",
+        "path": ".prefect/"
+      }
+    ]
+  },
+  {
     "tag": "prettier",
     "search": [
       {
@@ -2538,6 +2625,10 @@
     "search": [
       {
         "filename": "Pulumi.yaml",
+        "path": ".pulumi/"
+      },
+      {
+        "filename": "Pulumi.dev.yaml",
         "path": ".pulumi/"
       }
     ]
@@ -2838,6 +2929,14 @@
       {
         "filename": "react-router.config.ts",
         "path": "build/"
+      },
+      {
+        "filename": "react-router.config.cjs",
+        "path": "build/"
+      },
+      {
+        "filename": "react-router.config.cjs",
+        "path": ".react-router/"
       }
     ]
   },
@@ -2937,6 +3036,10 @@
       },
       {
         "filename": "rolldown.config.ts",
+        "path": "dist/"
+      },
+      {
+        "filename": "rolldown.config.cjs",
         "path": "dist/"
       }
     ]
@@ -3067,6 +3170,10 @@
       {
         "filename": "Gemfile",
         "path": "vendor/bundle/"
+      },
+      {
+        "filename": "*.gemspec",
+        "path": ".bundle/"
       }
     ]
   },

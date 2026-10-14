@@ -145,6 +145,16 @@
     ]
   },
   {
+    "ape": [
+      "ape-config.yaml"
+    ]
+  },
+  {
+    "apollo": [
+      "apollo.config.js"
+    ]
+  },
+  {
     "appbuilder": [
       "*.abproject"
     ]
@@ -327,6 +337,11 @@
     ]
   },
   {
+    "aws-cdk": [
+      "cdk.json"
+    ]
+  },
+  {
     "aws-sam": [
       "samconfig.toml",
       "template.yaml"
@@ -491,6 +506,11 @@
   {
     "bricxcc": [
       "*.bxc"
+    ]
+  },
+  {
+    "brownie": [
+      "brownie-config.yaml"
     ]
   },
   {
@@ -736,6 +756,12 @@
     ]
   },
   {
+    "codeceptjs": [
+      "codecept.conf.js",
+      "codecept.conf.ts"
+    ]
+  },
+  {
     "codecomposerstudio": [
       ".ccsproject",
       ".cproject",
@@ -746,6 +772,11 @@
     "codecov": [
       "codecov.yml",
       ".codecov.yml"
+    ]
+  },
+  {
+    "codegen": [
+      ".codegen"
     ]
   },
   {
@@ -771,6 +802,18 @@
   {
     "coffeescript": [
       "*.coffee"
+    ]
+  },
+  {
+    "commitizen": [
+      ".czrc"
+    ]
+  },
+  {
+    "commitlint": [
+      "commitlint.config.js",
+      "commitlint.config.mjs",
+      "commitlint.config.cjs"
     ]
   },
   {
@@ -833,6 +876,17 @@
     ]
   },
   {
+    "contentlayer": [
+      "contentlayer.config.ts",
+      "contentlayer.config.js"
+    ]
+  },
+  {
+    "continue": [
+      ".continue"
+    ]
+  },
+  {
     "coolify": [
       "coolify.yaml"
     ]
@@ -859,6 +913,12 @@
       "*.cpp",
       "*.h",
       "*.hpp"
+    ]
+  },
+  {
+    "craco": [
+      "craco.config.js",
+      "craco.config.ts"
     ]
   },
   {
@@ -946,7 +1006,8 @@
   },
   {
     "dagger": [
-      ".dagger"
+      ".dagger",
+      "dagger.json"
     ]
   },
   {
@@ -986,6 +1047,11 @@
       "*.db",
       "*.sqlite",
       "*.sqlite3"
+    ]
+  },
+  {
+    "databricks": [
+      "databricks.yml"
     ]
   },
   {
@@ -1051,6 +1117,11 @@
     ]
   },
   {
+    "dioxus": [
+      "Dioxus.toml"
+    ]
+  },
+  {
     "direnv": [
       ".envrc"
     ]
@@ -1093,6 +1164,14 @@
     ]
   },
   {
+    "docker-compose": [
+      "docker-compose.local.yml",
+      "docker-compose.override.yml",
+      "docker-compose.yml",
+      "docker-compose.yaml"
+    ]
+  },
+  {
     "docpress": [
       "docpress.json"
     ]
@@ -1104,7 +1183,8 @@
   },
   {
     "docz": [
-      "doczrc.js"
+      "doczrc.js",
+      "doczrc.json"
     ]
   },
   {
@@ -1134,6 +1214,11 @@
   {
     "doxygen": [
       "Doxyfile"
+    ]
+  },
+  {
+    "dprint": [
+      "dprint.json"
     ]
   },
   {
@@ -1297,7 +1382,16 @@
     "esbuild": [
       "esbuild.js",
       "esbuild.mjs",
-      "esbuild.cjs"
+      "esbuild.cjs",
+      "esbuild.ts"
+    ]
+  },
+  {
+    "eslint": [
+      "eslint.config.js",
+      "eslint.config.mjs",
+      "eslint.config.cjs",
+      "eslint.config.ts"
     ]
   },
   {
@@ -1327,7 +1421,9 @@
   {
     "expo": [
       "app.json",
-      "eas.json"
+      "eas.json",
+      "app.config.js",
+      "app.config.ts"
     ]
   },
   {
@@ -1389,6 +1485,11 @@
     ]
   },
   {
+    "flake8": [
+      ".flake8"
+    ]
+  },
+  {
     "flashbuilder": [
       ".project",
       ".actionScriptProperties",
@@ -1440,6 +1541,11 @@
   },
   {
     "fly": [
+      "fly.toml"
+    ]
+  },
+  {
+    "fly.io": [
       "fly.toml"
     ]
   },
@@ -1652,6 +1758,11 @@
     ]
   },
   {
+    "golangci-lint": [
+      ".golangci.yml"
+    ]
+  },
+  {
     "goodsync": [
       "_gsdata_"
     ]
@@ -1693,7 +1804,10 @@
   {
     "graphql": [
       "*.graphql",
-      "*.gql"
+      "*.gql",
+      "graphql.config.yml",
+      "codegen.ts",
+      "codegen.yml"
     ]
   },
   {
@@ -1799,7 +1913,8 @@
     "hugo": [
       "hugo.json",
       "hugo.toml",
-      "hugo.yaml"
+      "hugo.yaml",
+      "config.toml"
     ]
   },
   {
@@ -1877,6 +1992,11 @@
     ]
   },
   {
+    "inngest": [
+      "inngest.json"
+    ]
+  },
+  {
     "intellij": [
       ".idea",
       "*.iml"
@@ -1895,7 +2015,8 @@
   },
   {
     "invoke": [
-      "invoke.yaml"
+      "invoke.yaml",
+      "tasks.py"
     ]
   },
   {
@@ -2065,7 +2186,8 @@
   {
     "k6": [
       "k6.config.js",
-      "k6.config.json"
+      "k6.config.json",
+      "k6.config.ts"
     ]
   },
   {
@@ -2102,6 +2224,12 @@
   {
     "kentico": [
       "*.export"
+    ]
+  },
+  {
+    "keystatic": [
+      "keystatic.config.ts",
+      "keystatic.config.js"
     ]
   },
   {
@@ -2148,7 +2276,8 @@
     "kotlin": [
       "*.kt",
       "build.gradle.kts",
-      "settings.gradle.kts"
+      "settings.gradle.kts",
+      "*.kts"
     ]
   },
   {
@@ -2253,6 +2382,12 @@
     ]
   },
   {
+    "lighthouse-ci": [
+      "lighthouserc.js",
+      "lighthouserc.json"
+    ]
+  },
+  {
     "lighthouseci": [
       "lighthouserc.json",
       "lighthouserc.js"
@@ -2261,6 +2396,13 @@
   {
     "lilypond": [
       "*.ly"
+    ]
+  },
+  {
+    "lint-staged": [
+      "lint-staged.config.js",
+      "lint-staged.config.mjs",
+      "lint-staged.config.cjs"
     ]
   },
   {
@@ -2319,6 +2461,11 @@
     "macos": [
       ".DS_Store",
       "Brewfile"
+    ]
+  },
+  {
+    "madge": [
+      ".madgerc"
     ]
   },
   {
@@ -2443,6 +2590,12 @@
     ]
   },
   {
+    "midwayjs": [
+      "midway.config.ts",
+      "midway.config.js"
+    ]
+  },
+  {
     "mikroc": [
       "*.mcppi"
     ]
@@ -2512,6 +2665,11 @@
   {
     "mplabx": [
       "*.X/"
+    ]
+  },
+  {
+    "msw": [
+      "mockServiceWorker.js"
     ]
   },
   {
@@ -2604,6 +2762,12 @@
     "nitric": [
       "nitric.yaml",
       "nitric.yml"
+    ]
+  },
+  {
+    "nitro": [
+      "nitro.config.ts",
+      "nitro.config.js"
     ]
   },
   {
@@ -3149,7 +3313,11 @@
       "wrangler.json",
       "wrangler.toml",
       "wxt.config.js",
-      "wxt.config.ts"
+      "wxt.config.ts",
+      "ampt.yml",
+      "hono.ts",
+      "slidev.config.ts",
+      "elysia.ts"
     ]
   },
   {
@@ -3180,6 +3348,11 @@
   {
     "now": [
       "now.json"
+    ]
+  },
+  {
+    "nox": [
+      "noxfile.py"
     ]
   },
   {
@@ -3309,6 +3482,14 @@
     ]
   },
   {
+    "orval": [
+      "orval.config.js",
+      "orval.config.ts",
+      "orval.config.cjs",
+      "orval.config.mjs"
+    ]
+  },
+  {
     "osx": [
       ".DS_Store",
       ".AppleDouble",
@@ -3327,6 +3508,12 @@
   {
     "oxideshop": [
       "config.inc.php"
+    ]
+  },
+  {
+    "oxlint": [
+      ".oxlintrc.json",
+      "oxlint.json"
     ]
   },
   {
@@ -3380,6 +3567,12 @@
     "pawn": [
       "*.pwn",
       "*.amx"
+    ]
+  },
+  {
+    "payload": [
+      "payload.config.ts",
+      "payload.config.js"
     ]
   },
   {
@@ -3543,6 +3736,11 @@
     ]
   },
   {
+    "plop": [
+      "plopfile.js"
+    ]
+  },
+  {
     "pm2": [
       "ecosystem.config.cjs",
       "ecosystem.config.js",
@@ -3573,6 +3771,16 @@
     ]
   },
   {
+    "pre-commit": [
+      ".pre-commit-config.yaml"
+    ]
+  },
+  {
+    "preact": [
+      "preact.config.js"
+    ]
+  },
+  {
     "precommit": [
       ".pre-commit-config.yaml"
     ]
@@ -3597,6 +3805,16 @@
   {
     "prestashop": [
       "config/settings.inc.php"
+    ]
+  },
+  {
+    "prettier": [
+      "prettier.config.js",
+      "prettier.config.mjs",
+      "prettier.config.cjs",
+      ".prettierrc.js",
+      ".prettierrc.mjs",
+      ".prettierrc.cjs"
     ]
   },
   {
@@ -3716,8 +3934,14 @@
     ]
   },
   {
+    "pylint": [
+      ".pylintrc"
+    ]
+  },
+  {
     "pytest": [
-      "pytest.ini"
+      "pytest.ini",
+      "pyproject.toml"
     ]
   },
   {
@@ -3823,6 +4047,11 @@
     ]
   },
   {
+    "qwik": [
+      "vite.config.ts"
+    ]
+  },
+  {
     "r": [
       "*.R",
       "*.Rmd",
@@ -3843,7 +4072,8 @@
   },
   {
     "rails": [
-      "bin/rails"
+      "bin/rails",
+      "config/application.rb"
     ]
   },
   {
@@ -3860,6 +4090,11 @@
     "react": [
       "*.jsx",
       "*.tsx"
+    ]
+  },
+  {
+    "react-native": [
+      "react-native.config.js"
     ]
   },
   {
@@ -3889,6 +4124,11 @@
     ]
   },
   {
+    "rector": [
+      "rector.php"
+    ]
+  },
+  {
     "red": [
       "*.red"
     ]
@@ -3911,6 +4151,12 @@
   {
     "reflex": [
       "rxconfig.py"
+    ]
+  },
+  {
+    "relay": [
+      "relay.config.js",
+      "relay.config.json"
     ]
   },
   {
@@ -4051,6 +4297,11 @@
     ]
   },
   {
+    "rspress": [
+      "rspress.config.ts"
+    ]
+  },
+  {
     "ruby": [
       "*.gemspec",
       "*.rb",
@@ -4138,6 +4389,17 @@
     ]
   },
   {
+    "sanity": [
+      "sanity.config.ts",
+      "sanity.config.js"
+    ]
+  },
+  {
+    "sanity-studio": [
+      "sanity.cli.ts"
+    ]
+  },
+  {
     "sas": [
       "*.sas"
     ]
@@ -4200,6 +4462,11 @@
     ]
   },
   {
+    "sequelize": [
+      ".sequelizerc"
+    ]
+  },
+  {
     "serverless": [
       "serverless.yml",
       "serverless.ts",
@@ -4240,7 +4507,9 @@
   },
   {
     "slidev": [
-      "slides.md"
+      "slides.md",
+      "slidev.config.ts",
+      "slidev.config.js"
     ]
   },
   {
@@ -4273,7 +4542,8 @@
   },
   {
     "solana": [
-      "anchor.toml"
+      "anchor.toml",
+      "Anchor.toml"
     ]
   },
   {
@@ -4289,6 +4559,12 @@
   {
     "soliditytruffle": [
       "truffle-config.js"
+    ]
+  },
+  {
+    "solidjs": [
+      "vite.config.ts",
+      "vite.config.js"
     ]
   },
   {
@@ -4319,6 +4595,11 @@
   {
     "specflow": [
       "*.feature"
+    ]
+  },
+  {
+    "sphinx": [
+      "conf.py"
     ]
   },
   {
@@ -4384,6 +4665,11 @@
     ]
   },
   {
+    "standard-version": [
+      ".versionrc"
+    ]
+  },
+  {
     "standardml": [
       "*.sml"
     ]
@@ -4410,6 +4696,12 @@
     ]
   },
   {
+    "storybook": [
+      ".storybook/main.js",
+      ".storybook/main.ts"
+    ]
+  },
+  {
     "storybookjs": [
       ".storybook"
     ]
@@ -4419,6 +4711,11 @@
       "config/database.js",
       "config/admin.js",
       ".strapi"
+    ]
+  },
+  {
+    "styleguidist": [
+      "styleguide.config.js"
     ]
   },
   {
@@ -4460,6 +4757,11 @@
   {
     "svn": [
       ".svn"
+    ]
+  },
+  {
+    "swc": [
+      ".swcrc"
     ]
   },
   {
@@ -4506,6 +4808,12 @@
     ]
   },
   {
+    "tamagui": [
+      "tamagui.config.ts",
+      "tamagui.config.js"
+    ]
+  },
+  {
     "tanstack-router": [
       "tsr.config.json"
     ]
@@ -4536,6 +4844,12 @@
     ]
   },
   {
+    "taze": [
+      "taze.config.js",
+      "taze.config.ts"
+    ]
+  },
+  {
     "tcl": [
       "*.tcl"
     ]
@@ -4559,6 +4873,11 @@
     "test": [
       "*.test",
       "*.spec"
+    ]
+  },
+  {
+    "testcafe": [
+      ".testcaferc.json"
     ]
   },
   {
@@ -4644,6 +4963,11 @@
     ]
   },
   {
+    "tox": [
+      "tox.ini"
+    ]
+  },
+  {
     "travisci": [
       ".travis.yml"
     ]
@@ -4664,6 +4988,12 @@
     "trunk": [
       ".trunk/trunk.yaml",
       "trunk.yaml"
+    ]
+  },
+  {
+    "tsup": [
+      "tsup.config.ts",
+      "tsup.config.js"
     ]
   },
   {
@@ -4741,6 +5071,12 @@
       "*.unity",
       "ProjectSettings",
       "ProjectSettings/ProjectSettings.asset"
+    ]
+  },
+  {
+    "unocss": [
+      "uno.config.ts",
+      "uno.config.js"
     ]
   },
   {
@@ -4909,6 +5245,11 @@
     ]
   },
   {
+    "vlang": [
+      "v.mod"
+    ]
+  },
+  {
     "vmware": [
       "*.vmx"
     ]
@@ -4943,6 +5284,12 @@
     "vuejs": [
       "vue.config.js",
       "*.vue"
+    ]
+  },
+  {
+    "vuepress": [
+      ".vuepress/config.js",
+      ".vuepress/config.ts"
     ]
   },
   {
@@ -5050,6 +5397,11 @@
   {
     "wordpress": [
       "wp-config.php"
+    ]
+  },
+  {
+    "wxt": [
+      "wxt.config.ts"
     ]
   },
   {
