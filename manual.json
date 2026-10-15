@@ -16,19 +16,19 @@
     "tag": "aider",
     "search": [
       {
-        "filename": ".aider.conf.yml",
+        "filename": ".aider",
         "path": ".aider.chat.history.md"
       },
       {
-        "filename": ".aider.conf.yml",
+        "filename": ".aider",
         "path": ".aider.tags.cache.v3"
       },
       {
-        "filename": ".aider",
+        "filename": ".aider.conf.yml",
         "path": ".aider.chat.history.md"
       },
       {
-        "filename": ".aider",
+        "filename": ".aider.conf.yml",
         "path": ".aider.tags.cache.v3"
       }
     ]
@@ -53,11 +53,11 @@
         "path": ".ampt/"
       },
       {
-        "filename": "package.json",
+        "filename": "ampt.yml",
         "path": ".ampt/"
       },
       {
-        "filename": "ampt.yml",
+        "filename": "package.json",
         "path": ".ampt/"
       }
     ]
@@ -507,11 +507,11 @@
     "tag": "dagger",
     "search": [
       {
-        "filename": ".dagger/env",
+        "filename": ".dagger",
         "path": ".dagger/"
       },
       {
-        "filename": ".dagger",
+        "filename": ".dagger/env",
         "path": ".dagger/"
       }
     ]
@@ -775,11 +775,11 @@
     "search": [
       {
         "filename": "*.duckdb",
-        "path": "*.duckdb"
+        "path": "*.ddb"
       },
       {
         "filename": "*.duckdb",
-        "path": "*.ddb"
+        "path": "*.duckdb"
       },
       {
         "filename": "*.duckdb",
@@ -2624,11 +2624,11 @@
     "tag": "pulumi",
     "search": [
       {
-        "filename": "Pulumi.yaml",
+        "filename": "Pulumi.dev.yaml",
         "path": ".pulumi/"
       },
       {
-        "filename": "Pulumi.dev.yaml",
+        "filename": "Pulumi.yaml",
         "path": ".pulumi/"
       }
     ]
@@ -2915,6 +2915,14 @@
         "path": "build/"
       },
       {
+        "filename": "react-router.config.cjs",
+        "path": ".react-router/"
+      },
+      {
+        "filename": "react-router.config.cjs",
+        "path": "build/"
+      },
+      {
         "filename": "react-router.config.js",
         "path": ".react-router/"
       },
@@ -2929,14 +2937,6 @@
       {
         "filename": "react-router.config.ts",
         "path": "build/"
-      },
-      {
-        "filename": "react-router.config.cjs",
-        "path": "build/"
-      },
-      {
-        "filename": "react-router.config.cjs",
-        "path": ".react-router/"
       }
     ]
   },
@@ -3028,18 +3028,31 @@
     ]
   },
   {
+    "tag": "remotion",
+    "search": [
+      {
+        "filename": "remotion.config.js",
+        "path": "out/"
+      },
+      {
+        "filename": "remotion.config.ts",
+        "path": "out/"
+      }
+    ]
+  },
+  {
     "tag": "rolldown",
     "search": [
+      {
+        "filename": "rolldown.config.cjs",
+        "path": "dist/"
+      },
       {
         "filename": "rolldown.config.js",
         "path": "dist/"
       },
       {
         "filename": "rolldown.config.ts",
-        "path": "dist/"
-      },
-      {
-        "filename": "rolldown.config.cjs",
         "path": "dist/"
       }
     ]
@@ -3164,16 +3177,16 @@
     "tag": "ruby",
     "search": [
       {
+        "filename": "*.gemspec",
+        "path": ".bundle/"
+      },
+      {
         "filename": "Gemfile",
         "path": ".bundle/"
       },
       {
         "filename": "Gemfile",
         "path": "vendor/bundle/"
-      },
-      {
-        "filename": "*.gemspec",
-        "path": ".bundle/"
       }
     ]
   },
@@ -4191,6 +4204,15 @@
       {
         "filename": "wandb/settings",
         "path": "wandb/"
+      }
+    ]
+  },
+  {
+    "tag": "wasp",
+    "search": [
+      {
+        "filename": "main.wasp",
+        "path": ".wasp/"
       }
     ]
   },
