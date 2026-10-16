@@ -11,7 +11,7 @@
 
 # gign
 
-### ⚡ Gerador inteligente, offline e automático de `.gitignore` para qualquer projeto.
+### ⚡ Gerador inteligente, offline e automático de `.gitignore` para qualquer projeto
 
 [![npm version](https://img.shields.io/npm/v/gign.svg?style=flat-square&color=cb3837&logo=npm)](https://www.npmjs.com/package/gign)
 [![npm downloads](https://img.shields.io/npm/dm/gign.svg?style=flat-square&color=blue)](https://www.npmjs.com/package/gign)
@@ -20,83 +20,72 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![codecov](https://img.shields.io/codecov/c/github/juninmd/gign/master?style=flat-square&logo=codecov)](https://codecov.io/gh/juninmd/gign)
 
-<p align="center">
-  <a href="#-principais-recursos">Recursos</a> •
-  <a href="#-instalação-e-execução">Instalação</a> •
-  <a href="#-como-usar">Uso</a> •
-  <a href="#-como-funciona">Como Funciona</a> •
+<p>
+  <a href="#-recursos">Recursos</a> •
+  <a href="#-instalação">Instalação</a> •
+  <a href="#-uso">Uso</a> •
+  <a href="#-como-funciona">Como funciona</a> •
   <a href="#-stacks-suportadas">Stacks</a> •
-  <a href="#-automação--deploy">CI/CD & Deploy</a> •
-  <a href="#-desenvolvimento-local">Desenvolvimento</a> •
+  <a href="#-automação--deploy">Deploy</a> •
+  <a href="#-desenvolvimento">Desenvolvimento</a> •
   <a href="#-licença">Licença</a>
 </p>
 
----
-
 </div>
+
+---
 
 ## 💡 O que é o gign?
 
-O **gign** inspeciona a estrutura do seu projeto, identifica automaticamente o sistema operacional (Windows, macOS, Linux) e todas as linguagens, frameworks e ferramentas utilizadas (Node.js, TypeScript, Python, Docker, Rust, Go, VS Code, JetBrains, etc.), gerando um arquivo `.gitignore` sob medida, perfeitamente deduplicado e **100% offline** — sem chamadas a APIs externas e com zero latência.
+O **gign** inspeciona a estrutura do seu projeto, detecta o sistema operacional e todas as linguagens, frameworks e ferramentas em uso (Node.js, TypeScript, Python, Docker, Rust, Go, VS Code, JetBrains, e muito mais) e gera um `.gitignore` sob medida, **deduplicado** e **100% offline**, sem chamadas a APIs externas.
 
-Inspirado pelo clássico [gitignore.io](https://www.toptal.com/developers/gitignore), mas totalmente autocontido e inteligente.
-
----
-
-## ✨ Principais Recursos
-
-- 🚀 **100% Offline & Instantâneo:** Templates oficiais embutidos localmente via bundle (`github/gitignore`). Zero chamadas de rede.
-- 🔍 **Detecção Automática Profunda:** Mapeia arquivos de configuração, locks e diretórios para detectar automaticamente mais de 250 tecnologias.
-- 🖥️ **Sensível ao Sistema Operacional:** Inclui automaticamente regras do OS atual (`.DS_Store`, `Thumbs.db`, etc.).
-- 🧹 **Deduplicação Inteligente:** Mescla padrões sem repetir regras redundantes entre múltiplos templates.
-- 📦 **Zero Dependências em Produção:** Empacotado em um único arquivo minificado com `esbuild`.
-- 🔐 **Build com Proveniência npm:** Assinatura criptográfica via OIDC diretamente no GitHub Actions.
+Inspirado pelo clássico [gitignore.io](https://www.toptal.com/developers/gitignore), mas totalmente autocontido.
 
 ---
 
-## 🚀 Instalação e Execução
+## ✨ Recursos
 
-### Execução Direta (Zero Instalação)
+|     | Recurso                         | Descrição                                                                                                                   |
+| --- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 🚀  | **Offline e instantâneo**       | Templates oficiais de [`github/gitignore`](https://github.com/github/gitignore) embutidos no pacote. Zero chamadas de rede. |
+| 🔍  | **Detecção automática**         | Mapeia arquivos de configuração, lockfiles e diretórios para identificar tecnologias.                                       |
+| 🖥️  | **Sensível ao sistema**         | Inclui automaticamente as regras do SO atual (`.DS_Store`, `Thumbs.db`, etc.).                                              |
+| 🧹  | **Deduplicação inteligente**    | Mescla múltiplos templates sem repetir regras.                                                                              |
+| 📦  | **Sem dependências em runtime** | Distribuído como um único bundle minificado via `esbuild`.                                                                  |
+| 🔐  | **Proveniência npm**            | Publicação com assinatura criptográfica via OIDC no GitHub Actions.                                                         |
 
-A forma mais rápida de usar é com `npx`:
+---
+
+## 🚀 Instalação
+
+### Execução direta (sem instalar)
 
 ```bash
 npx gign .
 ```
 
-### Instalação Global
-
-Escolha seu gerenciador de pacotes favorito:
+### Instalação global
 
 ```bash
-# npm
-npm install -g gign
-
-# pnpm
-pnpm add -g gign
-
-# yarn
-yarn global add gign
-
-# bun
-bun add -g gign
+npm install -g gign     # npm
+pnpm add -g gign        # pnpm
+yarn global add gign    # yarn
+bun add -g gign         # bun
 ```
 
 ---
 
-## 📖 Como Usar
-
-No terminal, informe o caminho do diretório do projeto:
+## 📖 Uso
 
 ```bash
-# No diretório atual:
+# No diretório atual
 gign .
 
-# Em um diretório específico:
+# Em um diretório específico
 gign ./meu-projeto
 ```
 
-### Exemplo de Saída:
+Exemplo de saída:
 
 ```text
 [gign] generated at /workspace/meu-projeto/.gitignore
@@ -104,89 +93,83 @@ gign ./meu-projeto
 [gign] manual tags: jest,prettier,typescript,vite
 ```
 
-O arquivo `.gitignore` resultante já estará formatado, organizado por seções e pronto para ser versionado!
+O arquivo gerado já vem organizado por seções, pronto para ser versionado. ✅
 
 ---
 
-## 🧠 Como Funciona
+## 🧠 Como funciona
 
 ```mermaid
 flowchart LR
-    A["📁 Diretório do Projeto"] --> B["🔎 Scanner de Padrões"]
-    B --> C["🧩 Mapeamento de Tags & SO"]
-    C --> D["⚡ Deduplicação & Regras Customizadas"]
-    D --> E["📄 .gitignore Perfeito"]
+    A["📁 Projeto"] --> B["🔎 Scanner de padrões"]
+    B --> C["🧩 Tags & SO"]
+    C --> D["⚡ Deduplicação + regras"]
+    D --> E["📄 .gitignore"]
 ```
 
-1. **Varredura:** O `gign` analisa arquivos-chave (e.g. `package.json`, `Cargo.toml`, `go.mod`, `requirements.txt`, etc.).
-2. **Resolução de Tags:** Identifica o SO host e cruza as extensões e arquivos encontrados com os dicionários `pattern.json` e `manual.json`.
-3. **Composição e Deduplicação:** Carrega os templates correspondentes de `src/data/templates.json`, adiciona as regras manuais e remove duplicatas linha por linha.
-4. **Gravação:** Salva o `.gitignore` final diretamente no diretório alvo.
+1. **Varredura:** analisa arquivos-chave como `package.json`, `Cargo.toml`, `go.mod` e `requirements.txt`.
+2. **Resolução de tags:** identifica o SO host e cruza arquivos e extensões com `pattern.json` e `manual.json`.
+3. **Composição:** carrega os templates de `src/data/templates.json`, adiciona as regras manuais e remove duplicatas linha a linha.
+4. **Gravação:** salva o `.gitignore` final no diretório alvo.
 
 ---
 
-## 🛠️ Stacks Suportadas
+## 🛠️ Stacks suportadas
 
-São mais de 250 ecossistemas suportados nativamente, incluindo:
+Mais de **250 ecossistemas** são suportados nativamente.
 
 <details>
-<summary><b>Clique para ver as principais tecnologias detectadas</b></summary>
+<summary><b>Ver as principais tecnologias detectadas</b></summary>
 
-- **Linguagens:** TypeScript, JavaScript, Python, Go, Rust, Java, Kotlin, C/C++, C#, Ruby, PHP, Swift, Dart, Elixir, Scala, Lua, Zig.
-- **Frontend & Meta-Frameworks:** React, Next.js, Vue, Nuxt, Svelte, SvelteKit, Astro, Remix, Angular, Vite, Gatsby.
-- **Backend & Runtimes:** Node.js, Bun, Deno, NestJS, Express, Fastify, Django, Flask, FastAPI, Laravel, Spring Boot.
-- **Infraestrutura & DevOps:** Docker, Kubernetes, Terraform, Helm, Serverless, AWS CDK, Pulumi, Cloudflare Workers.
-- **IDEs & Editores:** Visual Studio Code, JetBrains (IntelliJ, WebStorm, PyCharm, CLion, Rider, GoLand), Xcode, Sublime Text, Vim.
-- **Ferramentas de Teste & Qualidade:** Jest, Vitest, Playwright, Cypress, ESLint, Prettier, Biome, Ruff, Coverage.
+<br>
+
+- **Linguagens:** TypeScript, JavaScript, Python, Go, Rust, Java, Kotlin, C/C++, C#, Ruby, PHP, Swift, Dart, Elixir, Scala, Lua, Zig
+- **Frontend & meta-frameworks:** React, Next.js, Vue, Nuxt, Svelte, SvelteKit, Astro, Remix, Angular, Vite, Gatsby
+- **Backend & runtimes:** Node.js, Bun, Deno, NestJS, Express, Fastify, Django, Flask, FastAPI, Laravel, Spring Boot
+- **Infraestrutura & DevOps:** Docker, Kubernetes, Terraform, Helm, Serverless, AWS CDK, Pulumi, Cloudflare Workers
+- **IDEs & editores:** Visual Studio Code, JetBrains (IntelliJ, WebStorm, PyCharm, CLion, Rider, GoLand), Xcode, Sublime Text, Vim
+- **Testes & qualidade:** Jest, Vitest, Playwright, Cypress, ESLint, Prettier, Biome, Ruff, Coverage
 
 </details>
 
 ---
 
-## 🔄 Automação & Deploy
+## 🔄 Automação & deploy
 
-O repositório está configurado para entregas contínuas totalmente automatizadas:
+Entregas totalmente automatizadas:
 
-- **Conventional Commits:** Cada commit padronizado (`feat:`, `fix:`, `perf:`, `BREAKING CHANGE`) determina o bump de versão (minor/patch/major).
-- **semantic-release:** Analisa os commits, calcula a próxima versão e gera as notas de release e tags sem necessidade de aprovação manual ou PRs intermediários.
-- **Publicação Automática no npm:** A cada push no branch `master`, a pipeline do GitHub Actions valida a suíte de testes, roda o lint, compila o bundle e publica automaticamente a nova versão no [npm](https://www.npmjs.com/package/gign) com **proveniência criptográfica**.
+- **Conventional Commits:** `feat:`, `fix:`, `perf:` e `BREAKING CHANGE` definem o bump de versão (minor, patch ou major).
+- **semantic-release:** analisa os commits, calcula a próxima versão e gera tags e notas de release, sem aprovação manual.
+- **Publicação no npm:** a cada push em `master`, o GitHub Actions valida testes e lint, compila o bundle e publica no [npm](https://www.npmjs.com/package/gign) com **proveniência**.
 
 ---
 
-## 💻 Desenvolvimento Local
+## 💻 Desenvolvimento
 
 ```bash
-# Clone o repositório
 git clone https://github.com/juninmd/gign.git
 cd gign
-
-# Instale as dependências
 npm ci
 
-# Execute a suíte de testes
-npm test
-
-# Testes com relatório de cobertura
-npm run test:coverage
-
-# Valide com linter
-npm run lint
-
-# Formate o código automaticamente
-npm run format
-
-# Verifique a formatação sem alterar arquivos
-npm run format:check
-
-# Compile o bundle de produção
-npm run build
-
-# Sincronize templates upstream com github/gitignore
-npm run sync:templates
+npm test                  # suíte de testes (Jest)
+npm run test:coverage     # testes com cobertura
+npm run lint              # ESLint
+npm run format            # Prettier (escrita)
+npm run format:check      # Prettier (checagem)
+npm run build             # bundle de produção em dist/
+npm run sync:templates    # atualiza templates a partir de github/gitignore
 ```
+
+Veja [CONTRIBUTING.md](CONTRIBUTING.md) para as diretrizes de contribuição.
 
 ---
 
 ## 📄 Licença
 
-Distribuído sob a licença [MIT](LICENSE). Consulte o arquivo para obter mais detalhes.
+Distribuído sob a licença [MIT](LICENSE).
+
+<div align="center">
+
+Feito com ☕ por [Antonio Carlos](https://github.com/juninmd)
+
+</div>
