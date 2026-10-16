@@ -25,7 +25,9 @@
   <a href="#-instalação-e-execução">Instalação</a> •
   <a href="#-como-usar">Uso</a> •
   <a href="#-como-funciona">Como Funciona</a> •
+  <a href="#-stacks-suportadas">Stacks</a> •
   <a href="#-automação--deploy">CI/CD & Deploy</a> •
+  <a href="#-desenvolvimento-local">Desenvolvimento</a> •
   <a href="#-licença">Licença</a>
 </p>
 
@@ -164,8 +166,17 @@ npm ci
 # Execute a suíte de testes
 npm test
 
+# Testes com relatório de cobertura
+npm run test:coverage
+
 # Valide com linter
 npm run lint
+
+# Formate o código automaticamente
+npm run format
+
+# Verifique a formatação sem alterar arquivos
+npm run format:check
 
 # Compile o bundle de produção
 npm run build
