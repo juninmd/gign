@@ -1285,6 +1285,10 @@
       {
         "filename": "keystone.ts",
         "path": ".keystone/"
+      },
+      {
+        "filename": "keystone.js",
+        "path": ".keystone/"
       }
     ]
   },
@@ -1481,6 +1485,19 @@
       {
         "filename": "MLproject",
         "path": "mlruns/"
+      }
+    ]
+  },
+  {
+    "tag": "modernjs",
+    "search": [
+      {
+        "filename": "modern.config.ts",
+        "path": "dist/"
+      },
+      {
+        "filename": "modern.config.js",
+        "path": "dist/"
       }
     ]
   },
@@ -3924,6 +3941,27 @@
       {
         "filename": "tsconfig.json",
         "struct": "compilerOptions.outDir"
+      }
+    ]
+  },
+  {
+    "tag": "umi",
+    "search": [
+      {
+        "filename": "umirc.ts",
+        "path": "dist/"
+      },
+      {
+        "filename": "umirc.js",
+        "path": "dist/"
+      },
+      {
+        "filename": ".umirc.ts",
+        "path": "dist/"
+      },
+      {
+        "filename": ".umirc.js",
+        "path": "dist/"
       }
     ]
   },
