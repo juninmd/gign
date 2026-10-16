@@ -45,14 +45,14 @@ Inspirado pelo clássico [gitignore.io](https://www.toptal.com/developers/gitign
 
 ## ✨ Recursos
 
-| | Recurso | Descrição |
-|---|---|---|
-| 🚀 | **Offline e instantâneo** | Templates oficiais de [`github/gitignore`](https://github.com/github/gitignore) embutidos no pacote. Zero chamadas de rede. |
-| 🔍 | **Detecção automática** | Mapeia arquivos de configuração, lockfiles e diretórios para identificar tecnologias. |
-| 🖥️ | **Sensível ao sistema** | Inclui automaticamente as regras do SO atual (`.DS_Store`, `Thumbs.db`, etc.). |
-| 🧹 | **Deduplicação inteligente** | Mescla múltiplos templates sem repetir regras. |
-| 📦 | **Sem dependências em runtime** | Distribuído como um único bundle minificado via `esbuild`. |
-| 🔐 | **Proveniência npm** | Publicação com assinatura criptográfica via OIDC no GitHub Actions. |
+|     | Recurso                         | Descrição                                                                                                                   |
+| --- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 🚀  | **Offline e instantâneo**       | Templates oficiais de [`github/gitignore`](https://github.com/github/gitignore) embutidos no pacote. Zero chamadas de rede. |
+| 🔍  | **Detecção automática**         | Mapeia arquivos de configuração, lockfiles e diretórios para identificar tecnologias.                                       |
+| 🖥️  | **Sensível ao sistema**         | Inclui automaticamente as regras do SO atual (`.DS_Store`, `Thumbs.db`, etc.).                                              |
+| 🧹  | **Deduplicação inteligente**    | Mescla múltiplos templates sem repetir regras.                                                                              |
+| 📦  | **Sem dependências em runtime** | Distribuído como um único bundle minificado via `esbuild`.                                                                  |
+| 🔐  | **Proveniência npm**            | Publicação com assinatura criptográfica via OIDC no GitHub Actions.                                                         |
 
 ---
 
