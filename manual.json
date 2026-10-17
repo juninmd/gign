@@ -606,6 +606,15 @@
     ]
   },
   {
+    "tag": "devbox",
+    "search": [
+      {
+        "filename": "devbox.json",
+        "path": ".devbox/"
+      }
+    ]
+  },
+  {
     "tag": "devenv",
     "search": [
       {
@@ -837,6 +846,23 @@
       },
       {
         "filename": "eleventy.config.js",
+        "path": "_site/"
+      }
+    ]
+  },
+  {
+    "tag": "eleventy",
+    "search": [
+      {
+        "filename": "eleventy.config.js",
+        "path": "_site/"
+      },
+      {
+        "filename": "eleventy.config.cjs",
+        "path": "_site/"
+      },
+      {
+        "filename": ".eleventy.js",
         "path": "_site/"
       }
     ]
@@ -1314,6 +1340,27 @@
     ]
   },
   {
+    "tag": "knip",
+    "search": [
+      {
+        "filename": "knip.ts",
+        "path": ".knip/"
+      },
+      {
+        "filename": "knip.js",
+        "path": ".knip/"
+      },
+      {
+        "filename": "knip.json",
+        "path": ".knip/"
+      },
+      {
+        "filename": "knip.jsonc",
+        "path": ".knip/"
+      }
+    ]
+  },
+  {
     "tag": "lefthook",
     "search": [
       {
@@ -1498,6 +1545,14 @@
       {
         "filename": "modern.config.js",
         "path": "dist/"
+      },
+      {
+        "filename": "modern.config.ts",
+        "path": ".modern-js/"
+      },
+      {
+        "filename": "modern.config.js",
+        "path": ".modern-js/"
       }
     ]
   },
@@ -2370,6 +2425,27 @@
       },
       {
         "filename": "panda.config.ts",
+        "path": "styled-system/"
+      }
+    ]
+  },
+  {
+    "tag": "pandacss",
+    "search": [
+      {
+        "filename": "panda.config.ts",
+        "path": "styled-system/"
+      },
+      {
+        "filename": "panda.config.js",
+        "path": "styled-system/"
+      },
+      {
+        "filename": "panda.config.mjs",
+        "path": "styled-system/"
+      },
+      {
+        "filename": "panda.config.cjs",
         "path": "styled-system/"
       }
     ]
@@ -3748,6 +3824,15 @@
     ]
   },
   {
+    "tag": "terragrunt",
+    "search": [
+      {
+        "filename": "terragrunt.hcl",
+        "path": ".terragrunt-cache/"
+      }
+    ]
+  },
+  {
     "tag": "tflint",
     "search": [
       {
@@ -3961,6 +4046,30 @@
       },
       {
         "filename": ".umirc.js",
+        "path": "dist/"
+      },
+      {
+        "filename": ".umirc.ts",
+        "path": ".umi/"
+      },
+      {
+        "filename": ".umirc.js",
+        "path": ".umi/"
+      },
+      {
+        "filename": "config/config.ts",
+        "path": ".umi/"
+      },
+      {
+        "filename": "config/config.ts",
+        "path": "dist/"
+      },
+      {
+        "filename": "config/config.js",
+        "path": ".umi/"
+      },
+      {
+        "filename": "config/config.js",
         "path": "dist/"
       }
     ]

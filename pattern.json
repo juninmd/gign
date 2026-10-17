@@ -2232,6 +2232,12 @@
     ]
   },
   {
+    "keystone": [
+      "keystone.js",
+      "keystone.ts"
+    ]
+  },
+  {
     "keystonejs": [
       "keystone.ts"
     ]
@@ -2249,6 +2255,14 @@
   {
     "kirby3": [
       "site/config/config.php"
+    ]
+  },
+  {
+    "knip": [
+      "knip.js",
+      "knip.json",
+      "knip.jsonc",
+      "knip.ts"
     ]
   },
   {
@@ -2635,6 +2649,12 @@
     ]
   },
   {
+    "modernjs": [
+      "modern.config.js",
+      "modern.config.ts"
+    ]
+  },
+  {
     "modx": [
       "core/config/config.inc.php"
     ]
@@ -2889,6 +2909,8 @@
       ".swcrc",
       ".tazerc.json",
       ".testcaferc.json",
+      ".umirc.js",
+      ".umirc.ts",
       ".versionrc",
       ".versionrc.js",
       ".versionrc.json",
@@ -2967,6 +2989,8 @@
       "commitlint.config.ts",
       "components.json",
       "config.toml",
+      "config/config.js",
+      "config/config.ts",
       "contentlayer.config.cjs",
       "contentlayer.config.js",
       "contentlayer.config.mjs",
@@ -2987,6 +3011,7 @@
       "databricks.yml",
       "deno.json",
       "deno.jsonc",
+      "devbox.json",
       "devcontainer.json",
       "devspace.yaml",
       "docker-compose.yaml",
@@ -3531,6 +3556,14 @@
   },
   {
     "panda": [
+      "panda.config.cjs",
+      "panda.config.js",
+      "panda.config.mjs",
+      "panda.config.ts"
+    ]
+  },
+  {
+    "pandacss": [
       "panda.config.cjs",
       "panda.config.js",
       "panda.config.mjs",
@@ -5073,6 +5106,14 @@
     ]
   },
   {
+    "umi": [
+      ".umirc.js",
+      ".umirc.ts",
+      "config/config.js",
+      "config/config.ts"
+    ]
+  },
+  {
     "unbuild": [
       "build.config.cjs",
       "build.config.js",
@@ -5420,6 +5461,7 @@
   },
   {
     "wxt": [
+      "wxt.config.js",
       "wxt.config.ts"
     ]
   },
