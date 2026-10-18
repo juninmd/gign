@@ -106,6 +106,19 @@
     ]
   },
   {
+    "tag": "ape",
+    "search": [
+      {
+        "filename": "ape-config.yaml",
+        "path": ".ape/"
+      },
+      {
+        "filename": "ape-config.yaml",
+        "path": ".build/"
+      }
+    ]
+  },
+  {
     "tag": "appwrite",
     "search": [
       {
@@ -336,6 +349,19 @@
       {
         "filename": "wrangler.toml",
         "path": ".wrangler"
+      }
+    ]
+  },
+  {
+    "tag": "codeceptjs",
+    "search": [
+      {
+        "filename": "codecept.conf.js",
+        "path": "output/"
+      },
+      {
+        "filename": "codecept.conf.ts",
+        "path": "output/"
       }
     ]
   },
@@ -854,7 +880,7 @@
     "tag": "eleventy",
     "search": [
       {
-        "filename": "eleventy.config.js",
+        "filename": ".eleventy.js",
         "path": "_site/"
       },
       {
@@ -862,7 +888,7 @@
         "path": "_site/"
       },
       {
-        "filename": ".eleventy.js",
+        "filename": "eleventy.config.js",
         "path": "_site/"
       }
     ]
@@ -1305,16 +1331,16 @@
     "tag": "keystone",
     "search": [
       {
+        "filename": "keystone.js",
+        "path": ".keystone/"
+      },
+      {
         "filename": "keystone.ts",
         "path": ".keystone"
       },
       {
         "filename": "keystone.ts",
         "path": ".keystone/"
-      },
-      {
-        "filename": "keystone.js",
-        "path": ".keystone/"
       }
     ]
   },
@@ -1343,10 +1369,6 @@
     "tag": "knip",
     "search": [
       {
-        "filename": "knip.ts",
-        "path": ".knip/"
-      },
-      {
         "filename": "knip.js",
         "path": ".knip/"
       },
@@ -1356,6 +1378,10 @@
       },
       {
         "filename": "knip.jsonc",
+        "path": ".knip/"
+      },
+      {
+        "filename": "knip.ts",
         "path": ".knip/"
       }
     ]
@@ -1462,6 +1488,15 @@
     ]
   },
   {
+    "tag": "mako",
+    "search": [
+      {
+        "filename": "mako.config.json",
+        "path": "dist/"
+      }
+    ]
+  },
+  {
     "tag": "mdbook",
     "search": [
       {
@@ -1539,8 +1574,8 @@
     "tag": "modernjs",
     "search": [
       {
-        "filename": "modern.config.ts",
-        "path": "dist/"
+        "filename": "modern.config.js",
+        "path": ".modern-js/"
       },
       {
         "filename": "modern.config.js",
@@ -1551,8 +1586,8 @@
         "path": ".modern-js/"
       },
       {
-        "filename": "modern.config.js",
-        "path": ".modern-js/"
+        "filename": "modern.config.ts",
+        "path": "dist/"
       }
     ]
   },
@@ -2433,7 +2468,7 @@
     "tag": "pandacss",
     "search": [
       {
-        "filename": "panda.config.ts",
+        "filename": "panda.config.cjs",
         "path": "styled-system/"
       },
       {
@@ -2445,7 +2480,7 @@
         "path": "styled-system/"
       },
       {
-        "filename": "panda.config.cjs",
+        "filename": "panda.config.ts",
         "path": "styled-system/"
       }
     ]
@@ -3855,6 +3890,19 @@
     ]
   },
   {
+    "tag": "tinkun",
+    "search": [
+      {
+        "filename": "tinkun.config.js",
+        "path": ".tinkun/"
+      },
+      {
+        "filename": "tinkun.config.js",
+        "path": "dist/"
+      }
+    ]
+  },
+  {
     "tag": "tox",
     "search": [
       {
@@ -4033,7 +4081,35 @@
     "tag": "umi",
     "search": [
       {
-        "filename": "umirc.ts",
+        "filename": ".umirc.js",
+        "path": ".umi/"
+      },
+      {
+        "filename": ".umirc.js",
+        "path": "dist/"
+      },
+      {
+        "filename": ".umirc.ts",
+        "path": ".umi/"
+      },
+      {
+        "filename": ".umirc.ts",
+        "path": "dist/"
+      },
+      {
+        "filename": "config/config.js",
+        "path": ".umi/"
+      },
+      {
+        "filename": "config/config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "config/config.ts",
+        "path": ".umi/"
+      },
+      {
+        "filename": "config/config.ts",
         "path": "dist/"
       },
       {
@@ -4041,35 +4117,7 @@
         "path": "dist/"
       },
       {
-        "filename": ".umirc.ts",
-        "path": "dist/"
-      },
-      {
-        "filename": ".umirc.js",
-        "path": "dist/"
-      },
-      {
-        "filename": ".umirc.ts",
-        "path": ".umi/"
-      },
-      {
-        "filename": ".umirc.js",
-        "path": ".umi/"
-      },
-      {
-        "filename": "config/config.ts",
-        "path": ".umi/"
-      },
-      {
-        "filename": "config/config.ts",
-        "path": "dist/"
-      },
-      {
-        "filename": "config/config.js",
-        "path": ".umi/"
-      },
-      {
-        "filename": "config/config.js",
+        "filename": "umirc.ts",
         "path": "dist/"
       }
     ]
@@ -4144,6 +4192,27 @@
       {
         "filename": "vercel.json",
         "path": ".vercel/"
+      }
+    ]
+  },
+  {
+    "tag": "vinxi",
+    "search": [
+      {
+        "filename": "vinxi.config.js",
+        "path": ".output/"
+      },
+      {
+        "filename": "vinxi.config.js",
+        "path": ".vinxi/"
+      },
+      {
+        "filename": "vinxi.config.ts",
+        "path": ".output/"
+      },
+      {
+        "filename": "vinxi.config.ts",
+        "path": ".vinxi/"
       }
     ]
   },
@@ -4284,6 +4353,19 @@
       {
         "filename": "v.mod",
         "path": "v.mod/"
+      }
+    ]
+  },
+  {
+    "tag": "vocs",
+    "search": [
+      {
+        "filename": "vocs.config.js",
+        "path": ".vocs/"
+      },
+      {
+        "filename": "vocs.config.ts",
+        "path": ".vocs/"
       }
     ]
   },
