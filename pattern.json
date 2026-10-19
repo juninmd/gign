@@ -1121,6 +1121,11 @@
     ]
   },
   {
+    "directus": [
+      ".directus"
+    ]
+  },
+  {
     "direnv": [
       ".envrc"
     ]
@@ -1458,6 +1463,11 @@
     "fastapi": [
       "app.py",
       "main.py"
+    ]
+  },
+  {
+    "fastify": [
+      "fastify.config.js"
     ]
   },
   {
@@ -2796,6 +2806,11 @@
       "flake.lock",
       "flake.nix",
       "shell.nix"
+    ]
+  },
+  {
+    "nocodb": [
+      ".nocodb"
     ]
   },
   {
