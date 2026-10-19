@@ -34,6 +34,27 @@
     ]
   },
   {
+    "tag": "amplify",
+    "search": [
+      {
+        "filename": "amplify/",
+        "path": "amplify/.config/local-*"
+      },
+      {
+        "filename": "amplify/",
+        "path": "amplify/#current-cloud-backend/"
+      },
+      {
+        "filename": "amplify/",
+        "path": "amplify/backend/amplify-meta.json"
+      },
+      {
+        "filename": "amplify/",
+        "path": "amplify/mock-data/"
+      }
+    ]
+  },
+  {
     "tag": "ampt",
     "search": [
       {
@@ -301,6 +322,27 @@
     ]
   },
   {
+    "tag": "capacitor",
+    "search": [
+      {
+        "filename": "capacitor.config.json",
+        "path": "dist/"
+      },
+      {
+        "filename": "capacitor.config.json",
+        "path": "www/"
+      },
+      {
+        "filename": "capacitor.config.ts",
+        "path": "dist/"
+      },
+      {
+        "filename": "capacitor.config.ts",
+        "path": "www/"
+      }
+    ]
+  },
+  {
     "tag": "cdk",
     "search": [
       {
@@ -395,11 +437,11 @@
       },
       {
         "filename": "contentlayer.config.js",
-        "path": ".contentlayer/"
+        "struct": ".contentlayer/"
       },
       {
         "filename": "contentlayer.config.js",
-        "struct": ".contentlayer/"
+        "path": ".contentlayer/"
       },
       {
         "filename": "contentlayer.config.mjs",
@@ -407,11 +449,11 @@
       },
       {
         "filename": "contentlayer.config.ts",
-        "path": ".contentlayer/"
+        "struct": ".contentlayer/"
       },
       {
         "filename": "contentlayer.config.ts",
-        "struct": ".contentlayer/"
+        "path": ".contentlayer/"
       }
     ]
   },
@@ -489,6 +531,10 @@
       },
       {
         "filename": "cypress.config.cjs",
+        "path": "cypress/cache/"
+      },
+      {
+        "filename": "cypress.config.cjs",
         "path": "cypress/screenshots/"
       },
       {
@@ -497,6 +543,10 @@
       },
       {
         "filename": "cypress.config.js",
+        "path": "cypress/cache/"
+      },
+      {
+        "filename": "cypress.config.js",
         "path": "cypress/screenshots/"
       },
       {
@@ -505,6 +555,10 @@
       },
       {
         "filename": "cypress.config.mjs",
+        "path": "cypress/cache/"
+      },
+      {
+        "filename": "cypress.config.mjs",
         "path": "cypress/screenshots/"
       },
       {
@@ -513,11 +567,19 @@
       },
       {
         "filename": "cypress.config.ts",
+        "path": "cypress/cache/"
+      },
+      {
+        "filename": "cypress.config.ts",
         "path": "cypress/screenshots/"
       },
       {
         "filename": "cypress.config.ts",
         "path": "cypress/videos/"
+      },
+      {
+        "filename": "cypress.json",
+        "path": "cypress/cache/"
       },
       {
         "filename": "cypress.json",
@@ -676,6 +738,19 @@
       {
         "filename": "Dioxus.toml",
         "path": "dist/"
+      }
+    ]
+  },
+  {
+    "tag": "directus",
+    "search": [
+      {
+        "filename": ".directus",
+        "path": "extensions/"
+      },
+      {
+        "filename": ".directus",
+        "path": "uploads/"
       }
     ]
   },
@@ -1039,6 +1114,15 @@
     ]
   },
   {
+    "tag": "fly",
+    "search": [
+      {
+        "filename": "fly.toml",
+        "path": ".fly/"
+      }
+    ]
+  },
+  {
     "tag": "foundry",
     "search": [
       {
@@ -1244,6 +1328,15 @@
     ]
   },
   {
+    "tag": "heroku",
+    "search": [
+      {
+        "filename": "Procfile",
+        "path": ".profile.d/"
+      }
+    ]
+  },
+  {
     "tag": "hugo",
     "search": [
       {
@@ -1383,6 +1476,15 @@
       {
         "filename": "knip.ts",
         "path": ".knip/"
+      }
+    ]
+  },
+  {
+    "tag": "kubernetes",
+    "search": [
+      {
+        "filename": ".kube/config",
+        "path": ".kube/cache/"
       }
     ]
   },
@@ -1733,6 +1835,15 @@
       {
         "filename": "flake.nix",
         "path": "result-*"
+      }
+    ]
+  },
+  {
+    "tag": "nocodb",
+    "search": [
+      {
+        "filename": ".nocodb",
+        "path": "nc/data/"
       }
     ]
   },
@@ -2613,6 +2724,10 @@
       },
       {
         "filename": "playwright.config.cjs",
+        "path": "playwright/.cache/"
+      },
+      {
+        "filename": "playwright.config.cjs",
         "path": "test-results/"
       },
       {
@@ -2625,6 +2740,10 @@
       },
       {
         "filename": "playwright.config.js",
+        "path": "playwright/.cache/"
+      },
+      {
+        "filename": "playwright.config.js",
         "path": "test-results/"
       },
       {
@@ -2634,6 +2753,10 @@
       {
         "filename": "playwright.config.mjs",
         "path": "playwright-report/"
+      },
+      {
+        "filename": "playwright.config.mjs",
+        "path": "playwright/.cache/"
       },
       {
         "filename": "playwright.config.mjs",
@@ -2646,6 +2769,10 @@
       {
         "filename": "playwright.config.ts",
         "path": "playwright-report/"
+      },
+      {
+        "filename": "playwright.config.ts",
+        "path": "playwright/.cache/"
       },
       {
         "filename": "playwright.config.ts",
@@ -3032,6 +3159,19 @@
     ]
   },
   {
+    "tag": "railway",
+    "search": [
+      {
+        "filename": "railway.json",
+        "path": ".railway/"
+      },
+      {
+        "filename": "railway.toml",
+        "path": ".railway/"
+      }
+    ]
+  },
+  {
     "tag": "react-router",
     "search": [
       {
@@ -3169,6 +3309,15 @@
     ]
   },
   {
+    "tag": "render",
+    "search": [
+      {
+        "filename": "render.yaml",
+        "path": ".render/"
+      }
+    ]
+  },
+  {
     "tag": "rolldown",
     "search": [
       {
@@ -3195,6 +3344,22 @@
       {
         "filename": "rollup.config.*",
         "path": "dist"
+      },
+      {
+        "filename": "rollup.config.cjs",
+        "path": ".rollup.cache/"
+      },
+      {
+        "filename": "rollup.config.js",
+        "path": ".rollup.cache/"
+      },
+      {
+        "filename": "rollup.config.mjs",
+        "path": ".rollup.cache/"
+      },
+      {
+        "filename": "rollup.config.ts",
+        "path": ".rollup.cache/"
       }
     ]
   },
@@ -3615,6 +3780,10 @@
         "path": "storybook-static"
       },
       {
+        "filename": ".storybook/",
+        "path": "storybook-static/"
+      },
+      {
         "filename": ".storybook/main.cjs",
         "path": "storybook-static/"
       },
@@ -3629,6 +3798,23 @@
       {
         "filename": ".storybook/main.ts",
         "path": "storybook-static/"
+      }
+    ]
+  },
+  {
+    "tag": "strapi",
+    "search": [
+      {
+        "filename": ".strapi",
+        "path": ".cache/"
+      },
+      {
+        "filename": ".strapi",
+        "path": "build/"
+      },
+      {
+        "filename": ".strapi",
+        "path": "public/uploads/"
       }
     ]
   },
@@ -4338,6 +4524,22 @@
         "path": "coverage"
       },
       {
+        "filename": "vitest.config.cjs",
+        "path": ".vitest/"
+      },
+      {
+        "filename": "vitest.config.js",
+        "path": ".vitest/"
+      },
+      {
+        "filename": "vitest.config.mjs",
+        "path": ".vitest/"
+      },
+      {
+        "filename": "vitest.config.ts",
+        "path": ".vitest/"
+      },
+      {
         "filename": "vitest.workspace.js",
         "path": "coverage/"
       },
@@ -4476,6 +4678,22 @@
       {
         "filename": "webpack.config.*",
         "path": "dist"
+      },
+      {
+        "filename": "webpack.config.cjs",
+        "path": ".webpack/"
+      },
+      {
+        "filename": "webpack.config.js",
+        "path": ".webpack/"
+      },
+      {
+        "filename": "webpack.config.mjs",
+        "path": ".webpack/"
+      },
+      {
+        "filename": "webpack.config.ts",
+        "path": ".webpack/"
       }
     ]
   },
