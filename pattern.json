@@ -189,6 +189,11 @@
     ]
   },
   {
+    "appsmith": [
+      "appsmith.json"
+    ]
+  },
+  {
     "appveyor": [
       "appveyor.yml"
     ]
@@ -1182,7 +1187,8 @@
   },
   {
     "docusaurus": [
-      "docusaurus.config.js"
+      "docusaurus.config.js",
+      "docusaurus.config.ts"
     ]
   },
   {
@@ -2453,6 +2459,11 @@
     ]
   },
   {
+    "locofy": [
+      "locofy.config.js"
+    ]
+  },
+  {
     "logtalk": [
       "*.lgt",
       "*.logtalk"
@@ -2473,6 +2484,12 @@
     "lua": [
       ".luacheckrc",
       "*.lua"
+    ]
+  },
+  {
+    "lune": [
+      ".lune/",
+      "lune/"
     ]
   },
   {
@@ -3192,6 +3209,8 @@
       "react-router.config.mjs",
       "react-router.config.ts",
       "redwood.toml",
+      "refine.config.js",
+      "refine.config.ts",
       "relay.config.cjs",
       "relay.config.js",
       "relay.config.json",
@@ -3357,6 +3376,7 @@
       "workspace.json",
       "wrangler.json",
       "wrangler.toml",
+      "wundergraph.config.ts",
       "wxt.config.js",
       "wxt.config.ts"
     ]
@@ -3753,6 +3773,11 @@
   {
     "pkgx": [
       "pkgx.yaml"
+    ]
+  },
+  {
+    "plasmic": [
+      "plasmic.json"
     ]
   },
   {
@@ -4296,6 +4321,12 @@
     ]
   },
   {
+    "rojo": [
+      "default.project.json",
+      "rojo.json"
+    ]
+  },
+  {
     "rolldown": [
       "rolldown.config.cjs",
       "rolldown.config.js",
@@ -4764,6 +4795,7 @@
   {
     "strapi": [
       ".strapi",
+      ".strapi/",
       "config/admin.js",
       "config/database.js"
     ]
@@ -5389,6 +5421,11 @@
     ]
   },
   {
+    "wally": [
+      "wally.toml"
+    ]
+  },
+  {
     "wandb": [
       "wandb/settings"
     ]
@@ -5477,6 +5514,11 @@
   {
     "wordpress": [
       "wp-config.php"
+    ]
+  },
+  {
+    "wundergraph": [
+      ".wundergraph/"
     ]
   },
   {

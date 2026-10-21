@@ -140,6 +140,15 @@
     ]
   },
   {
+    "tag": "appsmith",
+    "search": [
+      {
+        "filename": "appsmith.json",
+        "path": ".appsmith/"
+      }
+    ]
+  },
+  {
     "tag": "appwrite",
     "search": [
       {
@@ -1590,6 +1599,24 @@
     ]
   },
   {
+    "tag": "locofy",
+    "search": [
+      {
+        "filename": "locofy.config.js",
+        "path": ".locofy/"
+      }
+    ]
+  },
+  {
+    "tag": "lune",
+    "search": [
+      {
+        "filename": ".lune",
+        "path": ".lune/.cache/"
+      }
+    ]
+  },
+  {
     "tag": "mako",
     "search": [
       {
@@ -2696,6 +2723,15 @@
     ]
   },
   {
+    "tag": "plasmic",
+    "search": [
+      {
+        "filename": "plasmic.json",
+        "path": ".plasmic/"
+      }
+    ]
+  },
+  {
     "tag": "playwright",
     "search": [
       {
@@ -3318,6 +3354,19 @@
     ]
   },
   {
+    "tag": "rojo",
+    "search": [
+      {
+        "filename": "default.project.json",
+        "path": ".rojo/"
+      },
+      {
+        "filename": "rojo.json",
+        "path": ".rojo/"
+      }
+    ]
+  },
+  {
     "tag": "rolldown",
     "search": [
       {
@@ -3815,6 +3864,10 @@
       {
         "filename": ".strapi",
         "path": "public/uploads/"
+      },
+      {
+        "filename": "package.json",
+        "path": ".strapi-updater.json"
       }
     ]
   },
@@ -4630,6 +4683,19 @@
     ]
   },
   {
+    "tag": "wally",
+    "search": [
+      {
+        "filename": "wally.toml",
+        "path": "Packages/"
+      },
+      {
+        "filename": "wally.toml",
+        "path": "ServerPackages/"
+      }
+    ]
+  },
+  {
     "tag": "wandb",
     "search": [
       {
@@ -4720,6 +4786,15 @@
       {
         "filename": "wrangler.toml",
         "path": ".wrangler/"
+      }
+    ]
+  },
+  {
+    "tag": "wundergraph",
+    "search": [
+      {
+        "filename": "wundergraph.config.ts",
+        "path": ".wundergraph/generated/"
       }
     ]
   },
