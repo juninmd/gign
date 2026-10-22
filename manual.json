@@ -1417,6 +1417,23 @@
     ]
   },
   {
+    "tag": "k6",
+    "search": [
+      {
+        "filename": "k6.config.js",
+        "path": "summary.json"
+      },
+      {
+        "filename": "k6.config.json",
+        "path": "summary.json"
+      },
+      {
+        "filename": "k6.config.ts",
+        "path": "summary.json"
+      }
+    ]
+  },
+  {
     "tag": "keystatic",
     "search": [
       {
@@ -1613,6 +1630,15 @@
       {
         "filename": ".lune",
         "path": ".lune/.cache/"
+      }
+    ]
+  },
+  {
+    "tag": "maestro",
+    "search": [
+      {
+        "filename": "maestro.yaml",
+        "path": ".maestro/"
       }
     ]
   },
@@ -2557,6 +2583,19 @@
       {
         "filename": "open-next.config.ts",
         "path": ".open-next/"
+      }
+    ]
+  },
+  {
+    "tag": "oxlint",
+    "search": [
+      {
+        "filename": "oxlint.json",
+        "path": ".oxlint/"
+      },
+      {
+        "filename": ".oxlintrc.json",
+        "path": ".oxlint/"
       }
     ]
   },
