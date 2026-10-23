@@ -81,7 +81,8 @@
   },
   {
     "amplify": [
-      "amplify/"
+      "amplify/",
+      "amplify/backend/backend-config.json"
     ]
   },
   {
@@ -151,7 +152,11 @@
   },
   {
     "apollo": [
-      "apollo.config.js"
+      "apollo.config.cjs",
+      "apollo.config.js",
+      "apollo.config.jsonc",
+      "apollo.config.mjs",
+      "apollo.config.ts"
     ]
   },
   {
@@ -280,6 +285,7 @@
     "astro": [
       "astro.config.cjs",
       "astro.config.js",
+      "astro.config.jsonc",
       "astro.config.mjs",
       "astro.config.ts"
     ]
@@ -382,7 +388,9 @@
       "babel.config.cjs",
       "babel.config.js",
       "babel.config.json",
-      "babel.config.mjs"
+      "babel.config.jsonc",
+      "babel.config.mjs",
+      "babel.config.ts"
     ]
   },
   {
@@ -816,9 +824,11 @@
   },
   {
     "commitlint": [
+      ".commitlintrc.json",
       "commitlint.config.cjs",
       "commitlint.config.js",
-      "commitlint.config.mjs"
+      "commitlint.config.mjs",
+      "commitlint.config.ts"
     ]
   },
   {
@@ -988,6 +998,7 @@
     "cypress": [
       "cypress.config.cjs",
       "cypress.config.js",
+      "cypress.config.jsonc",
       "cypress.config.mjs",
       "cypress.config.ts",
       "cypress.json"
@@ -1391,6 +1402,7 @@
   {
     "esbuild": [
       "esbuild.cjs",
+      "esbuild.config.js",
       "esbuild.js",
       "esbuild.mjs",
       "esbuild.ts"
@@ -1473,7 +1485,8 @@
   },
   {
     "fastify": [
-      "fastify.config.js"
+      "fastify.config.js",
+      "fastify.js"
     ]
   },
   {
@@ -1657,6 +1670,7 @@
     "gatsby": [
       "gatsby-config.cjs",
       "gatsby-config.js",
+      "gatsby-config.jsonc",
       "gatsby-config.mjs",
       "gatsby-config.ts"
     ]
@@ -1774,6 +1788,9 @@
   },
   {
     "golangci-lint": [
+      ".golangci.json",
+      ".golangci.toml",
+      ".golangci.yaml",
       ".golangci.yml"
     ]
   },
@@ -1822,6 +1839,9 @@
       "*.graphql",
       "codegen.ts",
       "codegen.yml",
+      "graphql.config.js",
+      "graphql.config.json",
+      "graphql.config.ts",
       "graphql.config.yml"
     ]
   },
@@ -1889,6 +1909,7 @@
   },
   {
     "heroku": [
+      "app.json",
       "Procfile"
     ]
   },
@@ -2202,7 +2223,8 @@
     "k6": [
       "k6.config.js",
       "k6.config.json",
-      "k6.config.ts"
+      "k6.config.ts",
+      "k6.js"
     ]
   },
   {
@@ -2319,6 +2341,7 @@
       "*.yaml",
       "*.yml",
       "k8s",
+      "k8s.yaml",
       "Kustomization",
       "kustomization.yaml",
       "kustomization.yml"
@@ -2489,6 +2512,7 @@
   {
     "lune": [
       ".lune/",
+      "lune.config.js",
       "lune/"
     ]
   },
@@ -2827,17 +2851,12 @@
   },
   {
     "nocodb": [
-      ".nocodb"
+      ".nocodb",
+      "nocodb.json"
     ]
   },
   {
     "node": [
-      "*.ddb",
-      "*.duckdb",
-      "*.duckdb.wal",
-      "*.parquet",
-      "*.ts",
-      "*.tsx",
       ".adonisrc.json",
       ".aider.chat.history.md",
       ".aider.tags.cache.v3",
@@ -2960,11 +2979,12 @@
       ".wireit",
       ".yarnrc",
       ".yarnrc.yml",
-      "Dockerfile",
-      "Earthfile",
-      "MLproject",
-      "Taskfile.yaml",
-      "Taskfile.yml",
+      "*.ddb",
+      "*.duckdb",
+      "*.duckdb.wal",
+      "*.parquet",
+      "*.ts",
+      "*.tsx",
       "ampt.config.js",
       "ampt.config.ts",
       "ampt.yaml",
@@ -3053,6 +3073,7 @@
       "devspace.yaml",
       "docker-compose.yaml",
       "docker-compose.yml",
+      "Dockerfile",
       "docusaurus.config.js",
       "docusaurus.config.ts",
       "doczrc.js",
@@ -3062,6 +3083,7 @@
       "drizzle.config.json",
       "drizzle.config.ts",
       "dts-bundle-generator.config.ts",
+      "Earthfile",
       "ecosystem.config.cjs",
       "ecosystem.config.js",
       "electron-builder.json",
@@ -3072,6 +3094,7 @@
       "eleventy.config.js",
       "elysia.config.js",
       "elysia.config.ts",
+      "elysia.json",
       "elysia.ts",
       "esbuild.js",
       "eslint.config.cjs",
@@ -3115,6 +3138,7 @@
       "k6.config.js",
       "k6.config.json",
       "k6.config.ts",
+      "k6.js",
       "keystatic.config.js",
       "keystatic.config.ts",
       "keystatic.config.tsx",
@@ -3144,6 +3168,7 @@
       "mikro-orm.config.mjs",
       "mikro-orm.config.ts",
       "mint.json",
+      "MLproject",
       "mockServiceWorker.js",
       "modern.config.js",
       "modern.config.ts",
@@ -3310,6 +3335,8 @@
       "tailwind.config.ts",
       "tamagui.config.js",
       "tamagui.config.ts",
+      "Taskfile.yaml",
+      "Taskfile.yml",
       "tauri.conf.cjs",
       "tauri.conf.json",
       "tauri.conf.json5",
@@ -3396,7 +3423,8 @@
   },
   {
     "nomad": [
-      "*.nomad"
+      "*.nomad",
+      "job.nomad"
     ]
   },
   {
@@ -3423,6 +3451,7 @@
     "nuxt": [
       "nuxt.config.cjs",
       "nuxt.config.js",
+      "nuxt.config.jsonc",
       "nuxt.config.mjs",
       "nuxt.config.ts"
     ]
@@ -3549,6 +3578,7 @@
     "orval": [
       "orval.config.cjs",
       "orval.config.js",
+      "orval.config.json",
       "orval.config.mjs",
       "orval.config.ts"
     ]
@@ -3589,7 +3619,9 @@
     "packer": [
       "*.pkr.hcl",
       "packer.hcl",
-      "packer.json"
+      "packer.json",
+      "packer.pkr.hcl",
+      "template.json"
     ]
   },
   {
@@ -3768,6 +3800,12 @@
     ]
   },
   {
+    "pipenv": [
+      "Pipfile",
+      "Pipfile.lock"
+    ]
+  },
+  {
     "pixi": [
       "pixi.lock",
       "pixi.toml"
@@ -3803,6 +3841,7 @@
     "playwright": [
       "playwright.config.cjs",
       "playwright.config.js",
+      "playwright.config.jsonc",
       "playwright.config.mjs",
       "playwright.config.ts"
     ]
@@ -3886,8 +3925,10 @@
   },
   {
     "prettier": [
+      ".prettierrc",
       ".prettierrc.cjs",
       ".prettierrc.js",
+      ".prettierrc.json",
       ".prettierrc.mjs",
       "prettier.config.cjs",
       "prettier.config.js",
@@ -3957,6 +3998,10 @@
   {
     "puppeteer": [
       ".puppeteerrc.cjs",
+      ".puppeteerrc.js",
+      ".puppeteerrc.jsonc",
+      ".puppeteerrc.mjs",
+      ".puppeteerrc.ts",
       "puppeteer.config.cjs",
       "puppeteer.config.js"
     ]
@@ -4125,11 +4170,17 @@
   },
   {
     "qwik": [
+      "qwik.config.cjs",
+      "qwik.config.js",
+      "qwik.config.jsonc",
+      "qwik.config.mjs",
+      "qwik.config.ts",
       "vite.config.ts"
     ]
   },
   {
     "r": [
+      ".Rproj",
       "*.R",
       "*.Rmd",
       "*.Rproj",
@@ -4226,20 +4277,30 @@
     ]
   },
   {
+    "refine": [
+      "refine.config.js"
+    ]
+  },
+  {
     "reflex": [
       "rxconfig.py"
     ]
   },
   {
     "relay": [
+      "relay.config.cjs",
       "relay.config.js",
-      "relay.config.json"
+      "relay.config.json",
+      "relay.config.jsonc",
+      "relay.config.mjs",
+      "relay.config.ts"
     ]
   },
   {
     "remix": [
       "remix.config.cjs",
       "remix.config.js",
+      "remix.config.jsonc",
       "remix.config.mjs",
       "remix.config.ts"
     ]
@@ -4341,6 +4402,7 @@
     "rollup": [
       "rollup.config.cjs",
       "rollup.config.js",
+      "rollup.config.jsonc",
       "rollup.config.mjs",
       "rollup.config.ts"
     ]
@@ -4387,6 +4449,7 @@
   },
   {
     "rspress": [
+      "rspress.config.js",
       "rspress.config.ts"
     ]
   },
@@ -4479,7 +4542,15 @@
   },
   {
     "sanity": [
+      "sanity.cli.cjs",
+      "sanity.cli.js",
+      "sanity.cli.jsonc",
+      "sanity.cli.mjs",
+      "sanity.cli.ts",
+      "sanity.config.cjs",
       "sanity.config.js",
+      "sanity.config.jsonc",
+      "sanity.config.mjs",
       "sanity.config.ts"
     ]
   },
@@ -4673,6 +4744,7 @@
   },
   {
     "spack": [
+      "spack.config.js",
       "spack.yaml"
     ]
   },
@@ -4755,7 +4827,8 @@
   },
   {
     "standard-version": [
-      ".versionrc"
+      ".versionrc",
+      ".versionrc.json"
     ]
   },
   {
@@ -4786,7 +4859,10 @@
   },
   {
     "storybook": [
+      ".storybook/main.cjs",
       ".storybook/main.js",
+      ".storybook/main.jsonc",
+      ".storybook/main.mjs",
       ".storybook/main.ts"
     ]
   },
@@ -4840,8 +4916,16 @@
       "*.svelte",
       "svelte.config.cjs",
       "svelte.config.js",
+      "svelte.config.jsonc",
       "svelte.config.mjs",
       "svelte.config.ts"
+    ]
+  },
+  {
+    "svgo": [
+      "svgo.config.cjs",
+      "svgo.config.js",
+      "svgo.config.mjs"
     ]
   },
   {
@@ -4951,6 +5035,7 @@
       "*.tf",
       "*.tfstate",
       "*.tfvars",
+      "main.tf",
       "terragrunt.hcl"
     ]
   },
@@ -5279,6 +5364,7 @@
   },
   {
     "vinxi": [
+      "app.config.ts",
       "vinxi.config.js",
       "vinxi.config.ts"
     ]
@@ -5324,6 +5410,7 @@
     "vite": [
       "vite.config.cjs",
       "vite.config.js",
+      "vite.config.jsonc",
       "vite.config.mjs",
       "vite.config.ts"
     ]
@@ -5338,9 +5425,11 @@
     "vitest": [
       "vitest.config.cjs",
       "vitest.config.js",
+      "vitest.config.jsonc",
       "vitest.config.mjs",
       "vitest.config.ts",
       "vitest.workspace.js",
+      "vitest.workspace.json",
       "vitest.workspace.ts"
     ]
   },
@@ -5425,6 +5514,7 @@
   },
   {
     "wally": [
+      "wally.lock",
       "wally.toml"
     ]
   },
@@ -5468,6 +5558,7 @@
     "webpack": [
       "webpack.config.cjs",
       "webpack.config.js",
+      "webpack.config.jsonc",
       "webpack.config.mjs",
       "webpack.config.ts"
     ]
@@ -5521,7 +5612,8 @@
   },
   {
     "wundergraph": [
-      ".wundergraph/"
+      ".wundergraph/",
+      "wundergraph.config.ts"
     ]
   },
   {
