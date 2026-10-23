@@ -80,6 +80,10 @@
       {
         "filename": "package.json",
         "path": ".ampt/"
+      },
+      {
+        "filename": ".ampt/",
+        "path": ".ampt/"
       }
     ]
   },
@@ -610,6 +614,10 @@
       {
         "filename": ".dagger/env",
         "path": ".dagger/"
+      },
+      {
+        "filename": "dagger.json",
+        "path": ".dagger/"
       }
     ]
   },
@@ -886,6 +894,14 @@
       {
         "filename": "drizzle.config.ts",
         "path": ".drizzle/"
+      },
+      {
+        "filename": "drizzle.config.cjs",
+        "path": ".drizzle/"
+      },
+      {
+        "filename": "drizzle.config.mjs",
+        "path": ".drizzle/"
       }
     ]
   },
@@ -1066,6 +1082,14 @@
       },
       {
         "filename": "eslint.config.ts",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": ".eslintrc.ts",
+        "path": ".eslintcache"
+      },
+      {
+        "filename": ".eslintrc.mjs",
         "path": ".eslintcache"
       }
     ]
@@ -1430,6 +1454,10 @@
       {
         "filename": "k6.config.ts",
         "path": "summary.json"
+      },
+      {
+        "filename": "k6.js",
+        "path": "summary.json"
       }
     ]
   },
@@ -1549,6 +1577,10 @@
     "search": [
       {
         "filename": "lighthouserc.js",
+        "path": ".lighthouseci/"
+      },
+      {
+        "filename": "lighthouserc.json",
         "path": ".lighthouseci/"
       }
     ]
@@ -4124,6 +4156,10 @@
       {
         "filename": "*.tf",
         "path": "*.tfstate.backup"
+      },
+      {
+        "filename": "main.tf",
+        "path": ".terraform/"
       }
     ]
   },
@@ -4491,6 +4527,14 @@
       {
         "filename": "vinxi.config.ts",
         "path": ".vinxi/"
+      },
+      {
+        "filename": "app.config.ts",
+        "path": ".vinxi/"
+      },
+      {
+        "filename": "app.config.ts",
+        "path": ".output/"
       }
     ]
   },
