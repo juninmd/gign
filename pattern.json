@@ -2966,6 +2966,7 @@
       ".swcrc",
       ".tazerc.json",
       ".testcaferc.json",
+      ".trpc",
       ".umirc.js",
       ".umirc.ts",
       ".versionrc",
@@ -3222,6 +3223,7 @@
       "postcss.config.cjs",
       "postcss.config.js",
       "postcss.config.mjs",
+      "postcss.config.ts",
       "preact.config.js",
       "prettier.config.cjs",
       "prettier.config.js",
@@ -3304,6 +3306,7 @@
       "sst.config.js",
       "sst.config.ts",
       "starlight.config.js",
+      "starlight.config.mjs",
       "starlight.config.ts",
       "stencil.config.ts",
       "stryker.conf.cjs",
@@ -3870,8 +3873,21 @@
     ]
   },
   {
+    "poetry": [
+      "poetry.lock"
+    ]
+  },
+  {
     "polymer": [
       "polymer.json"
+    ]
+  },
+  {
+    "postcss": [
+      "postcss.config.js",
+      "postcss.config.ts",
+      "postcss.config.cjs",
+      "postcss.config.mjs"
     ]
   },
   {
@@ -4058,6 +4074,11 @@
   {
     "pylint": [
       ".pylintrc"
+    ]
+  },
+  {
+    "pyright": [
+      "pyrightconfig.json"
     ]
   },
   {
@@ -4982,6 +5003,14 @@
     ]
   },
   {
+    "tailwind": [
+      "tailwind.config.js",
+      "tailwind.config.ts",
+      "tailwind.config.cjs",
+      "tailwind.config.mjs"
+    ]
+  },
+  {
     "tamagui": [
       "tamagui.config.js",
       "tamagui.config.ts"
@@ -5163,6 +5192,11 @@
     "trigger.dev": [
       "trigger.config.js",
       "trigger.config.ts"
+    ]
+  },
+  {
+    "trpc": [
+      ".trpc"
     ]
   },
   {
