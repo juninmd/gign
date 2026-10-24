@@ -34,6 +34,19 @@
     ]
   },
   {
+    "tag": "airflow",
+    "search": [
+      {
+        "filename": "airflow.cfg",
+        "path": "logs/"
+      },
+      {
+        "filename": "airflow.cfg",
+        "path": "airflow-webserver.pid"
+      }
+    ]
+  },
+  {
     "tag": "amplify",
     "search": [
       {
@@ -1352,6 +1365,15 @@
     ]
   },
   {
+    "tag": "hatch",
+    "search": [
+      {
+        "filename": "hatch.toml",
+        "path": ".hatch/"
+      }
+    ]
+  },
+  {
     "tag": "hathora",
     "search": [
       {
@@ -1530,6 +1552,15 @@
       {
         "filename": "knip.ts",
         "path": ".knip/"
+      }
+    ]
+  },
+  {
+    "tag": "kpt",
+    "search": [
+      {
+        "filename": "Kptfile",
+        "path": ".kpt-pipeline/"
       }
     ]
   },
@@ -4222,6 +4253,23 @@
       {
         "filename": "tox.ini",
         "path": ".tox"
+      }
+    ]
+  },
+  {
+    "tag": "traefik",
+    "search": [
+      {
+        "filename": "traefik.yml",
+        "path": "acme.json"
+      },
+      {
+        "filename": "traefik.yaml",
+        "path": "acme.json"
+      },
+      {
+        "filename": "traefik.toml",
+        "path": "acme.json"
       }
     ]
   },
