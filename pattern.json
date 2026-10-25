@@ -1285,6 +1285,7 @@
   {
     "dvc": [
       ".dvc",
+      ".dvc/config",
       "dvc.yaml"
     ]
   },
@@ -2220,6 +2221,13 @@
     ]
   },
   {
+    "justfile": [
+      "justfile",
+      "Justfile",
+      ".justfile"
+    ]
+  },
+  {
     "k6": [
       "k6.config.js",
       "k6.config.json",
@@ -2676,6 +2684,7 @@
   },
   {
     "mise": [
+      ".mise.toml",
       "mise.toml"
     ]
   },
@@ -5034,6 +5043,8 @@
   },
   {
     "taskfile": [
+      "Taskfile.dist.yaml",
+      "Taskfile.dist.yml",
       "Taskfile.yaml",
       "Taskfile.yml"
     ]

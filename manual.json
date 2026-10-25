@@ -545,6 +545,15 @@
     ]
   },
   {
+    "tag": "cursor",
+    "search": [
+      {
+        "filename": ".cursorrules",
+        "path": ".cursor/"
+      }
+    ]
+  },
+  {
     "tag": "cypress",
     "search": [
       {
@@ -932,6 +941,19 @@
       {
         "filename": "*.duckdb",
         "path": "*.duckdb.wal"
+      }
+    ]
+  },
+  {
+    "tag": "dvc",
+    "search": [
+      {
+        "filename": ".dvc/config",
+        "path": ".dvc/cache/"
+      },
+      {
+        "filename": "dvc.yaml",
+        "path": ".dvc/cache/"
       }
     ]
   },
@@ -1574,6 +1596,27 @@
     ]
   },
   {
+    "tag": "laravel",
+    "search": [
+      {
+        "filename": "artisan",
+        "path": "storage/framework/cache/"
+      },
+      {
+        "filename": "artisan",
+        "path": "storage/framework/sessions/"
+      },
+      {
+        "filename": "artisan",
+        "path": "storage/framework/views/"
+      },
+      {
+        "filename": "artisan",
+        "path": "storage/logs/"
+      }
+    ]
+  },
+  {
     "tag": "lefthook",
     "search": [
       {
@@ -1763,6 +1806,19 @@
       {
         "filename": "mint.json",
         "path": ".mintlify/"
+      }
+    ]
+  },
+  {
+    "tag": "mise",
+    "search": [
+      {
+        "filename": ".mise.toml",
+        "path": ".mise/"
+      },
+      {
+        "filename": "mise.toml",
+        "path": ".mise/"
       }
     ]
   },
@@ -3642,12 +3698,20 @@
         "path": ".ruff_cache"
       },
       {
+        "filename": ".ruff.toml",
+        "path": ".ruff_cache/"
+      },
+      {
         "filename": "pyproject.toml",
         "path": ".ruff_cache"
       },
       {
         "filename": "ruff.toml",
         "path": ".ruff_cache"
+      },
+      {
+        "filename": "ruff.toml",
+        "path": ".ruff_cache/"
       }
     ]
   },
@@ -4146,6 +4210,14 @@
   {
     "tag": "taskfile",
     "search": [
+      {
+        "filename": "Taskfile.dist.yaml",
+        "path": ".task/"
+      },
+      {
+        "filename": "Taskfile.dist.yml",
+        "path": ".task/"
+      },
       {
         "filename": "Taskfile.yaml",
         "path": ".task/"
@@ -4891,6 +4963,15 @@
       {
         "filename": "webpack.config.ts",
         "path": ".webpack/"
+      }
+    ]
+  },
+  {
+    "tag": "windsurf",
+    "search": [
+      {
+        "filename": ".windsurfrules",
+        "path": ".codeium/"
       }
     ]
   },
