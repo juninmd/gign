@@ -24,6 +24,8 @@
   <a href="#-recursos">Recursos</a> •
   <a href="#-instalação">Instalação</a> •
   <a href="#-uso">Uso</a> •
+  <a href="#%EF%B8%8F-configuração-por-projeto">Configuração</a> •
+  <a href="#%EF%B8%8F-limites-do-detector">Limites</a> •
   <a href="#-como-funciona">Como funciona</a> •
   <a href="#-stacks-suportadas">Stacks</a> •
   <a href="#-automação--deploy">Deploy</a> •
@@ -85,15 +87,115 @@ gign .
 gign ./meu-projeto
 ```
 
+<!-- flags -->
+
+### Opções da CLI
+
+| Flag / Argumento | Descrição                                          |
+| ---------------- | -------------------------------------------------- |
+| `<path>`         | Diretório do projeto a ser analisado (padrão: `.`) |
+
 Exemplo de saída:
 
 ```text
-[gign] generated at /workspace/meu-projeto/.gitignore
-[gign] tags: macos,node,react,typescript,visualstudiocode
-[gign] manual tags: jest,prettier,typescript,vite
+[gign] generated at /app/tests/fixtures/node-ts/.gitignore
+[gign] tags: linux,data,flatpak,git,mean,node,web,webstorm
+[gign] manual tags: ampt,clinic,electron,node,parcel,strapi,tsc,typescript,wireit
+[gign] no bundled rules for: data,mean,web
 ```
 
 O arquivo gerado já vem organizado por seções, pronto para ser versionado. ✅
+
+---
+
+## ⚙️ Configuração por projeto
+
+Você pode personalizar as regras de detecção e de geração do `.gitignore` para o seu projeto criando um arquivo `.gignrc.json` na raiz do diretório ou adicionando a chave `"gign"` no seu `package.json`.
+
+Ambos os formatos aceitam as propriedades `pattern` e `manual`.
+
+### Exemplo com `.gignrc.json`
+
+```json
+{
+  "pattern": [
+    {
+      "minhatag": ["meuarquivo.txt", "*.custom", "config/app.json"]
+    }
+  ],
+  "manual": [
+    {
+      "tag": "minhatag",
+      "search": [
+        {
+          "filename": "meuarquivo.txt",
+          "path": "build-output/"
+        },
+        {
+          "filename": "config/app.json",
+          "struct": "build.outDir"
+        }
+      ]
+    }
+  ]
+}
+```
+
+### Exemplo equivalente no `package.json`
+
+```json
+{
+  "name": "meu-projeto",
+  "version": "1.0.0",
+  "gign": {
+    "pattern": [
+      {
+        "minhatag": ["meuarquivo.txt", "*.custom", "config/app.json"]
+      }
+    ],
+    "manual": [
+      {
+        "tag": "minhatag",
+        "search": [
+          {
+            "filename": "meuarquivo.txt",
+            "path": "build-output/"
+          },
+          {
+            "filename": "config/app.json",
+            "struct": "build.outDir"
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+### Como funciona cada chave
+
+- **`pattern`**: Lista de objetos com mapeamentos de tag. A chave é o nome da tag (`minhatag`) e o valor é uma lista de nomes de arquivos, padrões glob (`*.custom`) ou caminhos relativos (`config/app.json`). Se algum item for encontrado no diretório, a tag correspondente é ativada.
+- **`manual`**: Lista de regras manuais vinculadas a uma tag (`tag`). Cada regra define em `search` os arquivos a buscar (`filename`) e a ação correspondente:
+  - **`path`**: Adiciona um caminho relativo direto (ex: `"build-output/"`) ao `.gitignore` sob o título `### <tag> (project) ###`.
+  - **`struct`**: Especifica um caminho pontilhado dentro de um arquivo JSON (ex: `"build.outDir"`). O `gign` lê o JSON, extrai o valor do atributo e adiciona as entradas correspondentes ao `.gitignore`.
+
+### Resultado esperado no `.gitignore`
+
+Considerando que `config/app.json` contenha `{"build": {"outDir": "custom-dist/"}}` e `meuarquivo.txt` esteja presente na raiz do projeto:
+
+```gitignore
+### minhatag (project) ###
+build-output/
+custom-dist/
+```
+
+---
+
+## ⚠️ Limites do detector
+
+- **Apenas raiz do diretório**: O `gign` inspeciona somente os arquivos localizados no nível superior do diretório indicado (`fs.readdirSync`), sem varrer subdiretórios recursivamente. Para monorepos, execute o `gign` individualmente na pasta de cada pacote ou defina regras personalizadas na raiz.
+- **Tamanho de arquivos JSON**: A leitura de arquivos JSON para resolução de atributos via `struct` ignora ou não deve ser executada em arquivos grandes (> 1 MiB) por motivos de segurança e desempenho.
+- **Necessidade de repositório Git**: O detector verifica a presença do diretório ou arquivo `.git` na raiz. Caso não seja encontrado, exibirá o aviso `[gign] Initialize a git repository, use "git init" command`.
 
 ---
 
@@ -116,7 +218,7 @@ flowchart LR
 
 ## 🛠️ Stacks suportadas
 
-Mais de **250 ecossistemas** são suportados nativamente.
+Mais de **900 ecossistemas** são detectados e suportados nativamente (948 tags mapeadas entre modelos e regras de detecção).
 
 <details>
 <summary><b>Ver as principais tecnologias detectadas</b></summary>

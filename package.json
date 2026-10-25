@@ -53,7 +53,8 @@
     "format:check": "prettier --check .",
     "build": "esbuild index.ts --bundle --minify --sourcemap --platform=node --target=node20 --external:electron --format=esm --outfile=dist/index.js",
     "prepack": "npm run build",
-    "sync:templates": "node scripts/sync-templates.mjs"
+    "sync:templates": "node scripts/sync-templates.mjs",
+    "check:readme": "node scripts/check-readme.mjs"
   },
   "type": "module",
   "engines": {
