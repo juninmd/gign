@@ -56,11 +56,21 @@ describe('CLI Integration Tests', () => {
   });
 
   it('should print usage when path is not provided', () => {
+    expect.assertions(2);
     try {
       execSync('node dist/index.js');
     } catch (err: unknown) {
       expect(err).toHaveProperty('stdout');
       expect((err as { stdout: Buffer }).stdout.toString()).toContain('[gign] use "gign <path>"');
+    }
+  });
+
+  it('should exit with code 1 when the directory does not exist', () => {
+    expect.assertions(1);
+    try {
+      execSync(`node dist/index.js ${path.join(__dirname, 'does-not-exist')}`, { stdio: 'ignore' });
+    } catch (err: unknown) {
+      expect((err as { status: number }).status).toBe(1);
     }
   });
 });
