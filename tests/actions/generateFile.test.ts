@@ -41,8 +41,9 @@ describe('generateFile action', () => {
   it('should warn if directory does not exist', async () => {
     (fs.existsSync as jest.Mock).mockReturnValue(false);
 
-    await generateFile('/invalid/dir');
+    const ok = await generateFile('/invalid/dir');
 
+    expect(ok).toBe(false);
     expect(console.warn).toHaveBeenCalledWith('[gign] Directory does not exist');
   });
 
@@ -64,6 +65,9 @@ describe('generateFile action', () => {
     expect(content).toContain('### custom (project) ###\nignored_dir\n');
     expect(content).toContain('### Environment and secrets ###');
     expect(content).toContain('secrets/');
+    expect(content).toContain('.env.*\n');
+    expect(content).toContain('!.env.example');
+    expect(content).toContain('id_rsa');
 
     expect(console.info).toHaveBeenCalledWith(`[gign] generated at ${path.resolve('/dummy/.gitignore')}`);
     expect(console.info).toHaveBeenCalledWith(expect.stringContaining('[gign] tags: linux,node,react'));
@@ -90,8 +94,9 @@ describe('generateFile action', () => {
       throw new Error('OS Error');
     });
 
-    await generateFile('/dummy');
+    const ok = await generateFile('/dummy');
 
+    expect(ok).toBe(false);
     expect(console.error).toHaveBeenCalledWith('[gign] Error: OS Error');
   });
 

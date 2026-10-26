@@ -6,4 +6,5 @@ if (process.argv.length !== 3) {
   process.exit(1);
 }
 
-generateFile(process.argv[2]);
+const ok = await generateFile(process.argv[2]);
+if (!ok) process.exitCode = 1;

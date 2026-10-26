@@ -6,32 +6,45 @@ import { buildSections, renderSections } from '../util/templates.js';
 
 const SECURITY_LINES = [
   '.env',
+  '.env.*',
+  '!.env.example',
+  '!.env.sample',
+  '!.env.template',
   '.env.local',
   '.env.*.local',
   '*.key',
   '*.pem',
   '*.p12',
+  '*.pfx',
+  '*.jks',
+  '*.keystore',
+  'id_rsa',
+  'id_ed25519',
+  'credentials.json',
+  'service-account*.json',
   'secrets/',
   'config/secrets.yml',
+  '*.tfvars',
 ];
 
-export default async function generateFile(dir: string): Promise<void> {
+/** Writes the .gitignore for `dir`. Resolves to false when the run failed. */
+export default async function generateFile(dir: string): Promise<boolean> {
   try {
     if (!dir || typeof dir !== 'string') {
       console.warn('[gign] Invalid directory path');
-      return;
+      return false;
     }
 
     const resolvedDir = path.resolve(dir);
 
     if (!fs.existsSync(resolvedDir)) {
       console.warn('[gign] Directory does not exist');
-      return;
+      return false;
     }
 
     if (!fs.statSync(resolvedDir).isDirectory()) {
       console.warn('[gign] Path is not a directory');
-      return;
+      return false;
     }
 
     const [projectTags, ignoreManual] = getProjectTags(resolvedDir);
@@ -49,14 +62,16 @@ export default async function generateFile(dir: string): Promise<void> {
 
     if (manualTags.length === 0 && projectTags.length === 0) {
       console.info(`[gign] nothing detected (only OS and security defaults applied)`);
-      return;
+      return true;
     }
 
     console.info(`[gign] generated at ${outputPath}`);
     if (projectTags.length > 0) console.info(`[gign] tags: ${tags.join(',')}`);
     if (manualTags.length > 0) console.info(`[gign] manual tags: ${manualTags.join(',')}`);
     if (missing.length > 0) console.info(`[gign] no bundled rules for: ${missing.join(',')}`);
+    return true;
   } catch (ex: unknown) {
     console.error(`[gign] Error: ${ex instanceof Error ? ex.message : String(ex)}`);
+    return false;
   }
 }
