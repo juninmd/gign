@@ -45,6 +45,7 @@ gign <path>           # Generate .gitignore
 - Releases: Conventional Commits drive semantic-release (`.github/workflows/release.yml`); pushing to `master` automatically tags, releases and publishes to npm with provenance (needs the `NPM_TOKEN` secret). No manual PR approval required. Never bump `package.json` version by hand.
 
 <!-- base-actions-main-policy -->
+
 ## GitHub Actions — padrão obrigatório (@main)
 
 - Referencie as actions internas sempre pelo branch, nunca por SHA:

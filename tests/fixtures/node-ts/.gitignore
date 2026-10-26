@@ -21,10 +21,6 @@ nohup.out
 builddir
 repo
 
-### git ###
-*.orig
-*.rej
-
 ### node ###
 # Logs
 logs
