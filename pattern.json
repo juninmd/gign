@@ -892,7 +892,9 @@
   },
   {
     "contentlayer": [
+      "contentlayer.config.cjs",
       "contentlayer.config.js",
+      "contentlayer.config.mjs",
       "contentlayer.config.ts"
     ]
   },
@@ -1239,7 +1241,8 @@
   },
   {
     "dprint": [
-      "dprint.json"
+      "dprint.json",
+      "dprint.jsonc"
     ]
   },
   {
@@ -2846,6 +2849,7 @@
   {
     "nitro": [
       "nitro.config.js",
+      "nitro.config.mjs",
       "nitro.config.ts"
     ]
   },
@@ -2973,6 +2977,12 @@
       ".stylelintrc.yml",
       ".stylexrc.js",
       ".swcrc",
+      ".syncpackrc",
+      ".syncpackrc.cjs",
+      ".syncpackrc.js",
+      ".syncpackrc.json",
+      ".syncpackrc.yaml",
+      ".syncpackrc.yml",
       ".tazerc.json",
       ".testcaferc.json",
       ".trpc",
@@ -3195,6 +3205,7 @@
       "nitric.yaml",
       "nitric.yml",
       "nitro.config.js",
+      "nitro.config.mjs",
       "nitro.config.ts",
       "node_modules",
       "nodemon.json",
@@ -3341,6 +3352,8 @@
       "svgo.config.mjs",
       "swagger.json",
       "swagger.yaml",
+      "syncpack.config.cjs",
+      "syncpack.config.js",
       "tailwind.config.cjs",
       "tailwind.config.js",
       "tailwind.config.mjs",
@@ -4996,6 +5009,18 @@
     ]
   },
   {
+    "syncpack": [
+      ".syncpackrc",
+      ".syncpackrc.cjs",
+      ".syncpackrc.js",
+      ".syncpackrc.json",
+      ".syncpackrc.yaml",
+      ".syncpackrc.yml",
+      "syncpack.config.cjs",
+      "syncpack.config.js"
+    ]
+  },
+  {
     "synology": [
       "*.syno"
     ]
@@ -5386,6 +5411,12 @@
       "*.js",
       "*.kt",
       "*.rb"
+    ]
+  },
+  {
+    "vfox": [
+      ".vfox.yaml",
+      "vfox.yaml"
     ]
   },
   {

@@ -462,6 +462,10 @@
         "struct": ".contentlayer/"
       },
       {
+        "filename": "contentlayer.config.cjs",
+        "path": ".contentlayer/"
+      },
+      {
         "filename": "contentlayer.config.js",
         "struct": ".contentlayer/"
       },
@@ -472,6 +476,10 @@
       {
         "filename": "contentlayer.config.mjs",
         "struct": ".contentlayer/"
+      },
+      {
+        "filename": "contentlayer.config.mjs",
+        "path": ".contentlayer/"
       },
       {
         "filename": "contentlayer.config.ts",
@@ -1982,6 +1990,10 @@
       {
         "filename": "nitro.config.js",
         "path": ".output/"
+      },
+      {
+        "filename": "nitro.config.mjs",
+        "path": ".nitro/"
       },
       {
         "filename": "nitro.config.ts",
@@ -3596,6 +3608,10 @@
     "search": [
       {
         "filename": "rspack.config.cjs",
+        "path": ".rspack/"
+      },
+      {
+        "filename": "rspack.config.cjs",
         "path": "build/"
       },
       {
@@ -3613,6 +3629,10 @@
       {
         "filename": "rspack.config.js",
         "path": "dist/"
+      },
+      {
+        "filename": "rspack.config.mjs",
+        "path": ".rspack/"
       },
       {
         "filename": "rspack.config.mjs",
