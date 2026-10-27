@@ -338,6 +338,13 @@
     ]
   },
   {
+    "ava": [
+      "ava.config.js",
+      "ava.config.cjs",
+      "ava.config.mjs"
+    ]
+  },
+  {
     "awr": [
       "*.emp"
     ]
@@ -1891,6 +1898,13 @@
     ]
   },
   {
+    "hasura": [
+      "config.yaml",
+      "hasura.yaml",
+      "hasura.yml"
+    ]
+  },
+  {
     "hatch": [
       "hatch.toml"
     ]
@@ -2579,6 +2593,12 @@
     ]
   },
   {
+    "marko": [
+      ".markorc",
+      "marko.json"
+    ]
+  },
+  {
     "matlab": [
       "*.m",
       "*.mat"
@@ -2704,6 +2724,16 @@
   {
     "moban": [
       ".moban.yaml"
+    ]
+  },
+  {
+    "mocha": [
+      ".mocharc.js",
+      ".mocharc.cjs",
+      ".mocharc.mjs",
+      ".mocharc.json",
+      ".mocharc.yaml",
+      ".mocharc.yml"
     ]
   },
   {
@@ -2929,9 +2959,11 @@
       ".localtunnel",
       ".madgerc",
       ".markdownlint.json",
+      ".markorc",
       ".mocharc.cjs",
       ".mocharc.js",
       ".mocharc.json",
+      ".mocharc.mjs",
       ".mocharc.yaml",
       ".mocharc.yml",
       ".moon/",
@@ -3179,6 +3211,7 @@
       "lint-staged.config.js",
       "lint-staged.config.mjs",
       "lint-staged.config.ts",
+      "marko.json",
       "medusa-config.js",
       "medusa-config.ts",
       "midway.config.js",
@@ -5245,6 +5278,11 @@
     "trunk": [
       ".trunk/trunk.yaml",
       "trunk.yaml"
+    ]
+  },
+  {
+    "trunk-rs": [
+      "Trunk.toml"
     ]
   },
   {
