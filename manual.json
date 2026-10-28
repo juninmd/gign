@@ -395,6 +395,15 @@
     ]
   },
   {
+    "tag": "changesets",
+    "search": [
+      {
+        "filename": ".changeset/config.json",
+        "path": ".changeset/"
+      }
+    ]
+  },
+  {
     "tag": "clinic",
     "search": [
       {
@@ -497,6 +506,15 @@
       {
         "filename": ".continue",
         "path": ".continue/"
+      }
+    ]
+  },
+  {
+    "tag": "convex",
+    "search": [
+      {
+        "filename": "convex.json",
+        "path": ".convex/"
       }
     ]
   },
@@ -1648,6 +1666,10 @@
   {
     "tag": "lerna",
     "search": [
+      {
+        "filename": "lerna.json",
+        "path": ".lerna/"
+      },
       {
         "filename": "lerna.json",
         "path": "lerna-debug.log"
@@ -3912,6 +3934,14 @@
   {
     "tag": "solid",
     "search": [
+      {
+        "filename": "solid.config.js",
+        "path": ".solid/"
+      },
+      {
+        "filename": "solid.config.ts",
+        "path": ".solid/"
+      },
       {
         "filename": "vite.config.ts",
         "path": ".solid"
