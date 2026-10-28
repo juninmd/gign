@@ -284,10 +284,21 @@ release/
 .wireit/
 
 ### Environment and secrets ###
+!.env.example
+!.env.sample
+!.env.template
 .env.local
 .env.*.local
 *.key
 *.pem
 *.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_ed25519
+credentials.json
+service-account*.json
 secrets/
 config/secrets.yml
+*.tfvars

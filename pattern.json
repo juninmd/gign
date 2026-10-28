@@ -670,6 +670,11 @@
     ]
   },
   {
+    "changesets": [
+      ".changeset/config.json"
+    ]
+  },
+  {
     "chef": [
       "Berksfile",
       "metadata.rb"
@@ -908,6 +913,11 @@
   {
     "continue": [
       ".continue"
+    ]
+  },
+  {
+    "convex": [
+      "convex.json"
     ]
   },
   {
@@ -1221,6 +1231,11 @@
     "dotenv": [
       ".env",
       ".env.*"
+    ]
+  },
+  {
+    "dotenvx": [
+      ".env.keys"
     ]
   },
   {
@@ -2033,6 +2048,11 @@
   {
     "infer": [
       "infer-out/"
+    ]
+  },
+  {
+    "infisical": [
+      "infisical.json"
     ]
   },
   {
@@ -3104,6 +3124,7 @@
       "contentlayer.config.js",
       "contentlayer.config.mjs",
       "contentlayer.config.ts",
+      "convex.json",
       "copilot-instructions.md",
       "craco.config.cjs",
       "craco.config.js",
@@ -3302,6 +3323,8 @@
       "relay.config.mjs",
       "relay.config.ts",
       "release-please-config.json",
+      "release.config.cjs",
+      "release.config.js",
       "remix.config.cjs",
       "remix.config.js",
       "remix.config.mjs",
@@ -4687,6 +4710,18 @@
     ]
   },
   {
+    "semantic-release": [
+      ".releaserc",
+      ".releaserc.cjs",
+      ".releaserc.js",
+      ".releaserc.json",
+      ".releaserc.yaml",
+      ".releaserc.yml",
+      "release.config.cjs",
+      "release.config.js"
+    ]
+  },
+  {
     "senchatouch": [
       "app.json"
     ]
@@ -4780,6 +4815,12 @@
     "solana": [
       "anchor.toml",
       "Anchor.toml"
+    ]
+  },
+  {
+    "solid": [
+      "solid.config.js",
+      "solid.config.ts"
     ]
   },
   {
@@ -4931,6 +4972,11 @@
   {
     "stellar": [
       "stellar.toml"
+    ]
+  },
+  {
+    "stencil": [
+      "stencil.config.ts"
     ]
   },
   {
