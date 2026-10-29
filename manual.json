@@ -558,6 +558,15 @@
     ]
   },
   {
+    "tag": "crossplane",
+    "search": [
+      {
+        "filename": "crossplane.yaml",
+        "path": ".crossplane/"
+      }
+    ]
+  },
+  {
     "tag": "cspell",
     "search": [
       {

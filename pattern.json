@@ -825,6 +825,12 @@
     ]
   },
   {
+    "codespaces": [
+      ".devcontainer/devcontainer.json",
+      ".devcontainer.json"
+    ]
+  },
+  {
     "coffeescript": [
       "*.coffee"
     ]
@@ -973,6 +979,11 @@
   {
     "crossbar": [
       ".crossbar"
+    ]
+  },
+  {
+    "crossplane": [
+      "crossplane.yaml"
     ]
   },
   {
@@ -1126,6 +1137,12 @@
   {
     "devbox": [
       "devbox.json"
+    ]
+  },
+  {
+    "devcontainer": [
+      ".devcontainer/devcontainer.json",
+      ".devcontainer.json"
     ]
   },
   {
@@ -2265,11 +2282,22 @@
     ]
   },
   {
+    "k3d": [
+      "k3d.yaml",
+      "k3d.yml"
+    ]
+  },
+  {
     "k6": [
       "k6.config.js",
       "k6.config.json",
       "k6.config.ts",
       "k6.js"
+    ]
+  },
+  {
+    "k9s": [
+      ".k9s/config.yml"
     ]
   },
   {
@@ -2328,6 +2356,13 @@
   {
     "kicad": [
       "*.kicad_pcb"
+    ]
+  },
+  {
+    "kind": [
+      "kind.yaml",
+      "kind.yml",
+      "kind-config.yaml"
     ]
   },
   {
@@ -2718,6 +2753,11 @@
   {
     "mill": [
       "build.sc"
+    ]
+  },
+  {
+    "minikube": [
+      "minikube"
     ]
   },
   {
@@ -5121,6 +5161,14 @@
       "tailwind.config.ts",
       "tailwind.config.cjs",
       "tailwind.config.mjs"
+    ]
+  },
+  {
+    "talos": [
+      "talosconfig",
+      "machineconfig.yaml",
+      "controlplane.yaml",
+      "worker.yaml"
     ]
   },
   {
