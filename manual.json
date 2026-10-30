@@ -404,6 +404,19 @@
     ]
   },
   {
+    "tag": "checkov",
+    "search": [
+      {
+        "filename": ".checkov.yaml",
+        "path": ".checkov/"
+      },
+      {
+        "filename": ".checkov.yml",
+        "path": ".checkov/"
+      }
+    ]
+  },
+  {
     "tag": "clinic",
     "search": [
       {
@@ -1440,6 +1453,23 @@
     ]
   },
   {
+    "tag": "helmfile",
+    "search": [
+      {
+        "filename": "helmfile.d",
+        "path": ".helmfile/"
+      },
+      {
+        "filename": "helmfile.yaml",
+        "path": ".helmfile/"
+      },
+      {
+        "filename": "helmfile.yml",
+        "path": ".helmfile/"
+      }
+    ]
+  },
+  {
     "tag": "heroku",
     "search": [
       {
@@ -1487,6 +1517,19 @@
       {
         "filename": ".husky/pre-commit",
         "path": ".husky/_/"
+      }
+    ]
+  },
+  {
+    "tag": "infracost",
+    "search": [
+      {
+        "filename": "infracost.yml",
+        "path": ".infracost/"
+      },
+      {
+        "filename": "infracost.yml.tmpl",
+        "path": ".infracost/"
       }
     ]
   },
@@ -2732,6 +2775,19 @@
       {
         "filename": "nyc.config.js",
         "path": "coverage/"
+      }
+    ]
+  },
+  {
+    "tag": "okteto",
+    "search": [
+      {
+        "filename": "okteto.yaml",
+        "path": ".okteto/"
+      },
+      {
+        "filename": "okteto.yml",
+        "path": ".okteto/"
       }
     ]
   },
@@ -3992,6 +4048,15 @@
     ]
   },
   {
+    "tag": "sops",
+    "search": [
+      {
+        "filename": ".sops.yaml",
+        "path": ".sops/"
+      }
+    ]
+  },
+  {
     "tag": "sphinx",
     "search": [
       {
@@ -4026,6 +4091,19 @@
       {
         "filename": "sst.config.ts",
         "path": ".sst/"
+      }
+    ]
+  },
+  {
+    "tag": "steampipe",
+    "search": [
+      {
+        "filename": "mod.spc",
+        "path": ".steampipe/"
+      },
+      {
+        "filename": "steampipe.spc",
+        "path": ".steampipe/"
       }
     ]
   },
@@ -4093,6 +4171,15 @@
       {
         "filename": "package.json",
         "path": ".strapi-updater.json"
+      }
+    ]
+  },
+  {
+    "tag": "streamlit",
+    "search": [
+      {
+        "filename": ".streamlit/config.toml",
+        "path": ".streamlit/"
       }
     ]
   },
@@ -5022,6 +5109,19 @@
       {
         "filename": "webpack.config.ts",
         "path": ".webpack/"
+      }
+    ]
+  },
+  {
+    "tag": "werf",
+    "search": [
+      {
+        "filename": "werf.yaml",
+        "path": ".werf/"
+      },
+      {
+        "filename": "werf.yml",
+        "path": ".werf/"
       }
     ]
   },
