@@ -675,6 +675,12 @@
     ]
   },
   {
+    "checkov": [
+      ".checkov.yaml",
+      ".checkov.yml"
+    ]
+  },
+  {
     "chef": [
       "Berksfile",
       "metadata.rb"
@@ -1958,6 +1964,13 @@
     ]
   },
   {
+    "helmfile": [
+      "helmfile.d",
+      "helmfile.yaml",
+      "helmfile.yml"
+    ]
+  },
+  {
     "heroku": [
       "app.json",
       "Procfile"
@@ -2080,6 +2093,12 @@
   {
     "inforcrm": [
       "*.vfs"
+    ]
+  },
+  {
+    "infracost": [
+      "infracost.yml",
+      "infracost.yml.tmpl"
     ]
   },
   {
@@ -3643,6 +3662,12 @@
     ]
   },
   {
+    "okteto": [
+      "okteto.yaml",
+      "okteto.yml"
+    ]
+  },
+  {
     "opa": [
       "*.rego"
     ]
@@ -4895,6 +4920,11 @@
     ]
   },
   {
+    "sops": [
+      ".sops.yaml"
+    ]
+  },
+  {
     "sourcepawn": [
       "*.sp"
     ]
@@ -5004,6 +5034,12 @@
     ]
   },
   {
+    "steampipe": [
+      "mod.spc",
+      "steampipe.spc"
+    ]
+  },
+  {
     "stella": [
       "*.a26",
       "*.a78"
@@ -5039,6 +5075,11 @@
       ".strapi/",
       "config/admin.js",
       "config/database.js"
+    ]
+  },
+  {
+    "streamlit": [
+      ".streamlit/config.toml"
     ]
   },
   {
@@ -5795,6 +5836,12 @@
   {
     "werckercli": [
       "wercker.yml"
+    ]
+  },
+  {
+    "werf": [
+      "werf.yaml",
+      "werf.yml"
     ]
   },
   {
