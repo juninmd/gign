@@ -151,6 +151,11 @@
     ]
   },
   {
+    "apify": [
+      ".apify"
+    ]
+  },
+  {
     "apollo": [
       "apollo.config.cjs",
       "apollo.config.js",
@@ -975,6 +980,11 @@
   {
     "crashlytics": [
       "crashlytics-build.properties"
+    ]
+  },
+  {
+    "crawlee": [
+      "crawlee.json"
     ]
   },
   {
@@ -1982,6 +1992,11 @@
     ]
   },
   {
+    "hilla": [
+      "hilla-endpoint.ts"
+    ]
+  },
+  {
     "hol": [
       "*.sml",
       "Holmakefile"
@@ -2436,6 +2451,12 @@
     ]
   },
   {
+    "kubb": [
+      "kubb.config.js",
+      "kubb.config.ts"
+    ]
+  },
+  {
     "kubernetes": [
       "*.yaml",
       "*.yml",
@@ -2451,6 +2472,12 @@
       "Kustomization",
       "kustomization.yaml",
       "kustomization.yml"
+    ]
+  },
+  {
+    "kysely": [
+      "kysely.config.js",
+      "kysely.config.ts"
     ]
   },
   {
@@ -2547,6 +2574,12 @@
   {
     "lilypond": [
       "*.ly"
+    ]
+  },
+  {
+    "lingui": [
+      "lingui.config.js",
+      "lingui.config.ts"
     ]
   },
   {
@@ -2983,6 +3016,7 @@
       ".aider.chat.history.md",
       ".aider.tags.cache.v3",
       ".ampt/",
+      ".apify",
       ".babelrc",
       ".babelrc.js",
       ".babelrc.json",
@@ -3077,6 +3111,11 @@
       ".sailsrc",
       ".sentryclirc",
       ".sequelizerc",
+      ".size-limit.cjs",
+      ".size-limit.js",
+      ".size-limit.json",
+      ".size-limit.mjs",
+      ".size-limit.ts",
       ".storybook",
       ".storybook/main.js",
       ".storybook/main.ts",
@@ -3188,6 +3227,7 @@
       "craco.config.cjs",
       "craco.config.js",
       "craco.config.ts",
+      "crawlee.json",
       "cspell.json",
       "cucumber.js",
       "cypress.config.cjs",
@@ -3282,11 +3322,17 @@
       "knip.json",
       "knip.jsonc",
       "knip.ts",
+      "kubb.config.js",
+      "kubb.config.ts",
+      "kysely.config.js",
+      "kysely.config.ts",
       "lefthook.yaml",
       "lefthook.yml",
       "lerna.json",
       "lighthouserc.js",
       "lighthouserc.json",
+      "lingui.config.js",
+      "lingui.config.ts",
       "lint-staged.config.cjs",
       "lint-staged.config.js",
       "lint-staged.config.mjs",
@@ -3487,6 +3533,8 @@
       "tinkun.config.js",
       "trigger.config.js",
       "trigger.config.ts",
+      "trpc-openapi.config.js",
+      "trpc-openapi.config.ts",
       "truffle-config.js",
       "truffle-config.ts",
       "tsconfig.app.json",
@@ -4827,6 +4875,15 @@
     ]
   },
   {
+    "size-limit": [
+      ".size-limit.cjs",
+      ".size-limit.js",
+      ".size-limit.json",
+      ".size-limit.mjs",
+      ".size-limit.ts"
+    ]
+  },
+  {
     "skaffold": [
       "skaffold.yaml"
     ]
@@ -4846,6 +4903,11 @@
       "slides.md",
       "slidev.config.js",
       "slidev.config.ts"
+    ]
+  },
+  {
+    "slither": [
+      "slither.config.json"
     ]
   },
   {
@@ -5400,7 +5462,9 @@
   },
   {
     "trpc": [
-      ".trpc"
+      ".trpc",
+      "trpc-openapi.config.js",
+      "trpc-openapi.config.ts"
     ]
   },
   {

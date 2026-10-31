@@ -157,6 +157,15 @@
     ]
   },
   {
+    "tag": "apify",
+    "search": [
+      {
+        "filename": ".apify",
+        "path": "apify_storage/"
+      }
+    ]
+  },
+  {
     "tag": "appsmith",
     "search": [
       {
@@ -567,6 +576,15 @@
       {
         "filename": "craco.config.ts",
         "path": "build/"
+      }
+    ]
+  },
+  {
+    "tag": "crawlee",
+    "search": [
+      {
+        "filename": "crawlee.json",
+        "path": "storage/"
       }
     ]
   },
@@ -1479,6 +1497,19 @@
     ]
   },
   {
+    "tag": "hilla",
+    "search": [
+      {
+        "filename": "hilla-endpoint.ts",
+        "path": "target/"
+      },
+      {
+        "filename": "hilla-endpoint.ts",
+        "path": "node_modules/"
+      }
+    ]
+  },
+  {
     "tag": "hugo",
     "search": [
       {
@@ -1665,6 +1696,19 @@
     ]
   },
   {
+    "tag": "kubb",
+    "search": [
+      {
+        "filename": "kubb.config.ts",
+        "path": ".kubb/"
+      },
+      {
+        "filename": "kubb.config.js",
+        "path": ".kubb/"
+      }
+    ]
+  },
+  {
     "tag": "kubernetes",
     "search": [
       {
@@ -1751,6 +1795,19 @@
       {
         "filename": "lighthouserc.json",
         "path": ".lighthouseci/"
+      }
+    ]
+  },
+  {
+    "tag": "lingui",
+    "search": [
+      {
+        "filename": "lingui.config.js",
+        "path": ".lingui/"
+      },
+      {
+        "filename": "lingui.config.ts",
+        "path": ".lingui/"
       }
     ]
   },
@@ -3515,6 +3572,15 @@
     ]
   },
   {
+    "tag": "redwood",
+    "search": [
+      {
+        "filename": "redwood.toml",
+        "path": ".redwood/"
+      }
+    ]
+  },
+  {
     "tag": "reflex",
     "search": [
       {
@@ -3946,11 +4012,45 @@
     ]
   },
   {
+    "tag": "size-limit",
+    "search": [
+      {
+        "filename": ".size-limit.json",
+        "path": ".size-limit/"
+      },
+      {
+        "filename": ".size-limit.js",
+        "path": ".size-limit/"
+      },
+      {
+        "filename": ".size-limit.ts",
+        "path": ".size-limit/"
+      },
+      {
+        "filename": ".size-limit.cjs",
+        "path": ".size-limit/"
+      },
+      {
+        "filename": ".size-limit.mjs",
+        "path": ".size-limit/"
+      }
+    ]
+  },
+  {
     "tag": "slidev",
     "search": [
       {
         "filename": "slides.md",
         "path": ".slidev/"
+      }
+    ]
+  },
+  {
+    "tag": "slither",
+    "search": [
+      {
+        "filename": "slither.config.json",
+        "path": "slither.db"
       }
     ]
   },
