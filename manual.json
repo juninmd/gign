@@ -2082,6 +2082,15 @@
     ]
   },
   {
+    "tag": "nhost",
+    "search": [
+      {
+        "filename": "nhost.toml",
+        "path": ".nhost/"
+      }
+    ]
+  },
+  {
     "tag": "nightwatch",
     "search": [
       {
@@ -3757,6 +3766,19 @@
     ]
   },
   {
+    "tag": "rslib",
+    "search": [
+      {
+        "filename": "rslib.config.js",
+        "path": "dist/"
+      },
+      {
+        "filename": "rslib.config.ts",
+        "path": "dist/"
+      }
+    ]
+  },
+  {
     "tag": "rspack",
     "search": [
       {
@@ -4863,6 +4885,19 @@
     ]
   },
   {
+    "tag": "velite",
+    "search": [
+      {
+        "filename": "velite.config.js",
+        "path": ".velite/"
+      },
+      {
+        "filename": "velite.config.ts",
+        "path": ".velite/"
+      }
+    ]
+  },
+  {
     "tag": "vercel",
     "search": [
       {
@@ -5279,6 +5314,15 @@
       {
         "filename": "wxt.config.ts",
         "path": ".wxt/"
+      }
+    ]
+  },
+  {
+    "tag": "xata",
+    "search": [
+      {
+        "filename": "xata.json",
+        "path": ".xata/"
       }
     ]
   },
