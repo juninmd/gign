@@ -1703,6 +1703,12 @@
     ]
   },
   {
+    "fumadocs": [
+      "fumadocs.config.ts",
+      "source.config.ts"
+    ]
+  },
+  {
     "fusetools": [
       "*.unoproj"
     ]
@@ -2967,6 +2973,11 @@
     ]
   },
   {
+    "nhost": [
+      "nhost.toml"
+    ]
+  },
+  {
     "nikola": [
       "conf.py"
     ]
@@ -3012,6 +3023,12 @@
   },
   {
     "node": [
+      "*.ddb",
+      "*.duckdb",
+      "*.duckdb.wal",
+      "*.parquet",
+      "*.ts",
+      "*.tsx",
       ".adonisrc.json",
       ".aider.chat.history.md",
       ".aider.tags.cache.v3",
@@ -3149,12 +3166,11 @@
       ".wireit",
       ".yarnrc",
       ".yarnrc.yml",
-      "*.ddb",
-      "*.duckdb",
-      "*.duckdb.wal",
-      "*.parquet",
-      "*.ts",
-      "*.tsx",
+      "Dockerfile",
+      "Earthfile",
+      "MLproject",
+      "Taskfile.yaml",
+      "Taskfile.yml",
       "ampt.config.js",
       "ampt.config.ts",
       "ampt.yaml",
@@ -3245,7 +3261,6 @@
       "devspace.yaml",
       "docker-compose.yaml",
       "docker-compose.yml",
-      "Dockerfile",
       "docusaurus.config.js",
       "docusaurus.config.ts",
       "doczrc.js",
@@ -3255,7 +3270,6 @@
       "drizzle.config.json",
       "drizzle.config.ts",
       "dts-bundle-generator.config.ts",
-      "Earthfile",
       "ecosystem.config.cjs",
       "ecosystem.config.js",
       "electron-builder.json",
@@ -3280,6 +3294,7 @@
       "fastly.toml",
       "firebase.json",
       "fly.toml",
+      "fumadocs.config.ts",
       "garden.yml",
       "gatsby-config.cjs",
       "gatsby-config.js",
@@ -3347,7 +3362,6 @@
       "mikro-orm.config.mjs",
       "mikro-orm.config.ts",
       "mint.json",
-      "MLproject",
       "mockServiceWorker.js",
       "modern.config.js",
       "modern.config.ts",
@@ -3453,6 +3467,8 @@
       "rsbuild.config.js",
       "rsbuild.config.mjs",
       "rsbuild.config.ts",
+      "rslib.config.js",
+      "rslib.config.ts",
       "rspack.config.cjs",
       "rspack.config.js",
       "rspack.config.mjs",
@@ -3483,6 +3499,7 @@
       "snowpack.config.ts",
       "solid.config.js",
       "solid.config.ts",
+      "source.config.ts",
       "src-tauri/tauri.conf.json",
       "sst.config.js",
       "sst.config.ts",
@@ -3521,8 +3538,6 @@
       "tailwind.config.ts",
       "tamagui.config.js",
       "tamagui.config.ts",
-      "Taskfile.yaml",
-      "Taskfile.yml",
       "tauri.conf.cjs",
       "tauri.conf.json",
       "tauri.conf.json5",
@@ -3565,6 +3580,8 @@
       "unocss.config.js",
       "unocss.config.ts",
       "uv.lock",
+      "velite.config.js",
+      "velite.config.ts",
       "vercel.json",
       "vinxi.config.js",
       "vinxi.config.ts",
@@ -4652,6 +4669,12 @@
     ]
   },
   {
+    "rslib": [
+      "rslib.config.ts",
+      "rslib.config.js"
+    ]
+  },
+  {
     "rspack": [
       "rspack.config.cjs",
       "rspack.config.js",
@@ -4856,6 +4879,11 @@
       "serverless.json",
       "serverless.ts",
       "serverless.yml"
+    ]
+  },
+  {
+    "shadcn": [
+      "components.json"
     ]
   },
   {
@@ -5623,6 +5651,12 @@
     ]
   },
   {
+    "velite": [
+      "velite.config.js",
+      "velite.config.ts"
+    ]
+  },
+  {
     "venv": [
       ".env",
       ".venv",
@@ -5950,6 +5984,11 @@
     "xamarinstudio": [
       "*.csproj",
       "*.sln"
+    ]
+  },
+  {
+    "xata": [
+      "xata.json"
     ]
   },
   {
