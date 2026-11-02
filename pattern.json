@@ -1122,6 +1122,12 @@
     ]
   },
   {
+    "daytona": [
+      "daytona.yaml",
+      "daytona.yml"
+    ]
+  },
+  {
     "dbeaver": [
       ".dbeaver"
     ]
@@ -1797,6 +1803,12 @@
     ]
   },
   {
+    "glasskube": [
+      "glasskube.yaml",
+      "glasskube.yml"
+    ]
+  },
+  {
     "gleam": [
       "gleam.toml"
     ]
@@ -2354,6 +2366,11 @@
   {
     "kate": [
       ".kateproject"
+    ]
+  },
+  {
+    "kcl": [
+      "kcl.mod"
     ]
   },
   {
@@ -5041,6 +5058,11 @@
     ]
   },
   {
+    "spin": [
+      "spin.toml"
+    ]
+  },
+  {
     "splunk": [
       "default/app.conf",
       "local/app.conf"
@@ -5365,6 +5387,13 @@
   {
     "terragrunt": [
       "terragrunt.hcl"
+    ]
+  },
+  {
+    "terramate": [
+      "terramate.tm.hcl",
+      "terramate.tm.hcl.json",
+      "terramate.config.tm.hcl"
     ]
   },
   {
@@ -5868,6 +5897,11 @@
   {
     "wandb": [
       "wandb/settings"
+    ]
+  },
+  {
+    "wasmer": [
+      "wasmer.toml"
     ]
   },
   {
