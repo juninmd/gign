@@ -728,6 +728,19 @@
     ]
   },
   {
+    "tag": "daytona",
+    "search": [
+      {
+        "filename": "daytona.yaml",
+        "path": ".daytona/"
+      },
+      {
+        "filename": "daytona.yml",
+        "path": ".daytona/"
+      }
+    ]
+  },
+  {
     "tag": "dbt",
     "search": [
       {
@@ -1365,6 +1378,19 @@
     ]
   },
   {
+    "tag": "glasskube",
+    "search": [
+      {
+        "filename": "glasskube.yaml",
+        "path": ".glasskube/"
+      },
+      {
+        "filename": "glasskube.yml",
+        "path": ".glasskube/"
+      }
+    ]
+  },
+  {
     "tag": "gleam",
     "search": [
       {
@@ -1611,6 +1637,15 @@
       {
         "filename": "k6.js",
         "path": "summary.json"
+      }
+    ]
+  },
+  {
+    "tag": "kcl",
+    "search": [
+      {
+        "filename": "kcl.mod",
+        "path": ".kcl/"
       }
     ]
   },
@@ -4192,6 +4227,15 @@
     ]
   },
   {
+    "tag": "spin",
+    "search": [
+      {
+        "filename": "spin.toml",
+        "path": ".spin/"
+      }
+    ]
+  },
+  {
     "tag": "sst",
     "search": [
       {
@@ -4549,6 +4593,23 @@
       {
         "filename": "terragrunt.hcl",
         "path": ".terragrunt-cache/"
+      }
+    ]
+  },
+  {
+    "tag": "terramate",
+    "search": [
+      {
+        "filename": "terramate.tm.hcl",
+        "path": ".terramate/"
+      },
+      {
+        "filename": "terramate.tm.hcl.json",
+        "path": ".terramate/"
+      },
+      {
+        "filename": "terramate.config.tm.hcl",
+        "path": ".terramate/"
       }
     ]
   },
@@ -5185,6 +5246,15 @@
       {
         "filename": "wandb/settings",
         "path": "wandb/"
+      }
+    ]
+  },
+  {
+    "tag": "wasmer",
+    "search": [
+      {
+        "filename": "wasmer.toml",
+        "path": ".wasmer/"
       }
     ]
   },
