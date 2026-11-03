@@ -152,7 +152,8 @@
   },
   {
     "apify": [
-      ".apify"
+      ".apify",
+      "apify.json"
     ]
   },
   {
@@ -3938,6 +3939,11 @@
     ]
   },
   {
+    "pgtyped": [
+      "pgtyped.json"
+    ]
+  },
+  {
     "ph7cms": [
       "_install"
     ]
@@ -5539,6 +5545,19 @@
   {
     "trunk-rs": [
       "Trunk.toml"
+    ]
+  },
+  {
+    "ts-jest": [
+      "jest.config.js",
+      "jest.config.ts",
+      "jest.config.cjs",
+      "jest.config.mjs"
+    ]
+  },
+  {
+    "ts-node": [
+      "tsconfig.json"
     ]
   },
   {
