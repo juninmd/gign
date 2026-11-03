@@ -280,6 +280,9 @@ release/
 ### strapi (project) ###
 .strapi-updater.json
 
+### ts-node (project) ###
+.ts-node/
+
 ### wireit (project) ###
 .wireit/
 

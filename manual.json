@@ -162,6 +162,10 @@
       {
         "filename": ".apify",
         "path": "apify_storage/"
+      },
+      {
+        "filename": "apify.json",
+        "path": "apify_storage/"
       }
     ]
   },
@@ -303,6 +307,23 @@
       {
         "filename": "bruno.json",
         "path": ".bruno/"
+      }
+    ]
+  },
+  {
+    "tag": "buf",
+    "search": [
+      {
+        "filename": "buf.yaml",
+        "path": ".buf/"
+      },
+      {
+        "filename": "buf.gen.yaml",
+        "path": ".buf/"
+      },
+      {
+        "filename": "buf.work.yaml",
+        "path": ".buf/"
       }
     ]
   },
@@ -3055,6 +3076,15 @@
     ]
   },
   {
+    "tag": "pgtyped",
+    "search": [
+      {
+        "filename": "pgtyped.json",
+        "path": ".pgtyped/"
+      }
+    ]
+  },
+  {
     "tag": "pipenv",
     "search": [
       {
@@ -4654,6 +4684,10 @@
       {
         "filename": "tox.ini",
         "path": ".tox"
+      },
+      {
+        "filename": "tox.ini",
+        "path": ".tox/"
       }
     ]
   },
@@ -4730,6 +4764,36 @@
       {
         "filename": "trunk.yaml",
         "path": ".trunk/plugins/"
+      }
+    ]
+  },
+  {
+    "tag": "ts-jest",
+    "search": [
+      {
+        "filename": "jest.config.js",
+        "path": ".ts-jest/"
+      },
+      {
+        "filename": "jest.config.ts",
+        "path": ".ts-jest/"
+      },
+      {
+        "filename": "jest.config.cjs",
+        "path": ".ts-jest/"
+      },
+      {
+        "filename": "jest.config.mjs",
+        "path": ".ts-jest/"
+      }
+    ]
+  },
+  {
+    "tag": "ts-node",
+    "search": [
+      {
+        "filename": "tsconfig.json",
+        "path": ".ts-node/"
       }
     ]
   },
