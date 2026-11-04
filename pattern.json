@@ -767,6 +767,11 @@
     ]
   },
   {
+    "cloudflare-pages": [
+      "_routes.json"
+    ]
+  },
+  {
     "cmake": [
       "CMakeLists.txt"
     ]
@@ -1903,7 +1908,9 @@
   {
     "grafbase": [
       "grafbase.config.js",
-      "grafbase.config.ts"
+      "grafbase.config.ts",
+      "grafbase/grafbase.config.ts",
+      "grafbase/schema.graphql"
     ]
   },
   {
@@ -2040,6 +2047,12 @@
   {
     "hsp": [
       "*.hsp"
+    ]
+  },
+  {
+    "huggingface": [
+      ".huggingface.yaml",
+      "huggingface_hub"
     ]
   },
   {
@@ -2345,7 +2358,8 @@
       "k6.config.js",
       "k6.config.json",
       "k6.config.ts",
-      "k6.js"
+      "k6.js",
+      "k6.ts"
     ]
   },
   {
@@ -2385,6 +2399,13 @@
     ]
   },
   {
+    "keel": [
+      "keel.config.yaml",
+      "keel.config.yml",
+      "keel.schema.json"
+    ]
+  },
+  {
     "keil": [
       "*.uvproj"
     ]
@@ -2421,6 +2442,11 @@
       "kind.yaml",
       "kind.yml",
       "kind-config.yaml"
+    ]
+  },
+  {
+    "kinsta": [
+      ".kinsta.yaml"
     ]
   },
   {
@@ -2467,6 +2493,11 @@
       "*.kts",
       "build.gradle.kts",
       "settings.gradle.kts"
+    ]
+  },
+  {
+    "koyeb": [
+      ".koyebignore"
     ]
   },
   {
@@ -3041,12 +3072,6 @@
   },
   {
     "node": [
-      "*.ddb",
-      "*.duckdb",
-      "*.duckdb.wal",
-      "*.parquet",
-      "*.ts",
-      "*.tsx",
       ".adonisrc.json",
       ".aider.chat.history.md",
       ".aider.tags.cache.v3",
@@ -3184,11 +3209,12 @@
       ".wireit",
       ".yarnrc",
       ".yarnrc.yml",
-      "Dockerfile",
-      "Earthfile",
-      "MLproject",
-      "Taskfile.yaml",
-      "Taskfile.yml",
+      "*.ddb",
+      "*.duckdb",
+      "*.duckdb.wal",
+      "*.parquet",
+      "*.ts",
+      "*.tsx",
       "ampt.config.js",
       "ampt.config.ts",
       "ampt.yaml",
@@ -3279,6 +3305,7 @@
       "devspace.yaml",
       "docker-compose.yaml",
       "docker-compose.yml",
+      "Dockerfile",
       "docusaurus.config.js",
       "docusaurus.config.ts",
       "doczrc.js",
@@ -3288,6 +3315,7 @@
       "drizzle.config.json",
       "drizzle.config.ts",
       "dts-bundle-generator.config.ts",
+      "Earthfile",
       "ecosystem.config.cjs",
       "ecosystem.config.js",
       "electron-builder.json",
@@ -3320,6 +3348,7 @@
       "gatsby-config.ts",
       "grafbase.config.js",
       "grafbase.config.ts",
+      "grafbase/grafbase.config.ts",
       "graphql.config.js",
       "graphql.config.json",
       "graphql.config.ts",
@@ -3344,6 +3373,10 @@
       "k6.config.json",
       "k6.config.ts",
       "k6.js",
+      "k6.ts",
+      "keel.config.yaml",
+      "keel.config.yml",
+      "keel.schema.json",
       "keystatic.config.js",
       "keystatic.config.ts",
       "keystatic.config.tsx",
@@ -3380,6 +3413,7 @@
       "mikro-orm.config.mjs",
       "mikro-orm.config.ts",
       "mint.json",
+      "MLproject",
       "mockServiceWorker.js",
       "modern.config.js",
       "modern.config.ts",
@@ -3556,6 +3590,8 @@
       "tailwind.config.ts",
       "tamagui.config.js",
       "tamagui.config.ts",
+      "Taskfile.yaml",
+      "Taskfile.yml",
       "tauri.conf.cjs",
       "tauri.conf.json",
       "tauri.conf.json5",
