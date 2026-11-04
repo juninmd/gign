@@ -473,6 +473,15 @@
     ]
   },
   {
+    "tag": "cloudflare-pages",
+    "search": [
+      {
+        "filename": "_routes.json",
+        "path": ".cloudflare/"
+      }
+    ]
+  },
+  {
     "tag": "codeceptjs",
     "search": [
       {
@@ -1443,6 +1452,14 @@
       {
         "filename": "grafbase.config.ts",
         "path": ".grafbase/"
+      },
+      {
+        "filename": "grafbase/grafbase.config.ts",
+        "path": ".grafbase/"
+      },
+      {
+        "filename": "grafbase/schema.graphql",
+        "path": ".grafbase/"
       }
     ]
   },
@@ -1557,6 +1574,19 @@
     ]
   },
   {
+    "tag": "huggingface",
+    "search": [
+      {
+        "filename": ".huggingface.yaml",
+        "path": ".huggingface/"
+      },
+      {
+        "filename": "huggingface_hub",
+        "path": ".huggingface/"
+      }
+    ]
+  },
+  {
     "tag": "hugo",
     "search": [
       {
@@ -1658,6 +1688,10 @@
       {
         "filename": "k6.js",
         "path": "summary.json"
+      },
+      {
+        "filename": "k6.ts",
+        "path": "summary.json"
       }
     ]
   },
@@ -1667,6 +1701,23 @@
       {
         "filename": "kcl.mod",
         "path": ".kcl/"
+      }
+    ]
+  },
+  {
+    "tag": "keel",
+    "search": [
+      {
+        "filename": "keel.config.yaml",
+        "path": ".keel/"
+      },
+      {
+        "filename": "keel.config.yml",
+        "path": ".keel/"
+      },
+      {
+        "filename": "keel.schema.json",
+        "path": ".keel/"
       }
     ]
   },
@@ -1739,6 +1790,15 @@
       {
         "filename": "knip.ts",
         "path": ".knip/"
+      }
+    ]
+  },
+  {
+    "tag": "koyeb",
+    "search": [
+      {
+        "filename": ".koyebignore",
+        "path": ".koyeb/"
       }
     ]
   },
