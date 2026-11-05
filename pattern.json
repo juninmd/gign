@@ -345,8 +345,8 @@
   },
   {
     "ava": [
-      "ava.config.js",
       "ava.config.cjs",
+      "ava.config.js",
       "ava.config.mjs"
     ]
   },
@@ -843,8 +843,8 @@
   },
   {
     "codespaces": [
-      ".devcontainer/devcontainer.json",
-      ".devcontainer.json"
+      ".devcontainer.json",
+      ".devcontainer/devcontainer.json"
     ]
   },
   {
@@ -1169,8 +1169,8 @@
   },
   {
     "devcontainer": [
-      ".devcontainer/devcontainer.json",
-      ".devcontainer.json"
+      ".devcontainer.json",
+      ".devcontainer/devcontainer.json"
     ]
   },
   {
@@ -2342,9 +2342,9 @@
   },
   {
     "justfile": [
+      ".justfile",
       "justfile",
-      "Justfile",
-      ".justfile"
+      "Justfile"
     ]
   },
   {
@@ -2439,9 +2439,9 @@
   },
   {
     "kind": [
+      "kind-config.yaml",
       "kind.yaml",
-      "kind.yml",
-      "kind-config.yaml"
+      "kind.yml"
     ]
   },
   {
@@ -2853,6 +2853,12 @@
     ]
   },
   {
+    "mikro-orm": [
+      "mikro-orm.config.js",
+      "mikro-orm.config.ts"
+    ]
+  },
+  {
     "mikroc": [
       "*.mcppi"
     ]
@@ -2895,10 +2901,10 @@
   },
   {
     "mocha": [
-      ".mocharc.js",
       ".mocharc.cjs",
-      ".mocharc.mjs",
+      ".mocharc.js",
       ".mocharc.json",
+      ".mocharc.mjs",
       ".mocharc.yaml",
       ".mocharc.yml"
     ]
@@ -3085,10 +3091,12 @@
       ".changeset/config.json",
       ".clinerules",
       ".codegen",
+      ".commitlintrc",
       ".commitlintrc.cjs",
       ".commitlintrc.js",
       ".commitlintrc.json",
       ".commitlintrc.mjs",
+      ".commitlintrc.yaml",
       ".commitlintrc.yml",
       ".continue",
       ".copilotignore",
@@ -3103,6 +3111,7 @@
       ".env.local",
       ".env.production",
       ".env.test",
+      ".env.vault",
       ".eslintrc",
       ".eslintrc.cjs",
       ".eslintrc.js",
@@ -3140,6 +3149,10 @@
       ".mocharc.yaml",
       ".mocharc.yml",
       ".moon/",
+      ".ncurc",
+      ".ncurc.js",
+      ".ncurc.json",
+      ".ncurc.yml",
       ".npmignore",
       ".npmrc",
       ".nvmrc",
@@ -3159,6 +3172,7 @@
       ".puppeteerrc.json",
       ".puppeteerrc.yaml",
       ".puppeteerrc.yml",
+      ".release-it.cjs",
       ".release-it.json",
       ".release-please-manifest.json",
       ".releaserc",
@@ -3444,7 +3458,9 @@
       "open-next.config.ts",
       "openapi.json",
       "openapi.yaml",
+      "ormconfig.js",
       "ormconfig.json",
+      "ormconfig.ts",
       "orval.config.js",
       "orval.config.ts",
       "oxlint.json",
@@ -3707,6 +3723,14 @@
     ]
   },
   {
+    "npm-check-updates": [
+      ".ncurc",
+      ".ncurc.js",
+      ".ncurc.json",
+      ".ncurc.yml"
+    ]
+  },
+  {
     "nuxt": [
       "nuxt.config.cjs",
       "nuxt.config.js",
@@ -3825,6 +3849,12 @@
   {
     "openscad": [
       "*.scad"
+    ]
+  },
+  {
+    "opentofu": [
+      "*.tftpl",
+      "*.tofu"
     ]
   },
   {
@@ -4151,10 +4181,10 @@
   },
   {
     "postcss": [
-      "postcss.config.js",
-      "postcss.config.ts",
       "postcss.config.cjs",
-      "postcss.config.mjs"
+      "postcss.config.js",
+      "postcss.config.mjs",
+      "postcss.config.ts"
     ]
   },
   {
@@ -4585,6 +4615,12 @@
     ]
   },
   {
+    "release-it": [
+      ".release-it.cjs",
+      ".release-it.json"
+    ]
+  },
+  {
     "remix": [
       "remix.config.cjs",
       "remix.config.js",
@@ -4729,8 +4765,8 @@
   },
   {
     "rslib": [
-      "rslib.config.ts",
-      "rslib.config.js"
+      "rslib.config.js",
+      "rslib.config.ts"
     ]
   },
   {
@@ -5352,17 +5388,17 @@
   },
   {
     "tailwind": [
-      "tailwind.config.js",
-      "tailwind.config.ts",
       "tailwind.config.cjs",
-      "tailwind.config.mjs"
+      "tailwind.config.js",
+      "tailwind.config.mjs",
+      "tailwind.config.ts"
     ]
   },
   {
     "talos": [
-      "talosconfig",
-      "machineconfig.yaml",
       "controlplane.yaml",
+      "machineconfig.yaml",
+      "talosconfig",
       "worker.yaml"
     ]
   },
@@ -5421,7 +5457,9 @@
       ".tflint.hcl",
       "*.tf",
       "*.tfstate",
+      "*.tftpl",
       "*.tfvars",
+      "*.tofu",
       "main.tf",
       "terragrunt.hcl"
     ]
@@ -5433,9 +5471,9 @@
   },
   {
     "terramate": [
+      "terramate.config.tm.hcl",
       "terramate.tm.hcl",
-      "terramate.tm.hcl.json",
-      "terramate.config.tm.hcl"
+      "terramate.tm.hcl.json"
     ]
   },
   {
@@ -5585,10 +5623,10 @@
   },
   {
     "ts-jest": [
-      "jest.config.js",
-      "jest.config.ts",
       "jest.config.cjs",
-      "jest.config.mjs"
+      "jest.config.js",
+      "jest.config.mjs",
+      "jest.config.ts"
     ]
   },
   {
@@ -5640,6 +5678,13 @@
       "typedoc.js",
       "typedoc.json",
       "typedoc.mjs"
+    ]
+  },
+  {
+    "typeorm": [
+      "ormconfig.js",
+      "ormconfig.json",
+      "ormconfig.ts"
     ]
   },
   {
@@ -5727,6 +5772,11 @@
   {
     "vapor": [
       "Package.swift"
+    ]
+  },
+  {
+    "vcluster": [
+      "vcluster.yaml"
     ]
   },
   {
