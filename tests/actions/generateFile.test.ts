@@ -5,6 +5,9 @@ jest.unstable_mockModule('fs', () => ({
     existsSync: jest.fn(),
     statSync: jest.fn(),
     writeFileSync: jest.fn(),
+    readFileSync: jest.fn(() => {
+      throw Object.assign(new Error('ENOENT'), { code: 'ENOENT' });
+    }),
   },
 }));
 

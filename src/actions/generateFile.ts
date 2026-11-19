@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import getOS from '../util/os.js';
 import getProjectTags from '../util/project.js';
+import { readCustomRules, CUSTOM_TITLE } from '../util/preserve.js';
 import { buildSections, renderSections } from '../util/templates.js';
 
 const SECURITY_LINES = [
@@ -58,6 +59,9 @@ export default async function generateFile(dir: string): Promise<boolean> {
     sections.push({ title: 'Environment and secrets', lines: SECURITY_LINES });
 
     const outputPath = path.join(resolvedDir, '.gitignore');
+    // Rules the user wrote by hand must survive regeneration; renderSections drops the ones already generated
+    const custom = readCustomRules(outputPath);
+    if (custom.length > 0) sections.push({ title: CUSTOM_TITLE, lines: custom });
     fs.writeFileSync(outputPath, renderSections(sections));
 
     if (manualTags.length === 0 && projectTags.length === 0) {
