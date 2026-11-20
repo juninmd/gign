@@ -29,4 +29,13 @@ describe('custom rules preservation', () => {
     fs.writeFileSync(file, '### node ###\nnode_modules/\n\n### Custom rules (preserved) ###\nmine/\n');
     expect(readCustomRules(file)).toEqual(['mine/']);
   });
+
+  it('keeps rules under headers gign never writes (gitignore.io, hand-written titles)', () => {
+    const file = path.join(dir, '.gitignore');
+    fs.writeFileSync(
+      file,
+      '### Node ###\nnode_modules/\n\n### My stuff ###\nsecret-notes/\n\n### node ###\ndist/\n\n### Environment and secrets ###\n.env\n\n### api (project) ###\nout/\n',
+    );
+    expect(readCustomRules(file)).toEqual(['node_modules/', 'secret-notes/']);
+  });
 });
