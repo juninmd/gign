@@ -37,6 +37,20 @@ describe('project utility', () => {
     expect(tags).toContain('node');
   });
 
+  it('should not enable flatpak (whose template ignores `repo` and `builddir`) for any JSON or YAML file', () => {
+    (fs.readdirSync as jest.Mock).mockReturnValue(['.git', 'package.json', 'ci.yml']);
+    const [tags] = project('/dummy');
+
+    expect(tags).not.toContain('flatpak');
+  });
+
+  it('should enable flatpak when .flatpak-builder exists', () => {
+    (fs.readdirSync as jest.Mock).mockReturnValue(['.git', '.flatpak-builder']);
+    const [tags] = project('/dummy');
+
+    expect(tags).toContain('flatpak');
+  });
+
   it('should support .gignrc.json', () => {
     (fs.readdirSync as jest.Mock).mockReturnValue(['.git', '.gignrc.json', 'custom.txt']);
     (fs.existsSync as jest.Mock).mockImplementation(

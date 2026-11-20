@@ -99,7 +99,7 @@ Exemplo de saída:
 
 ```text
 [gign] generated at /app/tests/fixtures/node-ts/.gitignore
-[gign] tags: linux,data,flatpak,mean,node,ts-node,web,webstorm
+[gign] tags: linux,data,mean,node,ts-node,web,webstorm
 [gign] manual tags: ampt,clinic,electron,node,parcel,strapi,ts-node,tsc,typescript,wireit
 [gign] no bundled rules for: data,mean,ts-node,web
 ```

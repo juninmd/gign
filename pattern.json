@@ -1603,9 +1603,7 @@
   },
   {
     "flatpak": [
-      "*.json",
-      "*.yaml",
-      "*.yml"
+      ".flatpak-builder"
     ]
   },
   {

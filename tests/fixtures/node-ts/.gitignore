@@ -16,11 +16,6 @@
 # Log files created by default by the nohup command
 nohup.out
 
-### flatpak ###
-.flatpak-builder
-builddir
-repo
-
 ### node ###
 # Logs
 logs
