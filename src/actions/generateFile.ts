@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import getOS from '../util/os.js';
 import getProjectTags from '../util/project.js';
-import { readCustomRules, CUSTOM_TITLE } from '../util/preserve.js';
+import { readCustomRules, CUSTOM_TITLE, SECURITY_TITLE } from '../util/preserve.js';
 import { buildSections, renderSections } from '../util/templates.js';
 
 const SECURITY_LINES = [
@@ -56,7 +56,7 @@ export default async function generateFile(dir: string): Promise<boolean> {
     for (const tag of manualTags) {
       sections.push({ title: `${tag} (project)`, lines: ignoreManual[tag]?.values ?? [] });
     }
-    sections.push({ title: 'Environment and secrets', lines: SECURITY_LINES });
+    sections.push({ title: SECURITY_TITLE, lines: SECURITY_LINES });
 
     const outputPath = path.join(resolvedDir, '.gitignore');
     // Rules the user wrote by hand must survive regeneration; renderSections drops the ones already generated

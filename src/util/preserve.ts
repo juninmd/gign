@@ -1,8 +1,21 @@
 import fs from 'fs';
+import templates from '../data/templates.json' with { type: 'json' };
+import rules from '../data/rules.json' with { type: 'json' };
 
 export const CUSTOM_TITLE = 'Custom rules (preserved)';
+export const SECURITY_TITLE = 'Environment and secrets';
 
-const GENERATED_HEADER = /^### .+ ###$/;
+const HEADER = /^### (.+) ###$/;
+const gignTitles = new Set([...Object.keys(templates), ...Object.keys(rules), SECURITY_TITLE]);
+
+/**
+ * Only headers gign itself writes mark a regenerated section. gitignore.io ("### Node ###") and
+ * hand-written files use the same shape, and their rules must not be dropped.
+ */
+const isGeneratedHeader = (line: string): boolean => {
+  const title = HEADER.exec(line)?.[1];
+  return title !== undefined && (gignTitles.has(title) || title.endsWith(' (project)'));
+};
 const isPattern = (line: string): boolean => line.trim() !== '' && !line.trimStart().startsWith('#');
 
 /**
@@ -20,11 +33,12 @@ export function readCustomRules(file: string): string[] {
   }
 
   const lines = content.split(/\r?\n/);
-  const generated = lines.some((line) => GENERATED_HEADER.test(line));
   const custom: string[] = [];
-  let inCustom = !generated;
+  let inCustom = true;
   for (const line of lines) {
-    if (GENERATED_HEADER.test(line)) inCustom = line === `### ${CUSTOM_TITLE} ###`;
+    if (line === `### ${CUSTOM_TITLE} ###`) inCustom = true;
+    else if (isGeneratedHeader(line)) inCustom = false;
+    else if (HEADER.test(line)) inCustom = true;
     else if (inCustom && isPattern(line)) custom.push(line.trimEnd());
   }
   return custom;
