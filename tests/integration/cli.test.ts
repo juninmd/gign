@@ -65,6 +65,16 @@ describe('CLI Integration Tests', () => {
     }
   });
 
+  it('answers --help and --version instead of treating them as a folder', () => {
+    const pkg = JSON.parse(fs.readFileSync(path.join(__dirname, '../../package.json'), 'utf8'));
+    for (const flag of ['--help', '-h']) {
+      expect(execSync(`node dist/index.js ${flag}`).toString()).toContain('[gign] use "gign <path>"');
+    }
+    for (const flag of ['--version', '-v']) {
+      expect(execSync(`node dist/index.js ${flag}`).toString().trim()).toBe(pkg.version);
+    }
+  });
+
   it('should exit with code 1 when the directory does not exist', () => {
     expect.assertions(1);
     try {
