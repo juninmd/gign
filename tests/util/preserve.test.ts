@@ -38,4 +38,12 @@ describe('custom rules preservation', () => {
     );
     expect(readCustomRules(file)).toEqual(['node_modules/', 'secret-notes/']);
   });
+
+  it('keeps rules added inside a generated section, but only for sections generated in this run', () => {
+    const file = path.join(dir, '.gitignore');
+    fs.writeFileSync(file, '### node ###\nnode_modules/\nmy-scratch/\n\n### python ###\n__pycache__/\nold.txt\n');
+    const generated = [{ title: 'node', lines: ['node_modules/', '# comment'] }];
+    // python is no longer detected: its whole stale section is dropped, as before.
+    expect(readCustomRules(file, generated)).toEqual(['my-scratch/']);
+  });
 });

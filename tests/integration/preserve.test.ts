@@ -30,4 +30,17 @@ describe('CLI keeps hand-written rules', () => {
     run();
     expect(fs.readFileSync(file(), 'utf8')).toBe(first);
   });
+
+  it('keeps a rule appended to the end of a generated .gitignore', () => {
+    // Appending is the natural way to add a rule; it lands under the last generated section.
+    run();
+    fs.appendFileSync(file(), 'my-scratch/\n');
+
+    run();
+    const regenerated = fs.readFileSync(file(), 'utf8');
+    expect(regenerated).toContain('### Custom rules (preserved) ###\nmy-scratch/');
+
+    run();
+    expect(fs.readFileSync(file(), 'utf8')).toBe(regenerated);
+  });
 });
