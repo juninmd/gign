@@ -1,6 +1,7 @@
 import fs from 'fs';
 import templates from '../data/templates.json' with { type: 'json' };
 import rules from '../data/rules.json' with { type: 'json' };
+import type { Section } from './templates.js';
 
 export const CUSTOM_TITLE = 'Custom rules (preserved)';
 export const SECURITY_TITLE = 'Environment and secrets';
@@ -20,10 +21,11 @@ const isPattern = (line: string): boolean => line.trim() !== '' && !line.trimSta
 
 /**
  * Returns the rules of an existing .gitignore that gign would otherwise destroy: every rule of a
- * hand-written file (no gign section header yet), or the rules kept under the preserved section of
- * a previous run. Rules in gign-generated sections are regenerated, so they are not returned.
+ * hand-written file (no gign section header yet), the rules kept under the preserved section of
+ * a previous run, and rules the user added inside a section that `generated` writes again (e.g.
+ * appended at the end of the file). Sections not regenerated in this run are dropped entirely.
  */
-export function readCustomRules(file: string): string[] {
+export function readCustomRules(file: string, generated: Section[] = []): string[] {
   let content: string;
   try {
     content = fs.readFileSync(file, 'utf8');
@@ -34,12 +36,15 @@ export function readCustomRules(file: string): string[] {
 
   const lines = content.split(/\r?\n/);
   const custom: string[] = [];
-  let inCustom = true;
+  const regenerated = new Map(generated.map(({ title, lines: rules }) => [title, new Set(rules.map((r) => r.trim()))]));
+  // Decides whether a rule under the current header is the user's; regenerated rules are not.
+  let isCustom = (_rule: string): boolean => true;
   for (const line of lines) {
-    if (line === `### ${CUSTOM_TITLE} ###`) inCustom = true;
-    else if (isGeneratedHeader(line)) inCustom = false;
-    else if (HEADER.test(line)) inCustom = true;
-    else if (inCustom && isPattern(line)) custom.push(line.trimEnd());
+    if (line === `### ${CUSTOM_TITLE} ###` || (HEADER.test(line) && !isGeneratedHeader(line))) isCustom = () => true;
+    else if (isGeneratedHeader(line)) {
+      const known = regenerated.get(HEADER.exec(line)?.[1] ?? '');
+      isCustom = known ? (rule) => !known.has(rule) : () => false;
+    } else if (isPattern(line) && isCustom(line.trim())) custom.push(line.trimEnd());
   }
   return custom;
 }

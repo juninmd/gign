@@ -60,7 +60,7 @@ export default async function generateFile(dir: string): Promise<boolean> {
 
     const outputPath = path.join(resolvedDir, '.gitignore');
     // Rules the user wrote by hand must survive regeneration; renderSections drops the ones already generated
-    const custom = readCustomRules(outputPath);
+    const custom = readCustomRules(outputPath, sections);
     if (custom.length > 0) sections.push({ title: CUSTOM_TITLE, lines: custom });
     fs.writeFileSync(outputPath, renderSections(sections));
 

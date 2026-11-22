@@ -106,7 +106,7 @@ Exemplo de saída:
 
 O arquivo gerado já vem organizado por seções, pronto para ser versionado. ✅
 
-Se já existir um `.gitignore`, as regras escritas à mão são mantidas na seção `Custom rules (preserved)` (as que o gign também gera não se repetem). Seções geradas são recriadas a cada execução.
+Se já existir um `.gitignore`, as regras escritas à mão são mantidas na seção `Custom rules (preserved)` (as que o gign também gera não se repetem). Seções geradas são recriadas a cada execução; uma regra acrescentada dentro delas (por exemplo, no fim do arquivo) também vai para `Custom rules (preserved)`.
 
 ---
 
