@@ -48,6 +48,9 @@ function globToRegExp(glob: string): RegExp {
 /** Returns the entries of `dir` matching `query` (glob on names, or exact relative path when it has a slash). */
 function findMatches(dir: string, files: string[], query: string): string[] {
   if (query.includes('/') || query.includes('\\')) {
+    // Queries come from the scanned repo's own config: never let them reach outside it
+    const relative = path.relative(dir, path.resolve(dir, query));
+    if (relative === '' || relative.startsWith('..') || path.isAbsolute(relative)) return [];
     return fs.existsSync(path.join(dir, query)) ? [query] : [];
   }
   if (query.includes('*') || query.includes('?')) {

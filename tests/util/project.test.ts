@@ -196,4 +196,26 @@ describe('project utility', () => {
     expect(ignorePaths.list.values).toEqual(['build', 'dist']);
     expect(ignorePaths.missing.values).toEqual([]);
   });
+
+  it('should not read files outside the project through manual search paths', () => {
+    (fs.readdirSync as jest.Mock).mockReturnValue(['.git', '.gignrc.json']);
+    (fs.existsSync as jest.Mock).mockReturnValue(true);
+    (fs.readFileSync as jest.Mock).mockImplementation((filepath: unknown) => {
+      if (typeof filepath === 'string' && filepath.endsWith('.gignrc.json')) {
+        return JSON.stringify({
+          manual: [
+            { tag: 'leak', search: [{ filename: '../../home/user/.config/creds.json', struct: 'refresh_token' }] },
+            { tag: 'abs', search: [{ filename: '/etc/creds.json', struct: 'refresh_token' }] },
+          ],
+        });
+      }
+      return JSON.stringify({ refresh_token: 'super-secret' });
+    });
+
+    const [, ignorePaths] = project('/dummy/dir');
+
+    expect(ignorePaths.leak).toBeUndefined();
+    expect(ignorePaths.abs).toBeUndefined();
+    expect(fs.readFileSync).not.toHaveBeenCalledWith(expect.stringContaining('creds.json'), 'utf8');
+  });
 });
