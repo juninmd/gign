@@ -14,6 +14,10 @@ interface Rule {
 const bundled = templates as Record<string, string>;
 const bundledRules = rules as Record<string, Rule>;
 
+// Own-key lookups: a tag from user config such as "constructor" must not hit Object.prototype
+const own = <T>(record: Record<string, T>, key: string): T | undefined =>
+  Object.hasOwn(record, key) ? record[key] : undefined;
+
 const isPattern = (line: string): boolean => line.trim() !== '' && !line.trimStart().startsWith('#');
 
 /**
@@ -21,8 +25,8 @@ const isPattern = (line: string): boolean => line.trim() !== '' && !line.trimSta
  * and its curated extra lines. Returns an empty array when the tag has nothing bundled.
  */
 export function resolveTag(tag: string): string[] {
-  const rule = bundledRules[tag];
-  const sources = [bundled[tag], ...(rule?.use ?? []).map((name) => bundled[name])];
+  const rule = own(bundledRules, tag);
+  const sources = [own(bundled, tag), ...(rule?.use ?? []).map((name) => own(bundled, name))];
   const lines = sources.filter((s): s is string => Boolean(s)).flatMap((s) => s.split('\n'));
   if (rule?.lines?.length) lines.push(...rule.lines);
   return lines;

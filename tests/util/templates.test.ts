@@ -11,6 +11,13 @@ describe('templates utility', () => {
     expect(resolveTag('definitely-not-a-tag')).toEqual([]);
   });
 
+  it('treats Object.prototype member names as unknown tags instead of crashing', () => {
+    for (const tag of ['constructor', 'toString', 'hasOwnProperty', '__proto__']) {
+      expect(resolveTag(tag)).toEqual([]);
+    }
+    expect(buildSections(['node', 'constructor']).missing).toEqual(['constructor']);
+  });
+
   it('builds sections and reports missing tags without duplicates', () => {
     const { sections, missing } = buildSections(['node', 'node', 'unknown-tag']);
     expect(sections.map((s) => s.title)).toEqual(['node']);
